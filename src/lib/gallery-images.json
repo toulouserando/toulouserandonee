@@ -3,92 +3,92 @@
     {
       "id": "gallery-1",
       "alt": "Visite Toulouse 1",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoVisite7_600.jpg?alt=media&token=796dbbf3-34b0-49de-8bfe-438519caaff2"
+      "imageUrl": "/images/ToulouseRandoVisite7_600.jpg"
     },
     {
       "id": "gallery-2",
       "alt": "Visite Toulouse 2",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoVisite6_600.jpg?alt=media&token=64e99a29-e0a4-474d-ae23-ab283232ac55"
+      "imageUrl": "/images/ToulouseRandoVisite6_600.jpg"
     },
     {
       "id": "gallery-3",
       "alt": "Visite Toulouse 3",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoVisite5_600.jpg?alt=media&token=15bf52c2-1eaa-4f72-ac43-028412c5dbdd"
+      "imageUrl": "/images/ToulouseRandoVisite5_600.jpg"
     },
     {
       "id": "gallery-4",
       "alt": "Visite Toulouse 4",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoVisite3_600.jpg?alt=media&token=a054e71c-b2cb-40c4-b785-94984bf1934d"
+      "imageUrl": "/images/ToulouseRandoVisite3_600.jpg"
     },
     {
       "id": "gallery-5",
       "alt": "Visite Toulouse 5",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoVisite2_600.jpg?alt=media&token=51568b1b-6bf6-4d85-ac5d-fb85400c726d"
+      "imageUrl": "/images/ToulouseRandoVisite2_600.jpg"
     },
     {
       "id": "gallery-6",
       "alt": "Rando Velo",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoVelo1_600.jpg?alt=media&token=fa1079ac-64ff-41c2-a7ed-74c9d114bf84"
+      "imageUrl": "/images/ToulouseRandoVelo1_600.jpg"
     },
     {
       "id": "gallery-7",
       "alt": "Rando Neige",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoNeige1_600.jpg?alt=media&token=8dedc951-c00b-4e79-bf73-9856601aa6cd"
+      "imageUrl": "/images/ToulouseRandoNeige1_600.jpg"
     },
     {
       "id": "gallery-8",
       "alt": "Rando Montagne 1",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoMont3_600.jpg?alt=media&token=1fa16a0d-0156-43b1-906d-81b2bbdbd218"
+      "imageUrl": "/images/ToulouseRandoMont3_600.jpg"
     },
     {
       "id": "gallery-9",
       "alt": "Rando Montagne 2",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoMont2_600.jpg?alt=media&token=7a2ea456-1a94-45a7-9f73-721c99bdbc0e"
+      "imageUrl": "/images/ToulouseRandoMont2_600.jpg"
     },
     {
       "id": "gallery-10",
       "alt": "Rando Montagne 3",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoMont1_600.jpg?alt=media&token=22b3ead6-5126-482b-9be0-e92c9484a96b"
+      "imageUrl": "/images/ToulouseRandoMont1_600.jpg"
     },
     {
       "id": "gallery-11",
       "alt": "Rando Mer 1",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoMer2_600.jpg?alt=media&token=152efc64-0846-4fe2-82f0-5c762a6dfc12"
+      "imageUrl": "/images/ToulouseRandoMer2_600.jpg"
     },
     {
       "id": "gallery-12",
       "alt": "Rando Mer 2",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoMer1_600.jpg?alt=media&token=c6875520-24ea-4e8d-a29d-3c0bf6c4e929"
+      "imageUrl": "/images/ToulouseRandoMer1_600.jpg"
     },
     {
       "id": "gallery-13",
       "alt": "Rando Marche",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoMarche1_600.jpg?alt=media&token=6cee6190-db41-495d-aadc-669ea9899ea1"
+      "imageUrl": "/images/ToulouseRandoMarche1_600.jpg"
     },
     {
       "id": "gallery-14",
       "alt": "Rando Forêt 1",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoForet2_600.jpg?alt=media&token=dec3efcf-d978-4be4-8b68-119cff379275"
+      "imageUrl": "/images/ToulouseRandoForet2_600.jpg"
     },
     {
       "id": "gallery-15",
       "alt": "Rando Forêt 2",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoForet1_600.jpg?alt=media&token=58e4071b-c04a-4c72-bf91-bd64a1a9c52a"
+      "imageUrl": "/images/ToulouseRandoForet1_600.jpg"
     },
     {
       "id": "gallery-16",
       "alt": "Rando Campagne 1",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoCampagne2_600.jpg?alt=media&token=a7f7bfc7-3078-4e72-88d2-cf5f2feaa041"
+      "imageUrl": "/images/ToulouseRandoCampagne2_600.jpg"
     },
     {
       "id": "gallery-17",
       "alt": "Rando Campagne 2",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoCampagne1_600.jpg?alt=media&token=6c48d272-6e9c-409f-bc65-5a99b0290e9a"
+      "imageUrl": "/images/ToulouseRandoCampagne1_600.jpg"
     },
     {
       "id": "gallery-18",
       "alt": "Rando Botanique",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2FToulouseRandoBotanique1_600.jpg?alt=media&token=31e04ffa-4311-4af8-8157-699e4f482d91"
+      "imageUrl": "/images/ToulouseRandoBotanique1_600.jpg"
     }
   ]
 }

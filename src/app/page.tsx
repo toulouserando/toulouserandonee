@@ -110,7 +110,7 @@ function LanguageSelectorDesktop() {
 }
 
 export default function LandingPage() {
-  const logoUrl = "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2Flogo_Toulouse_Rando.jpg?alt=media&token=756b580e-fd44-46b4-8a13-56a7c8f75aaa";
+  const logoUrl = "/icons/logo_Toulouse_Rando300.jpg";
   const randonneeTypes = [
     "randonnée pédestre", "randonnée nordique", "randonnée aquatique", "randonnée équestre",
     "randonnée cycliste", "randonnée à raquettes", "randonnée urbaine", "randonnée de montagne",
