@@ -1,10 +1,9 @@
-
 'use client';
 
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Mountain, Users, Map, CalendarHeart, Share2, Download, Menu, Languages } from 'lucide-react';
 import { ImageGallery } from '@/components/app/ImageGallery';
 import { Badge } from '@/components/ui/badge';
@@ -19,9 +18,8 @@ import {
   DropdownMenuRadioGroup,
   DropdownMenuRadioItem,
 } from "@/components/ui/dropdown-menu"
-import { useState } from 'react';
 
-
+// Icônes SVG
 function AppleIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg {...props} viewBox="0 0 24 24" fill="currentColor">
@@ -39,22 +37,22 @@ function AndroidIcon(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
+const languages = [
+  { code: 'fr', name: 'Français' },
+  { code: 'de', name: 'Allemand' },
+  { code: 'en', name: 'Anglais' },
+  { code: 'ar', name: 'Arabe' },
+  { code: 'zh-CN', name: 'Chinois' },
+  { code: 'hi', name: 'Hindi' },
+  { code: 'it', name: 'Italien' },
+  { code: 'ja', name: 'Japonais' },
+  { code: 'pt', name: 'Portugais' },
+  { code: 'ru', name: 'Russe' },
+  { code: 'tr', name: 'Turc' },
+];
+
 function LanguageSelectorMobile() {
     const [language, setLanguage] = useState("fr");
-    const languages = [
-        { code: 'fr', name: 'Français' },
-        { code: 'de', name: 'Allemand' },
-        { code: 'en', name: 'Anglais' },
-        { code: 'ar', name: 'Arabe' },
-        { code: 'zh-CN', name: 'Chinois' },
-        { code: 'hi', name: 'Hindi' },
-        { code: 'it', name: 'Italien' },
-        { code: 'ja', name: 'Japonais' },
-        { code: 'pt', name: 'Portugais' },
-        { code: 'ru', name: 'Russe' },
-        { code: 'tr', name: 'Turc' },
-    ];
-
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -76,20 +74,6 @@ function LanguageSelectorMobile() {
 
 function LanguageSelectorDesktop() {
     const [language, setLanguage] = useState("fr");
-    const languages = [
-        { code: 'fr', name: 'Français' },
-        { code: 'de', name: 'Allemand' },
-        { code: 'en', name: 'Anglais' },
-        { code: 'ar', name: 'Arabe' },
-        { code: 'zh-CN', name: 'Chinois' },
-        { code: 'hi', name: 'Hindi' },
-        { code: 'it', name: 'Italien' },
-        { code: 'ja', name: 'Japonais' },
-        { code: 'pt', name: 'Portugais' },
-        { code: 'ru', name: 'Russe' },
-        { code: 'tr', name: 'Turc' },
-    ];
-
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -110,6 +94,12 @@ function LanguageSelectorDesktop() {
 }
 
 export default function LandingPage() {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   const logoUrl = "/icons/logo_Toulouse_Rando300.jpg";
   const randonneeTypes = [
     "randonnée pédestre", "randonnée nordique", "randonnée aquatique", "randonnée équestre",
@@ -130,59 +120,53 @@ export default function LandingPage() {
               <span className="text-xl font-bold text-foreground">Toulouse rando</span>
             </Link>
           </div>
-           <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-x-4">
-            <LanguageSelectorDesktop />
-            <Button asChild variant="ghost">
-              <Link href="/login">Se connecter</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/signup">S'inscrire</Link>
-            </Button>
-          </div>
-          <div className="lg:hidden">
-             <Sheet>
-              <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
-                  <Menu className="h-6 w-6" />
-                  <span className="sr-only">Ouvrir le menu</span>
+
+          {/* On ne rend la partie interactive que si le composant est monté côté client */}
+          {mounted && (
+            <>
+              <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-x-4">
+                <LanguageSelectorDesktop />
+                <Button asChild variant="ghost">
+                  <Link href="/login">Se connecter</Link>
                 </Button>
-              </SheetTrigger>
-              <SheetContent>
-                <div className="flex flex-col h-full">
-                  <div className="py-6">
-                    <LanguageSelectorMobile />
-                  </div>
-                  <div className="flex-1 py-6">
-                    <Link href="/login" className="block py-2 text-lg">Se connecter</Link>
-                    <Link href="/signup" className="block py-2 text-lg">S'inscrire</Link>
-                  </div>
-                  <div className="mt-auto">
-                    <Button asChild className="w-full">
-                        <Link href="/signup">Rejoignez l'aventure</Link>
+                <Button asChild>
+                  <Link href="/signup">S'inscrire</Link>
+                </Button>
+              </div>
+
+              <div className="lg:hidden">
+                <Sheet>
+                  <SheetTrigger asChild>
+                    <Button variant="ghost" size="icon">
+                      <Menu className="h-6 w-6" />
+                      <span className="sr-only">Ouvrir le menu</span>
                     </Button>
-                  </div>
-                </div>
-              </SheetContent>
-            </Sheet>
-          </div>
+                  </SheetTrigger>
+                  <SheetContent>
+                    <div className="flex flex-col h-full">
+                      <div className="py-6">
+                        <LanguageSelectorMobile />
+                      </div>
+                      <div className="flex-1 py-6">
+                        <Link href="/login" className="block py-2 text-lg">Se connecter</Link>
+                        <Link href="/signup" className="block py-2 text-lg">S'inscrire</Link>
+                      </div>
+                      <div className="mt-auto">
+                        <Button asChild className="w-full">
+                          <Link href="/signup">Rejoignez l'aventure</Link>
+                        </Button>
+                      </div>
+                    </div>
+                  </SheetContent>
+                </Sheet>
+              </div>
+            </>
+          )}
         </nav>
       </header>
 
       <main className="flex-1">
-        {/* Hero Section */}
         <div className="relative isolate pt-14">
-           <div
-            className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-            aria-hidden="true"
-          >
-            <div
-              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-primary to-accent opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-              style={{
-                clipPath:
-                  'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-              }}
-            />
-          </div>
           <div className="py-24 sm:py-32 lg:pb-40">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
@@ -190,7 +174,7 @@ export default function LandingPage() {
                   Toulouse Rando, le rendez-vous des randonnées autour de Toulouse
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-muted-foreground">
-                  Découvrez et partagez des circuits de randonnée uniques en ville, à la montagne ou à la campagne. Rejoignez une communauté de passionnés et créez vos propres aventures. C'est gratuit et sans limite !
+                  Découvrez et partagez des circuits de randonnée uniques en ville, à la montagne ou à la campagne. Rejoignez une communauté de passionnés et créez vos propres aventures.
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <Button asChild size="lg">
@@ -205,7 +189,6 @@ export default function LandingPage() {
           </div>
         </div>
 
-        {/* Gallery Section */}
         <section className="py-24 sm:py-32 bg-secondary">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:text-center">
@@ -213,79 +196,54 @@ export default function LandingPage() {
               <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
                 Des balades, des randonnées, partout en Occitanie.
               </p>
-              <p className="mt-6 text-lg leading-8 text-muted-foreground">
-                De la ville aux sommets, chaque sortie est une nouvelle histoire à raconter.
-              </p>
             </div>
             <div className="mx-auto mt-16 max-w-5xl sm:mt-20 lg:mt-24">
-                <ImageGallery />
+              <ImageGallery />
             </div>
           </div>
         </section>
 
-        {/* Rando Types Section */}
         <section className="py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
-                <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline mb-8">
-                    Pour tous les goûts et tous les niveaux
-                </h2>
-                <div className="flex flex-wrap justify-center gap-2">
-                    {randonneeTypes.map((type) => (
-                        <Badge key={type} variant="outline" className="text-sm capitalize py-1 px-3">
-                            {type}
-                        </Badge>
-                    ))}
-                </div>
+              <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline mb-8">
+                Pour tous les goûts et tous les niveaux
+              </h2>
+              <div className="flex flex-wrap justify-center gap-2">
+                {randonneeTypes.map((type) => (
+                  <Badge key={type} variant="outline" className="text-sm capitalize py-1 px-3">
+                    {type}
+                  </Badge>
+                ))}
+              </div>
             </div>
           </div>
         </section>
 
-        {/* Share and Install Section */}
         <section className="py-24 sm:py-32 bg-muted/50">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
                 Partagez et emportez l'aventure partout !
               </h2>
-              <p className="mt-6 text-lg leading-8 text-muted-foreground">
-                Faites découvrir Toulouse Rando à vos amis et installez l'application sur votre téléphone pour un accès rapide.
-              </p>
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button size="lg" variant="outline">
                   <Share2 className="mr-2" />
-                  Partager le lien de l'application
+                  Partager le lien
                 </Button>
                 <div className="flex flex-wrap items-center justify-center gap-4">
-                  <Button size="lg" className="bg-black hover:bg-black/80 text-white">
-                    <GoogleIcon className="mr-2 h-6 w-6" />
-                    <div className="text-left">
-                      <div className="text-xs">DISPONIBLE SUR</div>
-                      <div className="text-lg font-semibold -mt-1">Google Play</div>
-                    </div>
+                  <Button size="lg" className="bg-black text-white hover:bg-black/90">
+                    <GoogleIcon className="mr-2 h-6 w-6" /> Play Store
                   </Button>
-                  <Button size="lg" className="bg-black hover:bg-black/80 text-white">
-                    <AppleIcon className="mr-2 h-7 w-7" />
-                    <div className="text-left">
-                      <div className="text-xs">Installer sur</div>
-                      <div className="text-lg font-semibold -mt-1">votre iPhone</div>
-                    </div>
-                  </Button>
-                  <Button size="lg" className="bg-black hover:bg-black/80 text-white">
-                    <AndroidIcon className="mr-2 h-7 w-7" />
-                    <div className="text-left">
-                      <div className="text-xs">Installer sur</div>
-                      <div className="text-lg font-semibold -mt-1">Androïd</div>
-                    </div>
+                  <Button size="lg" className="bg-black text-white hover:bg-black/90">
+                    <AppleIcon className="mr-2 h-7 w-7" /> App Store
                   </Button>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
       </main>
-
       <Footer />
     </div>
   );
