@@ -3,7 +3,6 @@
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
-
 import { Button } from "@/components/ui/button"
 import {
   Card,
@@ -16,35 +15,54 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import SocialLoginButtons from "@/components/app/SocialLoginButtons"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-import { AlertCircle } from "lucide-react"
-import { signInWithIdentifier } from "@/firebase/auth/auth"
-import { useAuth } from "@/firebase"
+import { AlertCircle, Loader2 } from "lucide-react"
+
+// Import du client Supabase
+import { supabase } from "@/lib/supabase"
 
 export default function LoginPage() {
   const router = useRouter()
-  const auth = useAuth();
-  const [identite, setIdentite] = useState("")
+  const [identite, setIdentite] = useState("") // Peut être l'email ou le pseudo
   const [password, setPassword] = useState("")
   const [error, setError] = useState("")
+  const [loading, setLoading] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError("")
+    setLoading(true)
 
     try {
-      await signInWithIdentifier(auth, identite, password)
+      let emailToUse = identite
+
+      // 1. Si l'identifiant ne ressemble pas à un email, on cherche l'email associé au pseudo
+      if (!identite.includes("@")) {
+        const { data: profile, error: profileError } = await supabase
+          .from('profiles')
+          .select('email')
+          .eq('identite', identite)
+          .single()
+
+        if (profileError || !profile) {
+          throw new Error("Identifiant ou mot de passe incorrect.")
+        }
+        emailToUse = profile.email
+      }
+
+      // 2. Connexion avec l'email (qu'il soit saisi ou trouvé via le pseudo)
+      const { error: authError } = await supabase.auth.signInWithPassword({
+        email: emailToUse,
+        password: password,
+      })
+
+      if (authError) throw authError
+
       router.push('/dashboard')
+      router.refresh()
     } catch (err: any) {
-      let friendlyMessage = "L'identifiant ou le mot de passe est incorrect.";
-      if (err.code === 'auth/user-not-found' || err.code === 'auth/wrong-password' || err.code === 'auth/invalid-credential') {
-          // Keep the message generic for security
-      } else if (err.message.includes("not found")) {
-          // Custom error from our function
-      }
-      else {
-        friendlyMessage = "Une erreur s'est produite lors de la connexion."
-      }
-      setError(friendlyMessage)
+      setError(err.message || "Une erreur est survenue lors de la connexion.")
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -53,7 +71,7 @@ export default function LoginPage() {
       <CardHeader>
         <CardTitle className="text-2xl">Connexion</CardTitle>
         <CardDescription>
-          Entrez votre identifiant ci-dessous pour vous connecter à votre compte
+          Utilisez votre pseudo, votre email ou un compte social
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -61,29 +79,29 @@ export default function LoginPage() {
           {error && (
             <Alert variant="destructive">
               <AlertCircle className="h-4 w-4" />
-              <AlertTitle>Erreur de connexion</AlertTitle>
+              <AlertTitle>Erreur</AlertTitle>
               <AlertDescription>{error}</AlertDescription>
             </Alert>
           )}
+          
           <div className="grid gap-2">
-            <Label htmlFor="identite">Identifiant</Label>
+            <Label htmlFor="identite">Identifiant ou Email</Label>
             <Input
               id="identite"
               type="text"
-              placeholder="Votre pseudo"
+              placeholder="Pseudo ou email"
               required
               value={identite}
               onChange={(e) => setIdentite(e.target.value)}
+              disabled={loading}
             />
           </div>
+
           <div className="grid gap-2">
             <div className="flex items-center">
               <Label htmlFor="password">Mot de passe</Label>
-              <Link
-                href="/forgot-password"
-                className="ml-auto inline-block text-sm underline"
-              >
-                Mot de passe oublié ?
+              <Link href="/forgot-password" className="ml-auto inline-block text-sm underline">
+                Oublié ?
               </Link>
             </div>
             <Input 
@@ -93,28 +111,28 @@ export default function LoginPage() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="********"
+              disabled={loading}
             />
           </div>
-          <Button type="submit" className="w-full">
-            Se connecter
+
+          <Button type="submit" className="w-full" disabled={loading}>
+            {loading ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : "Se connecter"}
           </Button>
+
           <div className="relative my-2">
             <div className="absolute inset-0 flex items-center">
               <span className="w-full border-t" />
             </div>
             <div className="relative flex justify-center text-xs uppercase">
-              <span className="bg-card px-2 text-muted-foreground">
-                Ou continuer avec
-              </span>
+              <span className="bg-card px-2 text-muted-foreground">Ou continuer avec</span>
             </div>
           </div>
+
           <SocialLoginButtons />
         </form>
+
         <div className="mt-4 text-center text-sm">
-          Vous n'avez pas de compte ?{" "}
-          <Link href="/signup" className="underline">
-            S'inscrire
-          </Link>
+          Pas de compte ? <Link href="/signup" className="underline">S'inscrire</Link>
         </div>
       </CardContent>
     </Card>
