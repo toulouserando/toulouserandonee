@@ -6,7 +6,7 @@ export default function AuthLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const logoUrl = "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2Flogo_Toulouse_Rando.jpg?alt=media&token=756b580e-fd44-46b4-8a13-56a7c8f75aaa";
+  const logoUrl = "/icons/logo_Toulouse_Rando.jpg";
   
   return (
     <main className="flex min-h-screen w-full flex-col items-center justify-center p-4">

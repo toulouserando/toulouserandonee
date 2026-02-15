@@ -62,7 +62,7 @@ const adminMenuItems = [
 
 export default function AppSidebar() {
   const pathname = usePathname()
-  const logoUrl = "https://firebasestorage.googleapis.com/v0/b/tolosaamicalstudio.firebasestorage.app/o/toulouserando%2Flogo_Toulouse_Rando.jpg?alt=media&token=756b580e-fd44-46b4-8a13-56a7c8f75aaa";
+  const logoUrl = "/icons/logo_Toulouse_Rando.jpg";
 
 
   const isActive = (href: string, isSubItem = false) => {

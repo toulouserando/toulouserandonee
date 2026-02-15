@@ -9,25 +9,13 @@ import { Badge } from "@/components/ui/badge";
 import { Calendar, MapPin, PlusCircle, ArrowUpRight, Loader2 } from "lucide-react";
 import Link from "next/link";
 
-// Typage pour TypeScript basé sur la structure de ta DB
-interface EventWithDetails {
-  id: string;
-  title: string;
-  date: string;
-  status: string;
-  meeting_point: string;
-  max_participants: number;
-  profiles: {
-    identite: string;
-    avatar_url: string | null;
-  };
-  event_participants: { count: number }[];
-}
-
 function EventCard({ event }: { event: any }) {
-  // On calcule le nombre de participants à partir de la jointure
   const participantsCount = event.event_participants?.[0]?.count || 0;
   const organizer = event.profiles;
+
+  // Sécurité pour la date : si la date est invalide, on affiche "Date à venir"
+  const eventDate = new Date(event.date);
+  const isValidDate = !isNaN(eventDate.getTime());
 
   return (
     <Card className="flex flex-col hover:shadow-lg transition-shadow duration-300">
@@ -41,12 +29,9 @@ function EventCard({ event }: { event: any }) {
         <div className="text-sm text-muted-foreground flex items-center gap-2 pt-2">
           <Calendar className="h-4 w-4" />
           <span>
-            {new Date(event.date).toLocaleDateString('fr-FR', { 
-              weekday: 'long', 
-              year: 'numeric', 
-              month: 'long', 
-              day: 'numeric' 
-            })} à {new Date(event.date).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
+            {isValidDate 
+              ? `${eventDate.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' })} à ${eventDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}`
+              : "Date non définie"}
           </span>
         </div>
       </CardHeader>
@@ -54,28 +39,28 @@ function EventCard({ event }: { event: any }) {
       <CardContent className="flex-1 space-y-3">
         <div className="text-sm text-muted-foreground flex items-center gap-2">
           <MapPin className="h-4 w-4" />
-          <span>RDV : {event.meeting_point}</span>
+          <span className="truncate">RDV : {event.meeting_point}</span>
         </div>
         <div className="text-sm text-muted-foreground flex items-center gap-2">
           {organizer?.avatar_url ? (
-            <Image src={organizer.avatar_url} alt={organizer.identite} width={24} height={24} className="rounded-full" />
+            <Image src={organizer.avatar_url} alt={organizer.identite} width={24} height={24} className="rounded-full object-cover h-6 w-6" />
           ) : (
-            <div className="h-6 w-6 rounded-full bg-muted flex items-center justify-center text-[10px]">
-              {organizer?.identite?.charAt(0)}
+            <div className="h-6 w-6 rounded-full bg-slate-200 flex items-center justify-center text-[10px] font-bold text-slate-500">
+              {organizer?.identite?.charAt(0) || '?'}
             </div>
           )}
           <span>Organisé par <span className="font-semibold text-foreground">{organizer?.identite || 'Anonyme'}</span></span>
         </div>
       </CardContent>
 
-      <CardFooter className="flex justify-between items-center gap-4">
+      <CardFooter className="flex justify-between items-center gap-4 border-t pt-4">
         <div className="flex items-center gap-2">
-          <span className="text-sm font-medium">
+          <span className="text-sm font-bold text-blue-600">
             {participantsCount} / {event.max_participants}
           </span>
-          <span className="text-xs text-muted-foreground text-nowrap">participants</span>
+          <span className="text-[10px] uppercase tracking-wider text-muted-foreground">Places</span>
         </div>
-        <Button asChild size="sm">
+        <Button asChild size="sm" className="rounded-full">
           <Link href={`/events/${event.id}`}>
             Détails <ArrowUpRight className="ml-2 h-4 w-4" />
           </Link>
@@ -88,11 +73,15 @@ function EventCard({ event }: { event: any }) {
 export default function EventsPage() {
   const [events, setEvents] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
   useEffect(() => {
     async function fetchEvents() {
       try {
-        // Requête Supabase : on récupère l'event + le profil de l'organisateur + le compte des participants
+        setLoading(true);
+        setErrorMsg(null);
+
+        // Requête Supabase
         const { data, error } = await supabase
           .from('events')
           .select(`
@@ -102,10 +91,17 @@ export default function EventsPage() {
           `)
           .order('date', { ascending: true });
 
-        if (error) throw error;
+        if (error) {
+          // ICI on capture le vrai message pour le voir sur l'écran
+          console.error("DEBUG SUPABASE:", error);
+          setErrorMsg(error.message);
+          return;
+        }
+
         setEvents(data || []);
-      } catch (error) {
-        console.error("Erreur lors du chargement des événements:", error);
+      } catch (err: any) {
+        console.error("DEBUG CRASH:", err);
+        setErrorMsg("Une erreur inattendue est survenue.");
       } finally {
         setLoading(false);
       }
@@ -115,35 +111,43 @@ export default function EventsPage() {
   }, []);
 
   return (
-    <div className="space-y-6">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+    <div className="max-w-7xl mx-auto p-6 space-y-8">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b pb-6">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight font-headline">Inscris-toi à une randonnée</h1>
-          <p className="text-muted-foreground">Trouve ta prochaine sortie et rejoins d'autres passionnés.</p>
+          <h1 className="text-4xl font-black tracking-tight text-slate-900">RANDONNÉES</h1>
+          <p className="text-slate-500 font-medium">Trouve ta prochaine sortie en Occitanie.</p>
         </div>
-        <Button asChild className="w-full md:w-auto">
+        <Button asChild className="bg-blue-600 hover:bg-blue-700 rounded-full shadow-lg">
           <Link href="/events/create">
-            <PlusCircle className="mr-2 h-4 w-4" />
-            Créer une sortie
+            <PlusCircle className="mr-2 h-5 w-5" /> Créer une sortie
           </Link>
         </Button>
       </div>
 
+      {/* Affichage de l'erreur si elle existe */}
+      {errorMsg && (
+        <div className="p-4 bg-red-50 border-l-4 border-red-500 text-red-700 rounded-r-lg">
+          <p className="font-bold">Erreur de chargement :</p>
+          <p className="text-sm">{errorMsg}</p>
+          <p className="text-[10px] mt-2 italic text-red-400">Vérifiez les politiques RLS ou le nom de la colonne organizer_id.</p>
+        </div>
+      )}
+
       {loading ? (
-        <div className="flex flex-col items-center justify-center py-20">
-          <Loader2 className="h-8 w-8 animate-spin text-primary mb-4" />
-          <p className="text-muted-foreground">Chargement des randonnées...</p>
+        <div className="flex flex-col items-center justify-center py-24">
+          <Loader2 className="h-10 w-10 animate-spin text-blue-600 mb-4" />
+          <p className="text-slate-400 font-medium animate-pulse">Recherche des sentiers...</p>
         </div>
       ) : events.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {events.map(event => (
             <EventCard key={event.id} event={event} />
           ))}
         </div>
-      ) : (
-        <div className="text-center py-20 border rounded-lg bg-muted/10">
-          <p className="text-muted-foreground">Aucune randonnée prévue pour le moment.</p>
-          <Button asChild variant="link" className="mt-2">
+      ) : !errorMsg && (
+        <div className="text-center py-20 border-2 border-dashed rounded-[2rem] bg-slate-50">
+          <p className="text-slate-500 mb-4">Aucune randonnée prévue pour le moment.</p>
+          <Button asChild variant="outline" className="rounded-full">
             <Link href="/events/create">Soyez le premier à en créer une !</Link>
           </Button>
         </div>
