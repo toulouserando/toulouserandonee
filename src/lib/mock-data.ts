@@ -6,7 +6,7 @@ export const mockUsers: User[] = [
     identite: 'AlexRando', 
     email: 'alex@example.com', 
     role: 'Admin', 
-    avatarUrl: 'https://picsum.photos/seed/avatar1/100/100', 
+    avatarUrl: '/picsum.jpg',
     status: 'active',
     prenom: 'Alex',
     nom: 'Dupont',

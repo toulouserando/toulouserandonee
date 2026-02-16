@@ -19,13 +19,22 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // Force l'utilisation de Webpack (nécessaire pour le plugin PWA)
-  // et évite les conflits avec Turbopack sur Vercel
+  // Webpack est conservé pour la compatibilité PWA
   webpack: (config) => {
     return config;
   },
   images: {
     remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.supabase.co',
+        pathname: '/storage/v1/object/public/**',
+      },
       {
         protocol: 'https',
         hostname: 'placehold.co',
@@ -41,11 +50,6 @@ const nextConfig: NextConfig = {
         hostname: 'picsum.photos',
         pathname: '/**',
       },
-      {
-        protocol: 'https',
-        hostname: 'firebasestorage.googleapis.com',
-        pathname: '/**',
-      }
     ],
   },
 };
