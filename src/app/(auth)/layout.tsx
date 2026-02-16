@@ -6,7 +6,7 @@ export default function AuthLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const logoUrl = "/icons/logo_Toulouse_Rando.jpg";
+  const logoUrl = "/icons/logo_Toulouse_Rando512.jpg";
   
   return (
     <main className="flex min-h-screen w-full flex-col items-center justify-center p-4">

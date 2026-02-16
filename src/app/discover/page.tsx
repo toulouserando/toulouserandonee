@@ -49,7 +49,7 @@ function HikeCard({ hike }: { hike: typeof mockHikes[0] }) {
 }
 
 export default function DiscoverPage() {
-    const logoUrl = "/icons/logo_Toulouse_Rando.jpg";
+    const logoUrl = "/icons/logo_Toulouse_Rando512.jpg";
     
   return (
     <div className="flex flex-col min-h-screen bg-background">

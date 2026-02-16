@@ -100,7 +100,7 @@ export default function LandingPage() {
     setMounted(true);
   }, []);
 
-  const logoUrl = "/icons/logo_Toulouse_Rando300.jpg";
+  const logoUrl = "/icons/logo_Toulouse_Rando512.jpg";
   const randonneeTypes = [
     "randonnée pédestre", "randonnée nordique", "randonnée aquatique", "randonnée équestre",
     "randonnée cycliste", "randonnée à raquettes", "randonnée urbaine", "randonnée de montagne",

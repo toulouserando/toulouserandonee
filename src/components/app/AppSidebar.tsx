@@ -62,7 +62,7 @@ const adminMenuItems = [
 
 export default function AppSidebar() {
   const pathname = usePathname()
-  const logoUrl = "/icons/logo_Toulouse_Rando.jpg";
+  const logoUrl = "/icons/logo_Toulouse_Rando512.jpg";
 
 
   const isActive = (href: string, isSubItem = false) => {

@@ -89,7 +89,7 @@ function LanguageSelectorDesktop() {
 
 
 export default function PublicLayout({ children }: { children: React.ReactNode }) {
-  const logoUrl = "/icons/logo_Toulouse_Rando.jpg";
+  const logoUrl = "/icons/logo_Toulouse_Rando512.jpg";
 
   return (
     <div className="flex flex-col min-h-screen">
