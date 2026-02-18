@@ -114,19 +114,30 @@ function CreateEventForm() {
       const { data: { user } } = await supabase.auth.getUser();
       if (!user) throw new Error("Veuillez vous connecter.");
       
-      const { error } = await supabase.from('events').insert({
-        title, description, recommendations, meeting_point: meetingPoint,
-        date: date?.toISOString(), registration_deadline: registrationDeadline?.toISOString(),
-        start_time: startTime, return_time: returnTime,
-        max_participants: parseInt(maxParticipants), enrollment_type: enrollmentType,
-        difficulty, elevation: parseInt(elevation), distance: parseFloat(distance),
-        hike_type: hikeType, organizer_id: user.id,
-        co_organizer_id: coOrganizerId === "none" ? null : coOrganizerId,
-        hike_id: selectedHikeId === 'none' ? null : selectedHikeId,
-        custom_circuit: selectedHikeId === 'none' ? circuitPoints : null,
-        transport_steps: transportPoints, is_published: isPublished,
-        status: isPublished ? 'À venir' : 'Brouillon'
-      });
+// Trouve cette partie dans ton handleSubmit
+const { error } = await supabase.from('events').insert({
+  title, 
+  description, 
+  recommendations, 
+  meeting_point: meetingPoint,
+  date: date?.toISOString(), 
+  registration_deadline: registrationDeadline?.toISOString(),
+  start_time: startTime, 
+  return_time: returnTime,
+  max_participants: parseInt(maxParticipants), 
+  enrollment_type: enrollmentType,
+  difficulty, 
+  elevation: parseInt(elevation), 
+  distance: parseFloat(distance),
+  hike_type: hikeType, 
+  organizer_id: user.id,
+  co_organizer_id: coOrganizerId === "none" ? null : coOrganizerId,
+  hike_id: selectedHikeId === 'none' ? null : selectedHikeId,
+  custom_circuit: selectedHikeId === 'none' ? circuitPoints : null,
+  transport_steps: transportPoints,
+  // SUPPRIME CETTE LIGNE : is_published: isPublished, 
+  status: isPublished ? 'À venir' : 'Brouillon' // On utilise status à la place
+});
       if (error) throw error;
       router.push('/events');
     } catch (err: any) {
