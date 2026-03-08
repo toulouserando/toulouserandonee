@@ -1,0 +1,238 @@
+{
+  "Ariege": {
+    "Ski_Alpin": [
+      {
+        "nom": "Ax 3 Domaines",
+        "departement": "Ariège",
+        "type": "Alpin",
+        "lat": 42.7005,
+        "lng": 1.8152,
+        "taille": "80 km de pistes",
+        "description": "La plus grande station du département, au-dessus d'Ax-les-Thermes. Trois secteurs : Bonascre, Saquet et Campels.",
+        "le_plus": "L'après-ski thermal aux Bains du Couloubret."
+      },
+      {
+        "nom": "Guzet",
+        "departement": "Ariège",
+        "type": "Alpin",
+        "lat": 42.7936,
+        "lng": 1.2985,
+        "taille": "40 km de pistes",
+        "description": "Station pittoresque célèbre pour ses chalets en bois nichés au milieu des sapins.",
+        "le_plus": "Son côté 'village de montagne' préservé et son ambiance cosy."
+      },
+      {
+        "nom": "Les Monts d'Olmes",
+        "departement": "Ariège",
+        "type": "Alpin",
+        "lat": 42.8464,
+        "lng": 1.7454,
+        "taille": "23 km de pistes",
+        "description": "Station familiale au cœur du Massif de Tabe, célèbre pour la championne Perrine Laffont.",
+        "le_plus": "Son accessibilité et son atmosphère conviviale pour les enfants."
+      },
+      {
+        "nom": "Ascou-Pailhères",
+        "departement": "Ariège",
+        "type": "Alpin",
+        "lat": 42.7231,
+        "lng": 1.9367,
+        "taille": "20 km de pistes",
+        "description": "Ambiance 'ski pur' sur la route du col de Pailhères.",
+        "le_plus": "Excellent rapport qualité-prix et peu d'attente."
+      },
+      {
+        "nom": "Mijanès-Donezan",
+        "departement": "Ariège",
+        "type": "Alpin",
+        "lat": 42.7164,
+        "lng": 2.0354,
+        "taille": "12 km de pistes",
+        "description": "Située dans le 'Petit Québec' ariégeois, parfaite pour la tranquillité.",
+        "le_plus": "Le cadre sauvage et les activités variées."
+      },
+      {
+        "nom": "Goulier Neige",
+        "departement": "Ariège",
+        "type": "Alpin",
+        "lat": 42.7535,
+        "lng": 1.4872,
+        "taille": "7 km de pistes",
+        "description": "Micro-station familiale idéale pour l'apprentissage à prix doux.",
+        "le_plus": "Une ambiance 'club' sans la foule."
+      }
+    ],
+    "Espaces_Nordiques": [
+      {
+        "nom": "Plateau de Beille",
+        "departement": "Ariège",
+        "lat": 42.7258,
+        "lng": 1.6885,
+        "description": "Premier espace nordique des Pyrénées. Panoramas grandioses.",
+        "activites": ["Ski de fond", "Raquettes", "Chiens de traîneaux"]
+      },
+      {
+        "nom": "Le Chioula",
+        "departement": "Ariège",
+        "lat": 42.7548,
+        "lng": 1.8415,
+        "description": "Pistes tracées en forêt et sur des crêtes, face aux sommets.",
+        "activites": ["Ski de fond", "Raquettes"]
+      },
+      {
+        "nom": "L'Étang de Lers",
+        "departement": "Ariège",
+        "lat": 42.8052,
+        "lng": 1.3912,
+        "description": "Site sauvage et spectaculaire au pied du Mont Béas.",
+        "activites": ["Ski de fond", "Raquettes"]
+      }
+    ]
+  },
+  "Haute-Garonne": {
+    "Ski_Alpin": [
+      {
+        "nom": "Peyragudes",
+        "departement": "Haute-Garonne / Hautes-Pyrénées",
+        "type": "Alpin",
+        "lat": 42.7915,
+        "lng": 0.4435,
+        "taille": "60 km de pistes",
+        "description": "Station moderne sur deux versants. Célèbre pour son lien avec James Bond.",
+        "le_plus": "La vue imprenable et l'après-ski à Balnéa."
+      },
+      {
+        "nom": "Luchon-Superbagnères",
+        "departement": "Haute-Garonne",
+        "type": "Alpin",
+        "lat": 42.7661,
+        "lng": 0.5794,
+        "taille": "32 km de pistes",
+        "description": "Le 'Balcon des Pyrénées', face à l'Aneto.",
+        "le_plus": "L'ambiance ville thermale et la Crémaillère Express."
+      },
+      {
+        "nom": "Le Mourtis",
+        "departement": "Haute-Garonne",
+        "type": "Alpin",
+        "lat": 42.8944,
+        "lng": 0.7715,
+        "taille": "23 km de pistes",
+        "description": "Station boisée conviviale, idéale pour les familles.",
+        "le_plus": "Proximité de Toulouse et protection contre le vent."
+      },
+      {
+        "nom": "Bourg-d'Oueil",
+        "departement": "Haute-Garonne",
+        "type": "Alpin",
+        "lat": 42.8585,
+        "lng": 0.4998,
+        "taille": "Micro-station",
+        "description": "Station authentique gérée par des bénévoles.",
+        "le_plus": "Cadre pastoral magnifique et tarifs très bas."
+      }
+    ],
+    "Espaces_Nordiques": [
+      {
+        "nom": "Le Mourtis",
+        "departement": "Haute-Garonne",
+        "lat": 42.8912,
+        "lng": 0.7685,
+        "description": "Itinéraire nordique en sous-bois vers le col d'Artigascou.",
+        "activites": ["Itinéraire nordique", "Raquettes"]
+      }
+    ]
+  },
+  "Hautes-Pyrenees": {
+    "Grands_Domaines_Alpin": [
+      {
+        "nom": "Le Grand Tourmalet (La Mongie / Barèges)",
+        "departement": "Hautes-Pyrénées",
+        "type": "Alpin",
+        "lat": 42.9102,
+        "lng": 0.1798,
+        "taille": "100 km de pistes",
+        "description": "Le plus vaste domaine des Pyrénées françaises. Relie modernité et authenticité.",
+        "le_plus": "Le secteur Freeride du Pic du Midi."
+      },
+      {
+        "nom": "Saint-Lary-Soulan",
+        "departement": "Hautes-Pyrénées",
+        "type": "Alpin",
+        "lat": 42.8184,
+        "lng": 0.3215,
+        "taille": "105 km de pistes",
+        "description": "Station star avec trois secteurs : Pla d'Adet, Espiaube et Vallon du Portet.",
+        "le_plus": "Ambiance village festive et centre Sensoria."
+      },
+      {
+        "nom": "Piau-Engaly",
+        "departement": "Hautes-Pyrénées",
+        "type": "Alpin",
+        "lat": 42.7828,
+        "lng": 0.1585,
+        "taille": "65 km de pistes",
+        "description": "Station la plus haute (1850m), piétonne et 'skis aux pieds'.",
+        "le_plus": "Enneigement exceptionnel garanti jusqu'au printemps."
+      }
+    ],
+    "Charme_et_Nature": [
+      {
+        "nom": "Cauterets (Cirque du Lys)",
+        "departement": "Hautes-Pyrénées",
+        "type": "Alpin",
+        "lat": 42.8895,
+        "lng": -0.1141,
+        "description": "Cuvette naturelle offrant l'un des meilleurs enneigements de France.",
+        "le_plus": "Village Belle Époque et combo avec le Pont d'Espagne."
+      },
+      {
+        "nom": "Luz-Ardiden",
+        "departement": "Hautes-Pyrénées",
+        "type": "Alpin",
+        "lat": 42.8835,
+        "lng": -0.0592,
+        "description": "Station moderne et conviviale sans logement au pied des pistes.",
+        "le_plus": "Pistes larges pour le carving et village authentique."
+      },
+      {
+        "nom": "Gavarnie-Gèdre",
+        "departement": "Hautes-Pyrénées",
+        "type": "Alpin",
+        "lat": 42.7358,
+        "lng": -0.0125,
+        "description": "Ski face au gigantesque Cirque de Gavarnie (UNESCO).",
+        "le_plus": "Piste 'Les Marmottes', la plus longue verte des Pyrénées."
+      }
+    ],
+    "Nordique_et_Loisirs": [
+      {
+        "nom": "Val d'Azun",
+        "departement": "Hautes-Pyrénées",
+        "type": "Nordique",
+        "lat": 42.9695,
+        "lng": -0.2185,
+        "description": "Premier site nordique du département. Paradis du fond.",
+        "activites": ["Ski de fond", "Raquettes"]
+      },
+      {
+        "nom": "Hautacam",
+        "departement": "Hautes-Pyrénées",
+        "type": "Loisirs",
+        "lat": 42.9731,
+        "lng": -0.0094,
+        "description": "Petite station avec vue sur la vallée d'Argelès-Gazost.",
+        "le_plus": "Luge et ski débutant."
+      },
+      {
+        "nom": "Payolle",
+        "departement": "Hautes-Pyrénées",
+        "type": "Nordique",
+        "lat": 42.9372,
+        "lng": 0.2925,
+        "description": "Le 'Petit Canada' pyrénéen.",
+        "le_plus": "Ski de fond autour d'un lac gelé."
+      }
+    ]
+  }
+}

@@ -22,7 +22,7 @@ const GEO_DATA: Record<string, { lat: number; lng: number }> = {
 
 export async function GET() {
   try {
-    const filePath = path.join(process.cwd(), 'data', 'rando', 'top-des-sites-touristiques-2021.json');
+    const filePath = path.join(process.cwd(), 'data', 'balade', 'top-des-sites-touristiques-2021.json');
     const fileContent = await fs.readFile(filePath, 'utf8');
     const sites = JSON.parse(fileContent);
 

@@ -1,0 +1,190 @@
+{
+  "Aude": [
+    {
+      "ville": "Fleury-d'Aude (Saint-Pierre-la-Mer)",
+      "departement": "Aude",
+      "lat": 43.1782,
+      "lng": 3.1815,
+      "description": "C’est la station la plus au nord du département, au pied du massif de la Clape.",
+      "plages": [
+        { "nom": "Plage de Saint-Pierre-la-Mer", "details": "Une immense étendue de sable fin divisée en plusieurs zones (centrale, nord, et vers l'étang de Pissevaches)." },
+        { "nom": "Plage des Cabanes de Fleury", "details": "Plus sauvage, située à l'embouchure de l'Aude." }
+      ]
+    },
+    {
+      "ville": "Narbonne-Plage",
+      "departement": "Aude",
+      "lat": 43.1511,
+      "lng": 3.1539,
+      "description": "Une station familiale avec 5 km de sable fin labellisés Pavillon Bleu.",
+      "plages": [
+        { "nom": "Plage Centrale", "details": "Proche des commerces et des animations." },
+        { "nom": "Plage du Créneau Naturel", "details": "Située vers l'est (en direction de Saint-Pierre), elle est plus préservée avec ses dunes." },
+        { "nom": "Plage des Karantes", "details": "À l'ouest, près du port, idéale pour les familles." }
+      ]
+    },
+    {
+      "ville": "Gruissan",
+      "departement": "Aude",
+      "lat": 43.1072,
+      "lng": 3.0855,
+      "description": "C'est la station la plus emblématique avec son vieux village circulaire et ses chalets sur pilotis.",
+      "plages": [
+        { "nom": "Plage des Chalets", "details": "Célèbre pour ses maisons sur pilotis (décor du film 37°2 le matin). Très prisée pour le kitesurf." },
+        { "nom": "Plage de Mateille", "details": "Très sauvage, située entre mer et étang." },
+        { "nom": "Plage d'Ayguades", "details": "Zone résidentielle avec de nombreux campings et résidences de vacances." },
+        { "nom": "Plage de la Vieille Nouvelle (Plage Sauvage)", "details": "Accessible par des pistes, c'est l'une des plus désertes de la région." }
+      ]
+    },
+    {
+      "ville": "Port-la-Nouvelle",
+      "departement": "Aude",
+      "lat": 43.0205,
+      "lng": 3.0441,
+      "description": "Une station qui combine port de commerce et longues plages de sable.",
+      "plages": [
+        { "nom": "Plage Centrale", "details": "Très large, avec des équipements de loisirs." },
+        { "nom": "Plage de la Vieille Nouvelle (côté sud)", "details": "Espace naturel protégé reliant Gruissan à Port-la-Nouvelle." },
+        { "nom": "Plage du Front de Mer", "details": "Facilement accessible avec de nombreux parkings." }
+      ]
+    },
+    {
+      "ville": "La Palme",
+      "departement": "Aude",
+      "lat": 42.9735,
+      "lng": 3.0215,
+      "description": "Plage sauvage entre Port-la-Nouvelle et Leucate.",
+      "plages": [
+        { "nom": "Plage du Rouet", "details": "Particulièrement appréciée pour son calme et son aspect naturel." }
+      ]
+    },
+    {
+      "ville": "Leucate (et Port-Leucate)",
+      "departement": "Aude",
+      "lat": 42.9095,
+      "lng": 3.0336,
+      "description": "Leucate est divisée en plusieurs quartiers, chacun ayant son caractère propre.",
+      "plages": [
+        { "nom": "Plage de la Franqui", "details": "Élue régulièrement parmi les plus belles plages de France, bordée de pins et de falaises." },
+        { "nom": "Plage des Coussoules", "details": "Immense plage sauvage prolongeant La Franqui." },
+        { "nom": "Plage du Phare / La Plagette", "details": "Nichée au pied des falaises du cap Leucate, plus abritée du vent." },
+        { "nom": "Plage de Leucate-Plage", "details": "La zone la plus traditionnelle." },
+        { "nom": "Plages de Port-Leucate", "details": "Long ruban de sable s'étendant vers le sud." }
+      ]
+    }
+  ],
+  "Pyrenees-Orientales": [
+    {
+      "ville": "Le Barcarès",
+      "departement": "Pyrénées-Orientales",
+      "lat": 42.7874,
+      "lng": 3.0368,
+      "description": "Littoral de sable (La Côte Radieuse). De longues plages idéales pour les familles.",
+      "plages": [
+        { "nom": "Plage du Lydia", "details": "Célèbre pour son paquebot ensablé." },
+        { "nom": "Plage de la Cité de la Mer", "details": "" },
+        { "nom": "Plage du Village", "details": "" }
+      ]
+    },
+    {
+      "ville": "Torreilles",
+      "departement": "Pyrénées-Orientales",
+      "lat": 42.7615,
+      "lng": 3.0125,
+      "description": "Plages très sauvages avec des dunes protégées.",
+      "plages": [
+        { "nom": "Plage Nord", "details": "" },
+        { "nom": "Plage Centre", "details": "" },
+        { "nom": "Plage Sud", "details": "" }
+      ]
+    },
+    {
+      "ville": "Argelès-sur-Mer",
+      "departement": "Pyrénées-Orientales",
+      "lat": 42.5460,
+      "lng": 3.0232,
+      "description": "Transition vers les rochers.",
+      "plages": [
+        { "nom": "Plage Centrale", "details": "Sable fin." },
+        { "nom": "Le Racou", "details": "Lieu emblématique avec ses petites maisons de sable et le début des rochers." }
+      ]
+    },
+    {
+      "ville": "Collioure",
+      "departement": "Pyrénées-Orientales",
+      "lat": 42.5252,
+      "lng": 3.0833,
+      "description": "La Côte Vermeille (Criques et Galets).",
+      "plages": [
+        { "nom": "Plage de la Boramar", "details": "Au pied de l'église et du château (très photogénique)." },
+        { "nom": "Plage du Faubourg", "details": "Galets." },
+        { "nom": "Plage de Saint-Vincent", "details": "" }
+      ]
+    },
+    {
+      "ville": "Banyuls-sur-Mer",
+      "departement": "Pyrénées-Orientales",
+      "lat": 42.4828,
+      "lng": 3.1292,
+      "description": "Cœur de la Réserve Naturelle Marine.",
+      "plages": [
+        { "nom": "Plage Centrale", "details": "Galets." },
+        { "nom": "Crique de Peyrefite", "details": "Sentier sous-marin avec masque et tuba." }
+      ]
+    }
+  ],
+  "Herault": [
+    {
+      "ville": "Valras-Plage",
+      "departement": "Hérault",
+      "lat": 43.2458,
+      "lng": 3.2921,
+      "description": "Station balnéaire historique de Béziers (à ~15-18 km).",
+      "plages": [
+        { "nom": "Plage de Valras", "details": "Immense plage de sable fin de plus de 4 km, très familiale avec de nombreux équipements." }
+      ]
+    },
+    {
+      "ville": "Sérignan-Plage",
+      "departement": "Hérault",
+      "lat": 43.2662,
+      "lng": 3.3305,
+      "description": "Cadre sauvage et préservé (à ~12-16 km de Béziers).",
+      "plages": [
+        { "nom": "Plage naturelle des Orpellières", "details": "Située dans une réserve naturelle, bordée par des dunes pouvant atteindre 8 mètres de haut." },
+        { "nom": "Plage de la Grande Maïre", "details": "Spot magnifique, idéal pour ceux qui cherchent le calme et la nature." }
+      ]
+    },
+    {
+      "ville": "Portiragnes-Plage",
+      "departement": "Hérault",
+      "lat": 43.2736,
+      "lng": 3.3601,
+      "description": "Aspect authentique (à ~14 km de Béziers), nichée entre le Canal du Midi et la mer.",
+      "plages": [
+        { "nom": "Ambiance Portiragnes", "details": "Très verte, avec des sentiers de promenade et des zones humides pour l'observation des oiseaux." }
+      ]
+    },
+    {
+      "ville": "Vendres-Plage",
+      "departement": "Hérault",
+      "lat": 43.2185,
+      "lng": 3.2384,
+      "description": "Située entre la Méditerranée et l'étang de Vendres (à ~19 km de Béziers).",
+      "plages": [
+        { "nom": "Plage de la Marina", "details": "Plage pittoresque et sauvage." },
+        { "nom": "Port du Chichoulet", "details": "Idéal pour déguster des coquillages frais à proximité." }
+      ]
+    },
+    {
+      "ville": "Vias-Plage",
+      "departement": "Hérault",
+      "lat": 43.2922,
+      "lng": 3.4135,
+      "description": "Station très animée (à ~18-20 km de Béziers) avec des eaux peu profondes.",
+      "plages": [
+        { "nom": "Plage de Vias", "details": "Parfaite pour les enfants. Nombreux campings et parcs d'attractions à proximité." }
+      ]
+    }
+  ]
+}

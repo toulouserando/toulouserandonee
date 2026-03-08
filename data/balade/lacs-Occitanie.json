@@ -1,0 +1,248 @@
+{
+  "Haute-Garonne": [
+    {
+      "nom": "Le Lac de la Ramée",
+      "ville": "Tournefeuille",
+      "departement": "Haute-Garonne",
+      "distance_toulouse": "10 km",
+      "lat": 43.5812,
+      "lng": 1.3533,
+      "description": "Le spot le plus accessible. Zone de baignade surveillée aménagée chaque été."
+    },
+    {
+      "nom": "Le Lac du Val de Saune",
+      "ville": "Sainte Foy d'Aigrefeuille",
+      "departement": "Haute-Garonne",
+      "distance_toulouse": "15,2 km",
+      "lat": 43.5418,
+      "lng": 1.6115,
+      "description": "Lac de proximité situé à l'est de l'agglomération toulousaine."
+    },
+    {
+      "nom": "Le Lac de Braguessou",
+      "ville": "Saint-Jory",
+      "departement": "Haute-Garonne",
+      "distance_toulouse": "20 km",
+      "lat": 43.7435,
+      "lng": 1.3488,
+      "description": "Plage surveillée très prisée pour le nautisme (wakeboard, paddle)."
+    },
+    {
+      "nom": "Le Lac des Bonnets (Muret Plage)",
+      "ville": "Muret",
+      "departement": "Haute-Garonne",
+      "distance_toulouse": "25 km",
+      "lat": 43.4357,
+      "lng": 1.3142,
+      "description": "Plage aménagée avec baignade surveillée et structures gonflables."
+    },
+    {
+      "nom": "Le Lac de l'Orme Blanc",
+      "ville": "Caraman",
+      "departement": "Haute-Garonne",
+      "distance_toulouse": "30 km",
+      "lat": 43.5204,
+      "lng": 1.7686,
+      "description": "Lac paisible au cœur du Lauragais avec une plage de sable fin (entrée payante)."
+    },
+    {
+      "nom": "Le Lac de la Thésauque",
+      "ville": "Nailloux / Montgeard",
+      "departement": "Haute-Garonne",
+      "distance_toulouse": "40 km",
+      "lat": 43.3458,
+      "lng": 1.6441,
+      "description": "Base de loisirs complète avec jeux aquatiques gonflables près de l'Outlet de Nailloux."
+    },
+    {
+      "nom": "Le Lac de Saint-Ferréol",
+      "ville": "Revel / Sorèze",
+      "departement": "Haute-Garonne / Tarn",
+      "distance_toulouse": "55 km",
+      "lat": 43.4398,
+      "lng": 2.0221,
+      "description": "Classé à l'UNESCO, entouré de pins. Plage surveillée, pédalos, planches à voile et restaurants."
+    }
+  ],
+  "Tarn-et-Garonne": [
+    {
+      "nom": "Base de Loisirs de Saint-Sardos",
+      "ville": "Saint-Sardos",
+      "departement": "Tarn-et-Garonne",
+      "distance_toulouse": "41 km",
+      "lat": 43.8902,
+      "lng": 1.1395,
+      "description": "Grand plan d'eau entouré de collines. Piscine avec toboggans, mini-golf, tyroliennes et pédalos."
+    },
+    {
+      "nom": "Base de Loisirs des 3 Lacs",
+      "ville": "Monclar-de-Quercy",
+      "departement": "Tarn-et-Garonne",
+      "distance_toulouse": "42 km",
+      "lat": 43.9645,
+      "lng": 1.5833,
+      "description": "Complexe unique avec lac de baignade (plage de sable fin), piscines intérieures/extérieures et toboggans."
+    },
+    {
+      "nom": "La Plage d'Ardus",
+      "ville": "Lamothe-Capdeville",
+      "departement": "Tarn-et-Garonne",
+      "distance_toulouse": "53 km",
+      "lat": 44.0732,
+      "lng": 1.3712,
+      "description": "Baignade directe dans la rivière Aveyron à côté d'un vieux moulin. Ambiance familiale et courant naturel."
+    },
+    {
+      "nom": "Le Lac de Molières - Malivert",
+      "ville": "Molières",
+      "departement": "Tarn-et-Garonne",
+      "distance_toulouse": "65 km",
+      "lat": 44.1848,
+      "lng": 1.3533,
+      "description": "Pavillon Bleu. Plage de sable blanc de 3 500 m² bordée de forêts. Eau d'une grande clarté."
+    },
+    {
+      "nom": "Lac de Parisot",
+      "ville": "Parisot",
+      "departement": "Tarn-et-Garonne",
+      "distance_toulouse": "80 km",
+      "lat": 44.2582,
+      "lng": 1.8614,
+      "description": "Spot nature et sauvage dans un vallon préservé. Aquapark, tennis et skate-park."
+    }
+  ],
+  "Tarn": [
+    {
+      "nom": "La Plage de Rivières",
+      "ville": "Rivières (près de Gaillac)",
+      "departement": "Tarn",
+      "distance_toulouse": "55 km",
+      "lat": 43.9105,
+      "lng": 1.9564,
+      "description": "Base de loisirs au bord du Tarn avec pontons en bois. Baignade surveillée en été."
+    },
+    {
+      "nom": "Lac d'En Laure",
+      "ville": "Labruguière",
+      "departement": "Tarn",
+      "distance_toulouse": "65 km",
+      "lat": 43.5512,
+      "lng": 2.2514,
+      "description": "Parc arboré au pied de la Montagne Noire. Zone de baignade surveillée et sentiers de promenade."
+    },
+    {
+      "nom": "Lac de la Bancalié",
+      "ville": "Saint-Antonin-de-Lacalm",
+      "departement": "Tarn",
+      "distance_toulouse": "75 km",
+      "lat": 43.7856,
+      "lng": 2.3087,
+      "description": "Lac de retenue sauvage. Baignade tolérée (non surveillée), idéal pour le calme."
+    },
+    {
+      "nom": "Cap'Découverte - Le Lac de Sainte-Marie",
+      "ville": "Le Garric",
+      "departement": "Tarn",
+      "distance_toulouse": "80 km",
+      "lat": 44.0042,
+      "lng": 2.1465,
+      "description": "Plage de sable géante sur ancien site minier. Toboggans, jeux gonflables et téléski nautique."
+    }
+  ],
+  "Gers": [
+    {
+      "nom": "Le Lac de l'Isle-Jourdain",
+      "ville": "L'Isle-Jourdain",
+      "departement": "Gers",
+      "distance_toulouse": "35 km",
+      "lat": 43.6164,
+      "lng": 1.0772,
+      "description": "Base de loisirs avec activités nautiques et piscine de plein air."
+    },
+    {
+      "nom": "Le Lac de Thoux-Saint-Cricq",
+      "ville": "Thoux",
+      "departement": "Gers",
+      "distance_toulouse": "45 km",
+      "lat": 43.6811,
+      "lng": 0.9856,
+      "description": "Plage surveillée et parc aquatique (entrée payante)."
+    },
+    {
+      "nom": "Le Lac de Samatan",
+      "ville": "Samatan",
+      "departement": "Gers",
+      "distance_toulouse": "50 km",
+      "lat": 43.4912,
+      "lng": 0.9254,
+      "description": "Base de loisirs familiale avec plage surveillée et toboggans."
+    },
+    {
+      "nom": "Le Lac de Gimone",
+      "ville": "Lalanne-Arqué",
+      "departement": "Gers",
+      "distance_toulouse": "60-65 km",
+      "lat": 43.3275,
+      "lng": 0.6548,
+      "description": "L'un des plus grands lacs de la région. Voile, canoë et plage aménagée."
+    }
+  ],
+  "Ariege": [
+    {
+      "nom": "Le Lac de Saint-Ybars",
+      "ville": "Saint-Ybars",
+      "departement": "Ariège",
+      "distance_toulouse": "55 km",
+      "lat": 43.2435,
+      "lng": 1.4582,
+      "description": "Petit lac charmant avec baignade surveillée, idéal pour le calme."
+    },
+    {
+      "nom": "Le Lac de Sainte-Croix-Volvestre",
+      "ville": "Sainte-Croix-Volvestre",
+      "departement": "Ariège",
+      "distance_toulouse": "60 km",
+      "lat": 43.1258,
+      "lng": 1.1712,
+      "description": "Lac de moyenne montagne avec plage surveillée et ambiance familiale."
+    }
+  ],
+  "Aude": [
+    {
+      "nom": "Le Lac de la Ganguise",
+      "ville": "Belflou",
+      "departement": "Aude",
+      "distance_toulouse": "50 km",
+      "lat": 43.3235,
+      "lng": 1.7864,
+      "description": "Haut lieu de la planche à voile. Nombreuses criques pour se rafraîchir."
+    },
+    {
+      "nom": "Le Bassin du Lampy",
+      "ville": "Saissac",
+      "departement": "Aude",
+      "distance_toulouse": "65 km",
+      "lat": 43.4112,
+      "lng": 2.1154,
+      "description": "Site UNESCO en forêt. Eau fraîche et cadre sauvage."
+    },
+    {
+      "nom": "Le Lac de Buzerens",
+      "ville": "Bram",
+      "departement": "Aude",
+      "distance_toulouse": "70 km",
+      "lat": 43.2564,
+      "lng": 2.1021,
+      "description": "Ancienne gravière avec téléski nautique et baignade surveillée."
+    },
+    {
+      "nom": "Le Lac de Laprade Basse",
+      "ville": "Cuxac-Cabardès",
+      "departement": "Aude",
+      "distance_toulouse": "70 km",
+      "lat": 43.4348,
+      "lng": 2.1965,
+      "description": "Plan d'eau à 700m d'altitude entouré de sapins. Très paisible."
+    }
+  ]
+}
