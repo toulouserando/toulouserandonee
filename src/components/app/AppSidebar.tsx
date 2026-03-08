@@ -40,6 +40,7 @@ const menuItems = [
     icon: Map,
     subItems: [
       { href: "/tourist-offices", label: "Offices de tourisme" },
+      { href: "/sorties", label: "Balades en Occitanie" },
       { href: "/links", label: "Liens utiles" },
       { href: "/calendar", label: "Calendrier" },
       { href: "/map", label: "Carte des départs" },
