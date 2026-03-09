@@ -6,7 +6,6 @@ import path from 'path';
 function calculateCentroid(geometry: any): { lat: number; lon: number } | null {
   if (!geometry || !geometry.coordinates) return null;
 
-  // Flatten tous les points en cas de MultiPolygon ou Polygon
   const flattenCoords = (coords: any[]): number[][] =>
     coords.flat(Infinity).filter(c => Array.isArray(c) && c.length >= 2);
 
@@ -31,13 +30,13 @@ function calculateCentroid(geometry: any): { lat: number; lon: number } | null {
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
-    const id = searchParams.get('id'); // On récupère l'id si présent
+    const id = searchParams.get('id'); 
 
     const dataDir = path.join(process.cwd(), 'data');
     const baladeDir = path.join(dataDir, 'balade');
     const indexPath = path.join(dataDir, 'liste_circuits_balade.json');
 
-    // Cas 1 : L'utilisateur veut le contenu d'un fichier spécifique
+    // --- Cas 1 : Détail d'un fichier spécifique ---
     if (id) {
       const filePath = path.join(baladeDir, id);
       if (!fs.existsSync(filePath))
@@ -45,7 +44,6 @@ export async function GET(request: Request) {
 
       const content = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
-      // Si c'est un GeoJSON, ajouter geo_point_2d si absent
       if (Array.isArray(content.data)) {
         content.data = content.data.map((item: any) => {
           if (!item.geo_point_2d) {
@@ -66,18 +64,32 @@ export async function GET(request: Request) {
       });
     }
 
-    // Cas 2 : L'utilisateur veut juste la LISTE (comportement par défaut)
+    // --- Cas 2 : Liste des circuits (Comportement par défaut) ---
     if (!fs.existsSync(indexPath)) return NextResponse.json([]);
 
     const indexContent = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
 
-    // On ne renvoie que l'ID et le Nom, PAS les données 'data'
-    const listeSimple = indexContent.fichiers.map((file: string) => ({
-      id: file,
-      name: file.replace(/\.(json|geojson)$/, '').replace(/-/g, ' ')
-    }));
+    const listeSimple = indexContent.fichiers.map((item: any) => {
+      // Si l'item est un objet (votre nouveau format avec description)
+      if (typeof item === 'object' && item !== null) {
+        return {
+          id: item.fichier,           // Utilisé pour le fetch au clic
+          name: item.nom_affichage,   // Titre principal
+          description: item.description || "" // La nouvelle ligne de description
+        };
+      }
+      
+      // Sécurité : Ancien format (string simple)
+      const cleanName = item.replace(/\.(json|geojson)$/, '').replace(/-/g, ' ');
+      return {
+        id: item,
+        name: cleanName,
+        description: ""
+      };
+    });
 
     return NextResponse.json(listeSimple);
+
   } catch (error) {
     console.error("Erreur API:", error);
     return NextResponse.json([]);
