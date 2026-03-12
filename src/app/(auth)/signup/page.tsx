@@ -28,13 +28,13 @@ export default function SignupPage() {
   const [identite, setIdentite] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [genre, setGenre] = useState<"Femme" | "Homme" | "Autre" | undefined>();
+  const [genre, setGenre] = useState<"femme" | "homme" | "autre" | undefined>();
   const [etudiant, setEtudiant] = useState(false);
   const [majeur, setMajeur] = useState(false);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
 
@@ -42,37 +42,46 @@ export default function SignupPage() {
       setError("Vous devez certifier être majeur(e) pour vous inscrire.");
       return;
     }
-    
+
     setLoading(true);
 
     try {
-      // Inscription avec Supabase
       const { data, error: signUpError } = await supabase.auth.signUp({
         email,
         password,
         options: {
-          // Ces metadata seront récupérées par ton Trigger SQL pour remplir la table 'profiles'
           data: {
-            identite: identite,
-            genre: genre,
-            etudiant: etudiant,
-            majeur: majeur,
+            identite,
+            genre,
+            etudiant,
+            majeur,
+            role: 'randonneur', // On peut aussi le définir ici par défaut
           },
         },
       });
 
-      if (signUpError) throw signUpError;
-
-      // Si Supabase est configuré pour confirmer l'email, on prévient l'utilisateur
-      if (data.user && data.session === null) {
-          setError("Inscription réussie ! Veuillez vérifier vos emails pour confirmer votre compte.");
-      } else {
-          router.push("/dashboard");
-          router.refresh();
+      if (signUpError) {
+        // Traduction des erreurs courantes
+        if (signUpError.message.includes("already registered")) {
+          throw new Error("Cet email est déjà utilisé par un autre randonneur.");
+        }
+        if (signUpError.message.includes("Password should be")) {
+          throw new Error("Le mot de passe doit contenir au moins 6 caractères.");
+        }
+        throw signUpError;
       }
-      
+
+      // Cas 1 : Confirmation par email activée
+      if (data.user && !data.session) {
+        setError("Succès ! Un email de confirmation vous a été envoyé. Vérifiez votre boîte de réception.");
+      } 
+      // Cas 2 : Connexion automatique (si confirmation email désactivée)
+      else if (data.session) {
+        window.location.href = "/dashboard";
+      }
+
     } catch (err: any) {
-      setError(err.message || "Une erreur est survenue lors de l'inscription.");
+      setError(err.message || "Une erreur imprévue est survenue.");
     } finally {
       setLoading(false);
     }
@@ -134,7 +143,7 @@ export default function SignupPage() {
           <div className="grid gap-2">
             <Label htmlFor="genre">Genre</Label>
             <Select 
-              onValueChange={(value: "Femme" | "Homme" | "Autre") => setGenre(value)} 
+              onValueChange={(value: "femme" | "homme" | "autre") => setGenre(value)} 
               value={genre} 
               required
               disabled={loading}
@@ -143,9 +152,9 @@ export default function SignupPage() {
                 <SelectValue placeholder="Sélectionnez votre genre" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="Femme">Femme</SelectItem>
-                <SelectItem value="Homme">Homme</SelectItem>
-                <SelectItem value="Autre">Autre</SelectItem>
+                <SelectItem value="femme">Femme</SelectItem>
+                <SelectItem value="homme">Homme</SelectItem>
+                <SelectItem value="autre">Autre</SelectItem>
               </SelectContent>
             </Select>
           </div>
