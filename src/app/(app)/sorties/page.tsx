@@ -238,39 +238,50 @@ const candidates = [
     if (bounds.isValid()) mapInstance.current.fitBounds(bounds, { padding: [30, 30] });
   }, [selectedHike]);
 
-  return (
-    <div className="flex h-[calc(100vh-64px)] w-full font-sans">
-      <div className="w-80 bg-white shadow-xl overflow-y-auto border-r">
-        <div className="p-4 border-b bg-white sticky top-0">
-          <h1 className="text-xl font-black text-green-800">OCCITANIE</h1>
-        </div>
-<div className="p-2">
-  {hikes.map(hike => (
-    <button
-      key={hike.id}
-      onClick={() => handleHikeClick(hike)}
-      className={`w-full text-left p-4 mb-2 rounded-xl border-2 transition ${
-        selectedHike?.id === hike.id
-          ? 'border-green-500 bg-green-50'
-          : 'border-transparent bg-gray-50 hover:bg-gray-100'
-      }`}
-    >
-      {/* 1. Titre principal (Nom affichage) */}
-      <div className="font-bold text-gray-800 text-base leading-tight">
-        {hike.name || "Sans titre"}
+return (
+  <div className="flex flex-col md:flex-row h-[calc(100vh-64px)] w-full font-sans overflow-hidden">
+    {/* Menu latéral / Overlay sur mobile */}
+    <div className="w-full md:w-80 bg-white shadow-xl overflow-y-auto border-r border-b md:border-b-0 h-1/3 md:h-full z-[1000]">
+      <div className="p-4 border-b bg-white sticky top-0 flex justify-between items-center">
+        <h1 className="text-xl font-black text-green-800">OCCITANIE</h1>
+        <span className="md:hidden text-xs font-bold text-gray-400">Faites défiler pour choisir</span>
       </div>
-
-      {/* 2. Description (au lieu du nom de fichier) */}
-      {hike.description && (
-        <div className="text-sm text-gray-500 mt-2 line-clamp-2 italic">
-          {hike.description}
-        </div>
-      )}
-    </button>
-  ))}
-</div>
+      
+      <div className="p-2">
+        {hikes.map(hike => (
+          <button
+            key={hike.id}
+            onClick={() => {
+              handleHikeClick(hike);
+              // Optionnel : scroller vers la carte sur mobile après clic
+              if (window.innerWidth < 768) {
+                mapRef.current?.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+            className={`w-full text-left p-4 mb-2 rounded-xl border-2 transition ${
+              selectedHike?.id === hike.id
+                ? 'border-green-500 bg-green-50'
+                : 'border-transparent bg-gray-50 hover:bg-gray-100'
+            }`}
+          >
+            <div className="font-bold text-gray-800 text-base leading-tight">
+              {hike.name || "Sans titre"}
+            </div>
+            {hike.description && (
+              <div className="text-sm text-gray-500 mt-2 line-clamp-2 italic">
+                {hike.description}
+              </div>
+            )}
+          </button>
+        ))}
       </div>
-      <div ref={mapRef} className="flex-1 h-full" />
     </div>
-  );
+
+    {/* Carte */}
+    <div 
+      ref={mapRef} 
+      className="flex-1 w-full h-2/3 md:h-full z-0" 
+    />
+  </div>
+);
 }
