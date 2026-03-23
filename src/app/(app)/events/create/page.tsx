@@ -544,67 +544,78 @@ if (!isMounted) {
           </CommandGroup>
 
           {/* ACCORDÉON : TRACÉS MEMBRES */}
-          <Collapsible open={openMembers} onOpenChange={setOpenMembers}>
-            <CollapsibleTrigger className="flex w-full items-center justify-between p-3 text-xs font-bold text-slate-500 bg-slate-50 hover:bg-slate-100 border-t">
-              <div className="flex items-center gap-2">
-                <Users size={14} /> TRACÉS DE LA COMMUNAUTÉ
-              </div>
-              <ChevronRight className={`transition-transform duration-200 ${openMembers ? 'rotate-90' : ''}`} size={14} />
-            </CollapsibleTrigger>
-            <CollapsibleContent>
-              <CommandGroup>
-                {availableHikes.filter(h => h.source !== 'official').map((hike) => (
-                  <CommandItem
-                    key={hike.id}
-                    value={hike.title} // Pour la recherche
-                    onSelect={() => {
-                      handleHikeSelect(hike.id);
-                      setOpenMenu(false);
-                    }}
-                    className="pl-8 cursor-pointer"
-                  >
-                    <Check className={`mr-2 h-4 w-4 ${selectedHikeId === hike.id ? "opacity-100" : "opacity-0"}`} />
-                    <div className="flex flex-col">
-                      <span className="font-medium">{hike.title}</span>
-                      {hike.distance && <span className="text-[10px] text-slate-400">{hike.distance}km</span>}
-                    </div>
-                  </CommandItem>
-                ))}
-              </CommandGroup>
-            </CollapsibleContent>
-          </Collapsible>
+<CommandGroup>
+  <Collapsible open={openMembers} onOpenChange={setOpenMembers}>
+    
+    <CollapsibleTrigger className="flex w-full items-center justify-between p-3 text-xs font-bold text-slate-500 bg-slate-50 hover:bg-slate-100 border-t">
+      <div className="flex items-center gap-2">
+        <Users size={14} /> TRACÉS DE LA COMMUNAUTÉ
+      </div>
+      <ChevronRight className={`transition-transform duration-200 ${openMembers ? 'rotate-90' : ''}`} size={14} />
+    </CollapsibleTrigger>
+
+    <CollapsibleContent>
+      {availableHikes
+        .filter(h => h.source !== 'official')
+        .map((hike) => (
+          <CommandItem
+            key={hike.id}
+            value={hike.id} // ✅ IMPORTANT
+            onSelect={() => {
+              handleHikeSelect(hike.id);
+              setOpenMenu(false);
+            }}
+            className="pl-8 cursor-pointer"
+          >
+            <Check className={`mr-2 h-4 w-4 ${selectedHikeId === hike.id ? "opacity-100" : "opacity-0"}`} />
+            <div className="flex flex-col">
+              <span className="font-medium">{hike.title}</span>
+              {hike.distance && <span className="text-[10px] text-slate-400">{hike.distance}km</span>}
+            </div>
+          </CommandItem>
+      ))}
+    </CollapsibleContent>
+
+  </Collapsible>
+</CommandGroup>
 
           {/* ACCORDÉON : OFFICIELS (circuits recommandés) */}
-          <Collapsible open={openOfficial} onOpenChange={setOpenOfficial}>
-            <CollapsibleTrigger className="flex w-full items-center justify-between p-3 text-xs font-bold text-blue-600 bg-blue-50/50 hover:bg-blue-50 border-t">
-              <div className="flex items-center gap-2">
-                <Library size={14} /> CIRCUITS OFFICIELS & ZONES (GeoJSON)
-              </div>
-              <ChevronRight className={`transition-transform duration-200 ${openOfficial ? 'rotate-90' : ''}`} size={14} />
-            </CollapsibleTrigger>
-            <CollapsibleContent>
-              <CommandGroup>
-{availableHikes.filter(h => h.source === 'official').map((hike) => (
-  <CommandItem
-    key={hike.id}
-    value={hike.title}
-    onSelect={() => {
-      handleHikeSelect(hike.id);
-      setOpenMenu(false);
-    }}
-    className="pl-8 text-blue-900 cursor-pointer hover:bg-blue-50"
-  >
-    <Check className={`mr-2 h-4 w-4 ${selectedHikeId === hike.id ? "opacity-100" : "opacity-0"}`} />
-    <div className="flex items-center gap-2">
-      {/* On affiche une icône différente selon le format */}
-      {hike.format === 'geojson' ? <Route size={14} className="text-blue-500"/> : <MapPin size={14} className="text-orange-500"/>}
-      {hike.title}
-    </div>
-  </CommandItem>
-))}
-              </CommandGroup>
-            </CollapsibleContent>
-          </Collapsible>
+<CommandGroup>
+  <Collapsible open={openOfficial} onOpenChange={setOpenOfficial}>
+    
+    <CollapsibleTrigger className="flex w-full items-center justify-between p-3 text-xs font-bold text-blue-600 bg-blue-50/50 hover:bg-blue-50 border-t">
+      <div className="flex items-center gap-2">
+        <Library size={14} /> CIRCUITS OFFICIELS & ZONES (GeoJSON)
+      </div>
+      <ChevronRight className={`transition-transform duration-200 ${openOfficial ? 'rotate-90' : ''}`} size={14} />
+    </CollapsibleTrigger>
+
+    <CollapsibleContent>
+      {availableHikes
+        .filter(h => h.source === 'official')
+        .map((hike) => (
+          <CommandItem
+            key={hike.id}
+            value={hike.id} // ✅ IMPORTANT
+            onSelect={() => {
+              handleHikeSelect(hike.id);
+              setOpenMenu(false);
+            }}
+            className="pl-8 text-blue-900 cursor-pointer hover:bg-blue-50"
+          >
+            <Check className={`mr-2 h-4 w-4 ${selectedHikeId === hike.id ? "opacity-100" : "opacity-0"}`} />
+            <div className="flex items-center gap-2">
+              {hike.format === 'geojson' 
+                ? <Route size={14} className="text-blue-500"/> 
+                : <MapPin size={14} className="text-orange-500"/>}
+              {hike.title}
+            </div>
+          </CommandItem>
+      ))}
+    </CollapsibleContent>
+
+  </Collapsible>
+</CommandGroup>
         </CommandList>
       </Command>
     </PopoverContent>
