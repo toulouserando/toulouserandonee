@@ -77,3 +77,40 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* --- FIX LEAFLET --- */
+
+/* 1. Force la visibilité des tuiles et évite les lignes blanches entre elles */
+.leaflet-tile {
+  visibility: inherit !important;
+}
+
+/* 2. Empêche Tailwind d'écraser les dimensions des tuiles et icônes */
+.leaflet-container img {
+  max-width: none !important;
+  max-height: none !important;
+}
+
+/* 3. Fix pour le carré blanc en haut à droite (Control Layers) */
+.leaflet-control-layers {
+  background: white; /* Ou ta variable --card */
+  border: 2px solid rgba(0,0,0,0.2) !important;
+  border-radius: 5px;
+}
+
+/* 4. Assure-toi que les icônes Leaflet ne sont pas invisibles */
+.leaflet-control-zoom-in, 
+.leaflet-control-zoom-out {
+  background-color: white !important;
+  color: black !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 5. Fix spécifique pour l'affichage des tuiles manquantes */
+.leaflet-pane {
+  z-index: 1 !important;
+}
+
+

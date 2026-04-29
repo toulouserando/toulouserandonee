@@ -1,6 +1,5 @@
 "use client";
-import { useEffect, useState } from 'react';
-// On importe les composants normalement
+import { useEffect, useState, useMemo } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -15,7 +14,6 @@ export default function MapGeoComponent({ showPoints, showRoutes }: MapProps) {
   const [routes, setRoutes] = useState<any>(null);
   const [mounted, setMounted] = useState(false);
 
-  // 1. Sécurité anti-SSR : on ne rend rien tant que le composant n'est pas monté
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -37,16 +35,23 @@ export default function MapGeoComponent({ showPoints, showRoutes }: MapProps) {
     }
   }, [showPoints, showRoutes, mounted]);
 
-  // Icône personnalisée définie à l'intérieur pour éviter les problèmes de référence
-  const customIcon = new L.Icon({
+  // Mémorisation du filtrage des routes pour éviter les erreurs "geometry: null"
+  const filteredRoutes = useMemo(() => {
+    if (!routes || !routes.features) return null;
+    return {
+      ...routes,
+      features: routes.features.filter((f: any) => f.geometry !== null)
+    };
+  }, [routes]);
+
+  const customIcon = useMemo(() => new L.Icon({
     iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
     shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-  });
+  }), []);
 
-  // Si on est côté serveur, on affiche un div vide ou un loader
   if (!mounted) {
     return <div style={{ height: 'calc(100vh - 64px)', width: '100%', background: '#f0f0f0' }} />;
   }
@@ -63,10 +68,11 @@ export default function MapGeoComponent({ showPoints, showRoutes }: MapProps) {
           attribution='&copy; OpenStreetMap'
         />
 
-        {/* TRACÉS (LIGNES) */}
-        {showRoutes && routes && (
+        {/* TRACÉS (LIGNES) - Ajout d'une KEY obligatoire pour l'update */}
+        {showRoutes && filteredRoutes && filteredRoutes.features.length > 0 && (
           <GeoJSON 
-            data={routes} 
+            key={`routes-layer-${filteredRoutes.features.length}`} // Force le re-rendu quand les données arrivent
+            data={filteredRoutes} 
             style={{ color: "#ff7800", weight: 4, opacity: 0.7 }} 
             onEachFeature={(feature, layer) => {
               if (feature.properties?.nom) {
@@ -78,14 +84,15 @@ export default function MapGeoComponent({ showPoints, showRoutes }: MapProps) {
 
         {/* POINTS (MARQUEURS) */}
         {showPoints && points?.features?.map((poi: any, idx: number) => {
-          const lat = poi.properties.latitude;
-          const lng = poi.properties.longitude;
+          // Sécurité supplémentaire : vérifier si les propriétés existent
+          const lat = poi.properties?.latitude;
+          const lng = poi.properties?.longitude;
 
-          if (lat === undefined || lng === undefined) return null;
+          if (lat === undefined || lng === undefined || lat === null || lng === null) return null;
 
           return (
             <Marker 
-              key={`poi-${idx}`} 
+              key={`poi-${poi.properties.id || idx}`} 
               position={[lat, lng]} 
               icon={customIcon}
             >

@@ -1,154 +1,352 @@
 "use client";
-import { useEffect, useState } from 'react';
+
+import React, { useEffect, useState, useRef, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import { ArrowLeft } from 'lucide-react';
+import { 
+  ArrowLeft, MousePointer2, Trash2, ChevronsUpDown, 
+  Check, Users, Library, ChevronRight, Route 
+} from 'lucide-react';
 import 'leaflet/dist/leaflet.css';
-import { useMap } from 'react-leaflet';
 
+// --- UI COMPONENTS ---
+import { Button } from "@/components/ui/button";
+import { Card, CardHeader, CardTitle } from "@/components/ui/card";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import {
+  Command,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+} from "@/components/ui/command";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
+
+// --- DYNAMIC LEAFLET ---
 const MapContainer = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), { ssr: false });
 const TileLayer = dynamic(() => import('react-leaflet').then(mod => mod.TileLayer), { ssr: false });
 const GeoJSON = dynamic(() => import('react-leaflet').then(mod => mod.GeoJSON), { ssr: false });
+const Marker = dynamic(() => import('react-leaflet').then(mod => mod.Marker), { ssr: false });
+const Popup = dynamic(() => import('react-leaflet').then(mod => mod.Popup), { ssr: false });
+const CircleMarker = dynamic(() => import('react-leaflet').then(mod => mod.CircleMarker), { ssr: false });
 
-function RecenterMap({ center }: { center: [number, number] | null }) {
-  const map = useMap(); 
+// --- HELPERS ---
+const useMapInstance = () => {
+  const { useMap } = require('react-leaflet');
+  try { return useMap(); } catch (e) { return null; }
+};
+
+function RoutingControl({ points, setPoints, active }: { points: any[], setPoints: any, active: boolean }) {
+  const map = useMapInstance();
+  const routingRef = useRef<any>(null);
+
   useEffect(() => {
-    if (center && map) {
-      map.setView(center, 14, { animate: true });
+    // CRITIQUE : On vérifie que la map ET le pane existent
+    if (!map || !active || !map.getPanes()) {
+      if (routingRef.current && map) {
+        try { map.removeControl(routingRef.current); } catch (e) {}
+        routingRef.current = null;
+      }
+      return;
     }
-  }, [center, map]);
+
+    let control: any;
+    import('leaflet-routing-machine').then(() => {
+      const L = (window as any).L;
+      if (!routingRef.current && map) {
+        control = L.Routing.control({
+          waypoints: points.map(p => L.latLng(p[0], p[1])),
+          lineOptions: { styles: [{ color: '#16a34a', weight: 5 }] },
+          addWaypoints: true,
+          routeWhileDragging: true,
+          show: false,
+          createMarker: () => null
+        });
+        routingRef.current = control.addTo(map);
+        
+        routingRef.current.on('routesfound', (e: any) => {
+          const coords = e.routes[0].coordinates.map((c: any) => [c.lat, c.lng]);
+          setPoints(coords);
+        });
+      }
+    });
+
+    return () => {
+      if (routingRef.current && map) {
+        try { map.removeControl(routingRef.current); } catch (e) {}
+        routingRef.current = null;
+      }
+    };
+  }, [active, map]); // On réduit les dépendances pour éviter les boucles de rendu
   return null;
 }
 
-export default function CarteRandoTest() {
-  const [sources, setSources] = useState<{ locaux: any[], supabase: any[] }>({ locaux: [], supabase: [] });
-  const [selectedSource, setSelectedSource] = useState('');
+// --- CHANGE VIEW : Adapté au format standardisé de l'API ---
+function ChangeView({ data }: { data: any[] }) {
+  const map = useMapInstance();
+  useEffect(() => {
+    if (map && data && data.length > 0) {
+      const timer = setTimeout(async () => {
+        const L = await import('leaflet');
+        const bounds = L.latLngBounds([]);
+        let hasValidPoints = false;
+
+        data.forEach(item => {
+          // Utilise le champ "geometry" standardisé par ton route.ts
+          const geo = item.geometry;
+          if (geo) {
+            try {
+              const layer = L.geoJSON(geo);
+              const geoBounds = layer.getBounds();
+              if (geoBounds.isValid()) {
+                bounds.extend(geoBounds);
+                hasValidPoints = true;
+              }
+            } catch (e) { console.error("Erreur bounds:", e); }
+          }
+        });
+
+        if (hasValidPoints && bounds.isValid()) {
+          map.fitBounds(bounds, { padding: [50, 50], animate: true });
+        }
+      }, 250);
+      return () => clearTimeout(timer);
+    }
+  }, [data, map]);
+  return null;
+}
+
+export default function CarteRandoInteractive() {
+  const [sources, setSources] = useState<{ locaux: Record<string, any[]>, supabase: any[] }>({ 
+    locaux: {}, 
+    supabase: [] 
+  });
+  const [selectedSource, setSelectedSource] = useState('custom');
   const [data, setData] = useState<any[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [mapCenter, setMapCenter] = useState<[number, number] | null>(null);
+  const [customPoints, setCustomPoints] = useState<[number, number][]>([]);
   const [mounted, setMounted] = useState(false);
-  const [mapReady, setMapReady] = useState(false);
+
+  const [openMenu, setOpenMenu] = useState(false);
+  const [openSupabase, setOpenSupabase] = useState(false);
+  const [openLocaux, setOpenLocaux] = useState(false);
+
+  const currentTitle = useMemo(() => {
+    if (selectedSource === 'custom') return "✍️ Nouveau tracé personnalisé";
+    const foundSupa = (sources.supabase || []).find(s => String(s.id) === String(selectedSource));
+    if (foundSupa) return foundSupa.title;
+    for (const deptFiles of Object.values(sources.locaux || {})) {
+      const found = deptFiles.find(f => f.id === selectedSource);
+      if (found) return found.title;
+    }
+    return "Sélectionner un itinéraire...";
+  }, [selectedSource, sources]);
 
   useEffect(() => {
     setMounted(true);
-    fetch('/api/listerandos')
+    fetch('/api/testrandos')
       .then(res => res.json())
-      .then(json => {
-        setSources(json);
-        if (json.locaux?.length > 0) setSelectedSource(json.locaux[0].id);
-        else if (json.supabase?.length > 0) setSelectedSource(json.supabase[0].id);
-      })
+      .then(json => setSources({
+        locaux: json.locaux || {},
+        supabase: json.supabase || []
+      }))
       .catch(err => console.error("Erreur listing:", err));
   }, []);
 
   useEffect(() => {
-    if (!selectedSource) return;
-    setLoading(true);
     setData([]); 
-    
-    fetch(`/api/listerandos/${selectedSource}`)
-      .then(res => res.json())
-      .then(resData => {
-        const results = Array.isArray(resData) ? resData : [resData];
-        setData(results);
+    if (!selectedSource || selectedSource === 'custom') return;
 
-        if (results.length > 0) {
-          const firstItem = results[0];
-          const geom = firstItem.route_geometry || firstItem.geometry;
-          
-          if (firstItem.center) {
-            setMapCenter(firstItem.center);
-          } else if (geom && geom.coordinates && geom.coordinates.length > 0) {
-            // Sécurité : si c'est une FeatureCollection, on prend la première feature
-            const coords = geom.type === "FeatureCollection" ? geom.features[0].geometry.coordinates : geom.coordinates;
-            setMapCenter([coords[0][1], coords[0][0]]);
-          }
-        }
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error("Erreur data:", err);
-        setLoading(false);
-      });
-  }, [selectedSource]);
+    let endpoint = "";
+    if (selectedSource.includes('/') || selectedSource.includes('.')) {
+      let format = "format-tableau";
+      if (selectedSource.includes("adresses")) format = "format-points";
+      else if (selectedSource.endsWith(".geojson")) format = "format-geojson";
+      endpoint = `/api/testrandos/${format}/${selectedSource}`;
+    } else {
+      endpoint = `/api/testrandos/${selectedSource}`;
+    }
+
+fetch(endpoint)
+    .then(res => res.json())
+    .then(resData => {
+      console.log("Source sélectionnée:", selectedSource);
+      console.log("Données reçues de l'API:", resData); // <--- REGARDE ICI DANS F12
+      const arrayData = Array.isArray(resData) ? resData : [resData];
+      setData(arrayData);
+    })
+    .catch(err => console.error("Erreur Fetch:", err));
+}, [selectedSource]);
 
   if (!mounted) return null;
 
   return (
-    <div className="flex flex-col h-screen w-full bg-gray-50 overflow-hidden">
-      <header className="z-[1000] p-4 bg-white shadow-md flex items-center gap-4 border-b">
+    <div className="max-w-6xl mx-auto px-4 py-8 space-y-6">
+      <header className="flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 text-green-700 font-bold p-2 hover:bg-green-50 rounded-lg">
           <ArrowLeft size={20} />
           <span>Accueil</span>
         </Link>
-        <div className="flex-1 max-w-2xl">
-          <select 
-            value={selectedSource} 
-            onChange={(e) => setSelectedSource(e.target.value)}
-            className="w-full border-2 border-gray-200 p-2 rounded-lg bg-white text-sm font-semibold outline-none focus:border-green-600"
-          >
-            <optgroup label="📂 LOCAUX">{sources.locaux?.map(s => <option key={s.id} value={s.id}>{s.title}</option>)}</optgroup>
-            <optgroup label="☁️ SUPABASE">{sources.supabase?.map(s => <option key={s.id} value={s.id}>{s.title}</option>)}</optgroup>
-          </select>
-        </div>
-        {loading && <div className="animate-spin h-5 w-5 border-2 border-green-600 border-t-transparent rounded-full" />}
       </header>
 
-      <main className="flex-1 relative z-0">
-        <MapContainer 
-          center={[43.60, 1.44]} 
-          zoom={11} 
-          className="h-full w-full"
-          whenReady={() => setMapReady(true)}
-        >
-          <TileLayer url="https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png" attribution='&copy; OSM' />
-          
-          {mapReady && (
-            <>
-              {mapCenter && <RecenterMap center={mapCenter} />}
-
-              {data.map((item, idx) => {
-                const rawGeo = item.route_geometry || item.geometry;
-                if (!rawGeo) return null;
-
-                try {
-                  // 1. On parse si c'est du string
-                  const parsedGeo = typeof rawGeo === 'string' ? JSON.parse(rawGeo) : rawGeo;
-
-                  // 2. Validation de sécurité : est-ce que ça ressemble à du GeoJSON ?
-                  if (!parsedGeo.type) return null;
-
-                  // 3. Normalisation stricte
-                  const normalized = parsedGeo.type === "FeatureCollection" ? parsedGeo : {
-                    type: "FeatureCollection",
-                    features: [{
-                      type: "Feature",
-                      geometry: parsedGeo,
-                      properties: { title: item.title }
-                    }]
-                  };
-
-                  return (
-                    <GeoJSON 
-                      // CRITIQUE : La clé doit changer radicalement pour forcer Leaflet 
-                      // à oublier l'ancien objet "invalid"
-                      key={`geo-${selectedSource}-${item.id || idx}-${JSON.stringify(parsedGeo).length}`} 
-                      data={normalized}
-                      style={{ color: '#2563eb', weight: 6, opacity: 0.9 }}
-                      onEachFeature={(f, layer) => {
-                        layer.bindPopup(`<b>${item.title}</b>`);
-                      }}
-                    />
-                  );
-                } catch (e) {
-                  console.error("Erreur de rendu GeoJSON pour", item.title, e);
-                  return null;
-                }
-              })}
-            </>
+      <Card className="overflow-hidden border-green-100 shadow-xl">
+        <CardHeader className="bg-green-700 text-white flex flex-row items-center justify-between py-4 px-6">
+          <CardTitle className="text-md flex items-center gap-2">
+            <Route size={20}/> Explorateur de Randonnées
+          </CardTitle>
+          {selectedSource === 'custom' && (
+            <Button variant="outline" size="sm" onClick={() => setCustomPoints([])} className="bg-white/10 border-white/20 text-white">
+              <Trash2 size={14} className="mr-2"/> Effacer
+            </Button>
           )}
-        </MapContainer>
-      </main>
+        </CardHeader>
+
+        <div className="bg-green-50 p-4 border-b border-green-100">
+          <Popover open={openMenu} onOpenChange={setOpenMenu}>
+            <PopoverTrigger asChild>
+              <Button variant="outline" className="w-full justify-between bg-white border-green-200 h-11 text-sm">
+                <span className="truncate">{currentTitle}</span>
+                <ChevronsUpDown className="ml-2 h-4 w-4 opacity-50" />
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent className="w-[450px] p-0 z-[1100]" align="start">
+              <Command>
+                <CommandInput placeholder="Rechercher une trace..." />
+                <CommandList className="max-h-[400px]">
+                  <CommandEmpty>Aucun résultat.</CommandEmpty>
+                  <CommandGroup>
+                    <CommandItem onSelect={() => { setSelectedSource("custom"); setOpenMenu(false); }} className="text-orange-600 font-bold py-3">
+                      <Check className={`mr-2 h-4 w-4 ${selectedSource === "custom" ? "opacity-100" : "opacity-0"}`} />
+                      ✍️ Nouveau tracé personnalisé
+                    </CommandItem>
+                  </CommandGroup>
+
+                  <CommandGroup>
+                    <Collapsible open={openLocaux} onOpenChange={setOpenLocaux}>
+                      <CollapsibleTrigger className="flex w-full items-center justify-between p-3 text-xs font-bold text-blue-600 bg-blue-50/50 border-t uppercase">
+                        <div className="flex items-center gap-2"><Library size={14} /> Fichiers Officiels</div>
+                        <ChevronRight className={`transition-transform ${openLocaux ? 'rotate-90' : ''}`} size={14} />
+                      </CollapsibleTrigger>
+                      <CollapsibleContent>
+                        {Object.entries(sources.locaux).map(([dept, files]) => (
+                          <div key={dept} className="mt-1">
+                            <div className="px-4 py-1 text-[10px] font-black text-slate-400 uppercase">{dept}</div>
+                            {files.map((f) => (
+                              <CommandItem key={f.id} onSelect={() => { setSelectedSource(f.id); setOpenMenu(false); }} className="pl-6">
+                                <Check className={`mr-2 h-3 w-3 ${selectedSource === f.id ? "opacity-100" : "opacity-0"}`} />
+                                <span className="truncate">{f.title}</span>
+                              </CommandItem>
+                            ))}
+                          </div>
+                        ))}
+                      </CollapsibleContent>
+                    </Collapsible>
+                  </CommandGroup>
+
+                  <CommandGroup>
+                    <Collapsible open={openSupabase} onOpenChange={setOpenSupabase}>
+                      <CollapsibleTrigger className="flex w-full items-center justify-between p-3 text-xs font-bold text-slate-500 bg-slate-50 border-t uppercase">
+                        <div className="flex items-center gap-2"><Users size={14} /> Tracés Communauté</div>
+                        <ChevronRight className={`transition-transform ${openSupabase ? 'rotate-90' : ''}`} size={14} />
+                      </CollapsibleTrigger>
+                      <CollapsibleContent>
+                        {sources.supabase?.length > 0 ? (
+                          sources.supabase.map((s) => (
+                            <CommandItem key={s.id} onSelect={() => { setSelectedSource(s.id); setOpenMenu(false); }} className="pl-6">
+                              <Check className={`mr-2 h-4 w-4 ${selectedSource === s.id ? "opacity-100" : "opacity-0"}`} />
+                              <div className="flex flex-col">
+                                <span className="font-medium">{s.title}</span>
+                                <span className="text-[10px] text-slate-400">{s.location} • {s.distance}</span>
+                              </div>
+                            </CommandItem>
+                          ))
+                        ) : (
+                          <div className="p-4 text-center text-xs text-slate-400">Aucun tracé communautaire</div>
+                        )}
+                      </CollapsibleContent>
+                    </Collapsible>
+                  </CommandGroup>
+                </CommandList>
+              </Command>
+            </PopoverContent>
+          </Popover>
+        </div>
+
+<div className="h-[500px] w-full relative z-0">
+  {/* On s'assure que le composant est monté côté client */}
+  {mounted && (
+    <MapContainer center={[43.60, 1.44]} zoom={12} className="h-full w-full">
+      <TileLayer 
+        url="https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png" 
+        attribution='&copy; OSM' 
+      />
+      
+      {/* On ne rend les enfants que si la map est prête */}
+      <ChangeView data={data} />
+      <RoutingControl active={selectedSource === 'custom'} points={customPoints} setPoints={setCustomPoints} />
+
+{selectedSource !== 'custom' && data && data.length > 0 && data.map((item, idx) => {
+  // MODIFICATION ICI : On accepte "geometry" OU "route_geometry"
+  const geo = item.geometry || item.route_geometry; 
+  
+  if (!item || !geo) return null;
+
+  const isPoint = geo.type === "Point";
+
+  return (
+<React.Fragment key={`layer-${selectedSource}-${idx}`}>
+  <GeoJSON 
+    key={`geojson-${selectedSource}-${idx}-${data.length}`}
+    data={geo} 
+    // CETTE LIGNE EST LA CLÉ : Elle dit à GeoJSON d'ignorer le rendu des points 
+    // car on s'en occupe nous-mêmes avec le CircleMarker juste en dessous.
+    pointToLayer={() => (null as any)} 
+    style={{ 
+      color: String(selectedSource).toLowerCase().includes('gers') ? '#e11d48' : '#2563eb', 
+      weight: 5, 
+      opacity: 0.8 
+    }} 
+  />
+
+  {/* MARQUEUR : Uniquement pour les points isolés (Repères de crue) */}
+  {isPoint && item.center && (
+    <CircleMarker 
+      center={item.center} 
+      radius={6} 
+      pathOptions={{ 
+        fillColor: '#16a34a', // Vert pour correspondre à ton thème
+        color: '#ffffff',     // Bordure blanche
+        weight: 2, 
+        fillOpacity: 1 
+      }}
+    >
+      <Popup>
+        <div className="font-bold text-green-800">{item.title}</div>
+        {item.properties?.adresse && (
+          <p className="text-xs text-slate-600">{item.properties.adresse}</p>
+        )}
+      </Popup>
+    </CircleMarker>
+  )}
+</React.Fragment>
+  );
+})}
+    </MapContainer>
+  )}
+
+          
+          {selectedSource === 'custom' && (
+            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-[1000] bg-white/90 shadow-2xl border border-green-200 px-6 py-2 rounded-full flex items-center gap-3 animate-bounce">
+              <MousePointer2 className="text-green-600" size={18} />
+              <span className="text-sm font-bold text-green-800 uppercase tracking-tight">Tracez votre chemin</span>
+            </div>
+          )}
+        </div>
+      </Card>
     </div>
   );
 }

@@ -19,11 +19,13 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           {/* Le Header est maintenant "Safe" pour toutes les pages */}
           <AppHeader />
           
-          <main className="flex-1 overflow-y-auto p-4 md:p-6 lg:p-8 bg-background">
-            <div className="mx-auto w-full max-w-7xl">
-              {children}
-            </div>
-          </main>
+{/* Dans ton AppLayout, modifie cette ligne : */}
+<main className="flex-1 p-4 md:p-6 lg:p-8 bg-background">
+  {/* On enlève max-w-7xl ou on utilise max-w-full pour les pages avec cartes */}
+  <div className="mx-auto w-full"> 
+    {children}
+  </div>
+</main>
           
           <Footer />
         </div>

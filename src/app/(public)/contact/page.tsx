@@ -1,7 +1,6 @@
-
 "use client"
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -23,25 +22,29 @@ export default function ContactPage() {
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState<"success" | "error" | "idle">("idle");
   const [error, setError] = useState("");
+  
+  // Solution pour l'erreur d'hydratation
+  const [mounted, setMounted] = useState(false);
 
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
     if (!name || !email || !subject || !message) {
-        setError("Veuillez remplir tous les champs.");
-        setStatus("error");
-        return;
+      setError("Veuillez remplir tous les champs.");
+      setStatus("error");
+      return;
     }
     
-    // Here you would typically send the form data to a server
-    // For this example, we'll just simulate a successful submission
     console.log({
-        to: "tolosa@free.fr",
-        from: email,
-        name,
-        subject,
-        message
+      to: "tolosa@free.fr",
+      from: email,
+      name,
+      subject,
+      message
     });
     
     setStatus("success");
@@ -50,6 +53,9 @@ export default function ContactPage() {
     setSubject("");
     setMessage("");
   };
+
+  // On ne rend rien ou un loader tant que le client n'a pas pris le relais
+  if (!mounted) return null;
 
   return (
     <div className="max-w-4xl mx-auto space-y-6">
@@ -71,18 +77,18 @@ export default function ContactPage() {
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-6">
             {status === 'error' && error && (
-                <Alert variant="destructive">
-                    <AlertCircle className="h-4 w-4" />
-                    <AlertTitle>Erreur</AlertTitle>
-                    <AlertDescription>{error}</AlertDescription>
-                </Alert>
+              <Alert variant="destructive">
+                <AlertCircle className="h-4 w-4" />
+                <AlertTitle>Erreur</AlertTitle>
+                <AlertDescription>{error}</AlertDescription>
+              </Alert>
             )}
             {status === 'success' && (
-                <Alert variant="default" className="border-green-500 text-green-700 dark:border-green-600 dark:text-green-400">
-                    <CheckCircle className="h-4 w-4 text-green-500 dark:text-green-600" />
-                    <AlertTitle>Message envoyé !</AlertTitle>
-                    <AlertDescription>Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.</AlertDescription>
-                </Alert>
+              <Alert variant="default" className="border-green-500 text-green-700 dark:border-green-600 dark:text-green-400">
+                <CheckCircle className="h-4 w-4 text-green-500 dark:text-green-600" />
+                <AlertTitle>Message envoyé !</AlertTitle>
+                <AlertDescription>Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.</AlertDescription>
+              </Alert>
             )}
             <div className="grid sm:grid-cols-2 gap-6">
               <div className="space-y-2">
