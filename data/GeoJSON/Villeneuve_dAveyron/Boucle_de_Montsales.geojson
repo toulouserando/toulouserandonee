@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Boucle_de_Montsales.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.970397,
+            44.483762,
+            307.79
+          ],
+          [
+            1.971448,
+            44.484536,
+            308.29
+          ],
+          [
+            1.971448,
+            44.484536,
+            308.29
+          ],
+          [
+            1.970397,
+            44.483762,
+            307.79
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Boucle_de_Montsales.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.970397,
+            44.483762
+          ],
+          [
+            1.971448,
+            44.484536
+          ],
+          [
+            1.971448,
+            44.484536
+          ],
+          [
+            1.970397,
+            44.483762
+          ]
+        ]
+      }
+    }
+  ]
+}

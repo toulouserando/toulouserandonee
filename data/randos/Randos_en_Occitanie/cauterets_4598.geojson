@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cauterets",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4598,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.88758850097656,
+        "longitude": -0.11404839903116226,
+        "local_name": "Cauterets",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

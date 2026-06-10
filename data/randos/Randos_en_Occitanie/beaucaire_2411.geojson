@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Beaucaire",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2411,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.81135177612305,
+        "longitude": 4.635468006134033,
+        "local_name": "Beaucaire",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

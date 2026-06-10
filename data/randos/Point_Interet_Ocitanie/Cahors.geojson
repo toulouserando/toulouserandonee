@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cahors",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3392,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.44561767578125,
+        "longitude": 1.4414288997650146,
+        "local_name": "Cahors",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

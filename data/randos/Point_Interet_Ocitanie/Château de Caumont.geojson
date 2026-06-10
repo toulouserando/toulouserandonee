@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Caumont",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5705,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.54878234863281,
+        "longitude": 0.9926511645317078,
+        "local_name": "Château de Caumont",
+        "country": "FRA",
+        "street": null,
+        "postcode": "32130",
+        "city": "Cazaux-Savès"
+      },
+      "geometry": null
+    }
+  ]
+}

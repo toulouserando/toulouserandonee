@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Abbaye_St-Papoul.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.033901,
+            43.331077,
+            168.38
+          ],
+          [
+            2.033883,
+            43.331084,
+            168.37
+          ],
+          [
+            2.033883,
+            43.331084,
+            168.37
+          ],
+          [
+            2.033901,
+            43.331077,
+            168.38
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Abbaye_St-Papoul.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.033901,
+            43.331077
+          ],
+          [
+            2.033883,
+            43.331084
+          ],
+          [
+            2.033883,
+            43.331084
+          ],
+          [
+            2.033901,
+            43.331077
+          ]
+        ]
+      }
+    }
+  ]
+}

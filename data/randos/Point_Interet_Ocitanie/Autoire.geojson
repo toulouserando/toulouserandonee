@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Autoire",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1600,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.853614807128906,
+        "longitude": 1.8207052946090698,
+        "local_name": "Autoire",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

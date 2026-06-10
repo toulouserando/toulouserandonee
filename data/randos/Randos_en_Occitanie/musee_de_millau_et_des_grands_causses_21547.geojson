@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée de Millau et des Grands Causses",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21547,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.09758377075195,
+        "longitude": 3.080980062484741,
+        "local_name": "Musée de Millau et des Grands Causses",
+        "country": "FRA",
+        "street": "Place du Mar.-Foch - hôtel de Pégayrolles",
+        "postcode": "12100",
+        "city": "Millau"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

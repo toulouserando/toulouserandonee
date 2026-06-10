@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grottes de Bétharram",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13830,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.103214263916016,
+        "longitude": -0.18860399723052979,
+        "local_name": "Grottes de Bétharram",
+        "country": "FRA",
+        "street": "Chemin Léon-Ross",
+        "postcode": "65270",
+        "city": "St-Pé-de-Bigorre"
+      },
+      "geometry": null
+    }
+  ]
+}

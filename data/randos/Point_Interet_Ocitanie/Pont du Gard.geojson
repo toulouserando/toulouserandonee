@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pont du Gard",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27887,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.94757843017578,
+        "longitude": 4.534971237182617,
+        "local_name": "Pont du Gard",
+        "country": "FRA",
+        "street": null,
+        "postcode": "30210",
+        "city": "Vers-Pont-du-Gard"
+      },
+      "geometry": null
+    }
+  ]
+}

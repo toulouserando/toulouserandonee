@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Perpignan",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25467,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.69499588012695,
+        "longitude": 2.895319938659668,
+        "local_name": "Perpignan",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

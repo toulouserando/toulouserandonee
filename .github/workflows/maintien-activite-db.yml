@@ -1,0 +1,17 @@
+name: "Maintien Activité Base de Données"
+
+on:
+  schedule:
+    # S'exécute à 12:00, le lundi (1) et le jeudi (4)
+    - cron: '0 12 * * 1,4'
+  workflow_dispatch: # Permet de le lancer manuellement pour tester
+
+jobs:
+  ping_db:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase via REST API
+        run: |
+          curl -X GET "${{ secrets.SUPABASE_URL }}/rest/v1/profiles?select=id&limit=1" \
+          -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
+          -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}"

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Parc zoologique de Montpellier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25173,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.639678955078125,
+        "longitude": 3.8733439445495605,
+        "local_name": "Parc zoologique de Montpellier",
+        "country": "FRA",
+        "street": "50 avenue Agropolis",
+        "postcode": "34090",
+        "city": "Montpellier"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Place de la Canourgue",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26017,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.61178207397461,
+        "longitude": 3.874303102493286,
+        "local_name": "Place de la Canourgue",
+        "country": "FRA",
+        "street": "place de la Canourgue",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

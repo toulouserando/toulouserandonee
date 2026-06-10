@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Abbaye de Moissac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 241,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.10531997680664,
+        "longitude": 1.0845099687576294,
+        "local_name": "Abbaye de Moissac",
+        "country": "FRA",
+        "street": "Place Durand-de-Bredon",
+        "postcode": "82200",
+        "city": "Moissac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mirepoix",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19744,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.08631896972656,
+        "longitude": 1.8760977983474731,
+        "local_name": "Mirepoix",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

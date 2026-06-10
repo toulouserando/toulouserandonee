@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Najac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46935,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.2174072265625,
+        "longitude": 1.9707411527633667,
+        "local_name": "Najac",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

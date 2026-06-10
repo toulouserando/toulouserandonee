@@ -4,11 +4,15 @@ import { useEffect, useState, use } from "react";
 import { supabase } from "@/lib/supabase";
 import { notFound, useRouter } from "next/navigation";
 import Image from "next/image";
+import dynamic from 'next/dynamic'; // 🌟 Ajouté pour Leaflet SSR-safe
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, MapPin, UserPlus, Check, Loader2, Mountain, Route } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
+
+// 🎨 Import des styles Leaflet nécessaires
+import 'leaflet/dist/leaflet.css';
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -25,7 +29,11 @@ export default function EventDetailPage({ params }: PageProps) {
   const [currentUser, setCurrentUser] = useState<any>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
-useEffect(() => {
+  // 🌍 Nouveaux états dédiés à la récupération dynamique du fichier local
+  const [geoUnifiedData, setGeoUnifiedData] = useState<any>(null);
+  const [loadingGeo, setLoadingGeo] = useState(false);
+
+  useEffect(() => {
     async function loadData() {
       if (!eventId) return;
       
@@ -36,13 +44,13 @@ useEffect(() => {
         const { data: { user } } = await supabase.auth.getUser();
         setCurrentUser(user);
 
-        // On utilise !user_id pour dire à Supabase quelle colonne utiliser pour la jointure
+        // 🔍 Modification ici : récupération des colonnes de ciblage de fichier
         const { data, error } = await supabase
           .from('events')
           .select(`
             *,
             organizer:profiles!organizer_id (id, identite, avatar_url, role),
-            hike:hikes (id, title, location, distance, duration, difficulty),
+            hike:hikes (id, title, location, distance, duration, difficulty, elevation, route_id, source, file_folder, file_name),
             participants:event_participants (
               user:profiles!user_id (id, identite, avatar_url)
             )
@@ -52,6 +60,26 @@ useEffect(() => {
 
         if (error) throw error;
         setEvent(data);
+
+        // 📁 Le tour de passe-passe : Si Supabase nous indique à quel fichier on a affaire, 
+        // on appelle notre API locale de conversion pour lire le disque dur sans rien stocker en BDD.
+        if (data?.hike?.file_folder && data?.hike?.file_name) {
+          setLoadingGeo(true);
+          const paramsUrl = new URLSearchParams({
+            folder: data.hike.file_folder,
+            filename: data.hike.file_name,
+          });
+          if (data.hike.route_id) {
+            paramsUrl.append('routeId', data.hike.route_id);
+          }
+
+          const res = await fetch(`/api/read-geo?${paramsUrl.toString()}`);
+          if (res.ok) {
+            const unified = await res.json();
+            setGeoUnifiedData(unified);
+          }
+          setLoadingGeo(false);
+        }
 
       } catch (err: any) {
         console.error("Erreur complète:", err);
@@ -74,8 +102,6 @@ useEffect(() => {
         .insert({ event_id: event.id, user_id: currentUser.id });
 
       if (error) throw error;
-      
-      // On rafraîchit la page pour voir le nouveau participant
       window.location.reload();
     } catch (err) {
       alert("Erreur lors de l'inscription ou vous êtes déjà inscrit.");
@@ -84,7 +110,6 @@ useEffect(() => {
     }
   };
 
-  // 1. Affichage pendant le chargement
   if (loading) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] gap-4">
@@ -94,7 +119,6 @@ useEffect(() => {
     );
   }
 
-  // 2. Si l'événement n'existe pas après le chargement
   if (!event) return notFound();
 
   const eventDate = new Date(event.date);
@@ -138,7 +162,7 @@ useEffect(() => {
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="h-5 w-5 text-red-500" />
-                <span className="font-semibold text-slate-700 truncate">{event.meeting_point}</span>
+                <span className="font-semibold text-slate-700 truncate">{event.meeting_point || "Non défini"}</span>
               </div>
             </div>
           </div>
@@ -165,26 +189,84 @@ useEffect(() => {
           {event.hike && (
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="bg-slate-900 text-white p-6 rounded-3xl">
-                <Route className="mb-2 h-6 w-6 text-blue-400" />
+                <Route className="mb-2 h-6 w-6 text-blue-400 mx-auto" />
                 <p className="text-xs uppercase font-bold text-slate-400 text-center">Distance</p>
                 <p className="text-xl font-black text-center">{event.hike.distance} km</p>
               </div>
               <div className="bg-slate-900 text-white p-6 rounded-3xl">
-                <Mountain className="mb-2 h-6 w-6 text-green-400" />
+                <Mountain className="mb-2 h-6 w-6 text-green-400 mx-auto" />
                 <p className="text-xs uppercase font-bold text-slate-400 text-center">Dénivelé</p>
                 <p className="text-xl font-black text-center">{event.hike.elevation || 0} m</p>
               </div>
               <div className="bg-slate-900 text-white p-6 rounded-3xl">
-                <Clock className="mb-2 h-6 w-6 text-orange-400" />
+                <Clock className="mb-2 h-6 w-6 text-orange-400 mx-auto" />
                 <p className="text-xs uppercase font-bold text-slate-400 text-center">Durée</p>
                 <p className="text-xl font-black text-center">{event.hike.duration || 'N/A'}</p>
               </div>
               <div className="bg-slate-900 text-white p-6 rounded-3xl">
-                <MapPin className="mb-2 h-6 w-6 text-red-400" />
+                <MapPin className="mb-2 h-6 w-6 text-red-400 mx-auto" />
                 <p className="text-xs uppercase font-bold text-slate-400 text-center">Lieu</p>
                 <p className="text-xl font-black text-center truncate">{event.hike.location}</p>
               </div>
             </div>
+          )}
+
+          {/* 🗺️ INTEGRATION DU BLOC CARTE AVEC LES FICHIERS PARSÉS */}
+          {event.hike && (
+            <Card className="border-slate-100 overflow-hidden rounded-[2rem] shadow-sm">
+              <CardHeader className="bg-slate-50 border-b">
+                <CardTitle className="text-lg font-bold text-slate-800">Tracé cartographique de l'évènement</CardTitle>
+              </CardHeader>
+              <div className="h-[400px] w-full relative z-0 bg-slate-50 flex items-center justify-center">
+                {loadingGeo ? (
+                  <div className="flex flex-col items-center gap-2 text-slate-400">
+                    <Loader2 className="h-6 w-6 animate-spin text-blue-500" />
+                    <span className="text-xs">Chargement dynamique du fichier géométrique...</span>
+                  </div>
+                ) : geoUnifiedData ? (
+                  (() => {
+                    // Imports dynamiques exécutés uniquement côté client pour contourner le plantage SSR de Leaflet
+                    const MapContainer = dynamic(() => import('react-leaflet').then(m => m.MapContainer), { ssr: false });
+                    const TileLayer = dynamic(() => import('react-leaflet').then(m => m.TileLayer), { ssr: false });
+                    const Polyline = dynamic(() => import('react-leaflet').then(m => m.Polyline), { ssr: false });
+                    const Marker = dynamic(() => import('react-leaflet').then(m => m.Marker), { ssr: false });
+                    const Popup = dynamic(() => import('react-leaflet').then(m => m.Popup), { ssr: false });
+
+                    // Calcul auto du centrage : soit sur la première coordonnée d'une ligne, soit sur un marqueur
+                    const mapCenter: [number, number] = geoUnifiedData.coordinates?.length > 0
+                      ? geoUnifiedData.coordinates[0]
+                      : geoUnifiedData.markers?.length > 0
+                        ? [geoUnifiedData.markers[0].lat, geoUnifiedData.markers[0].lng]
+                        : [43.60426, 1.44367]; // Centre Toulouse par défaut
+
+                    return (
+                      <MapContainer center={mapCenter} zoom={12} className="h-full w-full">
+                        <TileLayer url="https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png" />
+                        
+                        {/* Affiche la ligne Bleue s'il y a des coordonnées continues (GeoJSON, Randos) */}
+                        {geoUnifiedData.coordinates?.length > 0 && (
+                          <Polyline positions={geoUnifiedData.coordinates} color="#2563eb" weight={5} />
+                        )}
+
+                        {/* Affiche des marqueurs s'il s'agit de POIs isolés (Beaucaire, Occitanie, etc.) */}
+                        {geoUnifiedData.markers?.map((marker: any, index: number) => (
+                          <Marker key={index} position={[marker.lat, marker.lng]}>
+                            <Popup>
+                              <div className="p-1">
+                                <h4 className="font-bold text-slate-900">{marker.title}</h4>
+                                {marker.desc && <p className="text-xs text-slate-600 mt-1">{marker.desc}</p>}
+                              </div>
+                            </Popup>
+                          </Marker>
+                        ))}
+                      </MapContainer>
+                    );
+                  })()
+                ) : (
+                  <span className="text-sm italic text-slate-400">Aucune donnée géométrique associée au fichier référencé</span>
+                )}
+              </div>
+            </Card>
           )}
         </div>
 

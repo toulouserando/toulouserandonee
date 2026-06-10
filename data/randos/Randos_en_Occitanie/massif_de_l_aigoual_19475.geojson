@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Massif de l'Aigoual",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19475,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.12191390991211,
+        "longitude": 3.580670118331909,
+        "local_name": "Massif de l'Aigoual",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48150",
+        "city": "Meyrueis"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Martel",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19422,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.93706512451172,
+        "longitude": 1.6098368167877197,
+        "local_name": "Martel",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

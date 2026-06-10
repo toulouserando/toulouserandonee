@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Quartier Antigone",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29414,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60765838623047,
+        "longitude": 3.8955960273742676,
+        "local_name": "Quartier Antigone",
+        "country": "FRA",
+        "street": "avenue du Pirée",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

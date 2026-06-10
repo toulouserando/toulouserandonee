@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château Comtal",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5474,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.20696258544922,
+        "longitude": 2.363769054412842,
+        "local_name": "Château Comtal",
+        "country": "FRA",
+        "street": "1 rue Viollet-le-Duc",
+        "postcode": "11000",
+        "city": "Carcassonne"
+      },
+      "geometry": null
+    }
+  ]
+}

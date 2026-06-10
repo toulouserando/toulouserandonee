@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lac d'Oô",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16898,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.74132537841797,
+        "longitude": 0.4922884404659271,
+        "local_name": "Lac d'Oô",
+        "country": "FRA",
+        "street": null,
+        "postcode": "31110",
+        "city": "Oô"
+      },
+      "geometry": null
+    }
+  ]
+}

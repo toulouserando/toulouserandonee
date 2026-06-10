@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grotte préhistorique de Foissac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13807,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.50290298461914,
+        "longitude": 2.0070130825042725,
+        "local_name": "Grotte préhistorique de Foissac",
+        "country": "FRA",
+        "street": "Cap Tête",
+        "postcode": "12260",
+        "city": "Foissac"
+      },
+      "geometry": null
+    }
+  ]
+}

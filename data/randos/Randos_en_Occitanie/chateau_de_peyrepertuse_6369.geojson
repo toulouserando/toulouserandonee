@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Peyrepertuse",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6369,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.87096405029297,
+        "longitude": 2.5561230182647705,
+        "local_name": "Château de Peyrepertuse",
+        "country": "FRA",
+        "street": null,
+        "postcode": "11350",
+        "city": "Duilhac-sous-Peyrepertuse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

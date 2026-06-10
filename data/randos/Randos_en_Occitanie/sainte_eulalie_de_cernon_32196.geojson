@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sainte-Eulalie-de-Cernon",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32196,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.9819450378418,
+        "longitude": 3.1367433071136475,
+        "local_name": "Sainte-Eulalie-de-Cernon",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Belvédère du Pas de l'Ours",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2701,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.835208892822266,
+        "longitude": 1.887326955795288,
+        "local_name": "Belvédère du Pas de l'Ours",
+        "country": "FRA",
+        "street": null,
+        "postcode": "11340",
+        "city": "Comus"
+      },
+      "geometry": null
+    }
+  ]
+}

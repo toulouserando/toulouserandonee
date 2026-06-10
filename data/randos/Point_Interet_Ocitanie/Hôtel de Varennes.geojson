@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hôtel de Varennes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14492,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.61064529418945,
+        "longitude": 3.87847900390625,
+        "local_name": "Hôtel de Varennes",
+        "country": "FRA",
+        "street": "2 place Pétrarque",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": null
+    }
+  ]
+}

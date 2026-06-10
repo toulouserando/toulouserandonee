@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pic des Tentes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25688,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.7166633605957,
+        "longitude": -0.045014578849077225,
+        "local_name": "Pic des Tentes",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65120",
+        "city": "Gavarnie"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

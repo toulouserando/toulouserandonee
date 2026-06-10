@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vallée de Lutour",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46703,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.85348892211914,
+        "longitude": -0.09747906774282455,
+        "local_name": "Vallée de Lutour",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

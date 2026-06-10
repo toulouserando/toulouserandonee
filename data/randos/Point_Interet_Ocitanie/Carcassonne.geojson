@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Carcassonne",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3708,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.21271514892578,
+        "longitude": 2.354827880859375,
+        "local_name": "Carcassonne",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

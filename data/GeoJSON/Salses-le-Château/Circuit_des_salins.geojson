@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Circuit_des_salins.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.971346,
+            42.810485,
+            0.54
+          ],
+          [
+            2.971346,
+            42.810485,
+            0.54
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Circuit_des_salins.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.971346,
+            42.810485
+          ],
+          [
+            2.971346,
+            42.810485
+          ]
+        ]
+      }
+    }
+  ]
+}

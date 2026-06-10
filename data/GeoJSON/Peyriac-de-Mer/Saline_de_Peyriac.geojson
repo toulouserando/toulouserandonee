@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Saline_de_Peyriac.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.959002,
+            43.0886,
+            2.2
+          ],
+          [
+            2.959002,
+            43.0886,
+            2.2
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Saline_de_Peyriac.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.959002,
+            43.0886
+          ],
+          [
+            2.959002,
+            43.0886
+          ]
+        ]
+      }
+    }
+  ]
+}

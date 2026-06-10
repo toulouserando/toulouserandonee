@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Aubrac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1538,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.62187576293945,
+        "longitude": 2.9862618446350098,
+        "local_name": "Aubrac",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

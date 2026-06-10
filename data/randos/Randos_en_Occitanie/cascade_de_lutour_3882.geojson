@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cascade de Lutour",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3882,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.871158599853516,
+        "longitude": -0.10706000030040741,
+        "local_name": "Cascade de Lutour",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65110",
+        "city": "Cauterets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

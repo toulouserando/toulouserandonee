@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Villefranche-de-Conflent",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35746,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.590003967285156,
+        "longitude": 2.364938259124756,
+        "local_name": "Villefranche-de-Conflent",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

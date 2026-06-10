@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Jardin Massey",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15855,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.23815155029297,
+        "longitude": 0.07582999765872955,
+        "local_name": "Jardin Massey",
+        "country": "FRA",
+        "street": "Rue Massey",
+        "postcode": "65000",
+        "city": "Tarbes"
+      },
+      "geometry": null
+    }
+  ]
+}

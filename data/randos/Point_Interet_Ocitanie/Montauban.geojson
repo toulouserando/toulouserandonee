@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Montauban",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20034,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.017574310302734,
+        "longitude": 1.3589144945144653,
+        "local_name": "Montauban",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

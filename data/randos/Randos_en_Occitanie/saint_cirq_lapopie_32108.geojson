@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Saint-Cirq-Lapopie",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32108,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.4646110534668,
+        "longitude": 1.6704803705215454,
+        "local_name": "Saint-Cirq-Lapopie",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

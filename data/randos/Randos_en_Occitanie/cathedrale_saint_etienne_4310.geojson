@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale Saint-Étienne",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4310,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.5998649597168,
+        "longitude": 1.4496309757232666,
+        "local_name": "Cathédrale Saint-Étienne",
+        "country": "FRA",
+        "street": "Place St-Étienne",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

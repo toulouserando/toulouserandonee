@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Site de Notre-Dame-de-Verdale",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46605,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.84886169433594,
+        "longitude": 1.9849799871444702,
+        "local_name": "Site de Notre-Dame-de-Verdale",
+        "country": "FRA",
+        "street": null,
+        "postcode": "46400",
+        "city": "Latouille-Lentillac"
+      },
+      "geometry": null
+    }
+  ]
+}

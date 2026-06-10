@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gouffre d'Esparros",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13310,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.03002166748047,
+        "longitude": 0.3302539885044098,
+        "local_name": "Gouffre d'Esparros",
+        "country": "FRA",
+        "street": "Chemin du Gouffre",
+        "postcode": "65130",
+        "city": "Esparros"
+      },
+      "geometry": null
+    }
+  ]
+}

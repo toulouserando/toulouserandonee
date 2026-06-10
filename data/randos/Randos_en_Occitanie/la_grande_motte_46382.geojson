@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "La Grande-Motte",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46382,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.55958557128906,
+        "longitude": 4.084896564483643,
+        "local_name": "La Grande-Motte",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

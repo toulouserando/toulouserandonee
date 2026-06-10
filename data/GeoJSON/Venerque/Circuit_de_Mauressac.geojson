@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Circuit_de_Mauressac.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.445096,
+            43.328801,
+            196.79
+          ],
+          [
+            1.44492,
+            43.328676,
+            196.85
+          ],
+          [
+            1.44492,
+            43.328676,
+            196.85
+          ],
+          [
+            1.445096,
+            43.328801,
+            196.79
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Circuit_de_Mauressac.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.445096,
+            43.328801
+          ],
+          [
+            1.44492,
+            43.328676
+          ],
+          [
+            1.44492,
+            43.328676
+          ],
+          [
+            1.445096,
+            43.328801
+          ]
+        ]
+      }
+    }
+  ]
+}

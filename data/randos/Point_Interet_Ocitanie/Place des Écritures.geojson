@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Place des Écritures",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26266,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.60969924926758,
+        "longitude": 2.0340099334716797,
+        "local_name": "Place des Écritures",
+        "country": "FRA",
+        "street": "Place des Écritures",
+        "postcode": "46100",
+        "city": "Figeac"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale Notre-Dame et Saint-Privat",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4194,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.517059326171875,
+        "longitude": 3.4986560344696045,
+        "local_name": "Cathédrale Notre-Dame et Saint-Privat",
+        "country": "FRA",
+        "street": "Place Urbain-V",
+        "postcode": "48000",
+        "city": "Mende"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

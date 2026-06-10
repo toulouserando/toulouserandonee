@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Route du Tourmalet",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30548,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.90361785888672,
+        "longitude": 0.09827300161123276,
+        "local_name": "Route du Tourmalet",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65120",
+        "city": "Barèges"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

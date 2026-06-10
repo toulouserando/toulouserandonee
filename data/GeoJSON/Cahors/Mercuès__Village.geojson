@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Mercuès__Village.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.413973,
+            44.480779,
+            147.08
+          ],
+          [
+            1.413973,
+            44.480779,
+            147.08
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Mercuès__Village.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.413973,
+            44.480779
+          ],
+          [
+            1.413973,
+            44.480779
+          ]
+        ]
+      }
+    }
+  ]
+}

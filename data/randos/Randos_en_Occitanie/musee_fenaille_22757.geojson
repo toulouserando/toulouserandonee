@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée Fenaille",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22757,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.34926223754883,
+        "longitude": 2.576555013656616,
+        "local_name": "Musée Fenaille",
+        "country": "FRA",
+        "street": "14 place Eugène-Raynaldy",
+        "postcode": "12000",
+        "city": "Rodez"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

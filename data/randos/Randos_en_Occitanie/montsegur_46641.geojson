@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Montségur",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46641,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.87110137939453,
+        "longitude": 1.8342230319976807,
+        "local_name": "Montségur",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

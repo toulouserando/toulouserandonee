@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grottes de Cougnac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46619,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.75712966918945,
+        "longitude": 1.3759299516677856,
+        "local_name": "Grottes de Cougnac",
+        "country": "FRA",
+        "street": null,
+        "postcode": "46300",
+        "city": "Parayrac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

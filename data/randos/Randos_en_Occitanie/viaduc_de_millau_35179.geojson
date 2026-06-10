@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Viaduc de Millau",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35179,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.085357666015625,
+        "longitude": 3.02170991897583,
+        "local_name": "Viaduc de Millau",
+        "country": "FRA",
+        "street": "Aire du viaduc de Millau",
+        "postcode": "12100",
+        "city": "Millau"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

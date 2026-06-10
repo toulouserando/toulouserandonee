@@ -1,7 +1,8 @@
-import type {Metadata, Viewport} from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
-import { FirebaseClientProvider } from '@/firebase/client-provider';
+// 1. SUPPRIMER l'import Firebase
+// import { FirebaseClientProvider } from '@/firebase/client-provider'; 
 
 const APP_NAME = "Toulouse rando";
 const APP_DEFAULT_TITLE = "Toulouse rando";
@@ -20,7 +21,6 @@ export const metadata: Metadata = {
     capable: true,
     statusBarStyle: "default",
     title: APP_DEFAULT_TITLE,
-    // startUpImage: [],
   },
   formatDetection: {
     telephone: false,
@@ -48,7 +48,6 @@ export const viewport: Viewport = {
   themeColor: "#FFFFFF",
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -62,9 +61,8 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased">
-        <FirebaseClientProvider>
-          {children}
-        </FirebaseClientProvider>
+        {/* 2. RETIRER le wrapper FirebaseClientProvider */}
+        {children}
         <Toaster />
       </body>
     </html>

@@ -1,0 +1,6 @@
+[
+  {"id": 1, "nom": "Château de Thégra", "adresse": "62 Route de Gauré, 31130 Balma", "details": "Demeure historique du XVIe siècle avec une vue imprenable sur la vallée", "lat": 43.6317616, "lng": 1.5006317},
+  {"id": 2, "nom": "Église Saint-Joseph", "adresse": "3 bis Avenue Pierre Coupeau, 31130 Balma", "details": "Église paroissiale du centre-ville, cœur de la vie religieuse locale", "lat": 43.6100531, "lng": 1.497946},
+  {"id": 3, "nom": "Église Saint-Martin-de-Boville", "adresse": "Passage Saint-Martin, 31130 Balma", "details": "Ancienne église paroissiale remarquable pour son clocher-mur typique du Lauragais", "lat": 43.5997502, "lng": 1.506324},
+  {"id": 4, "nom": "Médiathèque municipale (Ancienne mairie)", "adresse": "1 Avenue Pierre Coupeau, 31130 Balma", "details": "Ancien bâtiment administratif réhabilité en pôle culturel", "lat": 43.6101086, "lng": 1.497329}
+]

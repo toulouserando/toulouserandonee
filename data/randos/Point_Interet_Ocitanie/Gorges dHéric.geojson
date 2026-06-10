@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gorges d'Héric",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13191,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.586212158203125,
+        "longitude": 2.958376884460449,
+        "local_name": "Gorges d'Héric",
+        "country": "FRA",
+        "street": null,
+        "postcode": "34390",
+        "city": "La Trivalle"
+      },
+      "geometry": null
+    }
+  ]
+}

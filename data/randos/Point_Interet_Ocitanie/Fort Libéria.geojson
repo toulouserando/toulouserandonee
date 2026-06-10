@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Fort Libéria",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12593,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.59120559692383,
+        "longitude": 2.3647620677948,
+        "local_name": "Fort Libéria",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66500",
+        "city": "Villefranche-de-Conflent"
+      },
+      "geometry": null
+    }
+  ]
+}

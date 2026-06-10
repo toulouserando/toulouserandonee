@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vieil Alby",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 47195,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.92820739746094,
+        "longitude": 2.144951105117798,
+        "local_name": "Vieil Alby",
+        "country": "FRA",
+        "street": null,
+        "postcode": "81000",
+        "city": "Albi"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

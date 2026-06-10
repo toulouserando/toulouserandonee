@@ -1,0 +1,12 @@
+[
+  {"id": 1, "nom": "Site archéologique de Lattara", "adresse": "390 Route de Pérols, 34970 Lattes", "details": "Ancien comptoir portuaire gaulois et romain, l'un des chantiers archéologiques majeurs de France.", "lat": 43.5675, "lng": 3.9048},
+  {"id": 2, "nom": "Musée archéologique Henri Prades", "adresse": "390 Route de Pérols, 34970 Lattes", "details": "Musée de France présentant les collections issues des fouilles de Lattara et des expositions temporaires.", "lat": 43.5678, "lng": 3.9052},
+  {"id": 3, "nom": "Église Saint-Laurent", "adresse": "Place de l'Église, 31390 Lattes", "details": "Église romane dont l'abside et les corbeaux sont classés MH (1913).", "lat": 43.5682, "lng": 3.9025},
+  {"id": 4, "nom": "Église Saint-André de Maurin", "adresse": "Place du 8 Mai 1945, Maurin, 34970 Lattes", "details": "Église paroissiale desservant le quartier de Maurin.", "lat": 43.5785, "lng": 3.8652},
+  {"id": 5, "nom": "Église Saint-Bernard", "adresse": "Quai de la Joute, Port Ariane, 34970 Lattes", "details": "Édifice religieux moderne situé dans le quartier de Port Ariane.", "lat": 43.5665, "lng": 3.9085},
+  {"id": 6, "nom": "Chapelle Notre-Dame-de-la-Médaille-Miraculeuse", "adresse": "Rue de la Chapelle, Boirargues, 34970 Lattes", "details": "Lieu de culte situé dans le quartier de Boirargues.", "lat": 43.5792, "lng": 3.9215},
+  {"id": 7, "nom": "Port Ariane", "adresse": "Capitainerie de Port Ariane, 34970 Lattes", "details": "Port de plaisance fluvial et quartier résidentiel d'architecture néo-classique.", "lat": 43.5658, "lng": 3.9092},
+  {"id": 8, "nom": "Mas d'Encivade", "adresse": "Chemin de l'Encivade, 34970 Lattes", "details": "Espace culturel accueillant un festival de théâtre durant la période estivale.", "lat": 43.5635, "lng": 3.9125},
+  {"id": 9, "nom": "Réserve naturelle du Méjean", "adresse": "Chemin des Étangs, 34970 Lattes", "details": "Site protégé en bordure de l'étang de l'Or, idéal pour l'observation des cigognes et oiseaux migrateurs.", "lat": 43.5552, "lng": 3.9185},
+  {"id": 10, "nom": "Maison de la Nature", "adresse": "Chemin des Étangs, 34970 Lattes", "details": "Centre d'information et point de départ des parcours pédagogiques de la réserve du Méjean.", "lat": 43.5565, "lng": 3.9172}
+]

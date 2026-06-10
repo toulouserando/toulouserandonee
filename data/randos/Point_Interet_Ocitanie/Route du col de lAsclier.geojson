@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Route du col de l'Asclier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46637,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.09669494628906,
+        "longitude": 3.765387773513794,
+        "local_name": "Route du col de l'Asclier",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

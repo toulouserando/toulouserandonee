@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Col du Tourmalet",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7987,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.90848159790039,
+        "longitude": 0.14534500241279602,
+        "local_name": "Col du Tourmalet",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65200",
+        "city": "La Mongie"
+      },
+      "geometry": null
+    }
+  ]
+}

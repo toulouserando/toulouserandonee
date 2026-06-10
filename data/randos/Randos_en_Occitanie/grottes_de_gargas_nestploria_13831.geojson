@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grottes de Gargas-Nestploria",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13831,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.05474853515625,
+        "longitude": 0.5405815243721008,
+        "local_name": "Grottes de Gargas-Nestploria",
+        "country": "FRA",
+        "street": "D 261",
+        "postcode": "65660",
+        "city": "Aventignan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

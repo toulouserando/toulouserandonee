@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Rieux-Volvestre",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46655,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.25712203979492,
+        "longitude": 1.199368953704834,
+        "local_name": "Rieux-Volvestre",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

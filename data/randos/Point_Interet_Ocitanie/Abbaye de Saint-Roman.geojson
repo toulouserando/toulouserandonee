@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Abbaye de Saint-Roman",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 271,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.835365295410156,
+        "longitude": 4.611343860626221,
+        "local_name": "Abbaye de Saint-Roman",
+        "country": "FRA",
+        "street": "Route de Nîmes, chemin de St-Roman",
+        "postcode": "30300",
+        "city": "Beaucaire"
+      },
+      "geometry": null
+    }
+  ]
+}

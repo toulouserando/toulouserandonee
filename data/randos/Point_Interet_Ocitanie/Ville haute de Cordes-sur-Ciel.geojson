@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Ville haute de Cordes-sur-Ciel",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35726,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.0633544921875,
+        "longitude": 1.951328992843628,
+        "local_name": "Ville haute de Cordes-sur-Ciel",
+        "country": "FRA",
+        "street": null,
+        "postcode": "81170",
+        "city": "Cordes-sur-Ciel"
+      },
+      "geometry": null
+    }
+  ]
+}

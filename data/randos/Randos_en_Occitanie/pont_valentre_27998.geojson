@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pont Valentré",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27998,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.44509506225586,
+        "longitude": 1.4309606552124023,
+        "local_name": "Pont Valentré",
+        "country": "FRA",
+        "street": "Pont Valentré",
+        "postcode": "46000",
+        "city": "Cahors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

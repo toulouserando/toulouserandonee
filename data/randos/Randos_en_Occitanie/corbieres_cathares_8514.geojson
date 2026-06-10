@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Corbières Cathares",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8514,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.87410354614258,
+        "longitude": 2.4284770488739014,
+        "local_name": "Corbières Cathares",
+        "country": "FRA",
+        "street": null,
+        "postcode": "11350",
+        "city": "Tuchan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

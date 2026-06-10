@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grotte de Clamouse",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13682,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.71196746826172,
+        "longitude": 3.54565691947937,
+        "local_name": "Grotte de Clamouse",
+        "country": "FRA",
+        "street": "D 4 - rte de St-Guilhem-le-Désert",
+        "postcode": "34150",
+        "city": "St-Jean-de-Fos"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

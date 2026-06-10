@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Ancienne cathédrale Saint-Nazaire",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 894,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.34141159057617,
+        "longitude": 3.2102150917053223,
+        "local_name": "Ancienne cathédrale Saint-Nazaire",
+        "country": "FRA",
+        "street": "Place de la Révolution",
+        "postcode": "34500",
+        "city": "Béziers"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

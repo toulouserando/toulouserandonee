@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée Fabre",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22751,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.611785888671875,
+        "longitude": 3.8799190521240234,
+        "local_name": "Musée Fabre",
+        "country": "FRA",
+        "street": "39 boulevard Bonne-Nouvelle",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

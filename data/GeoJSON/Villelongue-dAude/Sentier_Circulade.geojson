@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Sentier_Circulade.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.095053,
+            43.054377,
+            328.56
+          ],
+          [
+            2.095173,
+            43.054371,
+            328.0
+          ],
+          [
+            2.09514,
+            43.054491,
+            330.82
+          ],
+          [
+            2.09514,
+            43.054491,
+            330.82
+          ],
+          [
+            2.095173,
+            43.054371,
+            328.0
+          ],
+          [
+            2.095053,
+            43.054377,
+            328.56
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Sentier_Circulade.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.095053,
+            43.054377
+          ],
+          [
+            2.095173,
+            43.054371
+          ],
+          [
+            2.09514,
+            43.054491
+          ],
+          [
+            2.09514,
+            43.054491
+          ],
+          [
+            2.095173,
+            43.054371
+          ],
+          [
+            2.095053,
+            43.054377
+          ]
+        ]
+      }
+    }
+  ]
+}

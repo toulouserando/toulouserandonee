@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cité de Carcassonne",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7440,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.20690155029297,
+        "longitude": 2.36542010307312,
+        "local_name": "Cité de Carcassonne",
+        "country": "FRA",
+        "street": null,
+        "postcode": "11000",
+        "city": "Carcassonne"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Place Nationale",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26855,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.0175895690918,
+        "longitude": 1.3542449474334717,
+        "local_name": "Place Nationale",
+        "country": "FRA",
+        "street": "Place Nationale",
+        "postcode": "82000",
+        "city": "Montauban"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Micropolis, la Cité des Insectes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19713,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.215187072753906,
+        "longitude": 2.9885590076446533,
+        "local_name": "Micropolis, la Cité des Insectes",
+        "country": "FRA",
+        "street": "Le Bourg",
+        "postcode": "12780",
+        "city": "St-Léons"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

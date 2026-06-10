@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Abbaye de Loc-Dieu",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 229,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.339881896972656,
+        "longitude": 1.9306130409240723,
+        "local_name": "Abbaye de Loc-Dieu",
+        "country": "FRA",
+        "street": "Loc-Dieu",
+        "postcode": "12200",
+        "city": "Martiel"
+      },
+      "geometry": null
+    }
+  ]
+}

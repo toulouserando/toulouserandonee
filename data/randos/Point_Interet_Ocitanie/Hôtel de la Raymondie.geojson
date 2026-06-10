@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hôtel de la Raymondie",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14372,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.93659973144531,
+        "longitude": 1.6087859869003296,
+        "local_name": "Hôtel de la Raymondie",
+        "country": "FRA",
+        "street": "Place des Consuls",
+        "postcode": "46600",
+        "city": "Martel"
+      },
+      "geometry": null
+    }
+  ]
+}

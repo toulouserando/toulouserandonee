@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Lac_de_Rieumes.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.138501,
+            43.4055,
+            243.72
+          ],
+          [
+            1.138521,
+            43.40548,
+            243.73
+          ],
+          [
+            1.138521,
+            43.40548,
+            243.73
+          ],
+          [
+            1.138501,
+            43.4055,
+            243.72
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Lac_de_Rieumes.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.138501,
+            43.4055
+          ],
+          [
+            1.138521,
+            43.40548
+          ],
+          [
+            1.138521,
+            43.40548
+          ],
+          [
+            1.138501,
+            43.4055
+          ]
+        ]
+      }
+    }
+  ]
+}

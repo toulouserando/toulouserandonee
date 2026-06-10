@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vallée du Marcadau",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46704,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.83677291870117,
+        "longitude": -0.17308634519577026,
+        "local_name": "Vallée du Marcadau",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

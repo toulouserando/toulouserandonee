@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Les Jacobins",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17823,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60343933105469,
+        "longitude": 1.4394840002059937,
+        "local_name": "Les Jacobins",
+        "country": "FRA",
+        "street": "Place des Jacobins",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": null
+    }
+  ]
+}

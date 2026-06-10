@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Prats-de-Mollo",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28859,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.40353012084961,
+        "longitude": 2.479839324951172,
+        "local_name": "Prats-de-Mollo",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

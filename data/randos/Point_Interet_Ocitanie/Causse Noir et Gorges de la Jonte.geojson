@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Causse Noir et Gorges de la Jonte",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4595,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.500511169433594,
+        "longitude": 3.5731000900268555,
+        "local_name": "Causse Noir et Gorges de la Jonte",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48000",
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

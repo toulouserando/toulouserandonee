@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Planet Ocean Montpellier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27302,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60243225097656,
+        "longitude": 3.917128562927246,
+        "local_name": "Planet Ocean Montpellier",
+        "country": "FRA",
+        "street": "Allée Ulysse - centre commercial Odysseum",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": null
+    }
+  ]
+}

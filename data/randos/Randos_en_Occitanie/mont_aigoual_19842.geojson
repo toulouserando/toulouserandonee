@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mont Aigoual",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19842,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.1216926574707,
+        "longitude": 3.577338457107544,
+        "local_name": "Mont Aigoual",
+        "country": "FRA",
+        "street": null,
+        "postcode": "30570",
+        "city": "L'Espérou"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

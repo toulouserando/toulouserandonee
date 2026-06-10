@@ -1,0 +1,18 @@
+[
+  {"id": 1, "nom": "Abbaye de Gellone", "adresse": "2 Grand Chemin du Val de Gellone, 34150 Saint-Guilhem-le-Désert", "details": "Joyau de l'art roman classé à l'UNESCO, comprenant l'église de la Transfiguration et un orgue de 1789.", "lat": 43.7344, "lng": 3.5488},
+  {"id": 2, "nom": "Musée Lapidaire", "adresse": "Abbaye de Gellone, 34150 Saint-Guilhem-le-Désert", "details": "Installé dans l'ancien réfectoire, il expose les sarcophages de Saint Guilhem et les sculptures du cloître.", "lat": 43.7346, "lng": 3.5485},
+  {"id": 3, "nom": "Château du Géant", "adresse": "Sentier des Falaises, 34150 Saint-Guilhem-le-Désert", "details": "Anciens éléments de fortification dominant le bourg, liés à la légende de la pie.", "lat": 43.7348, "lng": 3.5461},
+  {"id": 4, "nom": "Le Colombier (Tour de Don Juan)", "adresse": "Sous le Château du Géant, 34150 Saint-Guilhem-le-Désert", "details": "Aussi appelé Cabinet du Géant, cette tour se dresse à flanc de montagne.", "lat": 43.7342, "lng": 3.5468},
+  {"id": 5, "nom": "Tour des Prisons", "adresse": "Rue de la Tour, 34150 Saint-Guilhem-le-Désert", "details": "Tour carrée du XVIIe siècle, haute de 14 mètres, ancien élément de défense.", "lat": 43.7335, "lng": 3.5501},
+  {"id": 6, "nom": "Ancienne église Saint-Laurent (Maison communale)", "adresse": "Place de la Liberté, 34150 Saint-Guilhem-le-Désert", "details": "Vestiges d'une église du XVIIe siècle transformés en bâtiment municipal.", "lat": 43.7338, "lng": 3.5505},
+  {"id": 7, "nom": "Maison Romane", "adresse": "Place de la Liberté, 34150 Saint-Guilhem-le-Désert", "details": "Demeure civile du XVIIe siècle située sur la place principale près de l'église.", "lat": 43.7339, "lng": 3.5508},
+  {"id": 8, "nom": "Ancien moulin de l'abbaye", "adresse": "Rue du Moulin, 34150 Saint-Guilhem-le-Désert", "details": "Moulin du XVIIe siècle conservant encore sa grosse meule double.", "lat": 43.7341, "lng": 3.5495},
+  {"id": 9, "nom": "Cirque de l'Infernet", "adresse": "Val de Gellone, 34150 Saint-Guilhem-le-Désert", "details": "Site naturel classé offrant un paysage de falaises calcaires spectaculaires.", "lat": 43.7425, "lng": 3.5420},
+  {"id": 10, "nom": "Ermitage Notre-Dame-du-Lieu-Plaisant", "adresse": "Massif de Gellone, 34150 Saint-Guilhem-le-Désert", "details": "Site isolé du XIVe siècle retenu par le Loto du Patrimoine, accessible par les sentiers.", "lat": 43.7495, "lng": 3.5475},
+  {"id": 11, "nom": "Pont du Diable", "adresse": "Route d'Aniane, 34150 Saint-Jean-de-Fos", "details": "Un des plus anciens ponts médiévaux de France, classé au patrimoine mondial de l'Unesco.", "lat": 43.7073, "lng": 3.5562},
+  {"id": 12, "nom": "Grotte de Clamouse", "adresse": "Route de Saint-Guilhem, 34150 Saint-Jean-de-Fos", "details": "Site classé célèbre pour la diversité de ses concrétions (aragonite et excentriques).", "lat": 43.7121, "lng": 3.5529},
+  {"id": 13, "nom": "Abbatiale Saint-Sauveur", "adresse": "Place de l'Abbaye, 34150 Aniane", "details": "Ancienne abbaye bénédictine fondée par Saint Benoît d'Aniane.", "lat": 43.6845, "lng": 3.5855},
+  {"id": 14, "nom": "Chapelle des Pénitents", "adresse": "Boulevard Saint-Guilhem, 34150 Aniane", "details": "Édifice inscrit aux monuments historiques, joyau architectural d'Aniane.", "lat": 43.6852, "lng": 3.5862},
+  {"id": 15, "nom": "Ancien atelier de potier Albe-Sabadel", "adresse": "Rue de la Poterie, 34150 Saint-Jean-de-Fos", "details": "Ancien atelier témoignant de la tradition potière du village, classé MH.", "lat": 43.7008, "lng": 3.5515},
+  {"id": 16, "nom": "Église Saint-Sylvestre-des-Brousses", "adresse": "Les Brousses, 34150 Puéchabon", "details": "Église romane isolée au milieu des chênes verts, classée monument historique.", "lat": 43.7135, "lng": 3.6012}
+]

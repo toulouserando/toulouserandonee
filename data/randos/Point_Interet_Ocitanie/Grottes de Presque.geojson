@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grottes de Presque",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46607,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.85157012939453,
+        "longitude": 1.8404799699783325,
+        "local_name": "Grottes de Presque",
+        "country": "FRA",
+        "street": "215 Route de Gramat",
+        "postcode": "46400",
+        "city": "Saint-Médard-de-Presque"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {"id": 1, "nom": "Cathédrale de la Nativité-de-Marie", "adresse": "Place de la Lastic, 31310 Rieux-Volvestre", "details": "Ancienne cathédrale Sainte-Marie (XIVe-XVe), classée MH, abritant un trésor épiscopal remarquable.", "lat": 43.2586, "lng": 1.2023},
+  {"id": 2, "nom": "Chapelle Notre-Dame de la Morère", "adresse": "Chemin de la Morère, 31310 Rieux-Volvestre", "details": "Édifice religieux datant des XVIe, XVIIIe et XIXe siècles.", "lat": 43.2531, "lng": 1.2095},
+  {"id": 3, "nom": "La Tourasse", "adresse": "Rue de l'Évêché, 31310 Rieux-Volvestre", "details": "Tour seigneuriale du XIIIe siècle avec d'anciens cachots, inscrite MH.", "lat": 43.2575, "lng": 1.2025},
+  {"id": 4, "nom": "Maison Laguens", "adresse": "Place de la Lastic, 31310 Rieux-Volvestre", "details": "Maison historique remarquable inscrite au titre des monuments historiques en 1973.", "lat": 43.2584, "lng": 1.2018},
+  {"id": 5, "nom": "Musée d'histoire locale", "adresse": "Place de la Lastic, 31310 Rieux-Volvestre", "details": "Musée retraçant l'évolution de la cité épiscopale de Rieux.", "lat": 43.2583, "lng": 1.2020},
+  {"id": 6, "nom": "Musée Lapidaire", "adresse": "Place du Presbytère, 31310 Rieux-Volvestre", "details": "Collection d'éléments architecturaux et sculpturaux anciens de la ville.", "lat": 43.2587, "lng": 1.2028},
+  {"id": 7, "nom": "Musée du Papogay", "adresse": "Rue de l'Évêché, 31310 Rieux-Volvestre", "details": "Musée dédié à la tradition séculaire du tir à l'arc sur un perroquet de bois.", "lat": 43.2581, "lng": 1.2021},
+  {"id": 8, "nom": "Maisons médiévales à colombages", "adresse": "Place de la Lastic, 31310 Rieux-Volvestre", "details": "Ensemble de trois maisons à pans de bois protégées au titre des MH.", "lat": 43.2585, "lng": 1.2021},
+  {"id": 9, "nom": "Pont de Lajous", "adresse": "Rue du Pont de Lajous, 31310 Rieux-Volvestre", "details": "Pont historique franchissant l'Arize, inscrit au titre des MH en 1950.", "lat": 43.2592, "lng": 1.2015},
+  {"id": 10, "nom": "Pont d'Auriac et Chapelle Notre-Dame-de-Bonne-Garde", "adresse": "Route d'Auriac, 31310 Rieux-Volvestre", "details": "Pont avec chapelle édifiée directement sur la pile centrale.", "lat": 43.2558, "lng": 1.2002},
+  {"id": 11, "nom": "Plan d'eau de la retenue de Mancies", "adresse": "Barrage de Mancies, 31310 Rieux-Volvestre", "details": "Zone de loisirs sur la Garonne avec base nautique et camping.", "lat": 43.2514, "lng": 1.1856},
+  {"id": 12, "nom": "Village gaulois de Saint-Julien", "adresse": "La Chaussée, 31310 Rieux-Volvestre", "details": "Archéosite reconstituant la vie quotidienne d'un village gaulois.", "lat": 43.2561, "lng": 1.1602}
+]

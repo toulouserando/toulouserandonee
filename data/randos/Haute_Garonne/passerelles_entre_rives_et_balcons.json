@@ -1,0 +1,2717 @@
+[
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4266",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "139",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.453754668030605,
+                            43.43353082172696
+                        ],
+                        [
+                            1.45374910379071,
+                            43.43358625170546
+                        ],
+                        [
+                            1.453811805816919,
+                            43.43361215912617
+                        ],
+                        [
+                            1.453869087107922,
+                            43.43369106679982
+                        ],
+                        [
+                            1.453871418640757,
+                            43.43377767832717
+                        ],
+                        [
+                            1.453870577965449,
+                            43.4338956504294
+                        ],
+                        [
+                            1.453806704005105,
+                            43.43397537547873
+                        ],
+                        [
+                            1.453808760412495,
+                            43.43402887964221
+                        ],
+                        [
+                            1.453831935315306,
+                            43.434120032693706
+                        ],
+                        [
+                            1.453844082870946,
+                            43.43418811059021
+                        ],
+                        [
+                            1.453853331820438,
+                            43.434277367290406
+                        ],
+                        [
+                            1.453874292281167,
+                            43.434364244710345
+                        ],
+                        [
+                            1.453880366106226,
+                            43.43439828366209
+                        ],
+                        [
+                            1.453892606467554,
+                            43.43450625681293
+                        ],
+                        [
+                            1.45390103323621,
+                            43.434582769691026
+                        ],
+                        [
+                            1.453923615706742,
+                            43.43469598328219
+                        ],
+                        [
+                            1.453931083011691,
+                            43.43472475026459
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4538540345406394,
+            "lat": 43.434102296370426
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4272",
+        "nat_juridique": "Chemin rural (CR)",
+        "longueur": "145",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.44982404421409,
+                            43.43837113517534
+                        ],
+                        [
+                            1.449815940999468,
+                            43.43837586620087
+                        ],
+                        [
+                            1.449954488770325,
+                            43.43856087162886
+                        ],
+                        [
+                            1.45011122086573,
+                            43.43886601694503
+                        ],
+                        [
+                            1.450250604681487,
+                            43.43901784317475
+                        ],
+                        [
+                            1.450294847083649,
+                            43.43904436587488
+                        ],
+                        [
+                            1.450396759819421,
+                            43.439127458088265
+                        ],
+                        [
+                            1.450206613911138,
+                            43.4392029641638
+                        ],
+                        [
+                            1.449846567761262,
+                            43.43927048780336
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.450098039858607,
+            "lat": 43.438931587188186
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4282",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "304",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.4400610568195,
+                            43.437513983866836
+                        ],
+                        [
+                            1.440057703998513,
+                            43.437512526816384
+                        ],
+                        [
+                            1.439995907224624,
+                            43.437419083159654
+                        ],
+                        [
+                            1.439991885592721,
+                            43.43732406736199
+                        ],
+                        [
+                            1.440059696578246,
+                            43.43725652979646
+                        ],
+                        [
+                            1.4401640150513,
+                            43.436998400057995
+                        ],
+                        [
+                            1.440189587037602,
+                            43.43684611444388
+                        ],
+                        [
+                            1.440288338809857,
+                            43.43661074249945
+                        ],
+                        [
+                            1.440318575978041,
+                            43.4364080401611
+                        ],
+                        [
+                            1.440333602935929,
+                            43.43627964273659
+                        ],
+                        [
+                            1.440372104121098,
+                            43.43613715927301
+                        ],
+                        [
+                            1.440409282002826,
+                            43.43598263679166
+                        ],
+                        [
+                            1.440481410341244,
+                            43.435816597439285
+                        ],
+                        [
+                            1.440566716599371,
+                            43.43571204958865
+                        ],
+                        [
+                            1.440630445839939,
+                            43.43567330095877
+                        ],
+                        [
+                            1.440671482528192,
+                            43.43561980172896
+                        ],
+                        [
+                            1.440568336534412,
+                            43.43553057137045
+                        ],
+                        [
+                            1.440577342366577,
+                            43.43546343423158
+                        ],
+                        [
+                            1.440537684921628,
+                            43.43538348657283
+                        ],
+                        [
+                            1.440551766691379,
+                            43.435289933522654
+                        ],
+                        [
+                            1.440552255190663,
+                            43.435271910604655
+                        ],
+                        [
+                            1.440530311945916,
+                            43.43522952487538
+                        ],
+                        [
+                            1.440562909064889,
+                            43.43518311620718
+                        ],
+                        [
+                            1.440526973492857,
+                            43.43510927716854
+                        ],
+                        [
+                            1.44052685535634,
+                            43.43505278163478
+                        ],
+                        [
+                            1.440505400725452,
+                            43.434992372993044
+                        ],
+                        [
+                            1.44050133005153,
+                            43.4349390545036
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.440352766029802,
+            "lat": 43.43621621664765
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4285",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "47",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.44075291403526,
+                            43.43472258477899
+                        ],
+                        [
+                            1.440744175774199,
+                            43.434702522652834
+                        ],
+                        [
+                            1.440714477174032,
+                            43.43464199542084
+                        ],
+                        [
+                            1.440701017803492,
+                            43.43453001608254
+                        ],
+                        [
+                            1.44069523679915,
+                            43.43449988298129
+                        ],
+                        [
+                            1.440726595996584,
+                            43.43449913232228
+                        ],
+                        [
+                            1.440822363841508,
+                            43.43461710420608
+                        ],
+                        [
+                            1.440856389557739,
+                            43.434640139233
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4407464641591587,
+            "lat": 43.434588640472626
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4286",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "9",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.440856389557739,
+                            43.434640139233
+                        ],
+                        [
+                            1.440913067233175,
+                            43.43467850931746
+                        ],
+                        [
+                            1.440938146451252,
+                            43.43469233750102
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4408967872621148,
+            "lat": 43.4346670233441
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4288",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "9",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.441009405331355,
+                            43.43464380788748
+                        ],
+                        [
+                            1.4409761881583,
+                            43.43460128791031
+                        ],
+                        [
+                            1.440971697643075,
+                            43.4345843953492
+                        ],
+                        [
+                            1.440976122059082,
+                            43.43457418224961
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4409862593649558,
+            "lat": 43.434610427592645
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4289",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "26",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.440976122059082,
+                            43.43457418224961
+                        ],
+                        [
+                            1.4409892923122,
+                            43.43454378067694
+                        ],
+                        [
+                            1.440954354206584,
+                            43.434493996086275
+                        ],
+                        [
+                            1.440921932296858,
+                            43.43447309559366
+                        ],
+                        [
+                            1.440920165005962,
+                            43.43441657636
+                        ],
+                        [
+                            1.440883220119864,
+                            43.434379984823345
+                        ],
+                        [
+                            1.440887725717601,
+                            43.434367671447575
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4409380342322047,
+            "lat": 43.43447012124955
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "5002",
+        "nat_juridique": "Route départementale (Rd)",
+        "longueur": "10",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.441090691071988,
+                            43.432788567683644
+                        ],
+                        [
+                            1.441143320864787,
+                            43.432751072782416
+                        ],
+                        [
+                            1.441173956643007,
+                            43.43272274057042
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4411333416063845,
+            "lat": 43.432756905796985
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4277",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "209",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.449031765545828,
+                            43.440971305460934
+                        ],
+                        [
+                            1.449095008376163,
+                            43.44095016436692
+                        ],
+                        [
+                            1.449268958725095,
+                            43.440922604097985
+                        ],
+                        [
+                            1.449552258188548,
+                            43.440877376339024
+                        ],
+                        [
+                            1.449738236458838,
+                            43.44083195745382
+                        ],
+                        [
+                            1.449891654067649,
+                            43.44083174839068
+                        ],
+                        [
+                            1.449977089176129,
+                            43.44091187230762
+                        ],
+                        [
+                            1.449960278201771,
+                            43.441103463279426
+                        ],
+                        [
+                            1.450024628715342,
+                            43.44110049440924
+                        ],
+                        [
+                            1.450246882721363,
+                            43.441116895495966
+                        ],
+                        [
+                            1.450313907648691,
+                            43.44113949010373
+                        ],
+                        [
+                            1.450465028307908,
+                            43.441224589285255
+                        ],
+                        [
+                            1.450573471802026,
+                            43.44124056404964
+                        ],
+                        [
+                            1.450764525540315,
+                            43.44125170990829
+                        ],
+                        [
+                            1.450881568807128,
+                            43.441315887276154
+                        ],
+                        [
+                            1.450963014365099,
+                            43.4413543136343
+                        ],
+                        [
+                            1.450975235560553,
+                            43.44139054831683
+                        ],
+                        [
+                            1.450962915278953,
+                            43.4414805221051
+                        ],
+                        [
+                            1.450969822275451,
+                            43.441494110301036
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4500625691841513,
+            "lat": 43.44106863286106
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "5520",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "189",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.445303889887477,
+                            43.44173621009035
+                        ],
+                        [
+                            1.445299497795018,
+                            43.44173596901205
+                        ],
+                        [
+                            1.445299050247725,
+                            43.441691488557744
+                        ],
+                        [
+                            1.445251334395543,
+                            43.441625895854756
+                        ],
+                        [
+                            1.445251536327239,
+                            43.441557384707195
+                        ],
+                        [
+                            1.445231308262169,
+                            43.44145131839193
+                        ],
+                        [
+                            1.445156761741387,
+                            43.441340866632565
+                        ],
+                        [
+                            1.444981985901193,
+                            43.441215754431404
+                        ],
+                        [
+                            1.444834293677415,
+                            43.44118719072051
+                        ],
+                        [
+                            1.444830270265888,
+                            43.44118895524412
+                        ],
+                        [
+                            1.44462728838487,
+                            43.44127797546431
+                        ],
+                        [
+                            1.444513234057451,
+                            43.44140855827461
+                        ],
+                        [
+                            1.444347606162149,
+                            43.44155522855778
+                        ],
+                        [
+                            1.444140809679213,
+                            43.4417602055409
+                        ],
+                        [
+                            1.444016469415116,
+                            43.44190506422454
+                        ],
+                        [
+                            1.443963116949137,
+                            43.44192593408564
+                        ],
+                        [
+                            1.443961784802534,
+                            43.441925472479156
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4446900848712065,
+            "lat": 43.44148269232276
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4265",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "12",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.453703785999408,
+                            43.43343753406764
+                        ],
+                        [
+                            1.453703247576282,
+                            43.43344763894386
+                        ],
+                        [
+                            1.453757742545274,
+                            43.433500193907605
+                        ],
+                        [
+                            1.453754668030605,
+                            43.43353082172696
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.453734940741239,
+            "lat": 43.43348217668565
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4267",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "8",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.453931083011691,
+                            43.43472475026459
+                        ],
+                        [
+                            1.453946836659688,
+                            43.434785439390495
+                        ],
+                        [
+                            1.453946542152529,
+                            43.434796399325265
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4539401102723448,
+            "lat": 43.43476042679952
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4270",
+        "nat_juridique": "Chemin rural (CR)",
+        "longueur": "359",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.453762227650185,
+                            43.43489934715682
+                        ],
+                        [
+                            1.453787672967606,
+                            43.4349435925207
+                        ],
+                        [
+                            1.45388534495006,
+                            43.43512323593278
+                        ],
+                        [
+                            1.45392465985401,
+                            43.43517727183589
+                        ],
+                        [
+                            1.4539730158418,
+                            43.43524162242917
+                        ],
+                        [
+                            1.45408162546441,
+                            43.435447734796156
+                        ],
+                        [
+                            1.454166261887674,
+                            43.435592390885894
+                        ],
+                        [
+                            1.454239458791218,
+                            43.435685955254485
+                        ],
+                        [
+                            1.454252040276809,
+                            43.43573791201907
+                        ],
+                        [
+                            1.454273412187957,
+                            43.435809516772
+                        ],
+                        [
+                            1.454292180144722,
+                            43.4358479808754
+                        ],
+                        [
+                            1.454377391238842,
+                            43.436058003221014
+                        ],
+                        [
+                            1.454507078000724,
+                            43.43630346108691
+                        ],
+                        [
+                            1.454767432601153,
+                            43.436714602468754
+                        ],
+                        [
+                            1.454871641066296,
+                            43.436911314527094
+                        ],
+                        [
+                            1.455127089580142,
+                            43.4373438059706
+                        ],
+                        [
+                            1.45515092253062,
+                            43.43743910333075
+                        ],
+                        [
+                            1.45520236682805,
+                            43.43755042030188
+                        ],
+                        [
+                            1.455297298407112,
+                            43.43770082108328
+                        ],
+                        [
+                            1.455369759184896,
+                            43.4378280635472
+                        ],
+                        [
+                            1.455352238180343,
+                            43.43786627758289
+                        ],
+                        [
+                            1.455318992151128,
+                            43.43787099132614
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4545859595713972,
+            "lat": 43.43639470001758
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4271",
+        "nat_juridique": "Route départementale (Rd)",
+        "longueur": "101",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.450764817657876,
+                            43.438801837840735
+                        ],
+                        [
+                            1.450764292753924,
+                            43.43880195230095
+                        ],
+                        [
+                            1.450621438520018,
+                            43.43874303929861
+                        ],
+                        [
+                            1.450462398412628,
+                            43.43863636125453
+                        ],
+                        [
+                            1.45031705733295,
+                            43.43854006463465
+                        ],
+                        [
+                            1.450201602306989,
+                            43.43845862508384
+                        ],
+                        [
+                            1.450105868786132,
+                            43.43839115168081
+                        ],
+                        [
+                            1.450015311585841,
+                            43.43832374643039
+                        ],
+                        [
+                            1.449960091211508,
+                            43.43829170454327
+                        ],
+                        [
+                            1.44982404421409,
+                            43.43837113517534
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4502899630757808,
+            "lat": 43.4385270856361
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4276",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "232",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.449844148673014,
+                            43.43927180411981
+                        ],
+                        [
+                            1.449682229060646,
+                            43.43935991037895
+                        ],
+                        [
+                            1.449491211613992,
+                            43.43940886293248
+                        ],
+                        [
+                            1.449235529860759,
+                            43.43947011163537
+                        ],
+                        [
+                            1.449153437394642,
+                            43.43951701655846
+                        ],
+                        [
+                            1.449045927731407,
+                            43.43965010144461
+                        ],
+                        [
+                            1.44905335392598,
+                            43.43983084900714
+                        ],
+                        [
+                            1.449037995484598,
+                            43.44014129410973
+                        ],
+                        [
+                            1.449014698287317,
+                            43.44031411816853
+                        ],
+                        [
+                            1.449002862255499,
+                            43.440493896800895
+                        ],
+                        [
+                            1.448938370005435,
+                            43.44070271440539
+                        ],
+                        [
+                            1.448971018822055,
+                            43.44083780565246
+                        ],
+                        [
+                            1.448998461766866,
+                            43.44098243837503
+                        ],
+                        [
+                            1.449031765545828,
+                            43.440971305460934
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4491751916480735,
+            "lat": 43.439979668094026
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4281",
+        "nat_juridique": "Chemin rural (CR)",
+        "longueur": "617",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.443961784802534,
+                            43.441925472479156
+                        ],
+                        [
+                            1.443912453436404,
+                            43.44190837849034
+                        ],
+                        [
+                            1.443835317324076,
+                            43.44183274660832
+                        ],
+                        [
+                            1.443726948316631,
+                            43.44175306007791
+                        ],
+                        [
+                            1.443420413474935,
+                            43.44143733856517
+                        ],
+                        [
+                            1.443148510178444,
+                            43.44112211381556
+                        ],
+                        [
+                            1.443006203666754,
+                            43.44077269074693
+                        ],
+                        [
+                            1.442937691859135,
+                            43.44056135610771
+                        ],
+                        [
+                            1.442887146659787,
+                            43.44041759167459
+                        ],
+                        [
+                            1.442837099210302,
+                            43.44019450236195
+                        ],
+                        [
+                            1.442840927091897,
+                            43.44011402335794
+                        ],
+                        [
+                            1.44279061990582,
+                            43.439900546334634
+                        ],
+                        [
+                            1.442751292874188,
+                            43.4397689631209
+                        ],
+                        [
+                            1.442625461447914,
+                            43.439542380574316
+                        ],
+                        [
+                            1.442517986695388,
+                            43.439368949760855
+                        ],
+                        [
+                            1.44243147052193,
+                            43.439152548163236
+                        ],
+                        [
+                            1.442387263182187,
+                            43.439018490714695
+                        ],
+                        [
+                            1.442235605597404,
+                            43.438771102530026
+                        ],
+                        [
+                            1.442005355932294,
+                            43.43850215008355
+                        ],
+                        [
+                            1.441893611020989,
+                            43.438364717293375
+                        ],
+                        [
+                            1.441810505094393,
+                            43.43826616023162
+                        ],
+                        [
+                            1.441778861772444,
+                            43.43821642319688
+                        ],
+                        [
+                            1.441617998796942,
+                            43.438126363671586
+                        ],
+                        [
+                            1.441234191917288,
+                            43.4379850167308
+                        ],
+                        [
+                            1.44036093867649,
+                            43.437644304166604
+                        ],
+                        [
+                            1.4400610568195,
+                            43.437513983866836
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4422606825343987,
+            "lat": 43.43944904410157
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4294",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "75",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.440548318660893,
+                            43.43332780370181
+                        ],
+                        [
+                            1.440574274968706,
+                            43.433265195196036
+                        ],
+                        [
+                            1.440636450451727,
+                            43.4332228183222
+                        ],
+                        [
+                            1.440702900176384,
+                            43.43314444309306
+                        ],
+                        [
+                            1.440765824335408,
+                            43.43307443105142
+                        ],
+                        [
+                            1.44082202319263,
+                            43.43300913016813
+                        ],
+                        [
+                            1.440856300103759,
+                            43.432961543689764
+                        ],
+                        [
+                            1.441036099559608,
+                            43.432839123712235
+                        ],
+                        [
+                            1.441085692119441,
+                            43.432792129070066
+                        ],
+                        [
+                            1.441090691071988,
+                            43.432788567683644
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4408035725727393,
+            "lat": 43.43304480899472
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4263",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "855",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.443868414865204,
+                            43.434284890543935
+                        ],
+                        [
+                            1.443868540178608,
+                            43.43428497628086
+                        ],
+                        [
+                            1.444000157399489,
+                            43.434236382892976
+                        ],
+                        [
+                            1.444167210678251,
+                            43.43415824837691
+                        ],
+                        [
+                            1.444293913563212,
+                            43.434108382076836
+                        ],
+                        [
+                            1.444371892601571,
+                            43.43409147187233
+                        ],
+                        [
+                            1.44445087861455,
+                            43.43403731424542
+                        ],
+                        [
+                            1.444718415074017,
+                            43.43390292588716
+                        ],
+                        [
+                            1.444909360816735,
+                            43.433795083412875
+                        ],
+                        [
+                            1.445011038749127,
+                            43.43375567504496
+                        ],
+                        [
+                            1.445164758431797,
+                            43.43368808750271
+                        ],
+                        [
+                            1.445299779035679,
+                            43.43363000360922
+                        ],
+                        [
+                            1.445481735432835,
+                            43.43355258281542
+                        ],
+                        [
+                            1.445590179541495,
+                            43.43350490792392
+                        ],
+                        [
+                            1.445661911687524,
+                            43.43347962404214
+                        ],
+                        [
+                            1.445699902361877,
+                            43.43345300723352
+                        ],
+                        [
+                            1.445921446803982,
+                            43.43335772371908
+                        ],
+                        [
+                            1.446067743081398,
+                            43.43328852233459
+                        ],
+                        [
+                            1.446273852754251,
+                            43.43320405124139
+                        ],
+                        [
+                            1.446376474142966,
+                            43.43315629208756
+                        ],
+                        [
+                            1.446548646206037,
+                            43.43306975936869
+                        ],
+                        [
+                            1.446675068870727,
+                            43.433011183549965
+                        ],
+                        [
+                            1.44671161962048,
+                            43.432994731451146
+                        ],
+                        [
+                            1.446843828183665,
+                            43.43292957111808
+                        ],
+                        [
+                            1.447006463259492,
+                            43.4328515503854
+                        ],
+                        [
+                            1.447076715035796,
+                            43.432815295637276
+                        ],
+                        [
+                            1.447100283607889,
+                            43.43279760358235
+                        ],
+                        [
+                            1.447178389752664,
+                            43.43277588526399
+                        ],
+                        [
+                            1.447258339112474,
+                            43.43274698135415
+                        ],
+                        [
+                            1.447381247600712,
+                            43.432776388688815
+                        ],
+                        [
+                            1.447519618431623,
+                            43.43276928365863
+                        ],
+                        [
+                            1.447938581081889,
+                            43.43278197059117
+                        ],
+                        [
+                            1.448053538045366,
+                            43.43280044531321
+                        ],
+                        [
+                            1.448219124741931,
+                            43.432776758930224
+                        ],
+                        [
+                            1.448355902711671,
+                            43.43278073645395
+                        ],
+                        [
+                            1.448392887475837,
+                            43.43275482233002
+                        ],
+                        [
+                            1.4485234642298,
+                            43.432683370858975
+                        ],
+                        [
+                            1.448754259581282,
+                            43.43256527461177
+                        ],
+                        [
+                            1.449017011089779,
+                            43.43247242847015
+                        ],
+                        [
+                            1.449136994842655,
+                            43.43243973711862
+                        ],
+                        [
+                            1.449407999291963,
+                            43.43242077842055
+                        ],
+                        [
+                            1.449652815981924,
+                            43.43245553390413
+                        ],
+                        [
+                            1.449722159148642,
+                            43.43245292023748
+                        ],
+                        [
+                            1.449775984050925,
+                            43.43247532629109
+                        ],
+                        [
+                            1.450200770272387,
+                            43.43250303968364
+                        ],
+                        [
+                            1.450351869748826,
+                            43.43252683695099
+                        ],
+                        [
+                            1.450641332285248,
+                            43.43255742082659
+                        ],
+                        [
+                            1.450819942705792,
+                            43.432600842733784
+                        ],
+                        [
+                            1.450981193798457,
+                            43.43261516835227
+                        ],
+                        [
+                            1.451187735896181,
+                            43.43266259498861
+                        ],
+                        [
+                            1.451267844102426,
+                            43.43268898201491
+                        ],
+                        [
+                            1.45132684237867,
+                            43.43270304730798
+                        ],
+                        [
+                            1.451504516010153,
+                            43.43278131242843
+                        ],
+                        [
+                            1.451794705441863,
+                            43.43282451977366
+                        ],
+                        [
+                            1.451870371401049,
+                            43.43285385256961
+                        ],
+                        [
+                            1.451980441777957,
+                            43.432847545239476
+                        ],
+                        [
+                            1.452151430691164,
+                            43.43285592998014
+                        ],
+                        [
+                            1.452327259346004,
+                            43.43285759313976
+                        ],
+                        [
+                            1.452506392596387,
+                            43.432877363239065
+                        ],
+                        [
+                            1.452719207843031,
+                            43.432875594913284
+                        ],
+                        [
+                            1.45295752935641,
+                            43.432845342618876
+                        ],
+                        [
+                            1.453080052081532,
+                            43.43282786029989
+                        ],
+                        [
+                            1.453235193967436,
+                            43.43282406545781
+                        ],
+                        [
+                            1.453380346576973,
+                            43.43282373376003
+                        ],
+                        [
+                            1.453489356360843,
+                            43.43281807797613
+                        ],
+                        [
+                            1.453547567869946,
+                            43.43283106459122
+                        ],
+                        [
+                            1.45354819188783,
+                            43.43283240616673
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4486167677268291,
+            "lat": 43.43299097935831
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4264",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "69",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.45354819188783,
+                            43.43283240616673
+                        ],
+                        [
+                            1.453633331676891,
+                            43.43301544750579
+                        ],
+                        [
+                            1.453652008387738,
+                            43.433100594690025
+                        ],
+                        [
+                            1.453707947641414,
+                            43.43335943017826
+                        ],
+                        [
+                            1.453703785999408,
+                            43.43343753406764
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4536495420305353,
+            "lat": 43.43312938052071
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4268",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "0",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.453946542152529,
+                            43.434796399325265
+                        ],
+                        [
+                            1.453946432906359,
+                            43.43480046486509
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4539464875294443,
+            "lat": 43.43479843209518
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4278",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "703",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.450969822275451,
+                            43.441494110301036
+                        ],
+                        [
+                            1.450980148132582,
+                            43.44151442443948
+                        ],
+                        [
+                            1.45085828459963,
+                            43.44156797416606
+                        ],
+                        [
+                            1.450718379150641,
+                            43.4416176597944
+                        ],
+                        [
+                            1.450742820112204,
+                            43.44175143117273
+                        ],
+                        [
+                            1.450735218583728,
+                            43.44191118839978
+                        ],
+                        [
+                            1.45074013193493,
+                            43.441973762623455
+                        ],
+                        [
+                            1.450614450075479,
+                            43.442107791489654
+                        ],
+                        [
+                            1.450530898674736,
+                            43.44220876671118
+                        ],
+                        [
+                            1.450446960177076,
+                            43.44226285835002
+                        ],
+                        [
+                            1.450344785442839,
+                            43.44232029512059
+                        ],
+                        [
+                            1.450195987169139,
+                            43.44233259095255
+                        ],
+                        [
+                            1.450093587401201,
+                            43.44233713627494
+                        ],
+                        [
+                            1.450032606822878,
+                            43.442335061991876
+                        ],
+                        [
+                            1.449996911574347,
+                            43.44231291538087
+                        ],
+                        [
+                            1.449856681999716,
+                            43.44231331332098
+                        ],
+                        [
+                            1.449817656460833,
+                            43.44229232100639
+                        ],
+                        [
+                            1.449731908602979,
+                            43.442291094216145
+                        ],
+                        [
+                            1.449666628700012,
+                            43.44226491821275
+                        ],
+                        [
+                            1.44955789208444,
+                            43.44225975635945
+                        ],
+                        [
+                            1.449447344568458,
+                            43.442260578483335
+                        ],
+                        [
+                            1.449323637466898,
+                            43.442260010166734
+                        ],
+                        [
+                            1.449171897434247,
+                            43.44225904049065
+                        ],
+                        [
+                            1.449109267975967,
+                            43.44225694208671
+                        ],
+                        [
+                            1.448991476588491,
+                            43.442281700068506
+                        ],
+                        [
+                            1.448769412834657,
+                            43.44225808717404
+                        ],
+                        [
+                            1.448687060243925,
+                            43.44225330216236
+                        ],
+                        [
+                            1.448646609505968,
+                            43.442285177031636
+                        ],
+                        [
+                            1.448611721359116,
+                            43.44229429352286
+                        ],
+                        [
+                            1.44861055487632,
+                            43.44233754883684
+                        ],
+                        [
+                            1.448550283645278,
+                            43.4423703418888
+                        ],
+                        [
+                            1.448509155883602,
+                            43.44236614700253
+                        ],
+                        [
+                            1.44846883458902,
+                            43.44239321566196
+                        ],
+                        [
+                            1.44833183417347,
+                            43.44245736390221
+                        ],
+                        [
+                            1.448294681099824,
+                            43.44248928587298
+                        ],
+                        [
+                            1.448183322841488,
+                            43.44252014512187
+                        ],
+                        [
+                            1.448142417865755,
+                            43.442568841321425
+                        ],
+                        [
+                            1.448047128040443,
+                            43.44261555657657
+                        ],
+                        [
+                            1.44798184853573,
+                            43.442589379552146
+                        ],
+                        [
+                            1.447956270640588,
+                            43.44262026520861
+                        ],
+                        [
+                            1.448043210031495,
+                            43.4426996405222
+                        ],
+                        [
+                            1.448018665246267,
+                            43.44275337901182
+                        ],
+                        [
+                            1.447957133226154,
+                            43.44277172968429
+                        ],
+                        [
+                            1.44797429986362,
+                            43.44280803560223
+                        ],
+                        [
+                            1.447965114741073,
+                            43.4428427620702
+                        ],
+                        [
+                            1.447820289071956,
+                            43.44289117160759
+                        ],
+                        [
+                            1.447779485191094,
+                            43.44287496107526
+                        ],
+                        [
+                            1.447707285249673,
+                            43.442860704757464
+                        ],
+                        [
+                            1.447587069444327,
+                            43.4428529724851
+                        ],
+                        [
+                            1.44743969599497,
+                            43.442812396924516
+                        ],
+                        [
+                            1.447323464259019,
+                            43.442718177356745
+                        ],
+                        [
+                            1.447200826449883,
+                            43.44267795591381
+                        ],
+                        [
+                            1.447029010550328,
+                            43.442626211500595
+                        ],
+                        [
+                            1.446885611934309,
+                            43.44262175218315
+                        ],
+                        [
+                            1.446846197998447,
+                            43.44261517722863
+                        ],
+                        [
+                            1.4468114066864,
+                            43.44262068853374
+                        ],
+                        [
+                            1.446734065638819,
+                            43.44261356987579
+                        ],
+                        [
+                            1.446618213502112,
+                            43.442627535096804
+                        ],
+                        [
+                            1.446468310431715,
+                            43.44268067804404
+                        ],
+                        [
+                            1.446386054774431,
+                            43.442672286673826
+                        ],
+                        [
+                            1.446296002433909,
+                            43.44270825749807
+                        ],
+                        [
+                            1.44618212354086,
+                            43.44271023053739
+                        ],
+                        [
+                            1.446126252003402,
+                            43.44270221731522
+                        ],
+                        [
+                            1.44597894488536,
+                            43.442659236700436
+                        ],
+                        [
+                            1.445817121551141,
+                            43.442604027657474
+                        ],
+                        [
+                            1.445715500064789,
+                            43.442579731982
+                        ],
+                        [
+                            1.445601556475622,
+                            43.44258410748283
+                        ],
+                        [
+                            1.445428930572614,
+                            43.4425623989313
+                        ],
+                        [
+                            1.445387997719864,
+                            43.44255099364534
+                        ],
+                        [
+                            1.445366982794615,
+                            43.442535066113415
+                        ],
+                        [
+                            1.445330477444905,
+                            43.44254295635505
+                        ],
+                        [
+                            1.445274833493176,
+                            43.44252653194494
+                        ],
+                        [
+                            1.445208815606368,
+                            43.442466686593136
+                        ],
+                        [
+                            1.445204160866937,
+                            43.442455801787695
+                        ],
+                        [
+                            1.445216450752869,
+                            43.442428332100164
+                        ],
+                        [
+                            1.445191625505257,
+                            43.442370279806966
+                        ],
+                        [
+                            1.445180602105365,
+                            43.442350889605066
+                        ],
+                        [
+                            1.445196839444778,
+                            43.44229943653653
+                        ],
+                        [
+                            1.445279718430361,
+                            43.442223697664666
+                        ],
+                        [
+                            1.445304441990097,
+                            43.44204134821651
+                        ],
+                        [
+                            1.44535656720008,
+                            43.442004834075554
+                        ],
+                        [
+                            1.44541467830595,
+                            43.44192994175912
+                        ],
+                        [
+                            1.44541436054337,
+                            43.441880655158286
+                        ],
+                        [
+                            1.445439329476213,
+                            43.441811297336585
+                        ],
+                        [
+                            1.445386081977378,
+                            43.441767261343706
+                        ],
+                        [
+                            1.44536044509778,
+                            43.44173924749259
+                        ],
+                        [
+                            1.44535879611807,
+                            43.44173922383331
+                        ],
+                        [
+                            1.445303889887477,
+                            43.44173621009035
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4479338334922751,
+            "lat": 43.44238337793232
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4287",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "22",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.440938146451252,
+                            43.43469233750102
+                        ],
+                        [
+                            1.441031702362925,
+                            43.43474392226727
+                        ],
+                        [
+                            1.441050490032295,
+                            43.43472015269038
+                        ],
+                        [
+                            1.441020823657307,
+                            43.43465842401413
+                        ],
+                        [
+                            1.441009405331355,
+                            43.43464380788748
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.441010514060369,
+            "lat": 43.43470565329664
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4290",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "83",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.440887725717601,
+                            43.434367671447575
+                        ],
+                        [
+                            1.440908158700805,
+                            43.43431182995549
+                        ],
+                        [
+                            1.440865160574555,
+                            43.43431601915601
+                        ],
+                        [
+                            1.440874250942723,
+                            43.43428489808896
+                        ],
+                        [
+                            1.440755246870491,
+                            43.43429400339342
+                        ],
+                        [
+                            1.440710078977795,
+                            43.43431739323614
+                        ],
+                        [
+                            1.440627575599399,
+                            43.43431860976317
+                        ],
+                        [
+                            1.440472742342672,
+                            43.434371672898514
+                        ],
+                        [
+                            1.440412833077045,
+                            43.434391244434735
+                        ],
+                        [
+                            1.440185278250902,
+                            43.434510572075226
+                        ],
+                        [
+                            1.440141530704127,
+                            43.43454239611229
+                        ],
+                        [
+                            1.440120609925287,
+                            43.43454556534703
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4405450407870826,
+            "lat": 43.43437627266144
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "5519",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "5",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.453946432906359,
+                            43.43480046486509
+                        ],
+                        [
+                            1.453946015867881,
+                            43.4348159847317
+                        ],
+                        [
+                            1.453915396476631,
+                            43.43482981894853
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4539356105438674,
+            "lat": 43.434818263312586
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "5523",
+        "nat_juridique": "Route départementale (Rd)",
+        "longueur": "306",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.441219620254092,
+                            43.432741549375194
+                        ],
+                        [
+                            1.441209575438534,
+                            43.43275532958355
+                        ],
+                        [
+                            1.441393062106888,
+                            43.432827519370846
+                        ],
+                        [
+                            1.441443138853189,
+                            43.432852192160084
+                        ],
+                        [
+                            1.441615202462435,
+                            43.43295443286993
+                        ],
+                        [
+                            1.441729181517951,
+                            43.433008960088856
+                        ],
+                        [
+                            1.441865338717558,
+                            43.433061286953325
+                        ],
+                        [
+                            1.442018403609665,
+                            43.4331092792494
+                        ],
+                        [
+                            1.44224496289304,
+                            43.43308729522668
+                        ],
+                        [
+                            1.442258630395978,
+                            43.4331307635369
+                        ],
+                        [
+                            1.442218757732117,
+                            43.433202309874474
+                        ],
+                        [
+                            1.442245842833001,
+                            43.43323755715874
+                        ],
+                        [
+                            1.442326370608288,
+                            43.43324833096121
+                        ],
+                        [
+                            1.442405955137685,
+                            43.43329394897679
+                        ],
+                        [
+                            1.442395271930221,
+                            43.43338394495869
+                        ],
+                        [
+                            1.442437055683324,
+                            43.43348551321562
+                        ],
+                        [
+                            1.442532737769743,
+                            43.43354578650378
+                        ],
+                        [
+                            1.442622248822629,
+                            43.433618889532625
+                        ],
+                        [
+                            1.44268730976781,
+                            43.43368503587825
+                        ],
+                        [
+                            1.442719211547097,
+                            43.433725160264586
+                        ],
+                        [
+                            1.442776397450065,
+                            43.43374521416061
+                        ],
+                        [
+                            1.442843336158003,
+                            43.43383151790752
+                        ],
+                        [
+                            1.442918811487083,
+                            43.43390712635422
+                        ],
+                        [
+                            1.443018345035406,
+                            43.433947020658835
+                        ],
+                        [
+                            1.443104610248711,
+                            43.43397892685817
+                        ],
+                        [
+                            1.443198149223772,
+                            43.43400870611634
+                        ],
+                        [
+                            1.443349271536462,
+                            43.434091207383894
+                        ],
+                        [
+                            1.443462632332874,
+                            43.43413473479064
+                        ],
+                        [
+                            1.443620098777744,
+                            43.434212541010744
+                        ],
+                        [
+                            1.443711728206752,
+                            43.43426987867803
+                        ],
+                        [
+                            1.443777541765594,
+                            43.43423438741253
+                        ],
+                        [
+                            1.443802143231596,
+                            43.434239548769945
+                        ],
+                        [
+                            1.443868414865204,
+                            43.434284890543935
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4425255515621298,
+            "lat": 43.433511890688834
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4269",
+        "nat_juridique": "Route départementale (Rd)",
+        "longueur": "15",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.453915396476631,
+                            43.43482981894853
+                        ],
+                        [
+                            1.453762079347308,
+                            43.43489908928146
+                        ],
+                        [
+                            1.453762227650185,
+                            43.43489934715682
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.453838602735592,
+            "lat": 43.43486451547586
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4283",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "53",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.44050133005153,
+                            43.4349390545036
+                        ],
+                        [
+                            1.440500531667473,
+                            43.43492859709959
+                        ],
+                        [
+                            1.440446622593889,
+                            43.43484848934511
+                        ],
+                        [
+                            1.44044527914974,
+                            43.434776350231964
+                        ],
+                        [
+                            1.440456767665983,
+                            43.434717617794405
+                        ],
+                        [
+                            1.440504073260819,
+                            43.434676228873464
+                        ],
+                        [
+                            1.440554957329737,
+                            43.434685375277496
+                        ],
+                        [
+                            1.440621059143825,
+                            43.43474161853972
+                        ],
+                        [
+                            1.440715065725326,
+                            43.43477688085279
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4405285417442497,
+            "lat": 43.43476937053222
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4284",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "16",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.440715065725326,
+                            43.43477688085279
+                        ],
+                        [
+                            1.440784341352955,
+                            43.43480286638883
+                        ],
+                        [
+                            1.440773679066658,
+                            43.43477025904428
+                        ],
+                        [
+                            1.44075291403526,
+                            43.43472258477899
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.440760385335677,
+            "lat": 43.43477506918918
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "4999",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "384",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.455318992151128,
+                            43.43787099132614
+                        ],
+                        [
+                            1.455175066763956,
+                            43.43789139746598
+                        ],
+                        [
+                            1.454992012840018,
+                            43.43795129102354
+                        ],
+                        [
+                            1.454849628741628,
+                            43.43797089646342
+                        ],
+                        [
+                            1.454715230747206,
+                            43.43800023157726
+                        ],
+                        [
+                            1.454469841413147,
+                            43.43804721525291
+                        ],
+                        [
+                            1.454146179552407,
+                            43.43812192952922
+                        ],
+                        [
+                            1.453878124673419,
+                            43.438152962561055
+                        ],
+                        [
+                            1.453725362013937,
+                            43.43819044836482
+                        ],
+                        [
+                            1.453481781434451,
+                            43.438231445669274
+                        ],
+                        [
+                            1.453113758905401,
+                            43.438299513728516
+                        ],
+                        [
+                            1.452970597889011,
+                            43.43834795352829
+                        ],
+                        [
+                            1.452713372610194,
+                            43.438405582242865
+                        ],
+                        [
+                            1.452355629255051,
+                            43.43845937060769
+                        ],
+                        [
+                            1.452100504334393,
+                            43.438500199945224
+                        ],
+                        [
+                            1.451805159007442,
+                            43.43856449390562
+                        ],
+                        [
+                            1.451720321842921,
+                            43.43859092753872
+                        ],
+                        [
+                            1.451655479904367,
+                            43.438604186526845
+                        ],
+                        [
+                            1.451490382045638,
+                            43.4386152873994
+                        ],
+                        [
+                            1.451227980987554,
+                            43.43868125264027
+                        ],
+                        [
+                            1.451133430622234,
+                            43.438719802400186
+                        ],
+                        [
+                            1.451020917649795,
+                            43.43874535586401
+                        ],
+                        [
+                            1.450888495608002,
+                            43.43877486861567
+                        ],
+                        [
+                            1.450764817657876,
+                            43.438801837840735
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4530396381037356,
+            "lat": 43.43832748375723
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "5521",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "247",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.440120609925287,
+                            43.43454556534703
+                        ],
+                        [
+                            1.440083563103909,
+                            43.434551177463575
+                        ],
+                        [
+                            1.439948175458247,
+                            43.43467784162632
+                        ],
+                        [
+                            1.439748041649236,
+                            43.43475909936288
+                        ],
+                        [
+                            1.439623927157204,
+                            43.43477413983003
+                        ],
+                        [
+                            1.43958639630929,
+                            43.4347591753296
+                        ],
+                        [
+                            1.439605249752687,
+                            43.43473300294899
+                        ],
+                        [
+                            1.43980417814309,
+                            43.43469620198065
+                        ],
+                        [
+                            1.439821154621339,
+                            43.43467841650961
+                        ],
+                        [
+                            1.439783799619408,
+                            43.43459614281918
+                        ],
+                        [
+                            1.439828329356666,
+                            43.434535482277255
+                        ],
+                        [
+                            1.439909294820447,
+                            43.434469336417266
+                        ],
+                        [
+                            1.439991420197702,
+                            43.43442123714481
+                        ],
+                        [
+                            1.440087354509015,
+                            43.43435049871656
+                        ],
+                        [
+                            1.440185315737328,
+                            43.43432666723153
+                        ],
+                        [
+                            1.440217261162244,
+                            43.434304289235754
+                        ],
+                        [
+                            1.440196165443395,
+                            43.434230663770904
+                        ],
+                        [
+                            1.440199376464668,
+                            43.43412015302673
+                        ],
+                        [
+                            1.440199907834994,
+                            43.43411872425416
+                        ],
+                        [
+                            1.440256089822749,
+                            43.43396765916692
+                        ],
+                        [
+                            1.440406428967227,
+                            43.43352985142493
+                        ],
+                        [
+                            1.440546523272999,
+                            43.43333115117794
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.440063179001738,
+            "lat": 43.434268032552275
+        }
+    },
+    {
+        "nom_itineraire": "Passerelles, entre rives et balcons",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Venerque",
+        "intercommunalite": "CC du Bassin Auterivain Haut-Garonnais",
+        "id": "5522",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "58",
+        "insee_commune": "31572",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.441173956643007,
+                            43.43272274057042
+                        ],
+                        [
+                            1.441174563453181,
+                            43.43272217938711
+                        ],
+                        [
+                            1.441411785201696,
+                            43.432524295997915
+                        ],
+                        [
+                            1.441220191115692,
+                            43.43274076622545
+                        ],
+                        [
+                            1.441219620254092,
+                            43.432741549375194
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.4413038875279636,
+            "lat": 43.432628044047405
+        }
+    }
+]

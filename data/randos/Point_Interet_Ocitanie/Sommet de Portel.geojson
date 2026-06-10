@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sommet de Portel",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33319,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.92915725708008,
+        "longitude": 1.3566087484359741,
+        "local_name": "Sommet de Portel",
+        "country": "FRA",
+        "street": null,
+        "postcode": "9000",
+        "city": "Foix"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {"id": 1, "nom": "La Tour de Défense (ou Tour du Moulin)", "adresse": "Rue de la Tour, 31340 Villemur-sur-Tarn", "details": "Vestige des fortifications médiévales du XIIe siècle, elle servait à la fois de défense et de moulin à eau sur le Tarn.", "lat": 43.8605, "lng": 1.5038},
+  {"id": 2, "nom": "Ancienne usine Brusson", "adresse": "Avenue Winston Churchill, 31340 Villemur-sur-Tarn", "details": "Ancienne usine de pâtes alimentaires et biscuiterie, témoin majeur du patrimoine industriel de la ville.", "lat": 43.8632, "lng": 1.5055},
+  {"id": 3, "nom": "Greniers du Roy", "adresse": "Place Charles Ourgaut, 31340 Villemur-sur-Tarn", "details": "Ancien entrepôt à grains royal du XVIIe siècle, devenu aujourd'hui un pôle culturel et touristique.", "lat": 43.8618, "lng": 1.5042},
+  {"id": 4, "nom": "Kiosque à musique", "adresse": "Place de la Résistance, 31340 Villemur-sur-Tarn", "details": "Kiosque traditionnel situé dans le jardin public, emblème de la vie sociale locale.", "lat": 43.8625, "lng": 1.5028},
+  {"id": 5, "nom": "Pont suspendu de Villemur", "adresse": "Avenue du Pont, 31340 Villemur-sur-Tarn", "details": "Ouvrage d'art permettant la traversée du Tarn, offrant une vue panoramique sur les berges et les briques rouges.", "lat": 43.8612, "lng": 1.5015}
+]

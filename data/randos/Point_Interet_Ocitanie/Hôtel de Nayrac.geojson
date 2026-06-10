@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hôtel de Nayrac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14428,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60649871826172,
+        "longitude": 2.2402501106262207,
+        "local_name": "Hôtel de Nayrac",
+        "country": "FRA",
+        "street": "12 rue Frédéric-Thomas",
+        "postcode": "81100",
+        "city": "Castres"
+      },
+      "geometry": null
+    }
+  ]
+}

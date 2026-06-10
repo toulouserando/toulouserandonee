@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cloître et trésor de la cathédrale Sainte-Marie",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7759,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.026710510253906,
+        "longitude": 0.5728970170021057,
+        "local_name": "Cloître et trésor de la cathédrale Sainte-Marie",
+        "country": "FRA",
+        "street": null,
+        "postcode": "31510",
+        "city": "Saint-Bertrand-de-Comminges"
+      },
+      "geometry": null
+    }
+  ]
+}

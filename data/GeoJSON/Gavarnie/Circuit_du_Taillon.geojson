@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Circuit_du_Taillon.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.063812,
+            42.703913,
+            2268.48
+          ],
+          [
+            -0.063997,
+            42.703719,
+            2273.47
+          ],
+          [
+            -0.063997,
+            42.703719,
+            2273.47
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Circuit_du_Taillon.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.063812,
+            42.703913
+          ],
+          [
+            -0.063997,
+            42.703719
+          ],
+          [
+            -0.063997,
+            42.703719
+          ]
+        ]
+      }
+    }
+  ]
+}

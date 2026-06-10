@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Guidon du Bouquet",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13904,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.1333122253418,
+        "longitude": 4.285556793212891,
+        "local_name": "Guidon du Bouquet",
+        "country": "FRA",
+        "street": null,
+        "postcode": "30580",
+        "city": "Seynes"
+      },
+      "geometry": null
+    }
+  ]
+}

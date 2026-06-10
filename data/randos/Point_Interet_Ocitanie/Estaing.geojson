@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estaing",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11751,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.55422592163086,
+        "longitude": 2.672013998031616,
+        "local_name": "Estaing",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

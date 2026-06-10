@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Eus",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48460,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.64360809326172,
+        "longitude": 2.4572200775146484,
+        "local_name": "Eus",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

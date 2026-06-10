@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gorges du Tarn",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13255,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.32154083251953,
+        "longitude": 3.346125602722168,
+        "local_name": "Gorges du Tarn",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48150",
+        "city": "Florac"
+      },
+      "geometry": null
+    }
+  ]
+}

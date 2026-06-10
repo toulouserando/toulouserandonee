@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Padirac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24019,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.84165573120117,
+        "longitude": 1.7532025575637817,
+        "local_name": "Padirac",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

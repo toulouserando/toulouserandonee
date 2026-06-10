@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Muséum de Toulouse",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23484,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.59358596801758,
+        "longitude": 1.4500709772109985,
+        "local_name": "Muséum de Toulouse",
+        "country": "FRA",
+        "street": "35 allée Jules-Guesde",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

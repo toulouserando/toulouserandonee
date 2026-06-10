@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée Toulouse-Lautrec",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23344,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.928775787353516,
+        "longitude": 2.1432371139526367,
+        "local_name": "Musée Toulouse-Lautrec",
+        "country": "FRA",
+        "street": "Place Ste-Cécile - palais de la Berbie",
+        "postcode": "81000",
+        "city": "Albi"
+      },
+      "geometry": null
+    }
+  ]
+}

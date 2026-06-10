@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Loge de Mer",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18054,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.69982147216797,
+        "longitude": 2.895015001296997,
+        "local_name": "Loge de Mer",
+        "country": "FRA",
+        "street": "Place de la Loge",
+        "postcode": "66000",
+        "city": "Perpignan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château fort de Lourdes et Musée pyrénéen",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6903,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.09632110595703,
+        "longitude": -0.048507001250982285,
+        "local_name": "Château fort de Lourdes et Musée pyrénéen",
+        "country": "FRA",
+        "street": "25 rue du fort",
+        "postcode": "65100",
+        "city": "Lourdes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

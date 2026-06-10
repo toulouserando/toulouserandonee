@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grotte de Trabuc",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13763,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.10765075683594,
+        "longitude": 3.9590890407562256,
+        "local_name": "Grotte de Trabuc",
+        "country": "FRA",
+        "street": null,
+        "postcode": "30140",
+        "city": "Mialet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Orgues d'Ille",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23981,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.68129348754883,
+        "longitude": 2.621880054473877,
+        "local_name": "Orgues d'Ille",
+        "country": "FRA",
+        "street": "Chemin de Regleilles",
+        "postcode": "66130",
+        "city": "Ille-sur-Têt"
+      },
+      "geometry": null
+    }
+  ]
+}

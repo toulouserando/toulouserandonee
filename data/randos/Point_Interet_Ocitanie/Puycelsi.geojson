@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Puycelsi",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29268,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.993228912353516,
+        "longitude": 1.7090694904327393,
+        "local_name": "Puycelsi",
+        "country": "FRA",
+        "street": "D 964",
+        "postcode": "81140",
+        "city": "Puycelci"
+      },
+      "geometry": null
+    }
+  ]
+}

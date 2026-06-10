@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cirque de Troumouse",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7323,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.72365188598633,
+        "longitude": 0.11456800252199173,
+        "local_name": "Cirque de Troumouse",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65120",
+        "city": "Héas"
+      },
+      "geometry": null
+    }
+  ]
+}

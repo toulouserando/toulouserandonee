@@ -1,0 +1,16 @@
+[
+  {"id": 1, "nom": "Porte Vaureze (ou Vauraise)", "adresse": "Rue de la Vauraise, 31590 Verfeil", "details": "Ancienne porte de ville fortifiée, vestige des remparts médiévaux de la cité.", "lat": 43.6565, "lng": 1.6661},
+  {"id": 2, "nom": "Porte Toulousaine", "adresse": "Place de la Liberté, 31590 Verfeil", "details": "Seconde porte historique de la ville, ouvrant vers l'ancienne route de Toulouse.", "lat": 43.6558, "lng": 1.6639},
+  {"id": 3, "nom": "Château de Verfeil (Citadelle)", "adresse": "Place de la Mairie, 31590 Verfeil", "details": "Ancien château seigneurial dominant la vallée, ayant joué un rôle clé lors de la croisade des Albigeois.", "lat": 43.6563, "lng": 1.6645},
+  {"id": 4, "nom": "Église Saint-Blaise", "adresse": "Rue de l'Église, 31590 Verfeil", "details": "Église paroissiale remarquable pour son clocher-mur typique de la région toulousaine.", "lat": 43.6561, "lng": 1.6652},
+  {"id": 5, "nom": "Musée de l'histoire de Verfeil", "adresse": "Place de la Mairie, 31590 Verfeil", "details": "Musée retraçant le riche passé de la cité, des Cathares à la Comtesse de Ségur.", "lat": 43.6562, "lng": 1.6642},
+  {"id": 6, "nom": "Cimetière des 'Petites Filles Modèles'", "adresse": "Chemin du Cimetière, 31590 Verfeil", "details": "Abrite les tombes de Camille et Madeleine de Malaret, les célèbres petites-filles de la Comtesse de Ségur.", "lat": 43.6575, "lng": 1.6685},
+  {"id": 7, "nom": "Maisons à corondage (colombages)", "adresse": "Centre historique, 31590 Verfeil", "details": "Ensemble de maisons médiévales à pans de bois situées dans les ruelles du bourg.", "lat": 43.6559, "lng": 1.6655},
+  {"id": 8, "nom": "Croix Digne", "adresse": "Place de la Croix Digne, 31590 Verfeil", "details": "Croix historique de dévotion située à l'entrée du village.", "lat": 43.6548, "lng": 1.6621},
+  {"id": 9, "nom": "Moulin de Nagasse", "adresse": "Route de Nagasse, 31590 Verfeil", "details": "Ancien moulin à vent témoignant de l'activité meunière passée du Lauragais.", "lat": 43.6625, "lng": 1.6482},
+  {"id": 10, "nom": "Église Saint-Sernin-des-Rais et son enclos", "adresse": "Hameau de Saint-Sernin, 31590 Verfeil", "details": "Petite église rurale entourée de son cimetière d'origine, inscrite aux MH.", "lat": 43.6421, "lng": 1.6845},
+  {"id": 11, "nom": "Église Saint-Barthélemy du Rame", "adresse": "Le Rame, 31590 Verfeil", "details": "Édifice religieux isolé situé dans le hameau du Rame.", "lat": 43.6742, "lng": 1.6738},
+  {"id": 12, "nom": "Lac de la Balerme", "adresse": "Route de la Balerme, 31590 Verfeil", "details": "Lac de retenue offrant des activités de pêche et de randonnée, à cheval sur plusieurs communes.", "lat": 43.6358, "lng": 1.6515},
+  {"id": 13, "nom": "Lac du Laragou", "adresse": "Barrage du Laragou, 31590 Verfeil", "details": "Plan d'eau apprécié pour le nautisme (voile) et ses sentiers pédestres.", "lat": 43.6785, "lng": 1.6182},
+  {"id": 14, "nom": "Château en ville", "adresse": "Rue du Château, 31590 Verfeil", "details": "Demeure bourgeoise remarquable située à l'intérieur de l'enceinte urbaine.", "lat": 43.6568, "lng": 1.6658}
+]

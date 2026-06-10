@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Palais-musée des Archevêques de Narbonne",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24366,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.183937072753906,
+        "longitude": 3.0041189193725586,
+        "local_name": "Palais-musée des Archevêques de Narbonne",
+        "country": "FRA",
+        "street": "Pl. de l’Hôtel-de-Ville",
+        "postcode": "11100",
+        "city": "Narbonne"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

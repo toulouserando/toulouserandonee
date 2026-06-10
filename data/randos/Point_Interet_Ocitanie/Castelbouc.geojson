@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Castelbouc",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3949,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.339908599853516,
+        "longitude": 3.4642200469970703,
+        "local_name": "Castelbouc",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48210",
+        "city": "Ste-Énimie"
+      },
+      "geometry": null
+    }
+  ]
+}

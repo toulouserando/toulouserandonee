@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Chapelle des Pénitents-Noirs",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5124,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.353904724121094,
+        "longitude": 2.03658390045166,
+        "local_name": "Chapelle des Pénitents-Noirs",
+        "country": "FRA",
+        "street": "Boulevard de Haute-Guyenne",
+        "postcode": "12200",
+        "city": "Villefranche-de-Rouergue"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

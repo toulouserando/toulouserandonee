@@ -1,0 +1,10 @@
+[
+  {"id": 1, "nom": "Le Capitole (Enceinte 87x125m - Temple de Jupiter 48x36m)", "adresse": "Place de la Révolution, 11100 Narbonne", "latitude": 43.1833, "longitude": 3.0018},
+  {"id": 2, "nom": "Enceinte de l'antique amphithéâtre (120m de long)", "adresse": "Rue Jean Deschamps, 11100 Narbonne", "latitude": 43.1855, "longitude": 3.0110},
+  {"id": 3, "nom": "Clos de la Lombarde (Domus romaines Ier s. av. J.-C. / IIIe s. apr. J.-C.)", "adresse": "28 Rue de la Lombarde, 11100 Narbonne", "latitude": 43.1885, "longitude": 3.0065},
+  {"id": 4, "nom": "Thermes romains et quartiers artisanaux du Clos de la Lombarde", "adresse": "Rue de la Lombarde, 11100 Narbonne", "latitude": 43.1886, "longitude": 3.0066},
+  {"id": 5, "nom": "Première basilique chrétienne de Narbonne", "adresse": "Site du Clos de la Lombarde, 11100 Narbonne", "latitude": 43.1887, "longitude": 3.0068},
+  {"id": 6, "nom": "Cimetière païen et paléochrétien de Saint-Loup", "adresse": "Quartier Saint-Loup, 11100 Narbonne", "latitude": 43.1810, "longitude": 3.0150},
+  {"id": 7, "nom": "Via Domitia (Aménagée par Gnaeus Domitius Ahenobarbus)", "adresse": "Place de l'Hôtel de Ville, 11100 Narbonne", "latitude": 43.1837, "longitude": 3.0042},
+  {"id": 8, "nom": "Horreum Romain (Entrepôts souterrains du marché)", "adresse": "7 Rue Rouget de Lisle, 11100 Narbonne", "latitude": 43.1842, "longitude": 3.0035}
+]

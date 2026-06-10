@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "La Cerdagne",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16285,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.54811477661133,
+        "longitude": 1.8301080465316772,
+        "local_name": "La Cerdagne",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66760",
+        "city": "Porté-Puymorens"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

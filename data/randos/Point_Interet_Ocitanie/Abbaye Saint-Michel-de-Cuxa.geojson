@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Abbaye Saint-Michel-de-Cuxa",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 378,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.5947380065918,
+        "longitude": 2.416888952255249,
+        "local_name": "Abbaye Saint-Michel-de-Cuxa",
+        "country": "FRA",
+        "street": "Route de Taurinya",
+        "postcode": "66500",
+        "city": "Codalet"
+      },
+      "geometry": null
+    }
+  ]
+}

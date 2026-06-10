@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Façade de l'abbatiale de Saint-Gilles",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11819,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.676856994628906,
+        "longitude": 4.431676864624023,
+        "local_name": "Façade de l'abbatiale de Saint-Gilles",
+        "country": "FRA",
+        "street": null,
+        "postcode": "30800",
+        "city": "St-Gilles"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

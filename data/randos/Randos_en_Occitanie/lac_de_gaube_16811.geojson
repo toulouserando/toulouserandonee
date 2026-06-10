@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lac de Gaube",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16811,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.83145523071289,
+        "longitude": -0.13955199718475342,
+        "local_name": "Lac de Gaube",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65110",
+        "city": "Cauterets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

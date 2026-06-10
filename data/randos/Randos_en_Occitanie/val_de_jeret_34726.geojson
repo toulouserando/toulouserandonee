@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Val de Jéret",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34726,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.858299255371094,
+        "longitude": -0.1216680034995079,
+        "local_name": "Val de Jéret",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65110",
+        "city": "Cauterets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pic du Canigou",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17271,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.51890563964844,
+        "longitude": 2.4566869735717773,
+        "local_name": "Pic du Canigou",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66820",
+        "city": "Fillols"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

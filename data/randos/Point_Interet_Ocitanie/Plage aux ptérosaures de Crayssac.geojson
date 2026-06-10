@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Plage aux ptérosaures de Crayssac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46622,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.53221893310547,
+        "longitude": 1.325950026512146,
+        "local_name": "Plage aux ptérosaures de Crayssac",
+        "country": "FRA",
+        "street": "Mas de Pegourdy ",
+        "postcode": "46150",
+        "city": "Crayssac"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Sentier_Saint-Rome.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.67736,
+            43.427691,
+            173.29
+          ],
+          [
+            1.680269,
+            43.425528,
+            174.11
+          ],
+          [
+            1.680823,
+            43.425069,
+            174.35
+          ],
+          [
+            1.680823,
+            43.425069,
+            174.35
+          ],
+          [
+            1.680269,
+            43.425528,
+            174.11
+          ],
+          [
+            1.67736,
+            43.427691,
+            173.29
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Sentier_Saint-Rome.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.67736,
+            43.427691
+          ],
+          [
+            1.680823,
+            43.425069
+          ],
+          [
+            1.680823,
+            43.425069
+          ],
+          [
+            1.67736,
+            43.427691
+          ]
+        ]
+      }
+    }
+  ]
+}

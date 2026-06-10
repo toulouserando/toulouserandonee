@@ -1,0 +1,11 @@
+[
+  {"id": 1, "nom": "Église Saint-Pierre", "adresse": "41 Avenue des Thermes, 32150 Cazaubon", "details": "Édifice du XVIe siècle bâti sur pilotis, remarquable pour son portail Renaissance inscrit aux MH", "lat": 43.9515, "lng": -0.0465},
+  {"id": 2, "nom": "Établissement Thermal de Barbotan", "adresse": "Avenue des Thermes, 32150 Cazaubon", "details": "Station réputée pour ses boues végéto-minérales et ses eaux sulfurées", "lat": 43.9512, "lng": -0.0458},
+  {"id": 3, "nom": "Porte de Ville de Barbotan", "adresse": "Rue principale, 32150 Cazaubon", "details": "Ancienne porte fortifiée médiévale située sous le clocher de l'église Saint-Pierre", "lat": 43.9514, "lng": -0.0468},
+  {"id": 4, "nom": "Parc Adrien Barthélémy", "adresse": "Avenue des Thermes, 32150 Cazaubon", "details": "Parc thermal célèbre pour ses bassins de lotus roses fleurissant en été", "lat": 43.9505, "lng": -0.0452},
+  {"id": 5, "nom": "Maison à colombages du Vieux Cazaubon", "adresse": "Rue des Arcades, 32150 Cazaubon", "details": "Vestiges du village médiéval du XIIIe siècle avec ses arcades typiques", "lat": 43.9352, "lng": -0.0715},
+  {"id": 6, "nom": "Arènes de Cazaubon", "adresse": "Place Alban Dulhoste, 32150 Cazaubon", "details": "Arènes de 1891 avec tribunes en bois, haut lieu de la course landaise", "lat": 43.9348, "lng": -0.0702},
+  {"id": 7, "nom": "Lac de l'Uby", "adresse": "Route du Lac, 32150 Cazaubon", "details": "Plan d'eau de 80 hectares dédié aux loisirs et à l'aviron de haut niveau", "lat": 43.9425, "lng": -0.0515},
+  {"id": 8, "nom": "Ancien Lavoir de Cazaubon", "adresse": "Rue Las Caneres, 32150 Cazaubon", "details": "Patrimoine vernaculaire restauré situé dans le centre historique", "lat": 43.9358, "lng": -0.0732},
+  {"id": 9, "nom": "Église de Cutxan", "adresse": "Hameau de Cutxan, 32150 Cazaubon", "details": "Église gothique du XVe siècle située sur le passage du méridien de Greenwich", "lat": 43.9052, "lng": -0.0001}
+]

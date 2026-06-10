@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Donjon Gilles-Aycelin",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9333,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.18385696411133,
+        "longitude": 3.0040409564971924,
+        "local_name": "Donjon Gilles-Aycelin",
+        "country": "FRA",
+        "street": "Place de l’Hôtel-de-Ville, accès par le hall d’entrée du palais-musée des Archevêques.",
+        "postcode": "11100",
+        "city": "Narbonne"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

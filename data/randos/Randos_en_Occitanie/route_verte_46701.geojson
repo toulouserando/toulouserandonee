@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Route Verte",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46701,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.961456298828125,
+        "longitude": 1.436561107635498,
+        "local_name": "Route Verte",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

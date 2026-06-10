@@ -1,0 +1,21 @@
+{
+    "type": "Feature",
+    "properties": {
+        "nom": "Circuit de l'Ouest",
+        "distance_km": 15,
+        "difficulte": "Non définie"
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                1.38,
+                43.6
+            ],
+            [
+                1.39,
+                43.61
+            ]
+        ]
+    }
+}

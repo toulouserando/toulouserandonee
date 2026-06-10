@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Rouffiac.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.057721,
+            43.898902,
+            168.34
+          ],
+          [
+            2.057721,
+            43.898902,
+            168.34
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Rouffiac.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.057721,
+            43.898902
+          ],
+          [
+            2.057721,
+            43.898902
+          ]
+        ]
+      }
+    }
+  ]
+}

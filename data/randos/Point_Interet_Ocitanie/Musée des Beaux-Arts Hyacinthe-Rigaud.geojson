@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée des Beaux-Arts Hyacinthe-Rigaud",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22158,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.69813919067383,
+        "longitude": 2.8936688899993896,
+        "local_name": "Musée des Beaux-Arts Hyacinthe-Rigaud",
+        "country": "FRA",
+        "street": "21 rue Mailly",
+        "postcode": "66000",
+        "city": "Perpignan"
+      },
+      "geometry": null
+    }
+  ]
+}

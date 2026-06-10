@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Concluses de Lussan",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8450,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.172786712646484,
+        "longitude": 4.384438991546631,
+        "local_name": "Concluses de Lussan",
+        "country": "FRA",
+        "street": null,
+        "postcode": "30580",
+        "city": "Lussan"
+      },
+      "geometry": null
+    }
+  ]
+}

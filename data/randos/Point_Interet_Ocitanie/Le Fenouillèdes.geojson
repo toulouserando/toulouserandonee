@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Le Fenouillèdes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17420,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.80853271484375,
+        "longitude": 2.505105972290039,
+        "local_name": "Le Fenouillèdes",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66220",
+        "city": "Saint-Paul-de-Fenouillet"
+      },
+      "geometry": null
+    }
+  ]
+}

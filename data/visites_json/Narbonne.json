@@ -1,0 +1,610 @@
+[
+  {
+    "categorie": "Antiquité et Romanité",
+    "monuments": [
+      {"id": 1, "nom": "Vestiges de la Via Domitia", "adresse": "13-16 Pl. de l'Hôtel de Ville, 11100 Narbonne", "latitude": 43.1837, "longitude": 3.0042},
+      {"id": 2, "nom": "Horreum Romain (Entrepôts souterrains)", "adresse": "7 Rue Rouget de Lisle, 11100 Narbonne", "latitude": 43.1842, "longitude": 3.0035},
+      {"id": 3, "nom": "Forum Antique (emplacement du Collège Victor Hugo)", "adresse": "5 Bd Marcel Sembat, 11100 Narbonne", "latitude": 43.1845, "longitude": 3.0020},
+      {"id": 4, "nom": "Borne milliaire romaine (angle Porte de Béziers)", "adresse": "Place du Forum, 11100 Narbonne", "latitude": 43.1835, "longitude": 3.0015},
+      {"id": 5, "nom": "Borne milliaire romaine (angle Bons Enfants)", "adresse": "Place du Forum, 11100 Narbonne", "latitude": 43.1834, "longitude": 3.0019},
+      {"id": 6, "nom": "Obélisque de la Place du Forum", "adresse": "Place du Forum, 11100 Narbonne", "latitude": 43.1833, "longitude": 3.0017},
+      {"id": 7, "nom": "Louve de Rome (Sculpture)", "adresse": "Entrée Nord, Rue Droite, 11100 Narbonne", "latitude": 43.1848, "longitude": 3.0040},
+      {"id": 8, "nom": "Vestiges du vivier antique du lac des Capelles", "adresse": "Rue de la Pinède, 11100 Narbonne", "latitude": 43.1495, "longitude": 3.0180},
+      {"id": 9, "nom": "Clos de la Lombarde (Domus et basilique)", "adresse": "28 B Rue Chanzy, 11100 Narbonne", "latitude": 43.1885, "longitude": 3.0065},
+      {"id": 10, "nom": "Vestiges de l'amphithéâtre gallo-romain", "adresse": "Avenue Limouzi, 11100 Narbonne", "latitude": 43.1855, "longitude": 3.0110},
+      {"id": 11, "nom": "Cimetière païen et paléochrétien de Saint-Loup", "adresse": "1 Chemin du Pont de l'Avenir, 11100 Narbonne", "latitude": 43.1810, "longitude": 3.0150},
+      {"id": 12, "nom": "Site archéologique de Port La Nautique", "adresse": "3 Rue des Nautiquards, 11100 Narbonne", "latitude": 43.1450, "longitude": 3.0010},
+      {"id": 13, "nom": "Oppidum de Montlaurès", "adresse": "Domaine de Montlaurès, 11100 Narbonne", "latitude": 43.2015, "longitude": 2.9850},
+      {"id": 14, "nom": "Ancien bras de l'Aude (Canal de la Robine)", "adresse": "Quai d'Alsace, 11100 Narbonne", "latitude": 43.1820, "longitude": 3.0055},
+      {"id": 15, "nom": "Quartier commercial et port nautique romain (INRAP)", "adresse": "15 Quai d'Alsace / Rue du Commerce, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0060},
+      {"id": 16, "nom": "Nécropole antique de la Robine", "adresse": "Entre Pont de l'Avenir et Musée Narbo Via, 11100 Narbonne", "latitude": 43.1795, "longitude": 3.0180},
+      {"id": 17, "nom": "Thermes Romains du Clos de la Lombarde", "adresse": "28 Rue Chanzy, 11100 Narbonne", "latitude": 43.1884, "longitude": 3.0064},
+      {"id": 18, "nom": "Thermes Romains du Sud", "adresse": "Rue Jean Deschamps / Rue Robespierre, 11100 Narbonne", "latitude": 43.1845, "longitude": 3.0105},
+      {"id": 19, "nom": "Entrepôts romains (Horrea secondaires)", "adresse": "74 Bd Frédéric Mistral, 11100 Narbonne", "latitude": 43.1865, "longitude": 3.0025},
+      {"id": 20, "nom": "Temple Capitolin (Jupiter, Basilique, Curie)", "adresse": "Cour du Collège Victor Hugo, 11100 Narbonne", "latitude": 43.1844, "longitude": 3.0018},
+      {"id": 21, "nom": "Amphithéâtre et petit temple adjacent", "adresse": "Avenue Limouzi, 11100 Narbonne", "latitude": 43.1856, "longitude": 3.0112},
+      {"id": 22, "nom": "Basilique Saint-Félix (Vestiges antiques)", "adresse": "Place Bistan, 11100 Narbonne", "latitude": 43.1831, "longitude": 3.0038},
+      {"id": 23, "nom": "Théâtre romain présumé (Hôtel de la brigade)", "adresse": "12 Rue Louis Blanc, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0012}
+    ]
+  },
+  {
+    "categorie": "Officiel",
+    "monuments": [
+      {"id": 24, "nom": "Hôtel de Ville", "adresse": "Place de l'Hôtel de ville, 11100 Narbonne", "latitude": 43.1838, "longitude": 3.0045},
+      {"id": 25, "nom": "Conseil Général (Ancienne église Saint-Cosme / Les Doctrinaires)", "adresse": "13 Bd Gambetta, 11100 Narbonne", "latitude": 43.1852, "longitude": 3.0058},
+      {"id": 26, "nom": "Ancien Palais Vicomtal", "adresse": "10 Cours de la République, 11100 Narbonne", "latitude": 43.1830, "longitude": 3.0048},
+      {"id": 27, "nom": "Ex ancien Consulat du Bourg", "adresse": "35 Rue du Pont des Marchands, 11100 Narbonne", "latitude": 43.1822, "longitude": 3.0041},
+      {"id": 28, "nom": "Maison de la Maîtrise", "adresse": "4 Rue Armand Gauthier, 11100 Narbonne", "latitude": 43.1843, "longitude": 3.0051},
+      {"id": 29, "nom": "Office de Tourisme (Ancien Moulin)", "adresse": "31 Rue Jean Jaurès, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0030},
+      {"id": 30, "nom": "Palais de Justice", "adresse": "19 Boulevard Général de Gaulle, 11100 Narbonne", "latitude": 43.1812, "longitude": 3.0005},
+      {"id": 31, "nom": "Tribunal de Commerce", "adresse": "40 Bd Général de Gaulle, 11100 Narbonne", "latitude": 43.1805, "longitude": 3.0018},
+      {"id": 32, "nom": "Maison du Consul de 1597", "adresse": "7 Rue de Belfort, 11100 Narbonne", "latitude": 43.1828, "longitude": 3.0032},
+      {"id": 33, "nom": "Maison Consulaire", "adresse": "3-7 Rue Benjamin Crémieux, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0039},
+      {"id": 34, "nom": "Sous-préfecture (Ancienne et actuelle)", "adresse": "37 Bd Général de Gaulle, 11100 Narbonne", "latitude": 43.1808, "longitude": 3.0010},
+      {"id": 35, "nom": "Ancienne Préfecture (Hôtel Pech de Laclause)", "adresse": "1 Place de Verdun, 11100 Narbonne", "latitude": 43.1810, "longitude": 3.0015},
+      {"id": 36, "nom": "Mairie - Services Techniques", "adresse": "10 Quai Dillon, 11100 Narbonne", "latitude": 43.1802, "longitude": 3.0040}
+    ]
+  },
+  {
+    "categorie": "Monuments remarquables",
+    "monuments": [
+      {"id": 37, "nom": "Tour de la Madeleine (Ancienne école)", "adresse": "Place de l'Hôtel de ville, 11100 Narbonne", "latitude": 43.1836, "longitude": 3.0044},
+      {"id": 38, "nom": "Le Belvédère (Maison Bow-Window et Tour 'Fabrique')", "adresse": "60 Bd Général de Gaulle, 11100 Narbonne", "latitude": 43.1795, "longitude": 3.0025}
+    ]
+  },
+  {
+    "categorie": "Églises et Édifices religieux",
+    "monuments": [
+      {"id": 39, "nom": "Cathédrale Saint-Just-et-Saint-Pasteur", "adresse": "Rue Armand Gauthier, 11100 Narbonne", "latitude": 43.1845, "longitude": 3.0050},
+      {"id": 40, "nom": "Palais des Archevêques de Narbonne", "adresse": "Place de l'Hôtel de Ville, 11100 Narbonne", "latitude": 43.1835, "longitude": 3.0045},
+      {"id": 41, "nom": "Basilique Saint-Paul (Nécropole Saint-Paul)", "adresse": "1 Rue de l'Hôtel Dieu, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0005},
+      {"id": 42, "nom": "Église Saint-Paul", "adresse": "21 Rue Arago, 11100 Narbonne", "latitude": 43.1812, "longitude": 3.0010},
+      {"id": 43, "nom": "Église Notre-Dame de Lamourguier (ex Sainte-Marie du Bourg)", "adresse": "Place de Lamourguier, 11100 Narbonne", "latitude": 43.1805, "longitude": 3.0065},
+      {"id": 44, "nom": "Couvent des Carmélites", "adresse": "7 Rue Michelet, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0045},
+      {"id": 45, "nom": "Couvent des Frères du Saint-Esprit", "adresse": "8 Rue Rabelais, 11100 Narbonne", "latitude": 43.1865, "longitude": 3.0075},
+      {"id": 46, "nom": "Couvent Saint-Bonaventure", "adresse": "3 Rue Barbès, 11100 Narbonne", "latitude": 43.1862, "longitude": 3.0025},
+      {"id": 47, "nom": "Église et Couvent des Carmes", "adresse": "4-6 Rue Louis David, 11100 Narbonne", "latitude": 43.1850, "longitude": 3.0080},
+      {"id": 48, "nom": "Église et Couvent des Cordeliers", "adresse": "6 Boulevard Général de Gaulle, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0020},
+      {"id": 49, "nom": "Église des Jacobins (ex Sœurs de la Sainte-Famille)", "adresse": "1-4 Rue Émile Zola, 11100 Narbonne", "latitude": 43.1830, "longitude": 3.0070},
+      {"id": 50, "nom": "Église de la Major (ex Sainte-Marie majeur)", "adresse": "11 Rue Auber, 11100 Narbonne", "latitude": 43.1835, "longitude": 3.0085},
+      {"id": 51, "nom": "Église Notre-Dame des Olieux", "adresse": "Domaine des Monges, Route de Gruissan, 11100 Narbonne", "latitude": 43.1650, "longitude": 3.0450},
+      {"id": 52, "nom": "Église Saint-Sébastien et Cloître", "adresse": "11 Rue Michelet / 15 Rue Garibaldi, 11100 Narbonne", "latitude": 43.1860, "longitude": 3.0048},
+      {"id": 54, "nom": "Couvent des Ursulines (Centre de Santé)", "adresse": "4-12 Rue Denfert Rochereau, 11100 Narbonne", "latitude": 43.1868, "longitude": 3.0055},
+      {"id": 56, "nom": "Chapelle de la Madeleine", "adresse": "Place de l'Hôtel de Ville, 11100 Narbonne", "latitude": 43.1836, "longitude": 3.0044},
+      {"id": 57, "nom": "Église Notre-Dame-de-Grâce (Pénitents Blancs)", "adresse": "12a Rue de Belfort, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0035},
+      {"id": 58, "nom": "Chapelle des Pénitents Bleus", "adresse": "3 Pl. Roger Salengro, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0028},
+      {"id": 60, "nom": "Centre Paroissial Saint-Pierre", "adresse": "4a Rue Garibaldi, 11100 Narbonne", "latitude": 43.1855, "longitude": 3.0040},
+      {"id": 61, "nom": "Ex Couvent Saint-Bernard", "adresse": "7 Place du Forum, 11100 Narbonne", "latitude": 43.1833, "longitude": 3.0017},
+      {"id": 62, "nom": "Ex Couvent des Minimes", "adresse": "29 Rue Francis Marcero, 11100 Narbonne", "latitude": 43.1870, "longitude": 3.0035},
+      {"id": 63, "nom": "Ancien Couvent des Trinitaires (Hôtel des Postes)", "adresse": "19 Bd Gambetta, 11100 Narbonne", "latitude": 43.1855, "longitude": 3.0062},
+      {"id": 64, "nom": "Ex Couvent Les Trinitaires", "adresse": "13 Rue Brissot, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0085},
+      {"id": 65, "nom": "Ancien Couvent des Capucins (actuelle MJC)", "adresse": "3 Pl. Roger Salengro, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0028},
+      {"id": 66, "nom": "Ex ancien Séminaire", "adresse": "10-12 Rue du 1er mai 1945, 11100 Narbonne", "latitude": 43.1875, "longitude": 3.0080},
+      {"id": 67, "nom": "Ex Couvent des Augustins", "adresse": "2 Rue des Tanneurs, 11100 Narbonne", "latitude": 43.1840, "longitude": 3.0090},
+      {"id": 68, "nom": "Ex Église Saint-Nazaire", "adresse": "20 Rue Marceau, 11100 Narbonne", "latitude": 43.1820, "longitude": 3.0082},
+      {"id": 69, "nom": "Ex Église Saint-Jacques", "adresse": "1 Place Voltaire, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0095},
+      {"id": 70, "nom": "Église Réformée", "adresse": "6 Bd Condorcet, 11100 Narbonne", "latitude": 43.1810, "longitude": 3.0075},
+      {"id": 71, "nom": "Église Évangélique Vie et Lumière", "adresse": "8 Rue Arago, 11100 Narbonne", "latitude": 43.1811, "longitude": 3.0015},
+      {"id": 72, "nom": "Synagogue de Narbonne (Ancienne maison de l'aumône)", "adresse": "67 Rue Droite, 11100 Narbonne", "latitude": 43.1845, "longitude": 3.0042},
+      {"id": 74, "nom": "Abbaye de Fontfroide", "adresse": "164 Chemin de Fontfroide, 11100 Narbonne", "latitude": 43.1285, "longitude": 2.8985}
+    ]
+  },
+{
+    "categorie": "Hôtels particuliers et maisons Renaissance",
+    "monuments": [
+      {"id": 75, "nom": "Hôtel des Prud'Hommes", "adresse": "40 Quai Vallière, 11100 Narbonne", "latitude": 43.1820, "longitude": 3.0035},
+      {"id": 76, "nom": "Hôtels particuliers du Quai Victor Hugo (n°18 et 19)", "adresse": "18-19 Quai Victor Hugo, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0028},
+      {"id": 78, "nom": "Hôtel 19ème siècle (Académie du Temps Libre)", "adresse": "38 Avenue du Général-Leclerc, 11100 Narbonne", "latitude": 43.1865, "longitude": 3.0120},
+      {"id": 79, "nom": "Maison des Trois-Nourrices", "adresse": "10 Rue des 3 Nourrices, 11100 Narbonne", "latitude": 43.1823, "longitude": 3.0015},
+      {"id": 80, "nom": "Hôtel de l'Archidiacre", "adresse": "2 Impasse Scribe, 11100 Narbonne", "latitude": 43.1848, "longitude": 3.0055},
+      {"id": 81, "nom": "Hôtel Benavent", "adresse": "7 Rue Louis Blanc, 11100 Narbonne", "latitude": 43.1826, "longitude": 3.0018},
+      {"id": 82, "nom": "Hôtel de la Brigade", "adresse": "12 Rue Louis Blanc, 11100 Narbonne", "latitude": 43.1824, "longitude": 3.0012},
+      {"id": 83, "nom": "Maison des Inquants", "adresse": "6 Pl. des 4 Fontaines, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0042},
+      {"id": 84, "nom": "Maison de l'Aumône (Synagogue)", "adresse": "67 Rue Droite, 11100 Narbonne", "latitude": 43.1845, "longitude": 3.0042},
+      {"id": 85, "nom": "Maison de la Mothe", "adresse": "61 Rue Droite, 11100 Narbonne", "latitude": 43.1843, "longitude": 3.0041},
+      {"id": 86, "nom": "Maison romane de Narbonne", "adresse": "84 Rue Droite, 11100 Narbonne", "latitude": 43.1852, "longitude": 3.0045},
+      {"id": 87, "nom": "Maison romane de la Rue Marceau", "adresse": "20 Rue Marceau, 11100 Narbonne", "latitude": 43.1820, "longitude": 3.0082},
+      {"id": 88, "nom": "Hôtel Frégose - de Poulhariez", "adresse": "17 Rue Rouget-de-L'Isle, 11100 Narbonne", "latitude": 43.1844, "longitude": 3.0033},
+      {"id": 89, "nom": "Tourelle d'angle de la Rue Droite", "adresse": "73 Rue Droite, 11100 Narbonne", "latitude": 43.1847, "longitude": 3.0043},
+      {"id": 90, "nom": "Tour du Passage Louis Rossel", "adresse": "Passage Louis Rossel, 11100 Narbonne", "latitude": 43.1838, "longitude": 3.0052},
+      {"id": 91, "nom": "Hôtel particulier (Ancien)", "adresse": "15-19 Rue Rouget de l'Isle, 11100 Narbonne", "latitude": 43.1843, "longitude": 3.0032},
+      {"id": 93, "nom": "Maison romane (1bis)", "adresse": "1bis Rue Rouget de L'Isle, 11100 Narbonne", "latitude": 43.1841, "longitude": 3.0038},
+      {"id": 94, "nom": "Logis du Précenteur", "adresse": "3 Rue Rouget de L'Isle, 11100 Narbonne", "latitude": 43.1841, "longitude": 3.0036},
+      {"id": 96, "nom": "Maison avec tour", "adresse": "4 Rue Aigues-Vives, 11100 Narbonne", "latitude": 43.1822, "longitude": 3.0010},
+      {"id": 97, "nom": "Hôtel particulier (Edgar Menet)", "adresse": "1 Rue Edgar Menet / 5 Pl. Cassaignol, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0075},
+      {"id": 98, "nom": "Maison romane du Luxembourg", "adresse": "8 Rue du Luxembourg, 11100 Narbonne", "latitude": 43.1855, "longitude": 3.0068},
+      {"id": 99, "nom": "Résidence le Belfort (Hommage Fontes)", "adresse": "12 Rue de Belfort, 11100 Narbonne", "latitude": 43.1827, "longitude": 3.0034}
+    ]
+  },
+  {
+    "categorie": "Musées et Monuments commémoratifs",
+    "monuments": [
+      {"id": 100, "nom": "Musée Narbo Via", "adresse": "2 Avenue André Mècle, 11100 Narbonne", "latitude": 43.1785, "longitude": 3.0205},
+      {"id": 101, "nom": "Musée du téléphone", "adresse": "38 Bd Marcel Sembat, 11100 Narbonne", "latitude": 43.1848, "longitude": 3.0022},
+      {"id": 102, "nom": "Patio des Arts (Ancien Hôpital de la Charité)", "adresse": "14 Quai Dillon, 11100 Narbonne", "latitude": 43.1805, "longitude": 3.0045},
+      {"id": 103, "nom": "Maison natale de Charles Trenet", "adresse": "13 Av. Charles Trenet, 11100 Narbonne", "latitude": 43.1842, "longitude": 3.0165},
+      {"id": 104, "nom": "Maison natale de Pierre Laprade", "adresse": "12 Rue Charras, 11100 Narbonne", "latitude": 43.1868, "longitude": 3.0078},
+      {"id": 105, "nom": "Maison de Hercule Birat", "adresse": "5 Rue Armand Gauthier, 11100 Narbonne", "latitude": 43.1843, "longitude": 3.0051},
+      {"id": 106, "nom": "Maison du poète Pierre Reverdy", "adresse": "3 Rue Benjamin Crémieux, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0039},
+      {"id": 107, "nom": "Monument aux morts", "adresse": "1 Cr Mirabeau / Bd Dr Lacroix, 11100 Narbonne", "latitude": 43.1808, "longitude": 3.0055},
+      {"id": 108, "nom": "Monument commémoratif d'Ernest Ferroul", "adresse": "20 Bd Frédéric Mistral, 11100 Narbonne", "latitude": 43.1860, "longitude": 3.0028},
+      {"id": 109, "nom": "Plaque du Club de la Révolution (1871)", "adresse": "Place de Lamourguier, 11100 Narbonne", "latitude": 43.1805, "longitude": 3.0065},
+      {"id": 110, "nom": "Plaque commémorative de l'Ancien Courrier", "adresse": "37 Rue de l'Ancien Courrier, 11100 Narbonne", "latitude": 43.1835, "longitude": 3.0025},
+      {"id": 111, "nom": "Monument des martyrs de la Résistance", "adresse": "Place de l'Appel du 18 Juin 1940, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0018}
+    ]
+  },
+{
+    "categorie": "Halles et Théâtres",
+    "monuments": [
+      {"id": 112, "nom": "Halles de Narbonne (Style Baltard)", "adresse": "1 Cours Mirabeau / Bd Docteur Ferroul, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0035},
+      {"id": 114, "nom": "Théâtre + Cinéma Scène Nationale", "adresse": "2 Av. Maître Hubert Mouly, 11100 Narbonne", "latitude": 43.1798, "longitude": 3.0075}
+    ]
+  },
+  {
+    "categorie": "Banques et Édifices financiers",
+    "monuments": [
+      {"id": 115, "nom": "Banque de France", "adresse": "1 Avenue Naïade / 12 Bd Frédéric Mistral, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0025},
+      {"id": 116, "nom": "Caisse d'Épargne (Bâtiment remarquable)", "adresse": "31 Bd Dr Ferroul, 11100 Narbonne", "latitude": 43.1812, "longitude": 3.0048},
+      {"id": 117, "nom": "Crédit Lyonnais", "adresse": "9 Cours de la République, 11100 Narbonne", "latitude": 43.1832, "longitude": 3.0042},
+      {"id": 118, "nom": "BNP Paribas (Ancien Comptoir National d'Escompte)", "adresse": "50 Rue Jean Jaurès, 11100 Narbonne", "latitude": 43.1820, "longitude": 3.0025}
+    ]
+  },
+  {
+    "categorie": "Châteaux et Manoirs",
+    "monuments": [
+      {"id": 119, "nom": "Manoir du Quai Vallière", "adresse": "42 Quai Vallière, 11100 Narbonne", "latitude": 43.1821, "longitude": 3.0033},
+      {"id": 120, "nom": "Domaine de Montplaisir", "adresse": "Chemin de Montplaisir, 11100 Narbonne", "latitude": 43.1610, "longitude": 3.0155},
+      {"id": 121, "nom": "Château de Mandirac", "adresse": "Route de Mandirac, 11100 Narbonne", "latitude": 43.1255, "longitude": 3.0345}
+    ]
+  },
+  {
+    "categorie": "Statues et Fresques",
+    "monuments": [
+      {"id": 122, "nom": "Sculpture La Natale (Entrée de ville)", "adresse": "Route de Perpignan, 11100 Narbonne", "latitude": 43.1685, "longitude": 3.0012},
+      {"id": 123, "nom": "Fresque murale Paul Laffont", "adresse": "2 Rue Paul Laffont, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0085},
+      {"id": 124, "nom": "Statue de la Place Vincent Hyspa", "adresse": "Place Vincent Hyspa, 11100 Narbonne", "latitude": 43.1832, "longitude": 3.0058}
+    ]
+  },
+  {
+    "categorie": "Remparts et Casernes",
+    "monuments": [
+      {"id": 125, "nom": "Portion des Remparts", "adresse": "7 Boulevard Docteur Lacroix, 11100 Narbonne", "latitude": 43.1845, "longitude": 3.0095},
+      {"id": 126, "nom": "Ancienne Porte de Perpignan", "adresse": "Rue Ancienne Porte de Perpignan, 11100 Narbonne", "latitude": 43.1802, "longitude": 3.0015},
+      {"id": 127, "nom": "Ancienne Porte de Béziers", "adresse": "Rue de l'Ancienne Porte de Béziers, 11100 Narbonne", "latitude": 43.1848, "longitude": 3.0008},
+      {"id": 128, "nom": "Ancienne Porte Neuve", "adresse": "Rue de l'Ancienne Porte Neuve, 11100 Narbonne", "latitude": 43.1852, "longitude": 3.0040},
+      {"id": 129, "nom": "Ancienne Caserne (École du Bourg)", "adresse": "2 Bd Dr Ferroul, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0052},
+      {"id": 130, "nom": "Ancienne Caserne (Institut Sévigné)", "adresse": "4 Rue Armand Gauthier, 11100 Narbonne", "latitude": 43.1843, "longitude": 3.0051},
+      {"id": 131, "nom": "Caserne Montmorency (Ancien couvent de Lamourguier)", "adresse": "Place de Lamourguier, 11100 Narbonne", "latitude": 43.1805, "longitude": 3.0065}
+    ]
+  },
+{
+    "categorie": "Santé et Hôpitaux",
+    "monuments": [
+      {"id": 132, "nom": "Hôpital (Hôtel-Dieu / Porche du XVIIe s.)", "adresse": "16-34 Rue Rabelais, 11100 Narbonne", "latitude": 43.1862, "longitude": 3.0072},
+      {"id": 133, "nom": "Ancien Hôtel-Dieu (Hôpital Saint-Paul)", "adresse": "Rue de l'Hôtel-Dieu, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0008},
+      {"id": 134, "nom": "Ancien hôpital de la Croix (ou des Pauvres)", "adresse": "Angle Pl. de l'Hôtel de Ville / Rue de l'Ancien Courrier, 11100 Narbonne", "latitude": 43.1837, "longitude": 3.0040},
+      {"id": 135, "nom": "Hôpital Pech Dalcy (Ancienne institution)", "adresse": "4-4bis Quai Dillon, 11100 Narbonne", "latitude": 43.1805, "longitude": 3.0038},
+      {"id": 136, "nom": "Hôpital de la Charité", "adresse": "14 Quai Dillon, 11100 Narbonne", "latitude": 43.1805, "longitude": 3.0045},
+      {"id": 137, "nom": "Ancienne clinique Denoy", "adresse": "1 Place Docteur Jean Denoy, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0085},
+      {"id": 138, "nom": "Maison Médicale de Garde", "adresse": "1 Bd Dr Lacroix, 11100 Narbonne", "latitude": 43.1840, "longitude": 3.0055},
+      {"id": 139, "nom": "Maison du Personnel / Centre de Vaccinations", "adresse": "10 Rue Rabelais, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0070}
+    ]
+  },
+  {
+    "categorie": "Enseignement et Écoles",
+    "monuments": [
+      {"id": 140, "nom": "Collège Victor Hugo", "adresse": "5 Bd Marcel Sembat / 27 Bd Pierre Sémard, 11100 Narbonne", "latitude": 43.1845, "longitude": 3.0020},
+      {"id": 141, "nom": "École Montmorency (Ancien couvent des Doctrinaires)", "adresse": "5 Bd Dr Lacroix, 11100 Narbonne", "latitude": 43.1842, "longitude": 3.0065},
+      {"id": 142, "nom": "École Saint-Joseph (Ancienne école des Sœurs de Notre-Dame)", "adresse": "14 Rue du Capitole, 11100 Narbonne", "latitude": 43.1838, "longitude": 3.0025},
+      {"id": 143, "nom": "Collège/Lycée Beauséjour (Hôtel Trégoin)", "adresse": "2 Rue Girard / 16 Rue Michelet, 11100 Narbonne", "latitude": 43.1855, "longitude": 3.0048},
+      {"id": 144, "nom": "Collège de Jeunes Filles", "adresse": "3 Rue Bonnel, 11100 Narbonne", "latitude": 43.1850, "longitude": 3.0055},
+      {"id": 145, "nom": "École Arago", "adresse": "26 Rue Arago / Bd Dr Lacroix, 11100 Narbonne", "latitude": 43.1810, "longitude": 3.0012},
+      {"id": 146, "nom": "Institut Sévigné (Ancienne Cie Marie Notre Dame)", "adresse": "1 Rue du Capitole / 34 Rue Anc. Porte-Neuve, 11100 Narbonne", "latitude": 43.1843, "longitude": 3.0051},
+      {"id": 147, "nom": "École Jeanne d'Arc", "adresse": "13 Rue des Trois Moulins, 11100 Narbonne", "latitude": 43.1865, "longitude": 3.0090},
+      {"id": 148, "nom": "École maternelle Lamartine", "adresse": "5 Rue des Bons Enfants, 11100 Narbonne", "latitude": 43.1832, "longitude": 3.0022},
+      {"id": 150, "nom": "École du Bourg", "adresse": "2 Rue des Remparts, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0052},
+      {"id": 151, "nom": "École maternelle Helvétie (et porche)", "adresse": "5b Pl. de Belfort / 8 Rue de l'Helvétie, 11100 Narbonne", "latitude": 43.1830, "longitude": 3.0035}
+    ]
+  },
+  {
+    "categorie": "Lieux Culturels",
+    "monuments": [
+      {"id": 153, "nom": "Espace Mirabeau", "adresse": "21 bis Cours Mirabeau / 9 Rue Benjamin Crémieux, 11100 Narbonne", "latitude": 43.1822, "longitude": 3.0040}
+    ]
+  },
+{
+    "categorie": "Commerces, Magasins et Industrie",
+    "monuments": [
+      {"id": 155, "nom": "Ancienne Poudrière", "adresse": "30B Rue de l'Ancienne Porte Neuve, 11100 Narbonne", "latitude": 43.1855, "longitude": 3.0038},
+      {"id": 156, "nom": "Ancien magasin 'Aux Dames de France' (Monoprix)", "adresse": "Place de l'Hôtel de Ville, 11100 Narbonne", "latitude": 43.1838, "longitude": 3.0048},
+      {"id": 157, "nom": "Petite Maison Pâtes Au Beurre", "adresse": "9 Avenue Maréchal Foch, 11100 Narbonne", "latitude": 43.1872, "longitude": 3.0095},
+      {"id": 158, "nom": "Ancienne Imprimerie et Papèterie", "adresse": "2 Boulevard du Général de Gaulle, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0002},
+      {"id": 159, "nom": "Ancien magasin des Ponts et Chaussées", "adresse": "41 Av. Général Leclerc, 11100 Narbonne", "latitude": 43.1868, "longitude": 3.0125},
+      {"id": 160, "nom": "Café Continental", "adresse": "Angle Cours de la République / Rue Marcelin Coural, 11100 Narbonne", "latitude": 43.1828, "longitude": 3.0045}
+    ]
+  },
+  {
+    "categorie": "Sports et Services Postaux",
+    "monuments": [
+      {"id": 161, "nom": "Palais des Sports, des Arts et du Travail", "adresse": "1 Bd Frédéric Mistral, 11100 Narbonne", "latitude": 43.1862, "longitude": 3.0030},
+      {"id": 162, "nom": "Hôtel de la Dorade (Ancien relais de poste / Grand Hôtel)", "adresse": "44 Rue Jean Jaurès, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0022},
+      {"id": 165, "nom": "Passage de l'Ancien Courrier", "adresse": "50 Rue de l'Ancien Courrier, 11100 Narbonne", "latitude": 43.1834, "longitude": 3.0028}
+    ]
+  },
+  {
+    "categorie": "Eau, Fontaines et Puits",
+    "monuments": [
+      {"id": 166, "nom": "Fontaine de la Place des Quatre Fontaines", "adresse": "Place des 4 Fontaines, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0042},
+      {"id": 167, "nom": "Fontaine de la Place Voltaire", "adresse": "Place Voltaire, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0095},
+      {"id": 168, "nom": "Puits de la Rue Rabelais", "adresse": "21 Rue Rabelais, 11100 Narbonne", "latitude": 43.1865, "longitude": 3.0075},
+      {"id": 169, "nom": "Puits du Quai Dillon", "adresse": "4 Quai Dillon, 11100 Narbonne", "latitude": 43.1805, "longitude": 3.0038},
+      {"id": 170, "nom": "Maison du 16ème siècle avec puits", "adresse": "8 Rue Pierre Laprade, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0078},
+      {"id": 172, "nom": "Pont des Marchands (Vestige de l'Aqueduc romain)", "adresse": "Rue du Pont des Marchands, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0045}
+    ]
+  },
+  {
+    "categorie": "Parcs, Jardins et Domaines",
+    "monuments": [
+      {"id": 173, "nom": "Square Thérèse Léon Blum (Ancien couvent des Cordeliers)", "adresse": "Place Thérèse Léon Blum, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0025},
+      {"id": 176, "nom": "Jardin Saint-Paul (Jardin des Martyrs de la Révolution)", "adresse": "Boulevard du Docteur Lacroix, 11100 Narbonne", "latitude": 43.1810, "longitude": 3.0005},
+      {"id": 177, "nom": "Jardin de l'Archevêché et Jardin des Vicomtes", "adresse": "Rue Gustave Fabre, 11100 Narbonne", "latitude": 43.1838, "longitude": 3.0055},
+      {"id": 178, "nom": "Jardin médiéval et Île du Moulin du Gua", "adresse": "Quai de Lorraine / Rue de l'Aude, 11100 Narbonne", "latitude": 43.1895, "longitude": 3.0015},
+      {"id": 181, "nom": "Château de Ricardelle d'Auderic", "adresse": "Avenue de Gruissan, 11100 Narbonne", "latitude": 43.1650, "longitude": 3.0510},
+      {"id": 182, "nom": "Château de Montfort", "adresse": "Chemin de Mandirac, 11100 Narbonne", "latitude": 43.1350, "longitude": 3.0280},
+      {"id": 183, "nom": "Château de Jonquières", "adresse": "Domaine de Jonquières, 11100 Narbonne", "latitude": 43.1550, "longitude": 2.9550},
+      {"id": 184, "nom": "Château Auris", "adresse": "Domaine d'Auris, 11100 Narbonne", "latitude": 43.1380, "longitude": 3.0850},
+      {"id": 185, "nom": "Château de Lebrettes", "adresse": "Domaine de Lebrettes, 11100 Narbonne", "latitude": 43.1850, "longitude": 3.1250},
+      {"id": 186, "nom": "Château Capitoul", "adresse": "Route de Gruissan, 11100 Narbonne", "latitude": 43.1480, "longitude": 3.0720},
+      {"id": 187, "nom": "Château de la Prade", "adresse": "Chemin de Bougna, 11100 Narbonne", "latitude": 43.1950, "longitude": 3.0820},
+      {"id": 188, "nom": "Château de Moujan", "adresse": "D168, Domaine de Moujan, 11100 Narbonne", "latitude": 43.1750, "longitude": 3.1050},
+      {"id": 189, "nom": "Château l'Hospitalet", "adresse": "D168, Route de Narbonne-Plage, 11100 Narbonne", "latitude": 43.1650, "longitude": 3.1150}
+    ]
+  },
+  {
+    "categorie": "Statues et Sculptures Autoroutières",
+    "monuments": [
+      {"id": 190, "nom": "Les Chevaliers Cathares (Sculptures)", "adresse": "A61, Aire de Narbonne-Vinassan, 11100 Narbonne", "latitude": 43.2050, "longitude": 3.0550},
+      {"id": 191, "nom": "Monument Charles Trenet", "adresse": "A61, Aire de Narbonne, 11100 Narbonne", "latitude": 43.1550, "longitude": 2.9850}
+    ]
+  },
+{
+    "categorie": "Immeubles et Maisons historiques",
+    "monuments": [
+      {"id": 192, "nom": "Maison à l'Écusson (Ancien couvent des Sœurs de la Croix)", "adresse": "1 Rue Auber, 11100 Narbonne", "latitude": 43.1834, "longitude": 3.0083},
+      {"id": 193, "nom": "Maison à tourelle d'escalier (XVème s.)", "adresse": "6 Rue Cassaignol, 11100 Narbonne", "latitude": 43.1816, "longitude": 3.0076},
+      {"id": 194, "nom": "Maison de l'île Saint-Ambroise (XVIIe s.)", "adresse": "8 Rue Pierre Laprade, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0078},
+      {"id": 195, "nom": "Maison à porte sculptée (XVIIe s.)", "adresse": "2 Impasse Rameau, 11100 Narbonne", "latitude": 43.1860, "longitude": 3.0072},
+      {"id": 196, "nom": "Logement du vicaire de Saint-Just (île Saint-Georges)", "adresse": "6 Rue Armand Gauthier, 11100 Narbonne", "latitude": 43.1843, "longitude": 3.0051},
+      {"id": 197, "nom": "Hôtel Dautemar (Vestiges XVIIe s.)", "adresse": "9 Rue Hoche, 11100 Narbonne", "latitude": 43.1852, "longitude": 3.0088},
+      {"id": 198, "nom": "Maison Le Noir (Écusson de notables)", "adresse": "17 Rue Hoche, 11100 Narbonne", "latitude": 43.1848, "longitude": 3.0085},
+      {"id": 199, "nom": "Hôtel Pons de Guimera (Baron de Montclar)", "adresse": "4 Place Jules Nadi, 11100 Narbonne", "latitude": 43.1828, "longitude": 3.0052},
+      {"id": 200, "nom": "Immeuble du Capitole (Ancien hôtel à tourelle)", "adresse": "18 Rue Louis Blanc, 11100 Narbonne", "latitude": 43.1823, "longitude": 3.0010},
+      {"id": 201, "nom": "Ancien logis de la Vache (Façade romane XIIe s.)", "adresse": "6 Rue du Luxembourg, 11100 Narbonne", "latitude": 43.1855, "longitude": 3.0068},
+      {"id": 202, "nom": "Maison du XVIe siècle avec puits", "adresse": "8 Rue Marceau, 11100 Narbonne", "latitude": 43.1822, "longitude": 3.0084},
+      {"id": 203, "nom": "Vestiges de maison à encorbellement", "adresse": "15 Rue Sambre et Meuse, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0035},
+      {"id": 204, "nom": "Maison de Jean de Brunes (Ancien monastère)", "adresse": "16 Bis Avenue Maréchal Foch, 11100 Narbonne", "latitude": 43.1875, "longitude": 3.0098},
+      {"id": 205, "nom": "Ancienne Bourse des Draps (Maison des Inquants)", "adresse": "2 Place Albert Thomas, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0042},
+      {"id": 206, "nom": "Maison de Gabriel Loys (Chanoine de Saint-Paul)", "adresse": "16 Rue Parmentier, 11100 Narbonne", "latitude": 43.1812, "longitude": 3.0018},
+      {"id": 207, "nom": "Hôtel du Vicaire Général (île de l'Aumône)", "adresse": "7 Rue du Lieutenant Colonel Deymes, 11100 Narbonne", "latitude": 43.1838, "longitude": 3.0092},
+      {"id": 208, "nom": "Maison à puits (Ile Saint-Bazile)", "adresse": "15 Rue Rouget de Lisle, 11100 Narbonne", "latitude": 43.1843, "longitude": 3.0032},
+      {"id": 209, "nom": "Logis du Tapis Royal (Hôpital de la Croix)", "adresse": "10 Rue Viollet le Duc, 11100 Narbonne", "latitude": 43.1838, "longitude": 3.0040},
+      {"id": 210, "nom": "Maison aux pierres sculptées", "adresse": "11 Rue Louis Blanc, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0015}
+    ]
+  },
+{
+    "categorie": "Architecture Art Nouveau et Art Déco",
+    "monuments": [
+      {"id": 211, "nom": "Maison Art Nouveau", "adresse": "58 Bd Général de Gaulle, 11100 Narbonne", "latitude": 43.1798, "longitude": 3.0028},
+      {"id": 212, "nom": "Maison Art Déco", "adresse": "4 Avenue Pierre Sémard, 11100 Narbonne", "latitude": 43.1865, "longitude": 3.0015},
+      {"id": 213, "nom": "Maison Art Déco", "adresse": "11 Rue Romain, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0010},
+      {"id": 214, "nom": "Immeuble Art Déco", "adresse": "9 Rue Chennebier, 11100 Narbonne", "latitude": 43.1860, "longitude": 3.0042}
+    ]
+  },
+  {
+    "categorie": "Immeubles et Maisons de ville",
+    "monuments": [
+      {"id": 215, "nom": "Villa François", "adresse": "12 Quai Victor Hugo, 11100 Narbonne", "latitude": 43.1816, "longitude": 3.0030},
+      {"id": 216, "nom": "Ensemble d'immeubles - Bd Frédéric Mistral", "adresse": "14, 22, 30, 32, 40 Bd Frédéric Mistral, 11100 Narbonne", "latitude": 43.1862, "longitude": 3.0025},
+      {"id": 217, "nom": "Ancienne Brasserie de la Bourse", "adresse": "32 Bd Frédéric Mistral, 11100 Narbonne", "latitude": 43.1868, "longitude": 3.0022},
+      {"id": 218, "nom": "Immeubles remarquables - Bd Gambetta", "adresse": "7, 8, 10, 12, 22, 28 Bd Gambetta, 11100 Narbonne", "latitude": 43.1855, "longitude": 3.0060},
+      {"id": 219, "nom": "Immeubles remarquables - Quai Victor Hugo", "adresse": "3, 5, 7, 20, 23 Quai Victor Hugo, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0025},
+      {"id": 220, "nom": "Immeubles - Rue Jean Jaurès (Secteur Foncia/Pharmacie)", "adresse": "40 à 58 Rue Jean Jaurès, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0020},
+      {"id": 221, "nom": "Ensemble d'immeubles - Rue du 1er mai 1945", "adresse": "3 à 10 Rue du 1er mai 1945, 11100 Narbonne", "latitude": 43.1872, "longitude": 3.0075},
+      {"id": 222, "nom": "Maison du XVIIIe siècle", "adresse": "21 Rue Ancienne Porte-Neuve, 11100 Narbonne", "latitude": 43.1848, "longitude": 3.0045},
+      {"id": 223, "nom": "Maison de l'Habitat et du Développement Durable", "adresse": "8 Av. Maréchal Foch, 11100 Narbonne", "latitude": 43.1870, "longitude": 3.0090},
+      {"id": 224, "nom": "HLM Ferroul", "adresse": "10 Rue Docteur Roux, 11100 Narbonne", "latitude": 43.1885, "longitude": 3.0110},
+      {"id": 225, "nom": "Immeuble Oka'z", "adresse": "2 Rue Francis Marcēro, 11100 Narbonne", "latitude": 43.1872, "longitude": 3.0040}
+    ]
+  },
+  {
+    "categorie": "Détails Architecturaux, Porches et Passages",
+    "monuments": [
+      {"id": 226, "nom": "Porche du Forum", "adresse": "2 Place du Forum, 11100 Narbonne", "latitude": 43.1832, "longitude": 3.0018},
+      {"id": 227, "nom": "Niche de la Vierge Marie", "adresse": "12 Rue Girard, 11100 Narbonne", "latitude": 43.1852, "longitude": 3.0048},
+      {"id": 228, "nom": "Arcade et Passage des Trois Moulins", "adresse": "Passage des Trois Moulins, 11100 Narbonne", "latitude": 43.1862, "longitude": 3.0092},
+      {"id": 229, "nom": "Porche de l'Impasse de la Distillerie", "adresse": "1 Impasse de la Distillerie, 11100 Narbonne", "latitude": 43.1880, "longitude": 3.0055},
+      {"id": 230, "nom": "Sculpture de la Rue Garibaldi", "adresse": "4 Rue Garibaldi, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0040},
+      {"id": 231, "nom": "Porche de la Rue Pelouze", "adresse": "42 Rue Pelouze, 11100 Narbonne", "latitude": 43.1882, "longitude": 3.0085},
+      {"id": 232, "nom": "Entrées historiques - Rue du Capitole", "adresse": "2bis à 9 Rue du Capitole, 11100 Narbonne", "latitude": 43.1840, "longitude": 3.0050}
+    ]
+  },
+{
+    "categorie": "Ensembles en pierre et Hôtels particuliers",
+    "monuments": [
+      {"id": 233, "nom": "Grand ensemble en pierre de taille", "adresse": "18-20 Rue Baudin, 11100 Narbonne", "latitude": 43.1812, "longitude": 3.0085},
+      {"id": 234, "nom": "Hôtel ou vestige de Cloître", "adresse": "2 Rue Louis Blanc, 11100 Narbonne", "latitude": 43.1828, "longitude": 3.0020},
+      {"id": 235, "nom": "Hôtel particulier du secteur Major", "adresse": "4 Rue Auber, 11100 Narbonne", "latitude": 43.1835, "longitude": 3.0088},
+      {"id": 236, "nom": "Hôtel particulier présumé (Angle Daudet/Littré)", "adresse": "1 Rue de Musset, 11100 Narbonne", "latitude": 43.1848, "longitude": 3.0058},
+      {"id": 237, "nom": "Immeuble à Bow-window", "adresse": "28 Bd Gambetta, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0065}
+    ]
+  },
+  {
+    "categorie": "Secteur de la Major et Écussons",
+    "monuments": [
+      {"id": 238, "nom": "Maison à l'Écusson", "adresse": "3 Rue Auber, 11100 Narbonne", "latitude": 43.1834, "longitude": 3.0084},
+      {"id": 239, "nom": "Vestiges de nef ou chapelle (Immeuble Musset/Auber)", "adresse": "1 Rue Alfred de Musset, 11100 Narbonne", "latitude": 43.1847, "longitude": 3.0059},
+      {"id": 240, "nom": "Immeuble historique de la Major", "adresse": "13 Rue de la Major, 11100 Narbonne", "latitude": 43.1836, "longitude": 3.0090}
+    ]
+  },
+  {
+    "categorie": "Porches, Arcs et Entrées remarquables",
+    "monuments": [
+      {"id": 241, "nom": "Porche et doubles Arcs", "adresse": "1 au 7 Rue Pierre Laprade, 11100 Narbonne", "latitude": 43.1857, "longitude": 3.0076},
+      {"id": 242, "nom": "Entrée aux deux colonnes", "adresse": "2bis Rue Littré, 11100 Narbonne", "latitude": 43.1845, "longitude": 3.0056},
+      {"id": 243, "nom": "Porche de l'Hôtel particulier (Louis Blanc)", "adresse": "15 Rue Louis Blanc, 11100 Narbonne", "latitude": 43.1824, "longitude": 3.0014},
+      {"id": 244, "nom": "Porches de hangars historiques", "adresse": "5-8bis Rue Charras / 15 Rue Littré, 11100 Narbonne", "latitude": 43.1865, "longitude": 3.0080},
+      {"id": 245, "nom": "Porche de la Place de Verdun", "adresse": "5 Place de Verdun, 11100 Narbonne", "latitude": 43.1812, "longitude": 3.0018},
+      {"id": 246, "nom": "Porche du Docteur Bach", "adresse": "1 Rue du Docteur Bach, 11100 Narbonne", "latitude": 43.1808, "longitude": 3.0002},
+      {"id": 247, "nom": "Immeubles et Porches de l'Impasse Beaurepaire", "adresse": "1-3 Impasse Beaurepaire, 11100 Narbonne", "latitude": 43.1842, "longitude": 3.0062}
+    ]
+  },
+  {
+    "categorie": "Secteur Ancien Port des Catalans",
+    "monuments": [
+      {"id": 248, "nom": "Immeuble Élisée Reclus", "adresse": "10 Rue Ancien Port des Catalans, 11100 Narbonne", "latitude": 43.1805, "longitude": 3.0010},
+      {"id": 249, "nom": "Immeuble à Porche (Port des Catalans)", "adresse": "4 Rue Ancien Port des Catalans, 11100 Narbonne", "latitude": 43.1802, "longitude": 3.0012},
+      {"id": 250, "nom": "Maisons de l'Ancien Port", "adresse": "11 Rue Ancien Port des Catalans / Impasse de la Comédie, 11100 Narbonne", "latitude": 43.1804, "longitude": 3.0008}
+    ]
+  },
+  {
+    "categorie": "Angles et Places",
+    "monuments": [
+      {"id": 251, "nom": "Angle Place Lapeyrade / Rue des Puits", "adresse": "Place Lapeyrade, 11100 Narbonne", "latitude": 43.1855, "longitude": 3.0072},
+      {"id": 252, "nom": "Immeuble Francis Marcēro", "adresse": "40 Rue Francis Marcēro, 11100 Narbonne", "latitude": 43.1875, "longitude": 3.0045}
+    ]
+  },
+{
+    "categorie": "Immeubles et Détails de la Rue Droite",
+    "monuments": [
+      {"id": 253, "nom": "Immeuble (14 Rue Droite)", "adresse": "14 Rue Droite, 11100 Narbonne", "latitude": 43.1838, "longitude": 3.0042},
+      {"id": 254, "nom": "Immeuble (35 Rue Droite)", "adresse": "35 Rue Droite, 11100 Narbonne", "latitude": 43.1841, "longitude": 3.0041},
+      {"id": 255, "nom": "Immeuble (39 Rue Droite)", "adresse": "39 Rue Droite, 11100 Narbonne", "latitude": 43.1842, "longitude": 3.0041},
+      {"id": 256, "nom": "Immeuble aux Mascarons (Têtes sculptées)", "adresse": "41 Rue Droite, 11100 Narbonne", "latitude": 43.1843, "longitude": 3.0041},
+      {"id": 257, "nom": "Immeuble aux Chapiteaux", "adresse": "45 Rue Droite, 11100 Narbonne", "latitude": 43.1844, "longitude": 3.0042},
+      {"id": 258, "nom": "Immeuble (Librairie BD)", "adresse": "60 Rue Droite, 11100 Narbonne", "latitude": 43.1846, "longitude": 3.0043}
+    ]
+  },
+  {
+    "categorie": "Secteur Louis Blanc et Corneille",
+    "monuments": [
+      {"id": 259, "nom": "Ensemble d'immeubles - Rue Louis Blanc", "adresse": "5, 7, 8, 10 Rue Louis Blanc, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0016},
+      {"id": 260, "nom": "Immeuble au portail (16 Rue Corneille)", "adresse": "16 Rue Corneille, 11100 Narbonne", "latitude": 43.1812, "longitude": 3.0018},
+      {"id": 261, "nom": "Immeuble à porche (9 Rue Corneille)", "adresse": "9 Rue Corneille, 11100 Narbonne", "latitude": 43.1814, "longitude": 3.0020},
+      {"id": 262, "nom": "Immeubles remarquables - Rue Corneille", "adresse": "4, 12 Rue Corneille / 1 Impasse Corneille, 11100 Narbonne", "latitude": 43.1813, "longitude": 3.0019}
+    ]
+  },
+  {
+    "categorie": "Hôtels particuliers et Vieilles demeures",
+    "monuments": [
+      {"id": 263, "nom": "Hôtel particulier (Ancien Courrier)", "adresse": "47 Rue de l'Ancien Courrier, 11100 Narbonne", "latitude": 43.1834, "longitude": 3.0028},
+      {"id": 264, "nom": "Hôtel particulier (Rue Baudin)", "adresse": "4 Rue Baudin, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0080},
+      {"id": 265, "nom": "Vieil immeuble au porche bois et jaune", "adresse": "7 Rue Labadié, 11100 Narbonne", "latitude": 43.1845, "longitude": 3.0065},
+      {"id": 266, "nom": "Vieil immeuble de l'Impasse Ponsard", "adresse": "Impasse Ponsard, 11100 Narbonne", "latitude": 43.1848, "longitude": 3.0070},
+      {"id": 267, "nom": "Immeubles du secteur Auber", "adresse": "13 Pl. de l'Hôtel de Ville / 15-19 Rue Auber, 11100 Narbonne", "latitude": 43.1835, "longitude": 3.0055}
+    ]
+  },
+  {
+    "categorie": "Immeubles divers et Porches de quartier",
+    "monuments": [
+      {"id": 268, "nom": "Ensemble OPHLM et immeubles Viollet le Duc", "adresse": "6, 8, 11 Rue Viollet le Duc, 11100 Narbonne", "latitude": 43.1838, "longitude": 3.0040},
+      {"id": 269, "nom": "Immeubles de la Rue Niquet", "adresse": "9, 14 Rue Niquet, 11100 Narbonne", "latitude": 43.1840, "longitude": 3.0068},
+      {"id": 270, "nom": "Immeubles de la Rue des Nobles", "adresse": "10, 11 Rue des Nobles, 11100 Narbonne", "latitude": 43.1830, "longitude": 3.0060},
+      {"id": 271, "nom": "Porche de l'Impasse Jussieu", "adresse": "Impasse Jussieu, 11100 Narbonne", "latitude": 43.1842, "longitude": 3.0062}
+    ]
+  },
+{
+    "categorie": "Immeubles et Commerces de la Rue Droite (Nord)",
+    "monuments": [
+      {"id": 272, "nom": "Librairie Libellis", "adresse": "43 Rue Droite, 11100 Narbonne", "latitude": 43.1843, "longitude": 3.0042},
+      {"id": 273, "nom": "Immeuble inscription 'Laguarde'", "adresse": "45 Rue Droite, 11100 Narbonne", "latitude": 43.1844, "longitude": 3.0042},
+      {"id": 274, "nom": "Ancienne alimentation 'Le Bon Beurre / Bridel'", "adresse": "59 Rue Droite, 11100 Narbonne", "latitude": 43.1846, "longitude": 3.0043},
+      {"id": 275, "nom": "Vieux commerces et immeubles (61-63)", "adresse": "61-63 Rue Droite, 11100 Narbonne", "latitude": 43.1847, "longitude": 3.0044},
+      {"id": 276, "nom": "Immeuble à la Niche (Vierge Marie)", "adresse": "66 Rue Droite / Angle Rue Bonnel, 11100 Narbonne", "latitude": 43.1847, "longitude": 3.0045},
+      {"id": 277, "nom": "Ensemble architectural Rue Bonnel", "adresse": "3, 5, 7 Rue Bonnel, 11100 Narbonne", "latitude": 43.1848, "longitude": 3.0048},
+      {"id": 278, "nom": "Tourelle d'angle et Mascaron de porte", "adresse": "73 Rue Droite, 11100 Narbonne", "latitude": 43.1849, "longitude": 3.0046},
+      {"id": 279, "nom": "Arc de la Rue Droite (Porte de ville)", "adresse": "85-92 Rue Droite, 11100 Narbonne", "latitude": 43.1852, "longitude": 3.0048},
+      {"id": 280, "nom": "Anciennes demeures (67, 71, 75)", "adresse": "67, 71, 75 Rue Droite, 11100 Narbonne", "latitude": 43.1848, "longitude": 3.0045}
+    ]
+  },
+  {
+    "categorie": "Secteur Gustave Fabre et Lieutenant-Colonel Deymes",
+    "monuments": [
+      {"id": 281, "nom": "Mur des paroles (Charles Trenet)", "adresse": "27 Rue Gustave Fabre, 11100 Narbonne", "latitude": 43.1838, "longitude": 3.0065},
+      {"id": 282, "nom": "Ensemble de beaux immeubles Gustave Fabre", "adresse": "13, 21, 23, 25 Rue Gustave Fabre, 11100 Narbonne", "latitude": 43.1835, "longitude": 3.0060},
+      {"id": 283, "nom": "Immeuble et Porche Deymes", "adresse": "1-2 Rue Lieutenant-Colonel Deymes, 11100 Narbonne", "latitude": 43.1837, "longitude": 3.0090},
+      {"id": 284, "nom": "Bel immeuble Cabirol", "adresse": "3 Rue Cabirol, 11100 Narbonne", "latitude": 43.1832, "longitude": 3.0088}
+    ]
+  },
+  {
+    "categorie": "Hôtels et Porches (Secteur Scribe / Rouget de l'Isle)",
+    "monuments": [
+      {"id": 285, "nom": "Hôtel de l'Archidiacre", "adresse": "2 Impasse Scribe, 11100 Narbonne", "latitude": 43.1848, "longitude": 3.0055},
+      {"id": 286, "nom": "Hôtel particulier Rouget de l'Isle", "adresse": "8 Rue Rouget de L'Isle, 11100 Narbonne", "latitude": 43.1842, "longitude": 3.0035},
+      {"id": 287, "nom": "Porche du 18 Rouget de l'Isle", "adresse": "18 Rue Rouget de l'Isle, 11100 Narbonne", "latitude": 43.1845, "longitude": 3.0032},
+      {"id": 288, "nom": "Immeuble et Porche Diderot", "adresse": "2-3 Rue Diderot, 11100 Narbonne", "latitude": 43.1841, "longitude": 3.0030},
+      {"id": 289, "nom": "Porte sculptée Sylvain Maréchal", "adresse": "3 Rue Sylvain Maréchal, 11100 Narbonne", "latitude": 43.1840, "longitude": 3.0028}
+    ]
+  },
+{
+    "categorie": "Ornements et Détails (Niches et Mascarons)",
+    "monuments": [
+      {"id": 290, "nom": "Niche de la Vierge Marie", "adresse": "17 Rue Cabirol, 11100 Narbonne", "latitude": 43.1834, "longitude": 3.0090},
+      {"id": 291, "nom": "Immeuble à Fronton néo-gothique", "adresse": "9 Rue Cabirol, 11100 Narbonne", "latitude": 43.1832, "longitude": 3.0089},
+      {"id": 292, "nom": "Mascaron (Portrait sculpté)", "adresse": "11 Rue des Fours à Chaux, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0098},
+      {"id": 293, "nom": "Niche ornementale (Rue Turgot)", "adresse": "4b Rue Turgot, 11100 Narbonne", "latitude": 43.1812, "longitude": 3.0075},
+      {"id": 294, "nom": "Niche ornementale (Rue Voltaire)", "adresse": "15 Rue Voltaire, 11100 Narbonne", "latitude": 43.1816, "longitude": 3.0096},
+      {"id": 295, "nom": "Mascarons et Frise d'Aigues-Vives", "adresse": "6, 11, 13 Rue Aigues-Vives, 11100 Narbonne", "latitude": 43.1822, "longitude": 3.0012}
+    ]
+  },
+  {
+    "categorie": "Secteur de la Monnaie et Luxembourg",
+    "monuments": [
+      {"id": 296, "nom": "Ensemble de Porches - Rue de la Monnaie", "adresse": "2, 3, 7, 14 Rue de la Monnaie, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0082},
+      {"id": 297, "nom": "Bel immeuble (6 Rue de la Monnaie)", "adresse": "6 Rue de la Monnaie, 11100 Narbonne", "latitude": 43.1824, "longitude": 3.0084},
+      {"id": 298, "nom": "Vieille maison en pierre", "adresse": "1 Rue du Luxembourg, 11100 Narbonne", "latitude": 43.1852, "longitude": 3.0065}
+    ]
+  },
+  {
+    "categorie": "Aigues-Vives et Quartier du Vengeur",
+    "monuments": [
+      {"id": 299, "nom": "Immeuble d'angle Vengeur / Aigues-Vives", "adresse": "Angle Rue du Vengeur / Rue Aigues-Vives, 11100 Narbonne", "latitude": 43.1820, "longitude": 3.0015},
+      {"id": 300, "nom": "Porche du 7 Rue du Vengeur", "adresse": "7 Rue du Vengeur, 11100 Narbonne", "latitude": 43.1819, "longitude": 3.0017},
+      {"id": 301, "nom": "Série d'immeubles Aigues-Vives", "adresse": "19, 21, 24 Rue Aigues-Vives, 11100 Narbonne", "latitude": 43.1821, "longitude": 3.0013}
+    ]
+  },
+  {
+    "categorie": "Grands Immeubles Bourgeois et Espaces Publics",
+    "monuments": [
+      {"id": 302, "nom": "Ensemble Benjamin Crémieux", "adresse": "8, 10, 12, 14 Rue Benjamin Crémieux, 11100 Narbonne", "latitude": 43.1828, "longitude": 3.0038},
+      {"id": 303, "nom": "Espace Mirabeau (Second accès)", "adresse": "13 Rue Benjamin Crémieux, 11100 Narbonne", "latitude": 43.1826, "longitude": 3.0040},
+      {"id": 304, "nom": "Placette des Carmes", "adresse": "Place des Carmes, 11100 Narbonne", "latitude": 43.1852, "longitude": 3.0075},
+      {"id": 305, "nom": "Bel immeuble et Porche (Voltaire)", "adresse": "12-12bis Rue Voltaire, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0094},
+      {"id": 306, "nom": "Portail remarquable Kléber", "adresse": "12 Rue Kléber, 11100 Narbonne", "latitude": 43.1811, "longitude": 3.0078},
+      {"id": 307, "nom": "Rue de l'Ancienne Porte de Perpignan", "adresse": "Rue Ancienne Porte de Perpignan, 11100 Narbonne", "latitude": 43.1802, "longitude": 3.0015}
+    ]
+  },
+{
+    "categorie": "Immeubles remarquables du secteur Arago et Mazagran",
+    "monuments": [
+      {"id": 308, "nom": "Ensemble de beaux immeubles - Rue Arago", "adresse": "3, 5, 11bis, 12, 14, 20 Rue Arago, 11100 Narbonne", "latitude": 43.1812, "longitude": 3.0015},
+      {"id": 309, "nom": "Immeuble au toit en ardoise", "adresse": "4 Rue des Fours À Chaux, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0092},
+      {"id": 310, "nom": "Bel immeuble (en travaux)", "adresse": "6 Rue de Mazagran, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0088}
+    ]
+  },
+  {
+    "categorie": "Maisons en pierre et Porches - Rue Hoche",
+    "monuments": [
+      {"id": 311, "nom": "Anciennes maisons en pierre - Rue Hoche", "adresse": "4, 20 Rue Hoche, 11100 Narbonne", "latitude": 43.1855, "longitude": 3.0085},
+      {"id": 312, "nom": "Série de porches historiques - Rue Hoche", "adresse": "3, 5, 10, 11, 14 Rue Hoche, 11100 Narbonne", "latitude": 43.1852, "longitude": 3.0082}
+    ]
+  },
+  {
+    "categorie": "Secteur Rabelais (Frontons et Porches)",
+    "monuments": [
+      {"id": 313, "nom": "Immeubles à frontons et frises", "adresse": "5, 9 Rue Rabelais, 11100 Narbonne", "latitude": 43.1865, "longitude": 3.0075},
+      {"id": 314, "nom": "Porches de la Rue Rabelais", "adresse": "6, 10, 14 Rue Rabelais, 11100 Narbonne", "latitude": 43.1862, "longitude": 3.0072}
+    ]
+  },
+  {
+    "categorie": "Architecture et Détails - Rue Marceau",
+    "monuments": [
+      {"id": 315, "nom": "Passage et porches de la Rue Marceau", "adresse": "5, 20, 21 Rue Marceau, 11100 Narbonne", "latitude": 43.1822, "longitude": 3.0085},
+      {"id": 316, "nom": "Anciennes maisons en pierre - Rue Marceau", "adresse": "7, 15 Rue Marceau, 11100 Narbonne", "latitude": 43.1820, "longitude": 3.0082},
+      {"id": 317, "nom": "Maison d'angle et grille de porte", "adresse": "8, 8bis Rue Marceau, 11100 Narbonne", "latitude": 43.1821, "longitude": 3.0083},
+      {"id": 318, "nom": "Immeuble au Vitrail", "adresse": "2 Rue Marceau, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0080}
+    ]
+  },
+  {
+    "categorie": "Sculptures et Faubourgs (Parerie, Berlioz, Faure)",
+    "monuments": [
+      {"id": 319, "nom": "Sculpture monumentale du rond-point", "adresse": "Rues de la Parerie / Berlioz / Ingres, 11100 Narbonne", "latitude": 43.1845, "longitude": 3.0098},
+      {"id": 320, "nom": "Anciens immeubles en pierre (Cabirol / Berlioz / Ingres)", "adresse": "1, 6, 9 Rue Cabirol / 3 Rue Berlioz / 6 Rue Ingres, 11100 Narbonne", "latitude": 43.1835, "longitude": 3.0090},
+      {"id": 321, "nom": "Portail et bel immeuble Hippolyte Faure", "adresse": "6, 7 Rue Hippolyte Faure, 11100 Narbonne", "latitude": 43.1830, "longitude": 3.0095}
+    ]
+  },
+  {
+    "categorie": "Immeubles des Quais et des Cours",
+    "monuments": [
+      {"id": 322, "nom": "Série de beaux immeubles - Quai Dillon", "adresse": "1, 7, 11, 13 Quai Dillon, 11100 Narbonne", "latitude": 43.1805, "longitude": 3.0035},
+      {"id": 323, "nom": "Immeuble au toit d'ardoise - République", "adresse": "33 Cours de la République, 11100 Narbonne", "latitude": 43.1835, "longitude": 3.0048}
+    ]
+  },
+{
+    "categorie": "Immeubles du Cours Mirabeau et Place Digeon",
+    "monuments": [
+      {"id": 324, "nom": "Série d'anciens immeubles - Cours Mirabeau", "adresse": "9, 11, 13, 15, 17 Cours Mirabeau, 11100 Narbonne", "latitude": 43.1812, "longitude": 3.0048},
+      {"id": 325, "nom": "Beaux immeubles de la Place Émile Digeon", "adresse": "1, 3 Place Émile Digeon, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0055}
+    ]
+  },
+  {
+    "categorie": "Architecture Médiévale et Classique - Secteur Luxembourg",
+    "monuments": [
+      {"id": 326, "nom": "Maison à meneaux", "adresse": "27 Rue de l'Hôtel-Dieu, 11100 Narbonne", "latitude": 43.1865, "longitude": 3.0078},
+      {"id": 327, "nom": "Tour d'un ancien hôtel particulier", "adresse": "17 Rue du Luxembourg, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0072},
+      {"id": 328, "nom": "Arc gothique du Luxembourg", "adresse": "7bis Rue du Luxembourg, 11100 Narbonne", "latitude": 43.1853, "longitude": 3.0067},
+      {"id": 329, "nom": "Ensemble de porches et maisons (Luxembourg)", "adresse": "7, 9, 10, 10bis, 12, 15 Rue du Luxembourg, 11100 Narbonne", "latitude": 43.1855, "longitude": 3.0068}
+    ]
+  },
+  {
+    "categorie": "Quartier Belfort, Lamourguier et Tanneurs",
+    "monuments": [
+      {"id": 330, "nom": "Bel immeuble de la Place Lamourguier", "adresse": "1 Pl. Lamourguier, 11100 Narbonne", "latitude": 43.1802, "longitude": 3.0068},
+      {"id": 331, "nom": "Maison d'angle en pierre (Belfort / Tanneurs)", "adresse": "16 Rue de Belfort / Rue des Tanneurs, 11100 Narbonne", "latitude": 43.1828, "longitude": 3.0035},
+      {"id": 332, "nom": "Ensemble de porches et immeubles - Rue de Belfort", "adresse": "5, 7, 15, 18 Rue de Belfort, 11100 Narbonne", "latitude": 43.1826, "longitude": 3.0032},
+      {"id": 333, "nom": "Ancien immeuble en pierre et porche - Tanneurs", "adresse": "2, 7 Rue des Tanneurs, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0036}
+    ]
+  },
+  {
+    "categorie": "Détails de Façades et Entrées (Jacobins, Menet, Nourrices)",
+    "monuments": [
+      {"id": 334, "nom": "Porches de la Rue des Jacobins", "adresse": "4, 7 Rue des Jacobins, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0052},
+      {"id": 335, "nom": "Porche et fronton de la Rue Longuet", "adresse": "7, 9 Rue Longuet, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0080},
+      {"id": 336, "nom": "Entrée de cour et porche - Edgar Menet", "adresse": "8, 11 Rue Edgar Menet, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0078},
+      {"id": 337, "nom": "Immeuble d'angle et porche - Trois Nourrices", "adresse": "1, 2bis Rue des Trois Nourrices, 11100 Narbonne", "latitude": 43.1822, "longitude": 3.0018},
+      {"id": 338, "nom": "Bel immeuble Place Cassaignol", "adresse": "10 Place Cassaignol, 11100 Narbonne", "latitude": 43.1818, "longitude": 3.0075},
+      {"id": 339, "nom": "Immeuble (11 Bd Lacroix)", "adresse": "11 Bd Lacroix, 11100 Narbonne", "latitude": 43.1852, "longitude": 3.0095},
+      {"id": 340, "nom": "Porche de la Rue des Remparts", "adresse": "4 Rue des Remparts, 11100 Narbonne", "latitude": 43.1820, "longitude": 3.0055}
+    ]
+  },
+{
+    "categorie": "Secteur des Trois Nourrices et Place Hyspa",
+    "monuments": [
+      {"id": 341, "nom": "Ancienne maison en pierre (Nourrices)", "adresse": "3 Rue des Trois Nourrices, 11100 Narbonne", "latitude": 43.1823, "longitude": 3.0019},
+      {"id": 342, "nom": "Série de porches - Rue des Trois Nourrices", "adresse": "3bis, 4, 5 Rue des Trois Nourrices, 11100 Narbonne", "latitude": 43.1822, "longitude": 3.0018},
+      {"id": 343, "nom": "Bel immeuble de la Place Hyspa", "adresse": "5 Place Hyspa, 11100 Narbonne", "latitude": 43.1832, "longitude": 3.0058}
+    ]
+  },
+  {
+    "categorie": "Secteur Denfert-Rochereau et Belfort",
+    "monuments": [
+      {"id": 344, "nom": "Ancienne maison en pierre (Denfert-Rochereau)", "adresse": "1 Rue Denfert-Rochereau, 11100 Narbonne", "latitude": 43.1828, "longitude": 3.0028},
+      {"id": 345, "nom": "Ancien garage et longée", "adresse": "3 Rue Denfert-Rochereau, 11100 Narbonne", "latitude": 43.1829, "longitude": 3.0027},
+      {"id": 346, "nom": "Porches de la Rue Denfert-Rochereau", "adresse": "16 Rue Denfert-Rochereau, 11100 Narbonne", "latitude": 43.1830, "longitude": 3.0025},
+      {"id": 347, "nom": "Porche du 16 Rue de Belfort", "adresse": "16 Rue de Belfort, 11100 Narbonne", "latitude": 43.1828, "longitude": 3.0034}
+    ]
+  },
+  {
+    "categorie": "Secteur Lamourguier, Helvétie et Digeon",
+    "monuments": [
+      {"id": 348, "nom": "Porches de la Rue de Lamourguier", "adresse": "7, 8 Rue de Lamourguier, 11100 Narbonne", "latitude": 43.1804, "longitude": 3.0062},
+      {"id": 349, "nom": "Porches et cours de la Rue de l'Helvétie", "adresse": "2, 6 Rue de l'Helvétie, 11100 Narbonne", "latitude": 43.1830, "longitude": 3.0035},
+      {"id": 350, "nom": "Belles demeures de la Place Émile Digeon", "adresse": "1, 2, 4 Place Émile Digeon, 11100 Narbonne", "latitude": 43.1815, "longitude": 3.0055}
+    ]
+  },
+  {
+    "categorie": "Secteur Benjamin Crémieux et Monnaie",
+    "monuments": [
+      {"id": 351, "nom": "Immeubles et porche Benjamin Crémieux", "adresse": "15, 17, 18 Rue Benjamin Crémieux, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0042},
+      {"id": 352, "nom": "Série de porches - Rue de la Monnaie", "adresse": "7bis, 8, 14, 15 Rue de la Monnaie, 11100 Narbonne", "latitude": 43.1825, "longitude": 3.0082},
+      {"id": 353, "nom": "Immeuble Art Déco (Monnaie)", "adresse": "6 Rue de la Monnaie, 11100 Narbonne", "latitude": 43.1824, "longitude": 3.0084}
+    ]
+  },
+  {
+    "categorie": "Fin de parcours et Secteur Parerie",
+    "monuments": [
+      {"id": 354, "nom": "Maison en pierre d'angle (Parerie / Ingres)", "adresse": "Angle Rue de la Parerie / Rue Ingres, 11100 Narbonne", "latitude": 43.1848, "longitude": 3.0102},
+      {"id": 355, "nom": "Immeubles de la Rue Sambre et Meuse", "adresse": "Rue Sambre et Meuse, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0035},
+      {"id": 356, "nom": "Porches finaux du Luxembourg", "adresse": "15, 17 Rue du Luxembourg, 11100 Narbonne", "latitude": 43.1858, "longitude": 3.0072}
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Col du Minier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7954,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.05406951904297,
+        "longitude": 3.5480220317840576,
+        "local_name": "Col du Minier",
+        "country": "FRA",
+        "street": "D 48",
+        "postcode": "30570",
+        "city": "L'Espérou"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

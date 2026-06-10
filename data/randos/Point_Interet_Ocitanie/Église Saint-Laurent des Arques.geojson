@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Église Saint-Laurent des Arques",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10838,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.601654052734375,
+        "longitude": 1.251267910003662,
+        "local_name": "Église Saint-Laurent des Arques",
+        "country": "FRA",
+        "street": "Le Bourg",
+        "postcode": "46250",
+        "city": "Les Arques"
+      },
+      "geometry": null
+    }
+  ]
+}

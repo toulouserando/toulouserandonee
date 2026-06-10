@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sainte-Énimie",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32183,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.36619567871094,
+        "longitude": 3.4104297161102295,
+        "local_name": "Sainte-Énimie",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

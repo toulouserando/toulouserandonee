@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sainte-Eulalie-d'Olt",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32197,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.464500427246094,
+        "longitude": 2.94645619392395,
+        "local_name": "Sainte-Eulalie-d'Olt",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Bournazel",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 45019,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.45962905883789,
+        "longitude": 2.2990832328796387,
+        "local_name": "Château de Bournazel",
+        "country": "FRA",
+        "street": "Place du Foirail",
+        "postcode": "12390",
+        "city": "Bournazel"
+      },
+      "geometry": null
+    }
+  ]
+}

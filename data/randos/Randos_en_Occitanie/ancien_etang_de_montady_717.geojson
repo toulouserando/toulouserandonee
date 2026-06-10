@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Ancien étang de Montady",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 717,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.319847106933594,
+        "longitude": 3.1229360103607178,
+        "local_name": "Ancien étang de Montady",
+        "country": "FRA",
+        "street": null,
+        "postcode": "34310",
+        "city": "Montady"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

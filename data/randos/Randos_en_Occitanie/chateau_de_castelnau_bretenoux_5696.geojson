@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Castelnau-Bretenoux",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5696,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.8990364074707,
+        "longitude": 1.8261009454727173,
+        "local_name": "Château de Castelnau-Bretenoux",
+        "country": "FRA",
+        "street": null,
+        "postcode": "46130",
+        "city": "Prudhomat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

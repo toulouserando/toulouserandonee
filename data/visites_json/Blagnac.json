@@ -1,0 +1,10 @@
+[
+  {"id": 1, "nom": "Monastère de Blagnac (Sainte-Catherine)", "adresse": "60 Avenue du Général Compans, 31700 Blagnac", "details": "Monastère occupé par la Communauté des Béatitudes, situé dans l'ancien château de Blagnac.", "lat": 43.629773, "lng": 1.398684},
+  {"id": 2, "nom": "Église Saint-Pierre de Blagnac", "adresse": "Place de l'Église, 31700 Blagnac", "details": "Église principale du vieux village, d'origine médiévale avec des remaniements ultérieurs.", "lat": 43.634156, "lng": 1.399367},
+  {"id": 3, "nom": "Oratoire de Saint-Exupère", "adresse": "Rue Saint-Exupère, 31700 Blagnac", "details": "Petit édifice religieux dédié au saint qui, selon la légende, aurait sauvé Blagnac d'une inondation.", "lat": 43.637771, "lng": 1.395881},
+  {"id": 4, "nom": "Église Saint-Gabriel (Chapelle)", "adresse": "15 Rue Marie Curie, 31700 Blagnac", "details": "Édifice religieux moderne desservant les quartiers sud de la commune.", "lat": 43.623089, "lng": 1.392147},
+  {"id": 5, "nom": "Aeroscopia", "adresse": "1 Allée André Turcat, 31700 Blagnac", "details": "Musée de l'aéronautique abritant des avions légendaires comme le Concorde ou l'Airbus A380.", "lat": 43.659783, "lng": 1.359533},
+  {"id": 6, "nom": "Ailes Anciennes Toulouse", "adresse": "Allée André Turcat, 31700 Blagnac", "details": "Association de sauvegarde du patrimoine aéronautique située à proximité d'Aeroscopia.", "lat": 43.657657, "lng": 1.359365},
+  {"id": 7, "nom": "Place de la Révolution", "adresse": "107 Avenue de Cornebarrieu, 31700 Blagnac", "details": "Place publique située dans le quartier d'Andromède.", "lat": 43.639477, "lng": 1.377318},
+  {"id": 8, "nom": "Vieux village de Blagnac", "adresse": "Boulevard Firmin Pons, 31700 Blagnac", "details": "Cœur historique de la ville ayant conservé son charme traditionnel au bord de la Garonne.", "lat": 43.634485, "lng": 1.399060}
+]

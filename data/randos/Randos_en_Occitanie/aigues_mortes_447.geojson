@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Aigues-Mortes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 447,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.56855773925781,
+        "longitude": 4.190718650817871,
+        "local_name": "Aigues-Mortes",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

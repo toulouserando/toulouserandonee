@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Foix",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12017,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.96398162841797,
+        "longitude": 1.6070809364318848,
+        "local_name": "Foix",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

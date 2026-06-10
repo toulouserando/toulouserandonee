@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sauveterre-de-Rouergue",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33005,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.219974517822266,
+        "longitude": 2.3183939456939697,
+        "local_name": "Sauveterre-de-Rouergue",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

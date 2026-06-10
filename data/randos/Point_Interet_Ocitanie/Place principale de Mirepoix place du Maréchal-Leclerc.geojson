@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Place principale de Mirepoix (place du Maréchal-Leclerc)",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26882,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.08831024169922,
+        "longitude": 1.874061942100525,
+        "local_name": "Place principale de Mirepoix (place du Maréchal-Leclerc)",
+        "country": "FRA",
+        "street": "place du Maréchal-Leclerc",
+        "postcode": "9500",
+        "city": "Mirepoix"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale Sainte-Cécile",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4273,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.928096771240234,
+        "longitude": 2.142112970352173,
+        "local_name": "Cathédrale Sainte-Cécile",
+        "country": "FRA",
+        "street": "place Sainte-Cécile",
+        "postcode": "81000",
+        "city": "Albi"
+      },
+      "geometry": null
+    }
+  ]
+}

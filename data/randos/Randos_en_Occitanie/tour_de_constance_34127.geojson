@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Tour de Constance",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34127,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.56869125366211,
+        "longitude": 4.18973445892334,
+        "local_name": "Tour de Constance",
+        "country": "FRA",
+        "street": "Place Anatole-France",
+        "postcode": "30220",
+        "city": "Aigues-Mortes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

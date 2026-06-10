@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Autour_de_Roujan.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.308704,
+            43.504722,
+            126.44
+          ],
+          [
+            3.309441,
+            43.504364,
+            123.24
+          ],
+          [
+            3.309817,
+            43.504222,
+            121.08
+          ],
+          [
+            3.310436,
+            43.503845,
+            116.92
+          ],
+          [
+            3.310436,
+            43.503845,
+            116.92
+          ],
+          [
+            3.309817,
+            43.504222,
+            121.08
+          ],
+          [
+            3.309441,
+            43.504364,
+            123.24
+          ],
+          [
+            3.308704,
+            43.504722,
+            126.44
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Autour_de_Roujan.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.308704,
+            43.504722
+          ],
+          [
+            3.310436,
+            43.503845
+          ],
+          [
+            3.310436,
+            43.503845
+          ],
+          [
+            3.308704,
+            43.504722
+          ]
+        ]
+      }
+    }
+  ]
+}

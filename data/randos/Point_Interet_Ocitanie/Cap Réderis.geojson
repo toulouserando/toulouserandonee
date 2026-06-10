@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cap Réderis",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3636,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.468685150146484,
+        "longitude": 3.1559898853302,
+        "local_name": "Cap Réderis",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66650",
+        "city": "Banyuls-sur-Mer"
+      },
+      "geometry": null
+    }
+  ]
+}

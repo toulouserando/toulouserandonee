@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Roc du Serre",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30190,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.293636322021484,
+        "longitude": 3.3060920238494873,
+        "local_name": "Roc du Serre",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48210",
+        "city": "La Malène"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

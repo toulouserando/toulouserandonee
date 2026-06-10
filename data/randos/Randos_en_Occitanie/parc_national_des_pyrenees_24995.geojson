@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Parc national des Pyrénées",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24995,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.914527893066406,
+        "longitude": -0.18500803411006927,
+        "local_name": "Parc national des Pyrénées",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65120",
+        "city": "Gavarnie"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Rue de l'Ancien-Courrier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30984,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60918045043945,
+        "longitude": 3.8764190673828125,
+        "local_name": "Rue de l'Ancien-Courrier",
+        "country": "FRA",
+        "street": "rue de l’Ancien-Courrier",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": null
+    }
+  ]
+}

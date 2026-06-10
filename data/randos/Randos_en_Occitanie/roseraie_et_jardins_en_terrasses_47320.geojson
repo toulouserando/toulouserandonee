@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Roseraie et jardins en terrasses",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 47320,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.12684631347656,
+        "longitude": 2.8979010581970215,
+        "local_name": "Roseraie et jardins en terrasses",
+        "country": "FRA",
+        "street": "RD 613 Chem. de Fontfroide",
+        "postcode": "11100",
+        "city": "Narbonne"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

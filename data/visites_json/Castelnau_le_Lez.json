@@ -1,0 +1,15 @@
+[
+  {"id": 1, "nom": "Église Saint-Jean-Baptiste", "adresse": "Place de la Liberté, 34170 Castelnau-le-Lez", "details": "Église romane (XIIe) fortifiée au XIVe, classée MH depuis 1911 avec un clocher à campanile.", "lat": 43.6332, "lng": 3.8945},
+  {"id": 2, "nom": "Ancienne mairie (Centre régional de la Résistance et de la Déportation)", "adresse": "Place de la Liberté, 34170 Castelnau-le-Lez", "details": "Lieu de mémoire fondé par Suzanne Orts, abritant collections et archives sur la Seconde Guerre mondiale.", "lat": 43.6335, "lng": 3.8942},
+  {"id": 3, "nom": "Voie Domitienne (Via Domitia)", "adresse": "Quartier du Devois, 34170 Castelnau-le-Lez", "details": "Tronçon de l'ancienne voie romaine reliant l'Italie à l'Espagne, inscrit MH depuis 1987.", "lat": 43.6485, "lng": 3.9125},
+  {"id": 4, "nom": "Borne milliaire (63e)", "adresse": "Rue de la Monnaie, 34170 Castelnau-le-Lez", "details": "Copie de la borne romaine située face au Palais des Sports, marquant la distance sur la Via Domitia.", "lat": 43.6368, "lng": 3.9012},
+  {"id": 5, "nom": "Église Saint-Vincent du Sablas", "adresse": "Chemin du Sablas, 34170 Castelnau-le-Lez", "details": "Édifice religieux desservant le quartier historique du Sablas.", "lat": 43.6285, "lng": 3.8995},
+  {"id": 6, "nom": "Domaine de Verchant", "adresse": "1 Boulevard Philippe Lamour, 34170 Castelnau-le-Lez", "details": "Ancienne propriété épiscopale (XVIe) inscrite MH, comprenant parc, grotte, noria et fossés.", "lat": 43.6282, "lng": 3.9215},
+  {"id": 7, "nom": "Quartier Clairval", "adresse": "Avenue de l'Europe, 34170 Castelnau-le-Lez", "details": "Ensemble architectural caractéristique des quartiers d'habitation du XXe siècle.", "lat": 43.6385, "lng": 3.8925},
+  {"id": 8, "nom": "Moulin de Lavalette", "adresse": "Rives du Lez, 34170 Castelnau-le-Lez", "details": "Ancien moulin hydraulique utilisant la force du fleuve Lez.", "lat": 43.6425, "lng": 3.8812},
+  {"id": 9, "nom": "Moulin du Martinet", "adresse": "Chemin du Martinet, 34170 Castelnau-le-Lez", "details": "Ancien établissement industriel lié au travail des métaux ou des étoffes.", "lat": 43.6345, "lng": 3.8845},
+  {"id": 10, "nom": "Moulin de Navitau", "adresse": "Rives du Lez, 34170 Castelnau-le-Lez", "details": "Vestige de l'activité meunière historique de la commune.", "lat": 43.6295, "lng": 3.8912},
+  {"id": 11, "nom": "Moulin des Guilhems", "adresse": "Lez, 34170 Castelnau-le-Lez", "details": "Moulin seigneurial nommé d'après les anciens seigneurs de Montpellier.", "lat": 43.6315, "lng": 3.8885},
+  {"id": 12, "nom": "Moulin de la Poudrière", "adresse": "Rives du Lez, 34170 Castelnau-le-Lez", "details": "Ancien site de fabrication ou de stockage lié aux moulins à eau.", "lat": 43.6365, "lng": 3.8852},
+  {"id": 13, "nom": "Moulin du Pont à Castelnau", "adresse": "Avenue du 8 Mai 1945, 34170 Castelnau-le-Lez", "details": "Moulin situé à proximité immédiate du passage historique sur le Lez.", "lat": 43.6322, "lng": 3.8928}
+]

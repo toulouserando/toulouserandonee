@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Rue du Majou",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46515,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.73640441894531,
+        "longitude": 1.3814231157302856,
+        "local_name": "Rue du Majou",
+        "country": "FRA",
+        "street": null,
+        "postcode": "46300",
+        "city": "Gourdon"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

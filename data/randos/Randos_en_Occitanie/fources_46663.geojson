@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Fourcès",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46663,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.99251937866211,
+        "longitude": 0.23079219460487366,
+        "local_name": "Fourcès",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

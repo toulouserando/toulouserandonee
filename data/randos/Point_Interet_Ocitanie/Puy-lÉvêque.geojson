@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Puy-l'Évêque",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29271,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.50543212890625,
+        "longitude": 1.1381314992904663,
+        "local_name": "Puy-l'Évêque",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

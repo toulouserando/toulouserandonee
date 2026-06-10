@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Saint-Lizier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46668,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.00184631347656,
+        "longitude": 1.1378463506698608,
+        "local_name": "Saint-Lizier",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {"id": 1, "nom": "Village gaulois de Saint-Julien", "adresse": "La Chaussée, 31310 Rieux-Volvestre", "details": "Reconstitution archéologique grandeur nature d'un village gaulois (proche Montesquieu).", "lat": 43.2545, "lng": 1.1852},
+  {"id": 2, "nom": "Église Saint-Victor", "adresse": "Place de l'Église, 31310 Montesquieu-Volvestre", "details": "Édifice du XIIIe siècle classé MH. Façade fortifiée en brique et clocher à 16 pans unique de 32 mètres.", "lat": 43.2081, "lng": 1.2348},
+  {"id": 3, "nom": "Mise au tombeau (Église Saint-Victor)", "adresse": "Place de l'Église, 31310 Montesquieu-Volvestre", "details": "Sculpture en pierre du XVe siècle classée au titre objet des monuments historiques.", "lat": 43.2081, "lng": 1.2348},
+  {"id": 4, "nom": "Tableau 'La Déposition de croix' de Girodet", "adresse": "Église Saint-Victor, 31310 Montesquieu-Volvestre", "details": "Œuvre du XVIIIe siècle conservée à l'intérieur de l'église.", "lat": 43.2081, "lng": 1.2348},
+  {"id": 5, "nom": "Église de la Nativité-de-la-Vierge d'Argain", "adresse": "Lieu-dit Argain, 31310 Montesquieu-Volvestre", "details": "Église paroissiale située dans le hameau d'Argain.", "lat": 43.2215, "lng": 1.2652},
+  {"id": 6, "nom": "Bords de l'Arize", "adresse": "Rives de l'Arize, 31310 Montesquieu-Volvestre", "details": "Espace naturel longeant la rivière traversant la commune.", "lat": 43.2075, "lng": 1.2335},
+  {"id": 7, "nom": "Halle de Montesquieu-Volvestre", "adresse": "Place de la Halle, 31310 Montesquieu-Volvestre", "details": "Bâtiment traditionnel au cœur de la bastide, lieu de commerce historique.", "lat": 43.2078, "lng": 1.2338},
+  {"id": 8, "nom": "Moulin de Barrau", "adresse": "Sur l'Arize, 31310 Montesquieu-Volvestre", "details": "Moulin datant du XVe au XVIIIe siècle, l'un des rares encore en activité.", "lat": 43.2065, "lng": 1.2315},
+  {"id": 9, "nom": "Château de Palays", "adresse": "Confluent Arize et Pas-du-Rat, 31310 Montesquieu-Volvestre", "details": "Château privé du XIIIe siècle situé à la confluence des deux cours d'eau.", "lat": 43.2125, "lng": 1.2485},
+  {"id": 10, "nom": "Le Castéra (Colline et Calvaire)", "adresse": "Sentier du Castéra, 31310 Montesquieu-Volvestre", "details": "Colline de 336m avec table d'orientation et calvaire, offrant une vue sur les Pyrénées.", "lat": 43.2052, "lng": 1.2385}
+]

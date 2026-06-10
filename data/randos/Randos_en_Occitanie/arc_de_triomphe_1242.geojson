@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Arc de triomphe",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1242,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.611148834228516,
+        "longitude": 3.87235689163208,
+        "local_name": "Arc de triomphe",
+        "country": "FRA",
+        "street": "rue du Mar.-Foch",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

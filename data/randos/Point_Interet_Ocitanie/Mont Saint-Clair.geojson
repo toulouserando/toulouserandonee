@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mont Saint-Clair",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19944,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.4017333984375,
+        "longitude": 3.685292959213257,
+        "local_name": "Mont Saint-Clair",
+        "country": "FRA",
+        "street": "chemin de St-Clair",
+        "postcode": "34200",
+        "city": "Sète"
+      },
+      "geometry": null
+    }
+  ]
+}

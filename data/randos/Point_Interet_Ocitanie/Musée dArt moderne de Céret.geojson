@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée d'Art moderne de Céret",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20897,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.48580551147461,
+        "longitude": 2.7483959197998047,
+        "local_name": "Musée d'Art moderne de Céret",
+        "country": "FRA",
+        "street": "8 boulevard du Mar.-Joffre",
+        "postcode": "66400",
+        "city": "Céret"
+      },
+      "geometry": null
+    }
+  ]
+}

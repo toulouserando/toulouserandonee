@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Chapelle de l'Ermitage de Font-Romeu",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5057,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.51248550415039,
+        "longitude": 2.0454890727996826,
+        "local_name": "Chapelle de l'Ermitage de Font-Romeu",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66120",
+        "city": "Font-Romeu"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

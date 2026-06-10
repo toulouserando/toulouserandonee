@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Le Castillet",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17277,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.700504302978516,
+        "longitude": 2.894131898880005,
+        "local_name": "Le Castillet",
+        "country": "FRA",
+        "street": "Place de Verdun",
+        "postcode": "66000",
+        "city": "Perpignan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

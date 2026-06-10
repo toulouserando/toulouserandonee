@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Bozouls",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3185,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.47132110595703,
+        "longitude": 2.722830057144165,
+        "local_name": "Bozouls",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

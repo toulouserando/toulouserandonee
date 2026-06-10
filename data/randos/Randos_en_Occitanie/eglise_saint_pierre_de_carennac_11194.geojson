@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Église Saint-Pierre de Carennac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11194,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.918663024902344,
+        "longitude": 1.7323280572891235,
+        "local_name": "Église Saint-Pierre de Carennac",
+        "country": "FRA",
+        "street": "Le Bourg",
+        "postcode": "46110",
+        "city": "Carennac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

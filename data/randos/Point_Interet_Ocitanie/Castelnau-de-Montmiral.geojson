@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Castelnau-de-Montmiral",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3979,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.96563720703125,
+        "longitude": 1.8200474977493286,
+        "local_name": "Castelnau-de-Montmiral",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

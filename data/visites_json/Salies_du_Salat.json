@@ -1,0 +1,11 @@
+[
+  {"id": 1, "nom": "Thermes romains / Station thermale", "adresse": "Place des Thermes, 31260 Salies-du-Salat", "details": "Eaux les plus minéralisées d'Europe (320g/l). Établissement moderne de style néo-égyptien", "lat": 43.100781, "lng": 0.956286},
+  {"id": 2, "nom": "Église Notre-Dame-de-la-Pitié", "adresse": "Rue de la Vieille Ville, 31260 Salies-du-Salat", "details": "Inscrite MH, ancienne chapelle castrale des comtes de Comminges (XIVe)", "lat": 43.105555, "lng": 0.960513},
+  {"id": 3, "nom": "Église du Sacré-Cœur", "adresse": "1 Boulevard des Thermes, 31260 Salies-du-Salat", "details": "Architecture moderne (1964) par Pierre Vago", "lat": 43.101318, "lng": 0.959432},
+  {"id": 4, "nom": "Fontaine salée", "adresse": "Allée du Préventorium, 31260 Salies-du-Salat", "details": "Source originelle de la ville, exploitée depuis l'Antiquité", "lat": 43.0995, "lng": 0.9545},
+  {"id": 5, "nom": "Tombeau du général Jean Dominique Compans", "adresse": "Cimetière municipal, 31260 Salies-du-Salat", "details": "Sépulture du général d'Empire, située dans l'allée principale", "lat": 43.1025, "lng": 0.9642},
+  {"id": 6, "nom": "Monastère des religieux de la Merci", "adresse": "Centre-ville, 31260 Salies-du-Salat", "details": "Fondé en 1599, témoin du patrimoine religieux local", "lat": 43.1035, "lng": 0.9582},
+  {"id": 7, "nom": "Nouveaux thermes", "adresse": "Place des Thermes, 31260 Salies-du-Salat", "details": "Édifice datant de 1925, emblématique de l'architecture thermale", "lat": 43.1008, "lng": 0.9563},
+  {"id": 8, "nom": "Casino de Salies-du-Salat", "adresse": "Avenue du Casino, 31260 Salies-du-Salat", "details": "Pôle de divertissement au cœur du quartier thermal", "lat": 43.098824, "lng": 0.958411},
+  {"id": 9, "nom": "Vestiges du donjon", "adresse": "Rue du Château, 31260 Salies-du-Salat", "details": "Reste de la forteresse médiévale dominant la vallée du Salat", "lat": 43.106180, "lng": 0.960445}
+]

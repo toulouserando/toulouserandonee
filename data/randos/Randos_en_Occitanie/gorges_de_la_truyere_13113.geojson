@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gorges de la Truyère",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13113,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.75288009643555,
+        "longitude": 2.672996759414673,
+        "local_name": "Gorges de la Truyère",
+        "country": "FRA",
+        "street": "D 34",
+        "postcode": "12140",
+        "city": "Entraygues-sur-Truyère"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

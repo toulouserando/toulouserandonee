@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lodève",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18049,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.73103713989258,
+        "longitude": 3.3233203887939453,
+        "local_name": "Lodève",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

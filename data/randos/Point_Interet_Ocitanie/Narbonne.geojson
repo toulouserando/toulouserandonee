@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Narbonne",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23593,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.185081481933594,
+        "longitude": 3.0032100677490234,
+        "local_name": "Narbonne",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

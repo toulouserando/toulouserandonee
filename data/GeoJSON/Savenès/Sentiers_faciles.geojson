@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Sentiers_faciles.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.200257,
+            43.828555,
+            153.0
+          ],
+          [
+            1.200257,
+            43.828555,
+            153.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Sentiers_faciles.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.200257,
+            43.828555
+          ],
+          [
+            1.200257,
+            43.828555
+          ]
+        ]
+      }
+    }
+  ]
+}

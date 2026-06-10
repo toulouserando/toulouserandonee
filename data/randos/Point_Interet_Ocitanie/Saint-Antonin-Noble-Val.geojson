@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Saint-Antonin-Noble-Val",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32081,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.152400970458984,
+        "longitude": 1.7532886266708374,
+        "local_name": "Saint-Antonin-Noble-Val",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

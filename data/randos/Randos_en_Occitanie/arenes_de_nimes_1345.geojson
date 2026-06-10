@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Arènes de Nîmes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1345,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.834861755371094,
+        "longitude": 4.359601020812988,
+        "local_name": "Arènes de Nîmes",
+        "country": "FRA",
+        "street": "Boulevard des Arènes",
+        "postcode": "30000",
+        "city": "Nîmes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée Atger",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20569,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.612823486328125,
+        "longitude": 3.873552083969116,
+        "local_name": "Musée Atger",
+        "country": "FRA",
+        "street": "2 rue de l’École-de-Médecine",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Maison Julia",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19037,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.69980239868164,
+        "longitude": 2.894047975540161,
+        "local_name": "Maison Julia",
+        "country": "FRA",
+        "street": "2 rue des Fabriques-d’En-Nabot",
+        "postcode": "66000",
+        "city": "Perpignan"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  {"id": 1, "nom": "Tour Carbonnière", "adresse": "Ancienne Route d'Aigues-Mortes, 30220 Saint-Laurent-d'Aigouze", "details": "Édifice fortifié du XIVe siècle, passage obligé pour accéder à Aigues-Mortes, surnommée 'clé du royaume'.", "lat": 43.5908, "lng": 4.2128},
+  {"id": 2, "nom": "Abbaye de Psalmody (Vestiges)", "adresse": "Chemin de Psalmody, 30220 Saint-Laurent-d'Aigouze", "details": "Vestiges d'une ancienne abbaye bénédictine de grande importance, inscrite MH.", "lat": 43.6015, "lng": 4.2486},
+  {"id": 3, "nom": "Arènes Guy Hugon", "adresse": "Place de la République, 30220 Saint-Laurent-d'Aigouze", "details": "Arènes accolées à l'église, inscrites MH pour leur intérêt ethnologique lié à la bouvine.", "lat": 43.6338, "lng": 4.1952},
+  {"id": 4, "nom": "Église paroissiale Saint-Laurent", "adresse": "Place de la République, 30220 Saint-Laurent-d'Aigouze", "details": "Nef romane et façade du XVIIIe siècle, clocher surmonté d'une flèche en béton du XXe siècle.", "lat": 43.6339, "lng": 4.1955},
+  {"id": 5, "nom": "Temple de l'Église Réformée", "adresse": "Rue du Temple, 30220 Saint-Laurent-d'Aigouze", "details": "Édifice de style néoclassique datant du début du XIXe siècle.", "lat": 43.6351, "lng": 4.1948},
+  {"id": 6, "nom": "Château de Calvières", "adresse": "164 Rue de la République, 30220 Saint-Laurent-d'Aigouze", "details": "Château des XVIIe et XIXe siècles, avec parc, orangerie et plafonds peints, inscrit MH.", "lat": 43.6334, "lng": 4.1971},
+  {"id": 7, "nom": "Hôtel de Ville et Beffroi", "adresse": "Place de la République, 30220 Saint-Laurent-d'Aigouze", "details": "Bâtiment des XVIIe et XVIIIe siècles avec un beffroi du XVe et un campanile abritant une cloche de 1760.", "lat": 43.6341, "lng": 4.1951},
+  {"id": 8, "nom": "Fort de Peccais (Vestiges)", "adresse": "Marais de Peccais, 30220 Saint-Laurent-d'Aigouze", "details": "Vestiges d'une forteresse du XVIIe siècle destinée à protéger les salins, incluant douves et bastions.", "lat": 43.5135, "lng": 4.2588},
+  {"id": 9, "nom": "Ancien Château d'eau et éolienne (Site)", "adresse": "Quartier de l'ancienne gare, 30220 Saint-Laurent-d'Aigouze", "details": "Site de l'ancien château d'eau de 1900 inspiré des remparts d'Aigues-Mortes (récemment démoli).", "lat": 43.6375, "lng": 4.1912}
+]

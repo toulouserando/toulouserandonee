@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "La Garde-Guérin",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46386,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.47734069824219,
+        "longitude": 3.935218095779419,
+        "local_name": "La Garde-Guérin",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

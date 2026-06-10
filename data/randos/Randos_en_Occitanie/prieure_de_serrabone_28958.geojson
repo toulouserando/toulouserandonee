@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Prieuré de Serrabone",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28958,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.601707458496094,
+        "longitude": 2.5948750972747803,
+        "local_name": "Prieuré de Serrabone",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66130",
+        "city": "Boule-d'Amont"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

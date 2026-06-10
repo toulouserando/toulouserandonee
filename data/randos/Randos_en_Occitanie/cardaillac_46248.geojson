@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cardaillac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46248,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.67829513549805,
+        "longitude": 1.9977662563323975,
+        "local_name": "Cardaillac",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

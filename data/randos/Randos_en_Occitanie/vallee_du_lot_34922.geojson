@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vallée du Lot",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34922,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.5244255065918,
+        "longitude": 2.760925054550171,
+        "local_name": "Vallée du Lot",
+        "country": "FRA",
+        "street": "Avenue de St-Pierre",
+        "postcode": "12500",
+        "city": "Espalion"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

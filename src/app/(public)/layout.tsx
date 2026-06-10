@@ -1,4 +1,3 @@
-
 'use client';
 import Footer from "@/components/app/Footer";
 import { Button } from "@/components/ui/button";
@@ -9,13 +8,13 @@ import Link from "next/link";
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuItem,
   DropdownMenuTrigger,
   DropdownMenuRadioGroup,
   DropdownMenuRadioItem,
 } from "@/components/ui/dropdown-menu"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
+// --- Composants internes inchangés mais appelés conditionnellement ---
 
 function LanguageSelectorMobile() {
     const [language, setLanguage] = useState("fr");
@@ -87,9 +86,15 @@ function LanguageSelectorDesktop() {
     )
 }
 
-
 export default function PublicLayout({ children }: { children: React.ReactNode }) {
   const logoUrl = "/icons/logo_Toulouse_Rando512.jpg";
+  
+  // Correction pour l'hydratation
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -101,8 +106,10 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
               <span className="text-lg font-bold text-foreground">Toulouse rando</span>
             </Link>
           </div>
+          
           <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-x-4">
-            <LanguageSelectorDesktop />
+            {/* On ne rend le sélecteur que si on est sur le client */}
+            {mounted && <LanguageSelectorDesktop />}
             <Button asChild variant="ghost">
               <Link href="/login">Se connecter</Link>
             </Button>
@@ -110,34 +117,39 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
               <Link href="/signup">S'inscrire</Link>
             </Button>
           </div>
+
           <div className="lg:hidden">
-            <Sheet>
-              <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
-                  <Menu className="h-6 w-6" />
-                  <span className="sr-only">Ouvrir le menu</span>
-                </Button>
-              </SheetTrigger>
-              <SheetContent>
-                <div className="flex flex-col h-full">
-                  <div className="py-6">
-                    <LanguageSelectorMobile />
+            {/* La Sheet de Radix UI est très sensible à l'hydratation */}
+            {mounted && (
+              <Sheet>
+                <SheetTrigger asChild>
+                  <Button variant="ghost" size="icon">
+                    <Menu className="h-6 w-6" />
+                    <span className="sr-only">Ouvrir le menu</span>
+                  </Button>
+                </SheetTrigger>
+                <SheetContent>
+                  <div className="flex flex-col h-full">
+                    <div className="py-6">
+                      <LanguageSelectorMobile />
+                    </div>
+                    <div className="flex-1 py-6">
+                      <Link href="/login" className="block py-2 text-lg">Se connecter</Link>
+                      <Link href="/signup" className="block py-2 text-lg">S'inscrire</Link>
+                    </div>
+                    <div className="mt-auto">
+                      <Button asChild className="w-full">
+                          <Link href="/signup">Rejoignez l'aventure</Link>
+                      </Button>
+                    </div>
                   </div>
-                  <div className="flex-1 py-6">
-                    <Link href="/login" className="block py-2 text-lg">Se connecter</Link>
-                    <Link href="/signup" className="block py-2 text-lg">S'inscrire</Link>
-                  </div>
-                  <div className="mt-auto">
-                    <Button asChild className="w-full">
-                        <Link href="/signup">Rejoignez l'aventure</Link>
-                    </Button>
-                  </div>
-                </div>
-              </SheetContent>
-            </Sheet>
+                </SheetContent>
+              </Sheet>
+            )}
           </div>
         </nav>
       </header>
+      
       <main className="flex-1 py-12 md:py-16">
           <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
               {children}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale Saint-Étienne et son cloître",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4339,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.44725799560547,
+        "longitude": 1.4424551725387573,
+        "local_name": "Cathédrale Saint-Étienne et son cloître",
+        "country": "FRA",
+        "street": "Place Chapou",
+        "postcode": "46000",
+        "city": "Cahors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cloître de Carennac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7710,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.918819427490234,
+        "longitude": 1.7326929569244385,
+        "local_name": "Cloître de Carennac",
+        "country": "FRA",
+        "street": "Cours du Prieuré",
+        "postcode": "46110",
+        "city": "Carennac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

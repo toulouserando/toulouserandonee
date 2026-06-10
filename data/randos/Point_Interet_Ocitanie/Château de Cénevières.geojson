@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Cénevières",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5727,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.462745666503906,
+        "longitude": 1.753129243850708,
+        "local_name": "Château de Cénevières",
+        "country": "FRA",
+        "street": "D 8",
+        "postcode": "46333",
+        "city": "Cénevières"
+      },
+      "geometry": null
+    }
+  ]
+}

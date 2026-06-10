@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Uzès",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34714,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.010704040527344,
+        "longitude": 4.418989181518555,
+        "local_name": "Uzès",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

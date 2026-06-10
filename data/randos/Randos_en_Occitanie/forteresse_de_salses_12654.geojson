@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Forteresse de Salses",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12654,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.838565826416016,
+        "longitude": 2.918800115585327,
+        "local_name": "Forteresse de Salses",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66600",
+        "city": "Salses-le-Château"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

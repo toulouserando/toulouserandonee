@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Basilique Saint-Just",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2194,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.028926849365234,
+        "longitude": 0.5845379829406738,
+        "local_name": "Basilique Saint-Just",
+        "country": "FRA",
+        "street": null,
+        "postcode": "31510",
+        "city": "Valcabrère"
+      },
+      "geometry": null
+    }
+  ]
+}

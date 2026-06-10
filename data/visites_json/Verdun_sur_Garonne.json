@@ -1,0 +1,9 @@
+[
+  {"id": 1, "nom": "Église Saint-Michel de l'Assomption", "adresse": "Place de l'Église, 82600 Verdun-sur-Garonne", "details": "Église gothique méridionale (XIVe-XVe siècles) classée MH, abritant un orgue historique de 1767.", "lat": 43.8532, "lng": 1.2345},
+  {"id": 2, "nom": "Tour de l'Horloge", "adresse": "Rue de l'Horloge, 82600 Verdun-sur-Garonne", "details": "Ancienne porte de ville médiévale surmontée d'un beffroi et d'une horloge, vestige des fortifications.", "lat": 43.8541, "lng": 1.2338},
+  {"id": 3, "nom": "Église Notre-Dame-de-la-Croix", "adresse": "Hameau de Notre-Dame-de-la-Croix, 82600 Verdun-sur-Garonne", "details": "Édifice religieux situé à l'extérieur du bourg, lieu de pèlerinage local.", "lat": 43.8345, "lng": 1.2582},
+  {"id": 4, "nom": "Halle du XIIIe siècle", "adresse": "Place de la Halle, 82600 Verdun-sur-Garonne", "details": "Ancienne halle médiévale témoignant de l'activité commerciale historique de la bastide.", "lat": 43.8538, "lng": 1.2341},
+  {"id": 5, "nom": "Ancien Château de la Reine Margot (Site)", "adresse": "Allée du Château, 82600 Verdun-sur-Garonne", "details": "Emplacement de l'ancienne demeure royale détruite, dont il ne reste que quelques traces foncières.", "lat": 43.8525, "lng": 1.2332},
+  {"id": 6, "nom": "Ancien Pont suspendu sur la Garonne (Vestiges)", "adresse": "Quai de la Garonne, 82600 Verdun-sur-Garonne", "details": "Site du pont historique détruit, autrefois élément clé du passage du fleuve.", "lat": 43.8558, "lng": 1.2385},
+  {"id": 7, "nom": "Remparts et Enceinte médiévale", "adresse": "Tour de ville, 82600 Verdun-sur-Garonne", "details": "Vestiges des anciens murs de défense et terrasses surplombant la Garonne.", "lat": 43.8545, "lng": 1.2352}
+]

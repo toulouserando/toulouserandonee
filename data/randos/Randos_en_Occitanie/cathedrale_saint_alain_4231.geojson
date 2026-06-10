@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale Saint-Alain",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4231,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.699310302734375,
+        "longitude": 1.8217523097991943,
+        "local_name": "Cathédrale Saint-Alain",
+        "country": "FRA",
+        "street": null,
+        "postcode": "81500",
+        "city": "Lavaur"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

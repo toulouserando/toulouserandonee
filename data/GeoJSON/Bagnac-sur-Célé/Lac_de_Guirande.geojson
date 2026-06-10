@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Lac_de_Guirande.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.157558,
+            44.666145,
+            241.71
+          ],
+          [
+            2.157874,
+            44.666182,
+            238.49
+          ],
+          [
+            2.157874,
+            44.666182,
+            238.49
+          ],
+          [
+            2.157558,
+            44.666145,
+            241.71
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Lac_de_Guirande.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.157558,
+            44.666145
+          ],
+          [
+            2.157874,
+            44.666182
+          ],
+          [
+            2.157874,
+            44.666182
+          ],
+          [
+            2.157558,
+            44.666145
+          ]
+        ]
+      }
+    }
+  ]
+}

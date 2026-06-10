@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée municipal Pierre-de-Luxembourg",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23044,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.963783264160156,
+        "longitude": 4.796885967254639,
+        "local_name": "Musée municipal Pierre-de-Luxembourg",
+        "country": "FRA",
+        "street": "3 rue de la République",
+        "postcode": "30400",
+        "city": "Villeneuve-lez-Avignon"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

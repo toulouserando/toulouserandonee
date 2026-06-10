@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Castres",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3999,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.605289459228516,
+        "longitude": 2.2410075664520264,
+        "local_name": "Castres",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

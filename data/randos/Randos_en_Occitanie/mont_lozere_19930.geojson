@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mont Lozère",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19930,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.42389678955078,
+        "longitude": 3.7690370082855225,
+        "local_name": "Mont Lozère",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48220",
+        "city": "Le Pont-de-Montvert"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

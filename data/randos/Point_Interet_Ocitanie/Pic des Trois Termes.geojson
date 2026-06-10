@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pic des Trois Termes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25690,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.4739990234375,
+        "longitude": 2.930999994277954,
+        "local_name": "Pic des Trois Termes",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66480",
+        "city": "L'Albère"
+      },
+      "geometry": null
+    }
+  ]
+}

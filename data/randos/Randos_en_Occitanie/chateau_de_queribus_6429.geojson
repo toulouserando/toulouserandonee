@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Quéribus",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6429,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.8367805480957,
+        "longitude": 2.6214940547943115,
+        "local_name": "Château de Quéribus",
+        "country": "FRA",
+        "street": "4 place du Platane",
+        "postcode": "11350",
+        "city": "Cucugnan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

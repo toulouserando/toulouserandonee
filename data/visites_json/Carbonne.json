@@ -1,0 +1,17 @@
+[
+  {"id": 1, "nom": "Église Saint-Laurent", "adresse": "Place de l'Église, 31390 Carbonne", "details": "Fondée au XIVe siècle, inscrite MH (1965), abrite un retable baroque et un orgue de 1843.", "lat": 43.2974, "lng": 1.2218},
+  {"id": 2, "nom": "Presbytère de Carbonne", "adresse": "Rue de l'Église, 31390 Carbonne", "details": "Construit en 1904 par l'architecte Jacques Lacassin.", "lat": 43.2972, "lng": 1.2222},
+  {"id": 3, "nom": "Chapelle Saint-François d'Assise de la Terrasse", "adresse": "Route de la Terrasse, 31390 Carbonne", "details": "Ancienne chapelle du château en cours de réhabilitation culturelle.", "lat": 43.3082, "lng": 1.2135},
+  {"id": 4, "nom": "Chapelle Saint-Jacques de Carbonne", "adresse": "Chemin de Saint-Jacques, 31390 Carbonne", "details": "Petit édifice religieux historique de la commune.", "lat": 43.2925, "lng": 1.2295},
+  {"id": 5, "nom": "Colombier du Grilhon", "adresse": "Le Grilhon, 31390 Carbonne", "details": "Daté fin XVIe ou début XVIIe siècle, inscrit au titre des monuments historiques.", "lat": 43.2912, "lng": 1.2585},
+  {"id": 6, "nom": "Musée André-Abbal", "adresse": "1 Rue de la Fontaine, 31390 Carbonne", "details": "Musée consacré au sculpteur André Abbal, incluant son jardin d'agrément.", "lat": 43.2975, "lng": 1.2238},
+  {"id": 7, "nom": "Maison Jallier", "adresse": "34 Avenue de Toulouse, 31390 Carbonne", "details": "Siège de la communauté de communes du Volvestre.", "lat": 43.2995, "lng": 1.2265},
+  {"id": 8, "nom": "Barrage de Mancies", "adresse": "Plan d'eau de Mancies, 31390 Carbonne", "details": "Ouvrage hydraulique sur la Garonne avec une retenue de 8 millions de m³.", "lat": 43.2785, "lng": 1.2212},
+  {"id": 9, "nom": "Halle de 1882", "adresse": "Place de la République, 31390 Carbonne", "details": "Construite par Pierre Esquié, architecte prix de Rome.", "lat": 43.2978, "lng": 1.2232},
+  {"id": 10, "nom": "Château de la Terrasse (ruines)", "adresse": "La Terrasse, 31390 Carbonne", "details": "Vestiges de l'ancien château surplombant la Garonne.", "lat": 43.3085, "lng": 1.2138},
+  {"id": 11, "nom": "Pont de pierre (RD 627)", "adresse": "Route de Montesquieu, 31390 Carbonne", "details": "Pont historique franchissant la Garonne.", "lat": 43.2965, "lng": 1.2205},
+  {"id": 12, "nom": "Pont du Jumelage (RD 626)", "adresse": "Avenue du Jumelage, 31390 Carbonne", "details": "Second franchissement moderne de la Garonne.", "lat": 43.3032, "lng": 1.2252},
+  {"id": 13, "nom": "Pont de Ferrery", "adresse": "Route de Rieux, 31390 Carbonne", "details": "Pont franchissant la rivière Arize.", "lat": 43.2915, "lng": 1.2085},
+  {"id": 14, "nom": "Moulin de Ferrery", "adresse": "Chemin du Moulin, 31390 Carbonne", "details": "Moulin à eau sur l'Arize construit en 1827 par ordonnance de Charles X.", "lat": 43.2918, "lng": 1.2092},
+  {"id": 15, "nom": "Ancienne écurie du château de la Terrasse", "adresse": "Route de la Terrasse, 31390 Carbonne", "details": "Bâtiment annexe historique du domaine de la Terrasse.", "lat": 43.3080, "lng": 1.2140}
+]

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée des Amériques - Auch",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21751,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.64710235595703,
+        "longitude": 0.5874540209770203,
+        "local_name": "Musée des Amériques - Auch",
+        "country": "FRA",
+        "street": "4 place Louis-Blanc",
+        "postcode": "32000",
+        "city": "Auch"
+      },
+      "geometry": null
+    }
+  ]
+}

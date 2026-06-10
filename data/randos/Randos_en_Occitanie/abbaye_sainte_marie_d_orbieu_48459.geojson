@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Abbaye Sainte-Marie d’Orbieu",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48459,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.09014129638672,
+        "longitude": 2.6170220375061035,
+        "local_name": "Abbaye Sainte-Marie d’Orbieu",
+        "country": "FRA",
+        "street": "6 Rive Gauche",
+        "postcode": "11220",
+        "city": "Lagrasse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

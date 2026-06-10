@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Maison Carrée",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18422,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.8381462097168,
+        "longitude": 4.355865955352783,
+        "local_name": "Maison Carrée",
+        "country": "FRA",
+        "street": "Place de la Maison-Carrée",
+        "postcode": "30000",
+        "city": "Nîmes"
+      },
+      "geometry": null
+    }
+  ]
+}

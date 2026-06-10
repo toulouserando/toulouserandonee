@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Reptiland",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46598,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.93062973022461,
+        "longitude": 1.6174800395965576,
+        "local_name": "Reptiland",
+        "country": "FRA",
+        "street": "D 840 Puy Lombry",
+        "postcode": "46600",
+        "city": "Martel"
+      },
+      "geometry": null
+    }
+  ]
+}

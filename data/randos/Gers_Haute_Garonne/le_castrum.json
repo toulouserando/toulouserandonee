@@ -1,0 +1,1406 @@
+[
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "840",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "754",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.748695027172674,
+                            43.53030218677823
+                        ],
+                        [
+                            1.748478766005855,
+                            43.53028984648967
+                        ],
+                        [
+                            1.748582974272858,
+                            43.529647749444244
+                        ],
+                        [
+                            1.748632061863593,
+                            43.529050966885386
+                        ],
+                        [
+                            1.74866440980052,
+                            43.52880846196649
+                        ],
+                        [
+                            1.748665982218745,
+                            43.528736273152205
+                        ],
+                        [
+                            1.748911940300609,
+                            43.52862751656127
+                        ],
+                        [
+                            1.749013584832305,
+                            43.52851709585426
+                        ],
+                        [
+                            1.749000690449034,
+                            43.528280633640435
+                        ],
+                        [
+                            1.748967899404283,
+                            43.52812927751819
+                        ],
+                        [
+                            1.748798959152159,
+                            43.528015737232735
+                        ],
+                        [
+                            1.748573472679056,
+                            43.52801313707991
+                        ],
+                        [
+                            1.747331510877487,
+                            43.528287634975044
+                        ],
+                        [
+                            1.747042743783355,
+                            43.528290865407186
+                        ],
+                        [
+                            1.746846318957107,
+                            43.52819669748136
+                        ],
+                        [
+                            1.746885689319793,
+                            43.52804617398718
+                        ],
+                        [
+                            1.746929496915172,
+                            43.52769220950326
+                        ],
+                        [
+                            1.746886833398319,
+                            43.52758012433212
+                        ],
+                        [
+                            1.746774735126506,
+                            43.52734251625416
+                        ],
+                        [
+                            1.746733074314196,
+                            43.526357395886905
+                        ],
+                        [
+                            1.746674235003486,
+                            43.526159788536035
+                        ],
+                        [
+                            1.746422273442456,
+                            43.52571707277667
+                        ],
+                        [
+                            1.746411680337792,
+                            43.525582383144474
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.747753930742281,
+            "lat": 43.52807129945162
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "842",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "322",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.747237816891736,
+                            43.53739325542691
+                        ],
+                        [
+                            1.747439566455688,
+                            43.53742653794448
+                        ],
+                        [
+                            1.748291229323081,
+                            43.537270259112326
+                        ],
+                        [
+                            1.748779868652413,
+                            43.537057783069855
+                        ],
+                        [
+                            1.749810762713111,
+                            43.536567022286874
+                        ],
+                        [
+                            1.750028709696847,
+                            43.53644575395571
+                        ],
+                        [
+                            1.750554209180052,
+                            43.53608048745986
+                        ],
+                        [
+                            1.750613343517186,
+                            43.536058193182605
+                        ],
+                        [
+                            1.750631170856986,
+                            43.536068244858136
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7489883694813113,
+            "lat": 43.536888651932564
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "843",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "243",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.759919517475167,
+                            43.53385922256128
+                        ],
+                        [
+                            1.76000707676933,
+                            43.533878274796336
+                        ],
+                        [
+                            1.761170765028753,
+                            43.53326139438699
+                        ],
+                        [
+                            1.761432088735751,
+                            43.533067448996974
+                        ],
+                        [
+                            1.761649794929726,
+                            43.532804080486116
+                        ],
+                        [
+                            1.761705506163402,
+                            43.53231239605938
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7609937448134312,
+            "lat": 43.533249675029104
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "845",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "281",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.761495601698052,
+                            43.53200476233877
+                        ],
+                        [
+                            1.761707661823045,
+                            43.53179384364073
+                        ],
+                        [
+                            1.759661880883111,
+                            43.53043465305313
+                        ],
+                        [
+                            1.759431332768676,
+                            43.530248218408396
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7606640499172175,
+            "lat": 43.531116105449954
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "852",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "86",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.746647737345785,
+                            43.53481776581184
+                        ],
+                        [
+                            1.746554668048407,
+                            43.534947976916094
+                        ],
+                        [
+                            1.74645773251456,
+                            43.53504860395051
+                        ],
+                        [
+                            1.746261355462721,
+                            43.53515792863009
+                        ],
+                        [
+                            1.745905183031615,
+                            43.535354024643404
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7463024510405767,
+            "lat": 43.53511631265022
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "856",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "165",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.75708754004034,
+                            43.53271253943464
+                        ],
+                        [
+                            1.757142124742947,
+                            43.53290024642938
+                        ],
+                        [
+                            1.756900532061907,
+                            43.53301563631379
+                        ],
+                        [
+                            1.756618063067079,
+                            43.533143685915206
+                        ],
+                        [
+                            1.756258670384956,
+                            43.533490756607684
+                        ],
+                        [
+                            1.756093533257164,
+                            43.533616867400916
+                        ],
+                        [
+                            1.755833610436065,
+                            43.5337451734902
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7565489082179178,
+            "lat": 43.53325220852701
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "860",
+        "nat_juridique": "Chemin rural (CR)",
+        "longueur": "204",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.746079052311086,
+                            43.53152248656008
+                        ],
+                        [
+                            1.745909385520954,
+                            43.531855304523646
+                        ],
+                        [
+                            1.745679653091726,
+                            43.53225307096692
+                        ],
+                        [
+                            1.745179868718656,
+                            43.5332417832855
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.745624742594126,
+            "lat": 43.53237959794855
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "849",
+        "nat_juridique": "Route départementale (Rd)",
+        "longueur": "157",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.755967827415859,
+                            43.53020364567721
+                        ],
+                        [
+                            1.755972384931173,
+                            43.53072227494688
+                        ],
+                        [
+                            1.755850545256401,
+                            43.53072416028742
+                        ],
+                        [
+                            1.755836846043092,
+                            43.530106962217246
+                        ],
+                        [
+                            1.755834965574507,
+                            43.529985501767065
+                        ],
+                        [
+                            1.755840896769742,
+                            43.52991992712906
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.755893859200043,
+            "lat": 43.53040638139888
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "858",
+        "nat_juridique": "Chemin rural (CR)",
+        "longueur": "8",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.758519484179698,
+                            43.53387767829677
+                        ],
+                        [
+                            1.758593909512741,
+                            43.53382601543602
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7585566968462194,
+            "lat": 43.53385184686639
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "859",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "767",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.746411680337792,
+                            43.525582383144474
+                        ],
+                        [
+                            1.746376320049003,
+                            43.525549153350966
+                        ],
+                        [
+                            1.746370451407607,
+                            43.525404671928534
+                        ],
+                        [
+                            1.746345542327818,
+                            43.52530592032249
+                        ],
+                        [
+                            1.746230586412007,
+                            43.52519956405541
+                        ],
+                        [
+                            1.74609515799488,
+                            43.52520456342064
+                        ],
+                        [
+                            1.745913774971251,
+                            43.52524841704104
+                        ],
+                        [
+                            1.744430193526131,
+                            43.52584830085321
+                        ],
+                        [
+                            1.744274286696454,
+                            43.5259646534365
+                        ],
+                        [
+                            1.744361609355875,
+                            43.52609694914612
+                        ],
+                        [
+                            1.744573910141789,
+                            43.526289769159845
+                        ],
+                        [
+                            1.744674396887132,
+                            43.52664540186733
+                        ],
+                        [
+                            1.744783904169351,
+                            43.52700113890226
+                        ],
+                        [
+                            1.744788335125198,
+                            43.527211246643674
+                        ],
+                        [
+                            1.744872793328193,
+                            43.52747479421938
+                        ],
+                        [
+                            1.744865050918959,
+                            43.527829175118974
+                        ],
+                        [
+                            1.744824958492024,
+                            43.52801251091086
+                        ],
+                        [
+                            1.744819079725813,
+                            43.52828157798219
+                        ],
+                        [
+                            1.744850426107582,
+                            43.52849856150448
+                        ],
+                        [
+                            1.744908257908125,
+                            43.528742108471974
+                        ],
+                        [
+                            1.745020351191355,
+                            43.52897971871381
+                        ],
+                        [
+                            1.745134595674515,
+                            43.52911888963004
+                        ],
+                        [
+                            1.745394015014191,
+                            43.529220353309945
+                        ],
+                        [
+                            1.745343757008796,
+                            43.529456086139824
+                        ],
+                        [
+                            1.745374246061359,
+                            43.52971244540775
+                        ],
+                        [
+                            1.745378822710639,
+                            43.52991599090869
+                        ],
+                        [
+                            1.745428211669447,
+                            43.53013318307638
+                        ],
+                        [
+                            1.745513823592194,
+                            43.530344229718104
+                        ],
+                        [
+                            1.745608885898305,
+                            43.53053569271534
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7451276872221144,
+            "lat": 43.527323710984334
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "841",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "692",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.755840896769742,
+                            43.52991992712906
+                        ],
+                        [
+                            1.755629403926795,
+                            43.52984365419017
+                        ],
+                        [
+                            1.754977788609761,
+                            43.529521095526334
+                        ],
+                        [
+                            1.754639734568838,
+                            43.52930059581922
+                        ],
+                        [
+                            1.754379729358649,
+                            43.52922540475131
+                        ],
+                        [
+                            1.753964967407061,
+                            43.5292140788112
+                        ],
+                        [
+                            1.753329461464412,
+                            43.529397143465175
+                        ],
+                        [
+                            1.751660998490079,
+                            43.52978494752403
+                        ],
+                        [
+                            1.751287052231021,
+                            43.52997100898852
+                        ],
+                        [
+                            1.751019914328388,
+                            43.53022394128129
+                        ],
+                        [
+                            1.75090282951316,
+                            43.530629578547156
+                        ],
+                        [
+                            1.750800043209985,
+                            43.53079250224153
+                        ],
+                        [
+                            1.75051999813933,
+                            43.530808971025664
+                        ],
+                        [
+                            1.749444967706073,
+                            43.53045852775852
+                        ],
+                        [
+                            1.748695027172674,
+                            43.53030218677823
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7522253359349813,
+            "lat": 43.52991947631642
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "846",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "41",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.761705506163402,
+                            43.53231239605938
+                        ],
+                        [
+                            1.76148417624588,
+                            43.53211622447325
+                        ],
+                        [
+                            1.761495601698052,
+                            43.53200476233877
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7615660047597963,
+            "lat": 43.53217204788375
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "848",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "23",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.759413860002657,
+                            43.53022176161888
+                        ],
+                        [
+                            1.759432537395804,
+                            43.530192435965525
+                        ],
+                        [
+                            1.75951527460296,
+                            43.53012117491175
+                        ],
+                        [
+                            1.759468422867945,
+                            43.53004515034772
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7594732171259384,
+            "lat": 43.5301361087479
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "850",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "501",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.75937721005694,
+                            43.529986670335404
+                        ],
+                        [
+                            1.758857534792931,
+                            43.529558974312444
+                        ],
+                        [
+                            1.758505191533698,
+                            43.529372785734864
+                        ],
+                        [
+                            1.758316996207052,
+                            43.52973166674934
+                        ],
+                        [
+                            1.758030204033518,
+                            43.530164908192376
+                        ],
+                        [
+                            1.757922604794164,
+                            43.530134137511034
+                        ],
+                        [
+                            1.757645545394702,
+                            43.530012809281814
+                        ],
+                        [
+                            1.75736955742044,
+                            43.53025909131054
+                        ],
+                        [
+                            1.757193441165933,
+                            43.53037194910544
+                        ],
+                        [
+                            1.756945500705794,
+                            43.530155770721194
+                        ],
+                        [
+                            1.757190027282319,
+                            43.52990420626833
+                        ],
+                        [
+                            1.757218541817461,
+                            43.52983724914633
+                        ],
+                        [
+                            1.757206751359154,
+                            43.5297567019154
+                        ],
+                        [
+                            1.756582790708985,
+                            43.530240232920825
+                        ],
+                        [
+                            1.756160227539107,
+                            43.53006800158583
+                        ],
+                        [
+                            1.755967827415859,
+                            43.53020364567721
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7576330736179941,
+            "lat": 43.52995355975302
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "847",
+        "nat_juridique": "Route départementale (Rd)",
+        "longueur": "30",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.759468422867945,
+                            43.53004515034772
+                        ],
+                        [
+                            1.75933202749246,
+                            43.530094464067396
+                        ],
+                        [
+                            1.759283906810353,
+                            43.53002498917424
+                        ],
+                        [
+                            1.75937721005694,
+                            43.529986670335404
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.759355360527235,
+            "lat": 43.53004769845391
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "851",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "261",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.745905183031615,
+                            43.535354024643404
+                        ],
+                        [
+                            1.746166706964777,
+                            43.53556710404497
+                        ],
+                        [
+                            1.746289415044674,
+                            43.535732629204496
+                        ],
+                        [
+                            1.746319911648604,
+                            43.535988989346194
+                        ],
+                        [
+                            1.746635849803757,
+                            43.5368098945652
+                        ],
+                        [
+                            1.746989165605251,
+                            43.53674504903265
+                        ],
+                        [
+                            1.747165358007738,
+                            43.536733954463166
+                        ],
+                        [
+                            1.747561848054672,
+                            43.536964999263496
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7466225836566547,
+            "lat": 43.53632175443662
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "853",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "685",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.750613343517186,
+                            43.536058193182605
+                        ],
+                        [
+                            1.750779941494478,
+                            43.536073239527624
+                        ],
+                        [
+                            1.750934690685947,
+                            43.5355958269189
+                        ],
+                        [
+                            1.751177645630851,
+                            43.53521132941729
+                        ],
+                        [
+                            1.751627641730326,
+                            43.53484890615807
+                        ],
+                        [
+                            1.752111575562613,
+                            43.5345853357812
+                        ],
+                        [
+                            1.753678621880253,
+                            43.53388783584648
+                        ],
+                        [
+                            1.753934182332037,
+                            43.53375292047048
+                        ],
+                        [
+                            1.754784742180774,
+                            43.533224412016956
+                        ],
+                        [
+                            1.755049032893634,
+                            43.53310272287379
+                        ],
+                        [
+                            1.755376037669273,
+                            43.53300144521277
+                        ],
+                        [
+                            1.756009160951182,
+                            43.53292993312626
+                        ],
+                        [
+                            1.756543202144438,
+                            43.53285071785826
+                        ],
+                        [
+                            1.756842574108876,
+                            43.532775376326335
+                        ],
+                        [
+                            1.757070351597588,
+                            43.53267295692424
+                        ],
+                        [
+                            1.75708754004034,
+                            43.53271253943464
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7536032949771052,
+            "lat": 43.53402208566605
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "854",
+        "nat_juridique": "Route départementale (Rd)",
+        "longueur": "55",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.747561848054672,
+                            43.536964999263496
+                        ],
+                        [
+                            1.747455603791788,
+                            43.53707864854525
+                        ],
+                        [
+                            1.747437080224521,
+                            43.53713142074652
+                        ],
+                        [
+                            1.747237816891736,
+                            43.53739325542691
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7473980121559856,
+            "lat": 43.53717683803907
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "855",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "458",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.755833610436065,
+                            43.5337451734902
+                        ],
+                        [
+                            1.75581251361843,
+                            43.53388606368846
+                        ],
+                        [
+                            1.755865498882538,
+                            43.53393918538333
+                        ],
+                        [
+                            1.756105459680884,
+                            43.53431610015853
+                        ],
+                        [
+                            1.756473806003753,
+                            43.534806078468385
+                        ],
+                        [
+                            1.756989720682209,
+                            43.535356824469154
+                        ],
+                        [
+                            1.757255867061651,
+                            43.53556664747654
+                        ],
+                        [
+                            1.757514446396296,
+                            43.53550068310705
+                        ],
+                        [
+                            1.757648865236128,
+                            43.535334832600725
+                        ],
+                        [
+                            1.75778562499842,
+                            43.535060698042116
+                        ],
+                        [
+                            1.758095790128069,
+                            43.53448659083788
+                        ],
+                        [
+                            1.758204633165272,
+                            43.53425152218201
+                        ],
+                        [
+                            1.758519484179698,
+                            43.53387767829677
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.757157940480635,
+            "lat": 43.534743885066895
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "857",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "11",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.758593909512741,
+                            43.53382601543602
+                        ],
+                        [
+                            1.758722067020695,
+                            43.53379301887807
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7586579882667177,
+            "lat": 43.533809517157046
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "861",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "167",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.745608885898305,
+                            43.53053569271534
+                        ],
+                        [
+                            1.745468930374812,
+                            43.530747413978766
+                        ],
+                        [
+                            1.745369706767375,
+                            43.53095304174476
+                        ],
+                        [
+                            1.745317732213283,
+                            43.53106075150262
+                        ],
+                        [
+                            1.745479732686164,
+                            43.53107903509941
+                        ],
+                        [
+                            1.745628346656003,
+                            43.531090599438464
+                        ],
+                        [
+                            1.745727136092104,
+                            43.53111143413772
+                        ],
+                        [
+                            1.745753121269734,
+                            43.53116096659097
+                        ],
+                        [
+                            1.745705940115634,
+                            43.53146237831789
+                        ],
+                        [
+                            1.746079052311086,
+                            43.53152248656008
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.74562205337094,
+            "lat": 43.53111330234067
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "844",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "108",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.758722067020695,
+                            43.53379301887807
+                        ],
+                        [
+                            1.75918040271514,
+                            43.53361610152903
+                        ],
+                        [
+                            1.759919517475167,
+                            43.53385922256128
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7593182299763608,
+            "lat": 43.53372485033564
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "862",
+        "nat_juridique": "Route départementale (Rd)",
+        "longueur": "85",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.746472768027805,
+                            43.53477307704682
+                        ],
+                        [
+                            1.7469720458809,
+                            43.53463442820812
+                        ],
+                        [
+                            1.747011206603124,
+                            43.53470052331842
+                        ],
+                        [
+                            1.746748323325881,
+                            43.53475656657623
+                        ],
+                        [
+                            1.746661912490437,
+                            43.534788390173105
+                        ],
+                        [
+                            1.746647737345785,
+                            43.53481776581184
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.746782278983713,
+            "lat": 43.53471735442985
+        }
+    },
+    {
+        "nom_itineraire": "Le Castrum",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caraman",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "863",
+        "nat_juridique": "Route départementale (Rd)",
+        "longueur": "200",
+        "insee_commune": "31106",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.745179868718656,
+                            43.5332417832855
+                        ],
+                        [
+                            1.746472768027805,
+                            43.53477307704682
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7458263183732305,
+            "lat": 43.534007430166156
+        }
+    }
+]

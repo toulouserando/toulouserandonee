@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Rodez",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30342,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.350921630859375,
+        "longitude": 2.572878360748291,
+        "local_name": "Rodez",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

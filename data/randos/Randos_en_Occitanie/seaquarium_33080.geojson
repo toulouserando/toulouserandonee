@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Seaquarium",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33080,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.52737808227539,
+        "longitude": 4.141201019287109,
+        "local_name": "Seaquarium",
+        "country": "FRA",
+        "street": "Avenue du Palais-de-la-Mer",
+        "postcode": "30240",
+        "city": "Le Grau-du-Roi"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Circuit_dEmpeaux.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.085141,
+            43.518081,
+            316.39
+          ],
+          [
+            1.085141,
+            43.518081,
+            316.39
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Circuit_dEmpeaux.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.085141,
+            43.518081
+          ],
+          [
+            1.085141,
+            43.518081
+          ]
+        ]
+      }
+    }
+  ]
+}

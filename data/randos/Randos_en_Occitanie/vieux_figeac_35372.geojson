@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vieux Figeac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35372,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.60731887817383,
+        "longitude": 2.034820079803467,
+        "local_name": "Vieux Figeac",
+        "country": "FRA",
+        "street": "Place de la Raison",
+        "postcode": "46100",
+        "city": "Figeac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

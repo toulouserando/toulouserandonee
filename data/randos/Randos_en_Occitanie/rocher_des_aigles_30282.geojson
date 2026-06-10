@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Rocher des Aigles",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30282,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.80186462402344,
+        "longitude": 1.6129289865493774,
+        "local_name": "Rocher des Aigles",
+        "country": "FRA",
+        "street": "Route du Château",
+        "postcode": "46500",
+        "city": "Rocamadour"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

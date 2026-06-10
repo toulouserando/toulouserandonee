@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale Sainte-Marie",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4295,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.64642333984375,
+        "longitude": 0.585273027420044,
+        "local_name": "Cathédrale Sainte-Marie",
+        "country": "FRA",
+        "street": "place de la République",
+        "postcode": "32000",
+        "city": "Auch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

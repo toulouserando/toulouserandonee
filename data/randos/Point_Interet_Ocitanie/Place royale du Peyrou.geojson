@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Place royale du Peyrou",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26906,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.611351013183594,
+        "longitude": 3.870142936706543,
+        "local_name": "Place royale du Peyrou",
+        "country": "FRA",
+        "street": null,
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": null
+    }
+  ]
+}

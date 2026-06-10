@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cirque de Saint-Chély-du-Tarn",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7318,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.332359313964844,
+        "longitude": 3.381702184677124,
+        "local_name": "Cirque de Saint-Chély-du-Tarn",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48210",
+        "city": "Saint-Chély-du-Tarn"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pic du Jer",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25695,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.08306121826172,
+        "longitude": -0.04040300101041794,
+        "local_name": "Pic du Jer",
+        "country": "FRA",
+        "street": "59 avenue Francis-Lagardère",
+        "postcode": "65100",
+        "city": "Lourdes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

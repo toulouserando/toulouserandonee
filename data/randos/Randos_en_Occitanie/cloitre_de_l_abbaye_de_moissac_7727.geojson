@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cloître de l'abbaye de Moissac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7727,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.10567092895508,
+        "longitude": 1.0843600034713745,
+        "local_name": "Cloître de l'abbaye de Moissac",
+        "country": "FRA",
+        "street": "Place Durand de Bredons",
+        "postcode": "82200",
+        "city": "Moissac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

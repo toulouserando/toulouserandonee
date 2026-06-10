@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Palais des Rois de Majorque",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24220,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.69389343261719,
+        "longitude": 2.893834114074707,
+        "local_name": "Palais des Rois de Majorque",
+        "country": "FRA",
+        "street": "Rue des Archers",
+        "postcode": "66000",
+        "city": "Perpignan"
+      },
+      "geometry": null
+    }
+  ]
+}

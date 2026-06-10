@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Boucle_St-Sulpice.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.319066,
+            43.330871,
+            206.0
+          ],
+          [
+            1.318331,
+            43.331125,
+            207.15
+          ],
+          [
+            1.318331,
+            43.331125,
+            207.15
+          ],
+          [
+            1.318427,
+            43.331093,
+            207.0
+          ],
+          [
+            1.318439,
+            43.33165,
+            207.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Boucle_St-Sulpice.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.319066,
+            43.330871
+          ],
+          [
+            1.318331,
+            43.331125
+          ],
+          [
+            1.318331,
+            43.331125
+          ],
+          [
+            1.318427,
+            43.331093
+          ],
+          [
+            1.318439,
+            43.33165
+          ]
+        ]
+      }
+    }
+  ]
+}

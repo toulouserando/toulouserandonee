@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée des Beaux-Arts de Nîmes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22027,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.831966400146484,
+        "longitude": 4.360836029052734,
+        "local_name": "Musée des Beaux-Arts de Nîmes",
+        "country": "FRA",
+        "street": "Rue de la Cité-Foulc",
+        "postcode": "30000",
+        "city": "Nîmes"
+      },
+      "geometry": null
+    }
+  ]
+}

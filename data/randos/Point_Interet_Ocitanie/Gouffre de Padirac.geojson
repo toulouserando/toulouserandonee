@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gouffre de Padirac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13295,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.85649871826172,
+        "longitude": 1.7454500198364258,
+        "local_name": "Gouffre de Padirac",
+        "country": "FRA",
+        "street": "Lieu-dit Le Gouffre",
+        "postcode": "46500",
+        "city": "Padirac"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Verdun-Lauragais.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.062992,
+            43.366528,
+            371.35
+          ],
+          [
+            2.062992,
+            43.366528,
+            371.35
+          ],
+          [
+            2.063254,
+            43.367834,
+            377.88
+          ],
+          [
+            2.06346,
+            43.367786,
+            379.18
+          ],
+          [
+            2.063744,
+            43.367766,
+            381.1
+          ],
+          [
+            2.063996,
+            43.367775,
+            382.5
+          ],
+          [
+            2.064219,
+            43.367815,
+            383.58
+          ],
+          [
+            2.064886,
+            43.367984,
+            386.45
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Verdun-Lauragais.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.062992,
+            43.366528
+          ],
+          [
+            2.062992,
+            43.366528
+          ],
+          [
+            2.063254,
+            43.367834
+          ],
+          [
+            2.064886,
+            43.367984
+          ]
+        ]
+      }
+    }
+  ]
+}

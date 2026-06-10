@@ -1,0 +1,20 @@
+[
+  {"id": 1, "nom": "Hôtel des Margailliers", "adresse": "22 Rue de la République, 30300 Beaucaire", "details": "Hôtel particulier remarquable pour son portail orné d'atlantes sculptés.", "lat": 43.8078, "lng": 4.6445},
+  {"id": 2, "nom": "Château de Beaucaire", "adresse": "Place du Château, 30300 Beaucaire", "details": "Forteresse royale médiévale avec son célèbre donjon triangulaire dominant le Rhône.", "lat": 43.8095, "lng": 4.6441},
+  {"id": 3, "nom": "Mas de Lafond (Ancien Mas de Monery)", "adresse": "Chemin du Mas de Lafond, 30300 Beaucaire", "details": "Ancienne propriété des marquis de Forton avec pigeonnier et voûtes d'arêtes (XVIe-XVIIe).", "lat": 43.8152, "lng": 4.6215},
+  {"id": 4, "nom": "Statue du Taureau Goya", "adresse": "Place Jean-Jaurès, 30300 Beaucaire", "details": "Sculpture en bronze de Camille Soccorsi rendant hommage au célèbre taureau cocardier.", "lat": 43.8066, "lng": 4.6433},
+  {"id": 5, "nom": "Arènes Paul Laurent", "adresse": "Champ de Foire, 30300 Beaucaire", "details": "Lieu des courses camarguaises et corridas lors de la feria de Sainte-Madeleine.", "lat": 43.8048, "lng": 4.6455},
+  {"id": 6, "nom": "Sculpture du Drac", "adresse": "Place de la République, 30300 Beaucaire", "details": "Représentation du monstre légendaire du Rhône qui hantait les eaux de Beaucaire.", "lat": 43.8082, "lng": 4.6448},
+  {"id": 7, "nom": "Le Vieux Mas", "adresse": "1352 Route de Nîmes, 30300 Beaucaire", "details": "Ferme vivante reconstituant la vie agricole des années 1900.", "lat": 43.7942, "lng": 4.5985},
+  {"id": 8, "nom": "Gibet de Beaucaire", "adresse": "Colline du Sizen, 30300 Beaucaire", "details": "Ancien lieu d'exécution situé au sommet de la colline offrant un large panorama.", "lat": 43.8125, "lng": 4.6385},
+  {"id": 9, "nom": "Colonnes de César (Bornes Milliaires)", "adresse": "Le Clos des Mélettes, 30300 Beaucaire", "details": "Quatre bornes milliaires romaines sur le tracé de la Via Domitia.", "lat": 43.8115, "lng": 4.5912},
+  {"id": 10, "nom": "Abbaye troglodytique de Saint-Roman", "adresse": "Chemin de Saint-Roman, 30300 Beaucaire", "details": "Monastère rupestre unique creusé dans le calcaire par des ermites dès le Ve siècle.", "lat": 43.8358, "lng": 4.6115},
+  {"id": 11, "nom": "Collégiale Notre-Dame-des-Pommiers", "adresse": "Place de la République, 30300 Beaucaire", "details": "Chef-d'œuvre du baroque provençal (XVIIIe), classée aux MH.", "lat": 43.8085, "lng": 4.6452},
+  {"id": 12, "nom": "Église Saint-Paul", "adresse": "Rue Saint-Paul, 30300 Beaucaire", "details": "Édifice de style gothique provençal classé MH en 2005.", "lat": 43.8062, "lng": 4.6438},
+  {"id": 13, "nom": "Chapelle Saint-Joseph du Mas-Saint-Joseph", "adresse": "Route de Fourques, 30300 Beaucaire", "details": "Façade Nord inscrite MH depuis 1946.", "lat": 43.7915, "lng": 4.6352},
+  {"id": 14, "nom": "Chapelle Saint-Louis", "adresse": "Château de Beaucaire, 30300 Beaucaire", "details": "Ancienne chapelle castrale classée aux MH dès 1846.", "lat": 43.8096, "lng": 4.6444},
+  {"id": 15, "nom": "Chapelle Saint-Pierre", "adresse": "Chemin de Saint-Pierre, 30300 Beaucaire", "details": "Édifice religieux classé MH depuis 1973.", "lat": 43.8185, "lng": 4.6412},
+  {"id": 16, "nom": "Croix Couverte", "adresse": "Route de Nîmes, 30300 Beaucaire", "details": "Édifice triangulaire gothique rare abritant une croix de calvaire (classé MH).", "lat": 43.8055, "lng": 4.6358},
+  {"id": 17, "nom": "Musée Auguste-Jacquet", "adresse": "Le Château, 30300 Beaucaire", "details": "Musée d'histoire et d'archéologie situé dans l'ancien couvent des Augustines.", "lat": 43.8091, "lng": 4.6446},
+  {"id": 18, "nom": "Maison du Tourisme et du Patrimoine", "adresse": "8 rue Victor Hugo, 30300 Beaucaire", "details": "Hôtel particulier du XVIe siècle restauré servant d'accueil touristique.", "lat": 43.8075, "lng": 4.6442}
+]

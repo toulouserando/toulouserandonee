@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Basilique Saint-Nazaire",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2220,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.2049560546875,
+        "longitude": 2.3631489276885986,
+        "local_name": "Basilique Saint-Nazaire",
+        "country": "FRA",
+        "street": "Place Auguste-Pierre-Pont",
+        "postcode": "11000",
+        "city": "Carcassonne"
+      },
+      "geometry": null
+    }
+  ]
+}

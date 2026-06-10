@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château d'Assier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5504,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.67518615722656,
+        "longitude": 1.8786113262176514,
+        "local_name": "Château d'Assier",
+        "country": "FRA",
+        "street": null,
+        "postcode": "46320",
+        "city": "Assier"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

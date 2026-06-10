@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Minerve",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19728,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.3544921875,
+        "longitude": 2.7462539672851562,
+        "local_name": "Minerve",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

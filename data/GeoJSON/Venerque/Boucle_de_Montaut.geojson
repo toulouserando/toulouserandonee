@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Boucle_de_Montaut.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.284662,
+            43.311365,
+            239.36
+          ],
+          [
+            1.2841,
+            43.311481,
+            241.31
+          ],
+          [
+            1.2841,
+            43.311481,
+            241.31
+          ],
+          [
+            1.284662,
+            43.311365,
+            239.36
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Boucle_de_Montaut.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.284662,
+            43.311365
+          ],
+          [
+            1.2841,
+            43.311481
+          ],
+          [
+            1.2841,
+            43.311481
+          ],
+          [
+            1.284662,
+            43.311365
+          ]
+        ]
+      }
+    }
+  ]
+}

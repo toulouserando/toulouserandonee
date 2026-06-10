@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Abbaye de Valmagne",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 287,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.4869384765625,
+        "longitude": 3.5617547035217285,
+        "local_name": "Abbaye de Valmagne",
+        "country": "FRA",
+        "street": "Route de Montagnac",
+        "postcode": "34560",
+        "city": "Villeveyrac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

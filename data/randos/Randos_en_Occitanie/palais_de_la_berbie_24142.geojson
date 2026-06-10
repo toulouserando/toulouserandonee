@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Palais de la Berbie",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24142,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.92877960205078,
+        "longitude": 2.143239974975586,
+        "local_name": "Palais de la Berbie",
+        "country": "FRA",
+        "street": "Place Ste-Cécile",
+        "postcode": "81000",
+        "city": "Albi"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

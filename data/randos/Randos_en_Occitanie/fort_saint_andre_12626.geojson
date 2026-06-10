@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Fort Saint-André",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12626,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.96529769897461,
+        "longitude": 4.800604820251465,
+        "local_name": "Fort Saint-André",
+        "country": "FRA",
+        "street": "Rue Montée-du-Fort",
+        "postcode": "30400",
+        "city": "Villeneuve-lez-Avignon"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

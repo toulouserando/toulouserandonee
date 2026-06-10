@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Parc des Loups du Gévaudan",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24750,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.606201171875,
+        "longitude": 3.284959316253662,
+        "local_name": "Parc des Loups du Gévaudan",
+        "country": "FRA",
+        "street": "Hameau de Ste-Lucie",
+        "postcode": "48100",
+        "city": "St-Léger-de-Peyre"
+      },
+      "geometry": null
+    }
+  ]
+}

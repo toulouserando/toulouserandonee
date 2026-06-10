@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cirque de Navacelles",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7316,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.89305114746094,
+        "longitude": 3.510129928588867,
+        "local_name": "Cirque de Navacelles",
+        "country": "FRA",
+        "street": null,
+        "postcode": "34520",
+        "city": "St-Maurice-Navacelles"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée des Arts et Métiers traditionnels",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21818,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.43663024902344,
+        "longitude": 2.5142130851745605,
+        "local_name": "Musée des Arts et Métiers traditionnels",
+        "country": "FRA",
+        "street": "Cours de la Filature",
+        "postcode": "12330",
+        "city": "Salles-la-Source"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

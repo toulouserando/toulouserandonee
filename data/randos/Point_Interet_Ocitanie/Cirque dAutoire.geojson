@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cirque d'Autoire",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46608,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.85219955444336,
+        "longitude": 1.819219946861267,
+        "local_name": "Cirque d'Autoire",
+        "country": "FRA",
+        "street": "D 38",
+        "postcode": "46400",
+        "city": "Autoire"
+      },
+      "geometry": null
+    }
+  ]
+}

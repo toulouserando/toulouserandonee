@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée archéologique de Lectoure",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20498,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.93411636352539,
+        "longitude": 0.6232050061225891,
+        "local_name": "Musée archéologique de Lectoure",
+        "country": "FRA",
+        "street": "Place du Gén.-de-Gaulle",
+        "postcode": "32700",
+        "city": "Lectoure"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

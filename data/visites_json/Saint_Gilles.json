@@ -1,0 +1,22 @@
+[
+  {"id": 1, "nom": "Abbatiale Saint-Gilles", "adresse": "Place de la République, 30800 Saint-Gilles", "details": "Chef-d'œuvre de l'art roman provençal inscrit au patrimoine mondial de l'UNESCO.", "lat": 43.6766, "lng": 4.4329},
+  {"id": 2, "nom": "Ancienne Abbaye (Vestiges)", "adresse": "Place de l'Abbaye, 30800 Saint-Gilles", "details": "Ancien monastère bénédictin dont subsistent l'église et les fondations médiévales.", "lat": 43.6768, "lng": 4.4332},
+  {"id": 3, "nom": "Église réformée de Saint-Gilles", "adresse": "7 Rue de la République, 30800 Saint-Gilles", "details": "Lieu de culte protestant historique situé au cœur de la ville.", "lat": 43.6775, "lng": 4.4320},
+  {"id": 4, "nom": "Chapelle Sainte-Colombe", "adresse": "Hameau de Sainte-Colombe, 30800 Saint-Gilles", "details": "Chapelle romane du XIIe siècle située à l'extérieur du bourg, inscrite MH.", "lat": 43.6468, "lng": 4.3541},
+  {"id": 5, "nom": "Maison Romane (Musée)", "adresse": "Place de la Liberté, 30800 Saint-Gilles", "details": "Demeure exceptionnelle des XIIe et XIIIe siècles abritant aujourd'hui le musée de la ville.", "lat": 43.6771, "lng": 4.4325},
+  {"id": 6, "nom": "Maison du XIIe siècle (Angle sculpté)", "adresse": "5 Rue Lamartine, 30800 Saint-Gilles", "details": "Maison avec pierre sculptée à l'angle des façades, inscrite MH en 1963.", "lat": 43.6772, "lng": 4.4322},
+  {"id": 7, "nom": "Maison du XIIIe siècle (Cariatide)", "adresse": "Place de la Liberté, 30800 Saint-Gilles", "details": "Propriété privée remarquable pour son motif d'angle figurant une cariatide.", "lat": 43.6770, "lng": 4.4324},
+  {"id": 8, "nom": "Maison des XIIe et XIVe siècles", "adresse": "31 Rue de l'Hôtel de Ville, 30800 Saint-Gilles", "details": "Façade historique inscrite aux monuments historiques en 1936.", "lat": 43.6778, "lng": 4.4312},
+  {"id": 9, "nom": "Maison à la statue de Saint-Gilles", "adresse": "Rue de l'Hôtel de Ville, 30800 Saint-Gilles", "details": "Niche d'angle abritant une statue de Saint Gilles, inscrite MH.", "lat": 43.6776, "lng": 4.4315},
+  {"id": 10, "nom": "Maison en pierre sculptée", "adresse": "5 Place Ernest Blanc, 30800 Saint-Gilles", "details": "Maison privée dont la façade présente des sculptures inscrites MH.", "lat": 43.6765, "lng": 4.4318},
+  {"id": 11, "nom": "Maison des XIIe et XIVe siècles (Rue Baudin)", "adresse": "4 Rue Baudin, 30800 Saint-Gilles", "details": "Façade et toiture typiques de l'architecture médiévale de la ville.", "lat": 43.6769, "lng": 4.4311},
+  {"id": 12, "nom": "Mas de Liviers", "adresse": "Route de Liviers, 30800 Saint-Gilles", "details": "Ferme du XVIIe siècle avec inscription de marbre et armoiries, inscrite MH.", "lat": 43.6925, "lng": 4.4150},
+  {"id": 13, "nom": "Hôtel de Ville", "adresse": "Place Jean Jaurès, 30800 Saint-Gilles", "details": "Édifice de la fin du XIXe siècle dominant la plaine de Camargue.", "lat": 43.6782, "lng": 4.4310},
+  {"id": 14, "nom": "Les Halles (Style Baltard)", "adresse": "Rue Gambetta, 30800 Saint-Gilles", "details": "Marché couvert de la fin du XIXe siècle à l'architecture métallique.", "lat": 43.6762, "lng": 4.4327},
+  {"id": 15, "nom": "Monument commémoratif (Henri Bouchard)", "adresse": "Avenue de la République, 30800 Saint-Gilles", "details": "Sculpture d'Henri Bouchard rendant hommage à l'histoire locale, située près de l'abbatiale.", "lat": 43.6763, "lng": 4.4334},
+  {"id": 16, "nom": "Château d'Espeyran", "adresse": "Route d'Espeyran, 30800 Saint-Gilles", "details": "Ensemble Second Empire abritant le Centre national du microfilm.", "lat": 43.6475, "lng": 4.3989},
+  {"id": 17, "nom": "Aéroport de Nîmes-Garons", "adresse": "Ancienne Route de Générac, 30800 Saint-Gilles", "details": "Infrastructure aéroportuaire située en partie sur le territoire communal.", "lat": 43.7575, "lng": 4.4164},
+  {"id": 18, "nom": "Pont sur le Petit-Rhône (Bow-string)", "adresse": "Route de Saint-Gilles, 30800 Saint-Gilles", "details": "Pont suspendu moderne de type bow-string construit en 1999.", "lat": 43.6661, "lng": 4.4372},
+  {"id": 19, "nom": "Pavillon de la Culture et du Patrimoine", "adresse": "Impasse de l'Étoile, 30800 Saint-Gilles", "details": "Salle municipale faisant fonction de théâtre et de cinéma.", "lat": 43.6761, "lng": 4.4315},
+  {"id": 20, "nom": "Place de la Liberté", "adresse": "Place de la Liberté, 30800 Saint-Gilles", "details": "Cœur historique regroupant plusieurs édifices classés et la Maison Romane.", "lat": 43.6771, "lng": 4.4323}
+]

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée Georges-Labit",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22806,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.591007232666016,
+        "longitude": 1.4583109617233276,
+        "local_name": "Musée Georges-Labit",
+        "country": "FRA",
+        "street": "17 rue du Japon",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": null
+    }
+  ]
+}

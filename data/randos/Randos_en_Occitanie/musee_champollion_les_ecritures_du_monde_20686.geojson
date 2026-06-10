@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée Champollion - Les Écritures du monde",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20686,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.60961151123047,
+        "longitude": 2.034698963165283,
+        "local_name": "Musée Champollion - Les Écritures du monde",
+        "country": "FRA",
+        "street": "Place Champollion",
+        "postcode": "46100",
+        "city": "Figeac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

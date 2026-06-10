@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Étang_de_Bages.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.995539,
+            43.173277,
+            5.15
+          ],
+          [
+            2.995539,
+            43.173277,
+            5.15
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Étang_de_Bages.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.995539,
+            43.173277
+          ],
+          [
+            2.995539,
+            43.173277
+          ]
+        ]
+      }
+    }
+  ]
+}

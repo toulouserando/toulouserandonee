@@ -1,0 +1,17 @@
+[
+  {"id": 1, "nom": "Caves Byrrh et Grande Cuve", "adresse": "2 Boulevard Violet, 66300 Thuir", "details": "Berceau du Byrrh abritant la plus grande cuve en chêne du monde (10 002 hl, 10m de haut).", "lat": 42.6334, "lng": 2.7558},
+  {"id": 2, "nom": "Église Notre-Dame de la Victoire", "adresse": "Place de la République, 66300 Thuir", "details": "Édifice du XVIIIe siècle intégrant des réemplois romans et une inscription du XIIIe siècle.", "lat": 42.6322, "lng": 2.7551},
+  {"id": 3, "nom": "Vestiges des fortifications (Porte de Perpignan)", "adresse": "Rue de la Muraille, 66300 Thuir", "details": "Ancienne enceinte médiévale dont subsistent des pans de murs et des tours de défense.", "lat": 42.6328, "lng": 2.7565},
+  {"id": 4, "nom": "Villa Palauda et son parc", "adresse": "Avenue du Docteur Écoiffier, 66300 Thuir", "details": "Ancienne demeure de la famille Violet (Byrrh), inscrite aux Monuments Historiques.", "lat": 42.6366, "lng": 2.7592},
+  {"id": 5, "nom": "Chapelle Notre-Dame-de-la-Piété", "adresse": "Rond-point d'entrée Est (D612), 66300 Thuir", "details": "Chapelle romane située à l'entrée de la ville, aussi appelée Nostra Senyora de la Pietat.", "lat": 42.6341, "lng": 2.7668},
+  {"id": 6, "nom": "Chapelle Saint-Sébastien", "adresse": "Chemin de Saint-Sébastien, 66300 Thuir", "details": "Petite chapelle rurale de style roman située à la périphérie du bourg.", "lat": 42.6275, "lng": 2.7485},
+  {"id": 7, "nom": "Musée des Arts et Traditions Populaires", "adresse": "Place de la République, 66300 Thuir", "details": "Installé dans l'ancien hôpital, il présente la vie quotidienne et les métiers d'autrefois.", "lat": 42.6325, "lng": 2.7548},
+  {"id": 8, "nom": "Musée de la Nature et de la Chasse", "adresse": "Boulevard Violet, 66300 Thuir", "details": "Espace dédié à la faune locale et aux traditions cynégétiques des Aspres.", "lat": 42.6331, "lng": 2.7554},
+  {"id": 9, "nom": "Monument aux Morts", "adresse": "Place de la Victoire, 66300 Thuir", "details": "Monument historique commémoratif remarquable par sa statuaire.", "lat": 42.6318, "lng": 2.7562},
+  {"id": 10, "nom": "Château de Saü", "adresse": "Route de Perpignan, 66300 Thuir", "details": "Domaine viticole historique avec un corps de logis de style traditionnel roussillonnais.", "lat": 42.6415, "lng": 2.7782},
+  {"id": 11, "nom": "Tour de fortification et Chapelle Vilar", "adresse": "Lieu-dit Vilar Milar, 66300 Thuir", "details": "Site historique isolé comprenant une tour de guet et une ancienne chapelle médiévale.", "lat": 42.6229, "lng": 2.7936},
+  {"id": 12, "nom": "Chapelle Notre-Dame-de-l'Espérance", "adresse": "Rue de la Poissonnerie, 66300 Thuir", "details": "Lieu de culte situé dans le centre ancien de la ville.", "lat": 42.6315, "lng": 2.7545},
+  {"id": 13, "nom": "Chapelle Saint-Jean", "adresse": "Avenue de la Méditerranée, 66300 Thuir", "details": "Édifice religieux secondaire ancré dans l'histoire de la cité.", "lat": 42.6352, "lng": 2.7610},
+  {"id": 14, "nom": "Église Saint-François-d'Assise", "adresse": "Quartier moderne, 66300 Thuir", "details": "Église plus récente dédiée au culte catholique dans les quartiers périphériques.", "lat": 42.6298, "lng": 2.7588},
+  {"id": 15, "nom": "Maisons anciennes du centre historique", "adresse": "Rue Gabriel Péri, 66300 Thuir", "details": "Ensemble de demeures médiévales et de la Renaissance avec façades remarquables.", "lat": 42.6324, "lng": 2.7542}
+]

@@ -1,0 +1,20 @@
+[
+  {"id": 1, "nom": "Église Notre-Dame-de-l'Assomption", "adresse": "7 Avenue Carnot, 31110 Bagnères-de-Luchon", "details": "Édifice néo-roman construit sur une ancienne collégiale", "lat": 42.791272, "lng": 0.591442},
+  {"id": 2, "nom": "Chapelle Saint-Étienne de Barcugnas", "adresse": "1 Place de Barcugnas, 31110 Bagnères-de-Luchon", "details": "Porte romane inscrite aux MH, plus vieil édifice de la ville", "lat": 42.795848, "lng": 0.595324},
+  {"id": 3, "nom": "Chapelle de l'Hôpital Militaire (Dominicaines)", "adresse": "Cours des Quinconces, 31110 Bagnères-de-Luchon", "details": "Ancienne chapelle hospitalière du secteur des thermes", "lat": 42.7850, "lng": 0.5940},
+  {"id": 4, "nom": "Chapelle Notre-Dame de Bagnartigue", "adresse": "Route de Bagnartigue, 31110 Bagnères-de-Luchon", "details": "Petit édifice religieux situé en périphérie", "lat": 42.7985, "lng": 0.5895},
+  {"id": 5, "nom": "Temple protestant", "adresse": "15 Avenue Alexandre Dumas, 31110 Bagnères-de-Luchon", "details": "Inscrit aux MH, témoin de l'essor thermal du XIXe siècle", "lat": 42.790737, "lng": 0.595146},
+  {"id": 6, "nom": "Thermes de Luchon", "adresse": "Cours des Quinconces, 31110 Bagnères-de-Luchon", "details": "Établissement thermal historique avec Vaporarium naturel unique", "lat": 42.784917, "lng": 0.593947},
+  {"id": 7, "nom": "Casino de Luchon", "adresse": "23 Allée d'Etigny, 31110 Bagnères-de-Luchon", "details": "Architecture Belle Époque située dans un parc arboré", "lat": 42.787500, "lng": 0.596943},
+  {"id": 8, "nom": "Château Lafont-Lassalle (Musée du Pays de Luchon)", "adresse": "18 Allée d'Etigny, 31110 Bagnères-de-Luchon", "details": "Hôtel particulier du XVIIIe siècle abritant les collections locales", "lat": 42.789306, "lng": 0.591744},
+  {"id": 9, "nom": "Villa Édouard", "adresse": "2 Boulevard Edmond-Rostand, 31110 Bagnères-de-Luchon", "details": "Style néo-gothique (1864), inscrite aux MH", "lat": 42.786592, "lng": 0.598195},
+  {"id": 10, "nom": "Villa Pyrène", "adresse": "13 Allée des Bains, 31110 Bagnères-de-Luchon", "details": "Villa remarquable du quartier thermal", "lat": 42.785648, "lng": 0.596783},
+  {"id": 11, "nom": "Villa Santa Maria", "adresse": "Boulevard Henri de Gorsse, 31110 Bagnères-de-Luchon", "details": "Style néo-palladien, ancienne demeure de la princesse Narychkine", "lat": 42.7872, "lng": 0.5985},
+  {"id": 12, "nom": "Villa Luisa", "adresse": "6 Boulevard Charles Tron, 31110 Bagnères-de-Luchon", "details": "Située dans le parc du Pyrénées Palace", "lat": 42.788104, "lng": 0.595121},
+  {"id": 13, "nom": "Chalets Spont", "adresse": "56 Allée d'Etigny, 31110 Bagnères-de-Luchon", "details": "Ensemble de trois chalets de montagne (1848-1855) inscrits MH", "lat": 42.785813, "lng": 0.594275},
+  {"id": 14, "nom": "Résidence Charles Tron", "adresse": "2 Avenue Gallieni, 31110 Bagnères-de-Luchon", "details": "Édifice de 1854 inscrit aux MH pour ses façades et toitures", "lat": 42.788318, "lng": 0.591856},
+  {"id": 15, "nom": "Alignements mégalithiques et Cromlech", "adresse": "Peyre-Hicade, 31110 Bagnères-de-Luchon", "details": "Sites archéologiques classés en 1889", "lat": 42.8105, "lng": 0.5482},
+  {"id": 16, "nom": "Hospice de France", "adresse": "Route de l'Hospice, 31110 Bagnères-de-Luchon", "details": "Point de départ historique pour les randonnées vers l'Espagne", "lat": 42.7185, "lng": 0.6485},
+  {"id": 17, "nom": "Musée de l'aéronautique Léon-Elissalde", "adresse": "Rue André Malraux, 31110 Bagnères-de-Luchon", "details": "Situé à l'aérodrome, retrace l'histoire du vol en montagne", "lat": 42.800806, "lng": 0.597902},
+  {"id": 18, "nom": "Musée de la Crémaillère", "adresse": "Village Club Superbagnères, 31110 Saint-Aventin", "details": "Consacré à l'ancien train à crémaillère de Superbagnères", "lat": 42.768918, "lng": 0.578133}
+]

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Gramont",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5954,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.937049865722656,
+        "longitude": 0.7666181325912476,
+        "local_name": "Château de Gramont",
+        "country": "FRA",
+        "street": "Le Bourg",
+        "postcode": "82120",
+        "city": "Gramont"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pont Notre-Dame",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27936,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.52156066894531,
+        "longitude": 3.497529983520508,
+        "local_name": "Pont Notre-Dame",
+        "country": "FRA",
+        "street": "rue du Pont-Notre-Dame",
+        "postcode": "48000",
+        "city": "Mende"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

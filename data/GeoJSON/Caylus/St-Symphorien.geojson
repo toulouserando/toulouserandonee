@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "St-Symphorien.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.712241,
+            44.235008,
+            290.75
+          ],
+          [
+            1.712505,
+            44.234974,
+            292.04
+          ],
+          [
+            1.712714,
+            44.234959,
+            292.88
+          ],
+          [
+            1.712714,
+            44.234959,
+            292.88
+          ],
+          [
+            1.712505,
+            44.234974,
+            292.04
+          ],
+          [
+            1.712241,
+            44.235008,
+            290.75
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "St-Symphorien.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.712241,
+            44.235008
+          ],
+          [
+            1.712714,
+            44.234959
+          ],
+          [
+            1.712714,
+            44.234959
+          ],
+          [
+            1.712241,
+            44.235008
+          ]
+        ]
+      }
+    }
+  ]
+}

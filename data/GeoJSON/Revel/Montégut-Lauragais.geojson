@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Montégut-Lauragais.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.028673,
+            43.485306,
+            209.01
+          ],
+          [
+            2.031265,
+            43.486523,
+            202.27
+          ],
+          [
+            2.031265,
+            43.486523,
+            202.27
+          ],
+          [
+            2.028224,
+            43.485095,
+            210.42
+          ],
+          [
+            2.026162,
+            43.484116,
+            210.81
+          ],
+          [
+            2.025166,
+            43.483479,
+            212.0
+          ],
+          [
+            2.022095,
+            43.486387,
+            210.36
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Montégut-Lauragais.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.028673,
+            43.485306
+          ],
+          [
+            2.031265,
+            43.486523
+          ],
+          [
+            2.031265,
+            43.486523
+          ],
+          [
+            2.025166,
+            43.483479
+          ],
+          [
+            2.022095,
+            43.486387
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Puy d'Issolud",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46589,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.948760986328125,
+        "longitude": 1.6786199808120728,
+        "local_name": "Puy d'Issolud",
+        "country": "FRA",
+        "street": null,
+        "postcode": "46110",
+        "city": "Vayrac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

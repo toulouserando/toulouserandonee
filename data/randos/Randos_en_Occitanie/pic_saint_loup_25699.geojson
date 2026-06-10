@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pic Saint-Loup",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25699,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.77857971191406,
+        "longitude": 3.81234073638916,
+        "local_name": "Pic Saint-Loup",
+        "country": "FRA",
+        "street": null,
+        "postcode": "34270",
+        "city": "Cazevieille"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

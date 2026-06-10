@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Bambouseraie de Prafrance",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1843,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.070526123046875,
+        "longitude": 3.981519937515259,
+        "local_name": "Bambouseraie de Prafrance",
+        "country": "FRA",
+        "street": "552 rue de Montsauve",
+        "postcode": "30140",
+        "city": "Générargues"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lectoure",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17719,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.933998107910156,
+        "longitude": 0.6198052167892456,
+        "local_name": "Lectoure",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

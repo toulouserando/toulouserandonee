@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Chartreuse Saint-Sauveur",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5456,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.3447380065918,
+        "longitude": 2.033184051513672,
+        "local_name": "Chartreuse Saint-Sauveur",
+        "country": "FRA",
+        "street": "Av. Vézian-Valette",
+        "postcode": "12200",
+        "city": "Villefranche-de-Rouergue"
+      },
+      "geometry": null
+    }
+  ]
+}

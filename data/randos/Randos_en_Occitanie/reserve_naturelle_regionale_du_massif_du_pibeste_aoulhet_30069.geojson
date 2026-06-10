@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Réserve naturelle régionale du Massif du Pibeste-Aoulhet",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30069,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.05159378051758,
+        "longitude": -0.08076199889183044,
+        "local_name": "Réserve naturelle régionale du Massif du Pibeste-Aoulhet",
+        "country": "FRA",
+        "street": "2 avenue du Lavedan - porte de la Vallée",
+        "postcode": "65400",
+        "city": "Agos-Vidalos"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Église abbatiale Sainte-Marie",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9560,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.89387893676758,
+        "longitude": 1.4768500328063965,
+        "local_name": "Église abbatiale Sainte-Marie",
+        "country": "FRA",
+        "street": "Place de l’Abbaye",
+        "postcode": "46200",
+        "city": "Souillac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

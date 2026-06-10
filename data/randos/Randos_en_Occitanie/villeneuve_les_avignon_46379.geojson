@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Villeneuve-lès-Avignon",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46379,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.96321487426758,
+        "longitude": 4.79686164855957,
+        "local_name": "Villeneuve-lès-Avignon",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

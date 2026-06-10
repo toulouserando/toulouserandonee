@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Abbaye de Beaulieu-en-Rouergue",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 110,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.210174560546875,
+        "longitude": 1.8535149097442627,
+        "local_name": "Abbaye de Beaulieu-en-Rouergue",
+        "country": "FRA",
+        "street": null,
+        "postcode": "82330",
+        "city": "Ginals"
+      },
+      "geometry": null
+    }
+  ]
+}

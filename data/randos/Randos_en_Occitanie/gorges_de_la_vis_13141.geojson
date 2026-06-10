@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gorges de la Vis",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13141,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.857730865478516,
+        "longitude": 3.554966926574707,
+        "local_name": "Gorges de la Vis",
+        "country": "FRA",
+        "street": null,
+        "postcode": "34190",
+        "city": "Madières"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

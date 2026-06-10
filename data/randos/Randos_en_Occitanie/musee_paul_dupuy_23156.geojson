@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée Paul-Dupuy",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23156,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.5969123840332,
+        "longitude": 1.4467990398406982,
+        "local_name": "Musée Paul-Dupuy",
+        "country": "FRA",
+        "street": "13 rue de la Pleau",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

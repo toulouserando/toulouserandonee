@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Boucle_de_Monestiés.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.095575,
+            44.097819,
+            302.32
+          ],
+          [
+            2.095847,
+            44.097786,
+            305.99
+          ],
+          [
+            2.096557,
+            44.097456,
+            311.48
+          ],
+          [
+            2.096557,
+            44.097456,
+            311.48
+          ],
+          [
+            2.095847,
+            44.097786,
+            305.99
+          ],
+          [
+            2.095575,
+            44.097819,
+            302.32
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Boucle_de_Monestiés.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.095575,
+            44.097819
+          ],
+          [
+            2.096557,
+            44.097456
+          ],
+          [
+            2.096557,
+            44.097456
+          ],
+          [
+            2.095575,
+            44.097819
+          ]
+        ]
+      }
+    }
+  ]
+}

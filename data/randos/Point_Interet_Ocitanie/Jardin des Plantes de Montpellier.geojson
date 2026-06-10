@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Jardin des Plantes de Montpellier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15698,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.613365173339844,
+        "longitude": 3.8721072673797607,
+        "local_name": "Jardin des Plantes de Montpellier",
+        "country": "FRA",
+        "street": "Boulevard Henri-IV",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": null
+    }
+  ]
+}

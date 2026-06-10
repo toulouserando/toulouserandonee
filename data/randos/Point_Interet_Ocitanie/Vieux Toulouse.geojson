@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vieux Toulouse",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35489,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.601524353027344,
+        "longitude": 1.443688988685608,
+        "local_name": "Vieux Toulouse",
+        "country": "FRA",
+        "street": null,
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": null
+    }
+  ]
+}

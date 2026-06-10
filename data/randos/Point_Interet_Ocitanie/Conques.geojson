@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Conques",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8465,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.59922409057617,
+        "longitude": 2.3970768451690674,
+        "local_name": "Conques",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

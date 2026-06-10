@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Point Sublime",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27481,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.312957763671875,
+        "longitude": 3.241147994995117,
+        "local_name": "Point Sublime",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48500",
+        "city": "St-Georges-de-Lévéjac"
+      },
+      "geometry": null
+    }
+  ]
+}

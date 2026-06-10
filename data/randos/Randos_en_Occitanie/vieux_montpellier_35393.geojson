@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vieux Montpellier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35393,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.607566833496094,
+        "longitude": 3.8790340423583984,
+        "local_name": "Vieux Montpellier",
+        "country": "FRA",
+        "street": "place de la Comédie",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

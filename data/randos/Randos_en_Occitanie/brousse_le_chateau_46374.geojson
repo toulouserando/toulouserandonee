@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Brousse-le-Château",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46374,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.99733352661133,
+        "longitude": 2.6246283054351807,
+        "local_name": "Brousse-le-Château",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

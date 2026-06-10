@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Massif du Néouvielle",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19510,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.8632926940918,
+        "longitude": 0.11354999989271164,
+        "local_name": "Massif du Néouvielle",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65170",
+        "city": "Saint-Lary-Soulan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale Sainte-Marie",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4295,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.64642333984375,
+        "longitude": 0.585273027420044,
+        "local_name": "Cathédrale Sainte-Marie",
+        "country": "FRA",
+        "street": "place de la République",
+        "postcode": "32000",
+        "city": "Auch"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4299,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.02672576904297,
+        "longitude": 0.5729730129241943,
+        "local_name": "Cathédrale Sainte-Marie",
+        "country": "FRA",
+        "street": "Place du Parvis",
+        "postcode": "31510",
+        "city": "St-Bertrand-de-Comminges"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Église Notre-Dame-des Sablons",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10125,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.566986083984375,
+        "longitude": 4.190269947052002,
+        "local_name": "Église Notre-Dame-des Sablons",
+        "country": "FRA",
+        "street": "Grand-Rue-Jean-Jaurès",
+        "postcode": "30220",
+        "city": "Aigues-Mortes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

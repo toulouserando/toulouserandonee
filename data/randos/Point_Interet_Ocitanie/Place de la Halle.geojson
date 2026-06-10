@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Place de la Halle",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46527,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.07038879394531,
+        "longitude": 0.8996999859809875,
+        "local_name": "Place de la Halle",
+        "country": "FRA",
+        "street": null,
+        "postcode": "82340",
+        "city": "Auvillar"
+      },
+      "geometry": null
+    }
+  ]
+}

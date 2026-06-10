@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Montpellier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20176,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60760498046875,
+        "longitude": 3.8797249794006348,
+        "local_name": "Montpellier",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Les Corbières",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17808,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.99574661254883,
+        "longitude": 2.8138349056243896,
+        "local_name": "Les Corbières",
+        "country": "FRA",
+        "street": null,
+        "postcode": "11360",
+        "city": "Durban-Corbières"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sidobre",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33205,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.63404846191406,
+        "longitude": 2.4071578979492188,
+        "local_name": "Sidobre",
+        "country": "FRA",
+        "street": "Maison du Sidobre",
+        "postcode": "81260",
+        "city": "Vialavert"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

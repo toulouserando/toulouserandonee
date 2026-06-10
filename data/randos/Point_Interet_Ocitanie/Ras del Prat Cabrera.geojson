@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Ras del Prat Cabrera",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29850,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.52949142456055,
+        "longitude": 2.4957940578460693,
+        "local_name": "Ras del Prat Cabrera",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66500",
+        "city": "Villerach"
+      },
+      "geometry": null
+    }
+  ]
+}

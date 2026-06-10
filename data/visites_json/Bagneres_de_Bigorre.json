@@ -1,0 +1,20 @@
+[
+  {"id": 1, "nom": "Église Saint-Vincent", "adresse": "Place de l'Église, 65200 Bagnères-de-Bigorre", "details": "Gothique rayonnant et porche Renaissance, classée MH", "lat": 43.0658, "lng": 0.1502},
+  {"id": 2, "nom": "Portique de l'église Saint-Jean", "adresse": "Angle rue Saint-Jean et rue des Thermes, 65200 Bagnères-de-Bigorre", "details": "Portique historique inscrit aux MH depuis 1926", "lat": 43.0645, "lng": 0.1492},
+  {"id": 3, "nom": "Église des Carmes", "adresse": "Rue des Carmes, 65200 Bagnères-de-Bigorre", "details": "Ancienne église conventuelle", "lat": 43.0648, "lng": 0.1518},
+  {"id": 4, "nom": "Église Saint-Vincent de Soulagnets", "adresse": "Hameau de Soulagnets, 65200 Bagnères-de-Bigorre", "details": "Église de quartier/hameau", "lat": 43.0452, "lng": 0.1385},
+  {"id": 5, "nom": "Église Saints-Anges-Gardiens", "adresse": "Vallée de Lesponne, 65200 Bagnères-de-Bigorre", "details": "Édifice religieux de la vallée de Lesponne", "lat": 42.9975, "lng": 0.1422},
+  {"id": 6, "nom": "Temple protestant", "adresse": "2 Rue de l'Oratoire, 65200 Bagnères-de-Bigorre", "details": "Inscrit aux MH depuis 2015", "lat": 43.0662, "lng": 0.1485},
+  {"id": 7, "nom": "Chapelle Notre-Dame de La Mongie", "adresse": "Station de La Mongie, 65200 Bagnères-de-Bigorre", "details": "Chapelle de haute montagne", "lat": 42.9102, "lng": 0.1805},
+  {"id": 8, "nom": "Chapelle Notre-Dame-des-Lacs", "adresse": "Le Chiroulet, Vallée de Lesponne, 65200 Bagnères-de-Bigorre", "details": "Chapelle de montagne", "lat": 42.9735, "lng": 0.1255},
+  {"id": 9, "nom": "Statue de la Vierge du Bédat", "adresse": "Mont Bédat, 65200 Bagnères-de-Bigorre", "details": "Statue dominant la ville depuis le sommet", "lat": 43.0635, "lng": 0.1412},
+  {"id": 10, "nom": "Tour des Jacobins", "adresse": "Rue des Thermes, 65200 Bagnères-de-Bigorre", "details": "Beffroi de 35m, vestige d'un couvent du XIVe siècle, classé MH", "lat": 43.0642, "lng": 0.1495},
+  {"id": 11, "nom": "Maison d'Uzer", "adresse": "1 Rue des Thermes, 65200 Bagnères-de-Bigorre", "details": "Maison remarquable inscrite aux MH", "lat": 43.0643, "lng": 0.1494},
+  {"id": 12, "nom": "Maison de Jeanne d'Albret", "adresse": "Rue du Vieux Moulin, 65200 Bagnères-de-Bigorre", "details": "Rez-de-chaussée remarquable inscrit aux MH", "lat": 43.0655, "lng": 0.1508},
+  {"id": 13, "nom": "Les Grands Thermes", "adresse": "Place des Thermes, 65200 Bagnères-de-Bigorre", "details": "Architecture classique XIXe et Palmarium industriel", "lat": 43.0632, "lng": 0.1505},
+  {"id": 14, "nom": "Monument aux morts", "adresse": "Allées Jean Jaurès, 65200 Bagnères-de-Bigorre", "details": "Inscrit au titre des monuments historiques en 2018", "lat": 43.0665, "lng": 0.1515},
+  {"id": 15, "nom": "La Halle", "adresse": "Place de Strasbourg, 65200 Bagnères-de-Bigorre", "details": "Style Baltard de la fin du XIXe siècle", "lat": 43.0652, "lng": 0.1488},
+  {"id": 16, "nom": "Musée Salies (Beaux-arts)", "adresse": "Boulevard du Casino, 65200 Bagnères-de-Bigorre", "details": "Musée des Beaux-arts à l'architecture remarquable", "lat": 43.0628, "lng": 0.1512},
+  {"id": 17, "nom": "Musée d'histoire naturelle Salut", "adresse": "Allée du Vallon de Salut, 65200 Bagnères-de-Bigorre", "details": "Situé dans l'ancien conservatoire", "lat": 43.0585, "lng": 0.1482},
+  {"id": 18, "nom": "Musée du Marbre", "adresse": "Vallon de Salut, 65200 Bagnères-de-Bigorre", "details": "Exposition sur la richesse marbrière des Pyrénées", "lat": 43.0578, "lng": 0.1475}
+]

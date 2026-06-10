@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grotte des Demoiselles",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13771,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.9086799621582,
+        "longitude": 3.7456910610198975,
+        "local_name": "Grotte des Demoiselles",
+        "country": "FRA",
+        "street": "St-Bauzille-de-Putois",
+        "postcode": "34190",
+        "city": "Ganges"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

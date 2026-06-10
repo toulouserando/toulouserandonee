@@ -1,0 +1,12 @@
+{
+    "id": 144,
+    "numero": "GR653",
+    "toponyme": "Traversée d'agglomération",
+    "nom_comm": "MONTESQUIOU",
+    "longueur": 601,
+    "sol": "goudron",
+    "geo_point_2d": {
+        "lat": 43.5,
+        "lon": 0.3
+    }
+}

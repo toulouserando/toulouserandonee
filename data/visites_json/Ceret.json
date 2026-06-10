@@ -1,0 +1,22 @@
+[
+  {"id": 1, "nom": "Église Saint-Pierre", "adresse": "Place de l'Église, 66400 Céret", "details": "Édifice majeur avec une superposition de styles préroman, roman, gothique et baroque.", "lat": 42.4842, "lng": 2.7505},
+  {"id": 2, "nom": "Ancien couvent des Capucins", "adresse": "Avenue d'Espagne, 66400 Céret", "details": "Vestiges d'un couvent du XVIIe siècle ayant accueilli de nombreux artistes au début du XXe.", "lat": 42.4815, "lng": 2.7445},
+  {"id": 3, "nom": "Ermitage Saint-Ferréol", "adresse": "Chemin de Saint-Ferréol, 66400 Céret", "details": "Chapelle de pèlerinage située sur une colline, offrant une vue panoramique sur la ville.", "lat": 42.5028, "lng": 2.7485},
+  {"id": 4, "nom": "Ermitage Saint-Georges del Pla del Carner", "adresse": "Pla del Carner, 66400 Céret", "details": "Ancien ermitage situé sur les hauteurs de la commune.", "lat": 42.4785, "lng": 2.7212},
+  {"id": 5, "nom": "Chapelle Saint-Joachim du Mas Perer", "adresse": "Mas Perer, 66400 Céret", "details": "Chapelle privée rattachée à un domaine agricole.", "lat": 42.4925, "lng": 2.7752},
+  {"id": 6, "nom": "Chapelle Sainte-Marguerite du château d'Aubiry", "adresse": "Château d'Aubiry, 66400 Céret", "details": "Chapelle néo-gothique intégrée au domaine du château d'Aubiry.", "lat": 42.5048, "lng": 2.7602},
+  {"id": 7, "nom": "Chapelle Saint-Roch", "adresse": "Rue Saint-Roch, 66400 Céret", "details": "Ancien lieu de culte aujourd'hui utilisé comme espace d'exposition.", "lat": 42.4855, "lng": 2.7482},
+  {"id": 8, "nom": "La Capelleta", "adresse": "Rue du Commerce, 66400 Céret", "details": "Ancienne chapelle reconvertie en lieu de culture et d'expositions.", "lat": 42.4848, "lng": 2.7515},
+  {"id": 9, "nom": "Statue de Magalie de Séverac", "adresse": "Place de la Liberté, 66400 Céret", "details": "Statue de la fille du compositeur Déodat de Séverac, réalisée par Manolo Hugué.", "lat": 43.4841, "lng": 2.7502},
+  {"id": 10, "nom": "Monument aux morts de Céret", "adresse": "Place de la Liberté, 66400 Céret", "details": "Œuvre pacifiste remarquable du sculpteur Aristide Maillol, classée MH.", "lat": 42.4838, "lng": 2.7503},
+  {"id": 11, "nom": "Portal de France", "adresse": "Place de la République, 66400 Céret", "details": "Ancienne porte fortifiée des remparts médiévaux de la ville.", "lat": 42.4845, "lng": 2.7495},
+  {"id": 12, "nom": "Fontaine des Neuf Jets", "adresse": "Place des Neuf Jets, 66400 Céret", "details": "Fontaine historique du XIVe siècle, symbole du cœur de ville.", "lat": 42.4844, "lng": 2.7508},
+  {"id": 13, "nom": "Château d'Aubiry", "adresse": "Route de Perpignan, 66400 Céret", "details": "Spectaculaire château de style éclectique construit pour la famille Bardou-Job.", "lat": 42.5052, "lng": 2.7595},
+  {"id": 14, "nom": "Pont du Diable", "adresse": "Avenue du Pont du Diable, 66400 Céret", "details": "Pont médiéval en pierre (XIVe) avec une arche unique impressionnante au-dessus du Tech.", "lat": 42.4878, "lng": 2.7465},
+  {"id": 15, "nom": "Musée d'Art Moderne de Céret", "adresse": "Boulevard Maréchal Joffre, 66400 Céret", "details": "Musée de renommée internationale lié au passage de Picasso, Braque et Matisse.", "lat": 42.4842, "lng": 2.7485},
+  {"id": 16, "nom": "Maison du patrimoine Françoise-Claustre", "adresse": "Place de l'Église, 66400 Céret", "details": "Musée archéologique présentant les découvertes locales de la Préhistoire au Moyen-Âge.", "lat": 42.4841, "lng": 2.7508},
+  {"id": 17, "nom": "Mupop (Musée des instruments)", "adresse": "Rue de l'Hospice, 66400 Céret", "details": "Musée de la musique et des instruments populaires, incluant le fonds Herzka-Nil.", "lat": 42.4846, "lng": 2.7512},
+  {"id": 18, "nom": "Médiathèque Ludovic Massé", "adresse": "Rue Joseph Parayre, 66400 Céret", "details": "Espace culturel de 1200 m2 installé dans la maison Companyo.", "lat": 42.4835, "lng": 2.7492},
+  {"id": 19, "nom": "Salle de l'Union", "adresse": "Boulevard Lafayette, 66400 Céret", "details": "Salle municipale dédiée aux spectacles, concerts et fêtes locales.", "lat": 42.4828, "lng": 2.7475},
+  {"id": 20, "nom": "Monument du canal d'arrosage (1937)", "adresse": "Boulevard Simon Batlle, 66400 Céret", "details": "Hommage aux constructeurs du canal qui a transformé l'agriculture locale.", "lat": 42.4862, "lng": 2.7488}
+]

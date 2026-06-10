@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Agde",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 433,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.31391143798828,
+        "longitude": 3.469400405883789,
+        "local_name": "Agde",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

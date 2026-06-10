@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de la Mogère",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6096,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60039520263672,
+        "longitude": 3.92568302154541,
+        "local_name": "Château de la Mogère",
+        "country": "FRA",
+        "street": "2235 route de Vauguières",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": null
+    }
+  ]
+}

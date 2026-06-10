@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hôtel de ville de Perpignan",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14675,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.69955062866211,
+        "longitude": 2.8945159912109375,
+        "local_name": "Hôtel de ville de Perpignan",
+        "country": "FRA",
+        "street": "Place de la Loge",
+        "postcode": "66000",
+        "city": "Perpignan"
+      },
+      "geometry": null
+    }
+  ]
+}

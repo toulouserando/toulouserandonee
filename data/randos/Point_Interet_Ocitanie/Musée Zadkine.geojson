@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée Zadkine",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46614,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.060157775878906,
+        "longitude": 1.2511800527572632,
+        "local_name": "Musée Zadkine",
+        "country": "FRA",
+        "street": "Le Bourg",
+        "postcode": "46250",
+        "city": "Les Arques"
+      },
+      "geometry": null
+    }
+  ]
+}

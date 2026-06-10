@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vallée de la Pique",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46702,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.74518966674805,
+        "longitude": 0.6112066507339478,
+        "local_name": "Vallée de la Pique",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

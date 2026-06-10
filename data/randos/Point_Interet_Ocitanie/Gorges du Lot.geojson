@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gorges du Lot",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13216,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.594913482666016,
+        "longitude": 2.6123430728912354,
+        "local_name": "Gorges du Lot",
+        "country": "FRA",
+        "street": null,
+        "postcode": "12190",
+        "city": "Estaing"
+      },
+      "geometry": null
+    }
+  ]
+}

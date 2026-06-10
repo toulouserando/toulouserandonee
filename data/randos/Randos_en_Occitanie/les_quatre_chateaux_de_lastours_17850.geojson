@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Les Quatre Châteaux de Lastours",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17850,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.332763671875,
+        "longitude": 2.3818020820617676,
+        "local_name": "Les Quatre Châteaux de Lastours",
+        "country": "FRA",
+        "street": "22 route des Quatre-Châteaux",
+        "postcode": "11600",
+        "city": "Lastours"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

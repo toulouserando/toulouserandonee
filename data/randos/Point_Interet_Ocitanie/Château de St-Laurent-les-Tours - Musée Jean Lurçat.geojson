@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de St-Laurent-les-Tours - Musée Jean Lurçat",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46514,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.86521530151367,
+        "longitude": 1.8946454524993896,
+        "local_name": "Château de St-Laurent-les-Tours - Musée Jean Lurçat",
+        "country": "FRA",
+        "street": null,
+        "postcode": "46400",
+        "city": "Saint-Laurent-les-Tours"
+      },
+      "geometry": null
+    }
+  ]
+}

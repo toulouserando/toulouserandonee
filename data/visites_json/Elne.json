@@ -1,0 +1,18 @@
+[
+  {"id": 1, "nom": "Cathédrale Sainte-Eulalie-et-Sainte-Julie", "adresse": "Plateau des Garaffes, 66200 Elne", "details": "Cathédrale romane du XIe-XIIe siècle, classée MH, dominant la ville haute.", "lat": 42.5991, "lng": 2.9719},
+  {"id": 2, "nom": "Cloître d'Elne", "adresse": "Plateau des Garaffes, 66200 Elne", "details": "Remarquable cloître construit du XIIe au XIVe siècle, célèbre pour ses chapiteaux sculptés.", "lat": 42.5995, "lng": 2.9721},
+  {"id": 3, "nom": "Église Sainte-Eugénie de Tresmals", "adresse": "Hameau de Tresmals, 66200 Elne", "details": "Ancienne église romane située au sud de la ville.", "lat": 42.5862, "lng": 2.9974},
+  {"id": 4, "nom": "Église Saint-Martin de la Riba", "adresse": "Chemin de la Riba, 66200 Elne", "details": "Vestiges d'un édifice religieux médiéval.", "lat": 42.5955, "lng": 2.9812},
+  {"id": 5, "nom": "Église Sainte-Marie de Mossellons", "adresse": "Mossellons, 66200 Elne", "details": "Ancienne église rurale d'origine romane.", "lat": 42.6185, "lng": 2.9845},
+  {"id": 6, "nom": "Ancienne église Saint-Jacques", "adresse": "Rue de la République, 66200 Elne", "details": "Édifice désaffecté ayant servi de boulangerie, vestige du patrimoine urbain.", "lat": 42.5982, "lng": 2.9735},
+  {"id": 7, "nom": "Chapelle Sant-Jordi d'Elne", "adresse": "Ville Haute, 66200 Elne", "details": "Petite chapelle historique située dans l'enceinte fortifiée.", "lat": 42.5998, "lng": 2.9705},
+  {"id": 8, "nom": "Arcade de la rue Constantin", "adresse": "Rue Constantin, 66200 Elne", "details": "Élément architectural du XVIe siècle inscrit aux monuments historiques.", "lat": 42.5992, "lng": 2.9712},
+  {"id": 9, "nom": "Porte de Balagué", "adresse": "Rue de la Porte Balagué, 66200 Elne", "details": "Ancienne porte fortifiée inscrite MH, vestige du système défensif.", "lat": 42.5986, "lng": 2.9721},
+  {"id": 10, "nom": "Porte de Collioure", "adresse": "Rue de la Porte de Collioure, 66200 Elne", "details": "Porte médiévale inscrite MH, située sur le flanc sud des remparts.", "lat": 42.5990, "lng": 2.9748},
+  {"id": 11, "nom": "Porte de Perpignan", "adresse": "Avenue de Perpignan, 66200 Elne", "details": "Élément des anciennes fortifications inscrit aux monuments historiques.", "lat": 42.6005, "lng": 2.9715},
+  {"id": 12, "nom": "Musée d'archéologie d'Elne", "adresse": "Cloître d'Elne, 66200 Elne", "details": "Expose les découvertes préhistoriques et romaines issues du sol de la ville.", "lat": 42.5995, "lng": 2.9721},
+  {"id": 13, "nom": "Musée Étienne Terrus", "adresse": "3 Rue de la Porte Balaguer, 66200 Elne", "details": "Consacré au peintre maître du fauvisme, ami de Matisse.", "lat": 42.5986, "lng": 2.9721},
+  {"id": 14, "nom": "Le Tropique du Papillon", "adresse": "120 Avenue Narcisse Planas, 66200 Elne", "details": "Volière tropicale abritant des centaines de papillons en liberté.", "lat": 42.5922, "lng": 2.9782},
+  {"id": 15, "nom": "Maternité Suisse (Château d'En Bardou)", "adresse": "Route de Bages, 66200 Elne", "details": "Lieu de mémoire inscrit MH, où furent sauvés des centaines d'enfants sous l'Occupation.", "lat": 42.6042, "lng": 2.9551},
+  {"id": 16, "nom": "Monument aux morts d'Aristide Maillol", "adresse": "Quartier de l'Homme, 66200 Elne", "details": "Sculpture pacifiste du célèbre artiste Aristide Maillol.", "lat": 42.5991, "lng": 2.9727}
+]

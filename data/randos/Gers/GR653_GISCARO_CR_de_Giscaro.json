@@ -1,0 +1,12 @@
+{
+    "id": 120,
+    "numero": "GR653",
+    "toponyme": "CR de Giscaro",
+    "nom_comm": "GISCARO",
+    "longueur": 549,
+    "sol": "terre",
+    "geo_point_2d": {
+        "lat": 43.6,
+        "lon": 0.9
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Capitole",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3684,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60445785522461,
+        "longitude": 1.4436659812927246,
+        "local_name": "Capitole",
+        "country": "FRA",
+        "street": "Place du Capitole",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

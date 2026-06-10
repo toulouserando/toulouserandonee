@@ -1,0 +1,6 @@
+[
+  {"id": 1, "nom": "Abbaye Sainte-Marie du Désert", "adresse": "1 Route de l'Abbaye, 31530 Bellegarde-Sainte-Marie", "details": "Ancienne abbaye de moines cisterciens-trappistes fondée en 1852.", "lat": 43.6823, "lng": 1.1118},
+  {"id": 2, "nom": "Église Saint-Barthélemy", "adresse": "Le Village, 31530 Bellegarde-Sainte-Marie", "details": "Église paroissiale située au cœur du village.", "lat": 43.6738, "lng": 1.1147},
+  {"id": 3, "nom": "Vestiges de l'église de Bernis", "adresse": "Chemin de Bernis, 31530 Bellegarde-Sainte-Marie", "details": "Ruines d'un ancien édifice religieux situé à l'ouest du village.", "lat": 43.6752, "lng": 1.0921},
+  {"id": 4, "nom": "Tour de Chappe", "adresse": "Bois de Bellegarde, 31530 Bellegarde-Sainte-Marie", "details": "Ancien télégraphe optique situé dans la zone boisée au nord.", "lat": 43.6875, "lng": 1.1165}
+]

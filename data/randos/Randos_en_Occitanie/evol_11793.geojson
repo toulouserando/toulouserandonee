@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Evol",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11793,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.5684700012207,
+        "longitude": 2.2549753189086914,
+        "local_name": "Evol",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

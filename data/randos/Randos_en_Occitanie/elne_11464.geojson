@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Elne",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11464,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.59950637817383,
+        "longitude": 2.9727883338928223,
+        "local_name": "Elne",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

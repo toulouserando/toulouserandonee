@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cimetière marin",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7219,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.394813537597656,
+        "longitude": 3.6924750804901123,
+        "local_name": "Cimetière marin",
+        "country": "FRA",
+        "street": "Rue Jean-Vilar",
+        "postcode": "34200",
+        "city": "Sète"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Haras de Tarbes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14020,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.230079650878906,
+        "longitude": 0.07020899653434753,
+        "local_name": "Haras de Tarbes",
+        "country": "FRA",
+        "street": "Chemin de Mauhourat",
+        "postcode": "65000",
+        "city": "Tarbes"
+      },
+      "geometry": null
+    }
+  ]
+}

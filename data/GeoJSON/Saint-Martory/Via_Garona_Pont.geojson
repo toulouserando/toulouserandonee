@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Via_Garona_Pont.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.930056,
+            43.142208,
+            285.53
+          ],
+          [
+            0.930056,
+            43.142208,
+            285.53
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Via_Garona_Pont.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.930056,
+            43.142208
+          ],
+          [
+            0.930056,
+            43.142208
+          ]
+        ]
+      }
+    }
+  ]
+}

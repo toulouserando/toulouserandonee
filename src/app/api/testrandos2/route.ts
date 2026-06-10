@@ -1,77 +1,49 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs/promises';
-import { existsSync } from 'fs';
+import { promises as fs } from 'fs';
 import path from 'path';
-import { createClient } from '@supabase/supabase-js'; // Utilisation du client standard
-
-// Initialisation de Supabase avec tes variables d'environnement
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-const supabase = createClient(supabaseUrl, supabaseKey);
 
 export async function GET() {
-  const dataPath = path.join(process.cwd(), 'data', 'rando');
-
   try {
-    // --- 1. LISTER LES FICHIERS LOCAUX (Par départements) ---
-    let localFilesByDept: Record<string, any[]> = {};
+    const dirPath = path.join(process.cwd(), 'data', 'randos', 'balades_Toulouse');
+    const files = await fs.readdir(dirPath);
     
-    if (existsSync(dataPath)) {
-      const folders = await fs.readdir(dataPath, { withFileTypes: true });
-      
-      for (const folder of folders) {
-        if (folder.isDirectory()) {
-          const folderPath = path.join(dataPath, folder.name);
-          const files = await fs.readdir(folderPath);
-          
-          const items = files
-            .filter(f => {
-                const lower = f.toLowerCase();
-                return lower.endsWith('.json') || lower.endsWith('.geojson');
-            })
-            .map(file => ({
-              id: `${folder.name}/${file}`, // Important pour l'accès futur au fichier
-              title: file.replace(/\.(json|geojson)$/i, '').replace(/[-_]/g, ' '),
-              type: 'local'
-            }));
-          
-          if (items.length > 0) {
-            localFilesByDept[folder.name.toUpperCase()] = items;
-          }
-        }
-      }
-    }
+    const jsonFiles = files.filter(file => file.endsWith('.json'));
 
-    // --- 2. RÉCUPÉRER LES RANDONNÉES SUPABASE (Table hikes) ---
-    const { data: hikes, error } = await supabase
-      .from('hikes')
-      .select('id, title, location, distance')
-      .order('title', { ascending: true });
+    const allCircuits = await Promise.all(
+      jsonFiles.map(async (file) => {
+        const filePath = path.join(dirPath, file);
+        const content = await fs.readFile(filePath, 'utf8');
+        const fileData = JSON.parse(content);
 
-    if (error) {
-      console.error("Erreur de récupération Supabase:", error.message);
-    }
+        // 1. Extraction de la géométrie pure
+        const rawGeometry = fileData.geo_shape?.geometry || fileData.geo_shape || fileData;
+        
+        // 2. SÉCURISATION : On reconstruit une Feature GeoJSON standard et propre pour Leaflet
+        const validGeoJSONFeature = {
+          type: "Feature",
+          geometry: rawGeometry.geometry ? rawGeometry.geometry : rawGeometry, // Évite la double imbrication
+          properties: fileData.properties || {}
+        };
 
-    // On s'assure que c'est un tableau
-    const supabaseHikes = (hikes || []).map(h => ({
-      id: h.id, 
-      title: h.title || 'Sans titre',
-      location: h.location || 'Lieu inconnu',
-      distance: h.distance,
-      type: 'supabase'
-    }));
+        // 3. Nettoyage esthétique du nom à partir du fichier
+        const joliNom = file
+          .replace('.json', '')
+          .replace(/_/g, ' ')
+          .replace(/^circuit\s\d+[a-z]?\s/i, ''); // Enlève "circuit 1..."
 
-    // --- 3. RÉPONSE FUSIONNÉE ---
-    return NextResponse.json({
-      locaux: localFilesByDept,
-      supabase: supabaseHikes 
-    });
-
-  } catch (error: any) {
-    console.error("Erreur générale API testrandos:", error.message);
-    return NextResponse.json(
-      { locaux: {}, supabase: [], error: "Erreur serveur" }, 
-      { status: 500 }
+        return {
+          id: file, 
+          title: joliNom,
+          category: "Balades Toulouse",
+          geometry: validGeoJSONFeature, // Leaflet va adorer ce format standardisé !
+          properties: fileData.properties || {}
+        };
+      })
     );
+
+    return NextResponse.json(allCircuits);
+  } catch (error) {
+    console.error("Erreur API Rando:", error);
+    return NextResponse.json({ error: "Erreur de lecture des circuits" }, { status: 500 });
   }
 }

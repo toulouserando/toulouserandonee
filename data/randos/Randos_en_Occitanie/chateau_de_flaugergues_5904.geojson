@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Flaugergues",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5904,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60991287231445,
+        "longitude": 3.9193530082702637,
+        "local_name": "Château de Flaugergues",
+        "country": "FRA",
+        "street": "1744 avenue Albert-Einstein",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

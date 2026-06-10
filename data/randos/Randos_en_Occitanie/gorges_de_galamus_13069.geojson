@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gorges de Galamus",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13069,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.849891662597656,
+        "longitude": 2.470613956451416,
+        "local_name": "Gorges de Galamus",
+        "country": "FRA",
+        "street": "D 7",
+        "postcode": "11190",
+        "city": "Cubières-sur-Cinoble"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

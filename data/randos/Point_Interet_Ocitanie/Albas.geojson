@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Albas",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46238,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.46824645996094,
+        "longitude": 1.236627221107483,
+        "local_name": "Albas",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

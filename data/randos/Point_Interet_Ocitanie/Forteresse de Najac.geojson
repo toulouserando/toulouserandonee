@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Forteresse de Najac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12648,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.21849822998047,
+        "longitude": 1.9731700420379639,
+        "local_name": "Forteresse de Najac",
+        "country": "FRA",
+        "street": "Rue du Château",
+        "postcode": "12270",
+        "city": "Najac"
+      },
+      "geometry": null
+    }
+  ]
+}

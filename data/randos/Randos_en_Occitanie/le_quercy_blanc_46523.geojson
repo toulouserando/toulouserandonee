@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Le Quercy blanc",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46523,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.26892852783203,
+        "longitude": 1.3536100387573242,
+        "local_name": "Le Quercy blanc",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

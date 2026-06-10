@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grottes de Lacave",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13846,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.845882415771484,
+        "longitude": 1.557739019393921,
+        "local_name": "Grottes de Lacave",
+        "country": "FRA",
+        "street": "Le Bourg",
+        "postcode": "46200",
+        "city": "Lacave"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pharmacie des Pénitents (ou maison Enjalbert)",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25653,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.92792892456055,
+        "longitude": 2.146773099899292,
+        "local_name": "Pharmacie des Pénitents (ou maison Enjalbert)",
+        "country": "FRA",
+        "street": "21 rue des Pénitents",
+        "postcode": "81000",
+        "city": "Albi"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

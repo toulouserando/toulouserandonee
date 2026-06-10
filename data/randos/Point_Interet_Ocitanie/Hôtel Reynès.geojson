@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hôtel Reynès",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15042,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.9278450012207,
+        "longitude": 2.1469309329986572,
+        "local_name": "Hôtel Reynès",
+        "country": "FRA",
+        "street": "Rue Timbal",
+        "postcode": "81000",
+        "city": "Albi"
+      },
+      "geometry": null
+    }
+  ]
+}

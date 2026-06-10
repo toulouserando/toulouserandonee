@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Escalier monumental",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11575,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.64539337158203,
+        "longitude": 0.5866519808769226,
+        "local_name": "Escalier monumental",
+        "country": "FRA",
+        "street": "place Salinis",
+        "postcode": "32000",
+        "city": "Auch"
+      },
+      "geometry": null
+    }
+  ]
+}

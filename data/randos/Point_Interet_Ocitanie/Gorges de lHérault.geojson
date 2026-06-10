@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gorges de l'Hérault",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13166,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.73151397705078,
+        "longitude": 3.5531821250915527,
+        "local_name": "Gorges de l'Hérault",
+        "country": "FRA",
+        "street": null,
+        "postcode": "34150",
+        "city": "St-Guilhem"
+      },
+      "geometry": null
+    }
+  ]
+}

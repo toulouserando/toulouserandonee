@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hôtel des Trésoriers de la Bourse",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14857,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60985565185547,
+        "longitude": 3.876465082168579,
+        "local_name": "Hôtel des Trésoriers de la Bourse",
+        "country": "FRA",
+        "street": "4 rue des Trésoriers-de-la-Bourse",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vernet-les-Bains",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48461,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.54887771606445,
+        "longitude": 2.3898489475250244,
+        "local_name": "Vernet-les-Bains",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

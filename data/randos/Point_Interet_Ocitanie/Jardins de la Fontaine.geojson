@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Jardins de la Fontaine",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15925,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.83869934082031,
+        "longitude": 4.349909782409668,
+        "local_name": "Jardins de la Fontaine",
+        "country": "FRA",
+        "street": "Avenue Jean-Jaurès",
+        "postcode": "30000",
+        "city": "Nîmes"
+      },
+      "geometry": null
+    }
+  ]
+}

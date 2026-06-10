@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cologne",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8368,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.72172546386719,
+        "longitude": 0.9771644473075867,
+        "local_name": "Cologne",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Bassoues",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2308,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.579097747802734,
+        "longitude": 0.247994065284729,
+        "local_name": "Bassoues",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

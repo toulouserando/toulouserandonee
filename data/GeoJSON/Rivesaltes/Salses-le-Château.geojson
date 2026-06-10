@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Salses-le-Château.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.918214,
+            42.839066,
+            9.05
+          ],
+          [
+            2.918214,
+            42.839066,
+            9.05
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Salses-le-Château.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.918214,
+            42.839066
+          ],
+          [
+            2.918214,
+            42.839066
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Collégiale Saint-Salvi",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8322,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.92802047729492,
+        "longitude": 2.14495587348938,
+        "local_name": "Collégiale Saint-Salvi",
+        "country": "FRA",
+        "street": "Place du Cloître-St-Salvy",
+        "postcode": "81000",
+        "city": "Albi"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

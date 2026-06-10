@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Trésor de Conques",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34588,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.599151611328125,
+        "longitude": 2.3991739749908447,
+        "local_name": "Trésor de Conques",
+        "country": "FRA",
+        "street": "Le Bourg",
+        "postcode": "12320",
+        "city": "Conques-en-Rouergue"
+      },
+      "geometry": null
+    }
+  ]
+}

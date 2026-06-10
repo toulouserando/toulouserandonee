@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale Saint-Just-et-Saint-Pasteur",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4395,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.185081481933594,
+        "longitude": 3.0031609535217285,
+        "local_name": "Cathédrale Saint-Just-et-Saint-Pasteur",
+        "country": "FRA",
+        "street": "Rue Armand-Gauthier",
+        "postcode": "11100",
+        "city": "Narbonne"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

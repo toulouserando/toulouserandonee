@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Place du Capitole",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26387,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.604225158691406,
+        "longitude": 1.4435319900512695,
+        "local_name": "Place du Capitole",
+        "country": "FRA",
+        "street": "place du Capitole",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": null
+    }
+  ]
+}

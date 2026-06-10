@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Réserve africaine de Sigean",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30009,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.0655632019043,
+        "longitude": 2.9569199085235596,
+        "local_name": "Réserve africaine de Sigean",
+        "country": "FRA",
+        "street": "19 chemin Hameau-du-Lac",
+        "postcode": "11130",
+        "city": "Sigean"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Caves de Roquefort",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4657,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.9761848449707,
+        "longitude": 2.9894609451293945,
+        "local_name": "Caves de Roquefort",
+        "country": "FRA",
+        "street": "2 avenue François-Galtier",
+        "postcode": "12250",
+        "city": "Roquefort-sur-Soulzon"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pézenas",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25586,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.459754943847656,
+        "longitude": 3.423924446105957,
+        "local_name": "Pézenas",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

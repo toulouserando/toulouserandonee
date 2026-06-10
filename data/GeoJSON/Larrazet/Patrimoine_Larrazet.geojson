@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Patrimoine_Larrazet.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.077144,
+            43.929025,
+            108.64
+          ],
+          [
+            1.077683,
+            43.929299,
+            107.0
+          ],
+          [
+            1.077683,
+            43.929299,
+            107.0
+          ],
+          [
+            1.077144,
+            43.929025,
+            108.64
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Patrimoine_Larrazet.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.077144,
+            43.929025
+          ],
+          [
+            1.077683,
+            43.929299
+          ],
+          [
+            1.077683,
+            43.929299
+          ],
+          [
+            1.077144,
+            43.929025
+          ]
+        ]
+      }
+    }
+  ]
+}

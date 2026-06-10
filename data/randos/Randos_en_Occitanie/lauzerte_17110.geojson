@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lauzerte",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17110,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.25613784790039,
+        "longitude": 1.1369587182998657,
+        "local_name": "Lauzerte",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée Ingres Bourdelle",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22856,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.016990661621094,
+        "longitude": 1.3519270420074463,
+        "local_name": "Musée Ingres Bourdelle",
+        "country": "FRA",
+        "street": "19 rue de l’Hôtel-de-Ville",
+        "postcode": "82000",
+        "city": "Montauban"
+      },
+      "geometry": null
+    }
+  ]
+}

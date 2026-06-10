@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Seuil de Naurouze",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33196,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.35153579711914,
+        "longitude": 1.8226670026779175,
+        "local_name": "Seuil de Naurouze",
+        "country": "FRA",
+        "street": null,
+        "postcode": "11320",
+        "city": "Montferrand"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

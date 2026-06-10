@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hôtel Saint-Côme",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15051,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60818099975586,
+        "longitude": 3.877131938934326,
+        "local_name": "Hôtel Saint-Côme",
+        "country": "FRA",
+        "street": "32 Grand’Rue-Jean-Moulin",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": null
+    }
+  ]
+}

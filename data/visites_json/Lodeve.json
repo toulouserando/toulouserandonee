@@ -1,0 +1,16 @@
+[
+  {"id": 1, "nom": "Ancienne cathédrale Saint-Fulcran", "adresse": "Place de l'Hôtel de Ville, 34700 Lodève", "details": "Chef-d'œuvre du gothique méridional (XIIIe), classée MH en 1840, dotée d'un puissant clocher et d'un orgue remarquable.", "lat": 43.7314, "lng": 3.3197},
+  {"id": 2, "nom": "Église Saint-Pierre-aux-Liens", "adresse": "Rue de Lergue, 34700 Lodève", "details": "Édifice néoclassique du milieu du XIXe siècle d'inspiration jésuite avec coupole, inscrit MH en 2014.", "lat": 43.7328, "lng": 3.3211},
+  {"id": 3, "nom": "Chapelle des Pénitents Blancs", "adresse": "Boulevard Jean Jaurès, 34700 Lodève", "details": "Ancien édifice religieux reconverti en salle d'expositions culturelles.", "lat": 43.7335, "lng": 3.3189},
+  {"id": 4, "nom": "Chapelle Notre-Dame-de-la-Salette", "adresse": "Hameau de Saint-Martin, 34700 Lodève", "details": "Chapelle de pèlerinage située dans le hameau de Saint-Martin dominant la ville.", "lat": 43.7258, "lng": 3.3245},
+  {"id": 5, "nom": "Église évangélique", "adresse": "Place de l'Abbaye, 34700 Lodève", "details": "Lieu de culte protestant situé sur la place historique de l'Abbaye.", "lat": 43.7318, "lng": 3.3172},
+  {"id": 6, "nom": "Musée de Lodève (Hôtel de Fleury)", "adresse": "1 Square Georges Auric, 34700 Lodève", "details": "Installé dans la maison natale du cardinal de Fleury ; collections de Beaux-arts (Paul Dardé), archéologie et minéralogie.", "lat": 43.7321, "lng": 3.3192},
+  {"id": 7, "nom": "Monument aux morts de Paul Dardé", "adresse": "Square de la Résistance, 34700 Lodève", "details": "Monument pacifiste majeur (1919) sculpté par Paul Dardé représentant les quatre saisons.", "lat": 43.7311, "lng": 3.3215},
+  {"id": 8, "nom": "Halle Dardé", "adresse": "Place du Marché, 34700 Lodève", "details": "Ancienne halle aux grains du début du XIXe siècle, cœur de la vie marchande locale.", "lat": 43.7325, "lng": 3.3198},
+  {"id": 9, "nom": "Manufacture de tapis de la Savonnerie", "adresse": "Impasse de la Savonnerie, 34700 Lodève", "details": "Unique annexe de la manufacture nationale de la Savonnerie, rattachée au Mobilier national.", "lat": 43.7302, "lng": 3.3235},
+  {"id": 10, "nom": "Ancien Palais épiscopal (Hôtel de Ville)", "adresse": "Place de l'Hôtel de Ville, 34700 Lodève", "details": "Bâtiment du XVIIIe siècle avec toitures en tuiles vernissées à motifs géométriques.", "lat": 43.7315, "lng": 3.3194},
+  {"id": 11, "nom": "Hôtel de la Paix (Façade)", "adresse": "Boulevard Jean Jaurès, 34700 Lodève", "details": "Façade remarquable témoignant de l'architecture des années 1900.", "lat": 43.7332, "lng": 3.3191},
+  {"id": 12, "nom": "Tour du Portalet de côtes", "adresse": "Boulevard Montalangue, 34700 Lodève", "details": "Ancienne tour des fortifications médiévales de la ville, classée monument historique.", "lat": 43.7329, "lng": 3.3175},
+  {"id": 13, "nom": "Maison natale de Benjamin Cusson", "adresse": "Place de l'Hôtel-de-Ville, 34700 Lodève", "details": "Classée MH en 1930 pour son balcon en ferronnerie orné de médaillons en cuivre.", "lat": 43.7313, "lng": 3.3199},
+  {"id": 14, "nom": "Pont de Montifort", "adresse": "Avenue de Fumel, 34700 Lodève", "details": "Pont en pierre enjambant la Soulondre, inscrit au titre des monuments historiques depuis 1964.", "lat": 43.7338, "lng": 3.3162}
+]

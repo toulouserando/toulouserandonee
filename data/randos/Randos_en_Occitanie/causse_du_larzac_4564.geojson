@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Causse du Larzac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4564,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.98194885253906,
+        "longitude": 3.13673996925354,
+        "local_name": "Causse du Larzac",
+        "country": "FRA",
+        "street": null,
+        "postcode": "12230",
+        "city": "Ste-Eulalie-de-Cernon"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

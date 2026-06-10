@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vallée du Carol",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34917,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.54060745239258,
+        "longitude": 1.823747992515564,
+        "local_name": "Vallée du Carol",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66760",
+        "city": "Porté-Puymorens"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Col de l'Asclier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7895,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.07749938964844,
+        "longitude": 3.7443630695343018,
+        "local_name": "Col de l'Asclier",
+        "country": "FRA",
+        "street": "D 152",
+        "postcode": "30124",
+        "city": "L'Estréchure"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

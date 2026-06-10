@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Castillon-du-Gard",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46378,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.970436096191406,
+        "longitude": 4.55448579788208,
+        "local_name": "Castillon-du-Gard",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

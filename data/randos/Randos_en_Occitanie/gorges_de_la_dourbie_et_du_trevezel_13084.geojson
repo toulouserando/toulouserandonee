@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gorges de la Dourbie et du Trévezel",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13084,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.0895881652832,
+        "longitude": 3.265377998352051,
+        "local_name": "Gorges de la Dourbie et du Trévezel",
+        "country": "FRA",
+        "street": null,
+        "postcode": "12230",
+        "city": "Nant"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "Feature",
+    "properties": {
+        "nom": "Les Coteaux de Balma à Montrabé",
+        "distance_km": 26,
+        "difficulte": "Non définie"
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                1.4537,
+                43.6091
+            ],
+            [
+                1.4541,
+                43.6092
+            ]
+        ]
+    }
+}

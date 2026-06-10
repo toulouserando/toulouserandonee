@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée Saint-Raymond",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23286,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.607669830322266,
+        "longitude": 1.4409409761428833,
+        "local_name": "Musée Saint-Raymond",
+        "country": "FRA",
+        "street": "1 ter place St-Sernin",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Collioure",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8351,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.52422332763672,
+        "longitude": 3.0849099159240723,
+        "local_name": "Collioure",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

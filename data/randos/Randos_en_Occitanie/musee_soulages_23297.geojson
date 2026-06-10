@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée Soulages",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23297,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.35184860229492,
+        "longitude": 2.568276882171631,
+        "local_name": "Musée Soulages",
+        "country": "FRA",
+        "street": "Jardin du Foirail, av. Victor-Hugo",
+        "postcode": "12000",
+        "city": "Rodez"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

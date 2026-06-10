@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Berges du Tarn",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2778,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.93490982055664,
+        "longitude": 2.153209924697876,
+        "local_name": "Berges du Tarn",
+        "country": "FRA",
+        "street": "Avenue Édouard Branly",
+        "postcode": "81000",
+        "city": "Albi"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

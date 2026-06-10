@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Collégiale Notre-Dame",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8076,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.35234832763672,
+        "longitude": 2.0378127098083496,
+        "local_name": "Collégiale Notre-Dame",
+        "country": "FRA",
+        "street": null,
+        "postcode": "12200",
+        "city": "Villefranche-de-Rouergue"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

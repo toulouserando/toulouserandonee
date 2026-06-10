@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée de Tautavel - Centre européen de préhistoire",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21623,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.8150520324707,
+        "longitude": 2.749541997909546,
+        "local_name": "Musée de Tautavel - Centre européen de préhistoire",
+        "country": "FRA",
+        "street": "Avenue Léon-Jean-Grégory",
+        "postcode": "66720",
+        "city": "Tautavel"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Albi",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 527,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.92732238769531,
+        "longitude": 2.1482300758361816,
+        "local_name": "Albi",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

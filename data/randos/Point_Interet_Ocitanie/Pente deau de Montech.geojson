@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pente d’eau de Montech",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46932,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.9625358581543,
+        "longitude": 1.2349258661270142,
+        "local_name": "Pente d’eau de Montech",
+        "country": "FRA",
+        "street": "21 rue de l’Usine",
+        "postcode": "82700",
+        "city": "Montech"
+      },
+      "geometry": null
+    }
+  ]
+}

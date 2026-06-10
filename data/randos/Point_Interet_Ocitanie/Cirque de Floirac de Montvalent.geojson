@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cirque de Floirac (de Montvalent)",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46590,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.90068054199219,
+        "longitude": 1.659999966621399,
+        "local_name": "Cirque de Floirac (de Montvalent)",
+        "country": "FRA",
+        "street": null,
+        "postcode": "46600",
+        "city": "Floirac"
+      },
+      "geometry": null
+    }
+  ]
+}

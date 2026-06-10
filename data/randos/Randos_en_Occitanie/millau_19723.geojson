@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Millau",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19723,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.09958267211914,
+        "longitude": 3.081267833709717,
+        "local_name": "Millau",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

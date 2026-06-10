@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Pont_de_Riscle.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.084375,
+            43.660881,
+            105.0
+          ],
+          [
+            -0.084151,
+            43.661146,
+            105.0
+          ],
+          [
+            -0.084009,
+            43.661135,
+            105.0
+          ],
+          [
+            -0.084009,
+            43.661135,
+            105.0
+          ],
+          [
+            -0.084151,
+            43.661146,
+            105.0
+          ],
+          [
+            -0.084375,
+            43.660881,
+            105.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Pont_de_Riscle.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.084375,
+            43.660881
+          ],
+          [
+            -0.084151,
+            43.661146
+          ],
+          [
+            -0.084009,
+            43.661135
+          ],
+          [
+            -0.084009,
+            43.661135
+          ],
+          [
+            -0.084151,
+            43.661146
+          ],
+          [
+            -0.084375,
+            43.660881
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Boucle_de_Puycelsi.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.710198,
+            43.952543,
+            259.22
+          ],
+          [
+            1.710277,
+            43.952529,
+            259.22
+          ],
+          [
+            1.710536,
+            43.952467,
+            259.09
+          ],
+          [
+            1.710536,
+            43.952467,
+            259.09
+          ],
+          [
+            1.710277,
+            43.952529,
+            259.22
+          ],
+          [
+            1.710198,
+            43.952543,
+            259.22
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Boucle_de_Puycelsi.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.710198,
+            43.952543
+          ],
+          [
+            1.710536,
+            43.952467
+          ],
+          [
+            1.710536,
+            43.952467
+          ],
+          [
+            1.710198,
+            43.952543
+          ]
+        ]
+      }
+    }
+  ]
+}

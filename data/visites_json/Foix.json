@@ -1,0 +1,20 @@
+[
+  {"id": 1, "nom": "Château de Foix", "adresse": "Pl. du Palais de Justice, 09000 Foix", "latitude": 42.9664, "longitude": 1.6053},
+  {"id": 2, "nom": "Abbatiale Saint-Volusien", "adresse": "Pl. Saint-Volusien, 09000 Foix", "latitude": 42.9669, "longitude": 1.6067},
+  {"id": 3, "nom": "Préfecture de l'Ariège", "adresse": "2 Rue de la Préfecture, 09000 Foix", "latitude": 42.9658, "longitude": 1.6045},
+  {"id": 4, "nom": "Palais de Justice", "adresse": "14 bd du Sud, 09000 Foix", "latitude": 42.9648, "longitude": 1.6052},
+  {"id": 5, "nom": "Hôtel de Département", "adresse": "5 rue du Cap de la ville, 09000 Foix", "latitude": 42.9635, "longitude": 1.6058},
+  {"id": 6, "nom": "Maisons à colombage (Vieille ville)", "adresse": "Rue du Rival, 09000 Foix", "latitude": 42.9661, "longitude": 1.6062},
+  {"id": 7, "nom": "Maison des Consuls", "adresse": "Rue de l'Horloge, 09000 Foix", "latitude": 42.9663, "longitude": 1.6058},
+  {"id": 8, "nom": "Tour de l'Horloge", "adresse": "Rue de l'Horloge, 09000 Foix", "latitude": 42.9662, "longitude": 1.6059},
+  {"id": 9, "nom": "Maison des Cariatides", "adresse": "1 rue de la Préfecture, 09000 Foix", "latitude": 42.9657, "longitude": 1.6047},
+  {"id": 10, "nom": "Porte en bois sculpté", "adresse": "37 rue du Rival, 09000 Foix", "latitude": 42.9659, "longitude": 1.6064},
+  {"id": 11, "nom": "Chapelle Notre-Dame et domaine de Montgauzy", "adresse": "4 Rue Raoul Lafagette, 09000 Foix", "latitude": 42.9605, "longitude": 1.6032},
+  {"id": 12, "nom": "Chalet de Lauquié", "adresse": "Angle Bd Capdeville et Bd du Sud, 09000 Foix", "latitude": 42.9638, "longitude": 1.6055},
+  {"id": 13, "nom": "Fontaine du XVIIIe siècle", "adresse": "1 rue du Vivier, 09000 Foix", "latitude": 42.9655, "longitude": 1.6072},
+  {"id": 14, "nom": "Halle aux grains", "adresse": "3 Imp. des Potiers, 09000 Foix", "latitude": 42.9662, "longitude": 1.6075},
+  {"id": 15, "nom": "Chapelle Saint-Jacques", "adresse": "Allées de Villote, 09000 Foix", "latitude": 42.9642, "longitude": 1.6078},
+  {"id": 16, "nom": "Temple de l’Église protestante unie", "adresse": "Rue de Verdun, 09000 Foix", "latitude": 42.9632, "longitude": 1.6085},
+  {"id": 17, "nom": "Chapelle de la Nativité-de-la-Sainte-Vierge", "adresse": "Hameau de Labarre, 09000 Foix", "latitude": 42.9865, "longitude": 1.6125},
+  {"id": 18, "nom": "Chapelle d'Armeilhac", "adresse": "Hameau d'Armeilhac, 09000 Foix", "latitude": 42.9512, "longitude": 1.5895}
+]

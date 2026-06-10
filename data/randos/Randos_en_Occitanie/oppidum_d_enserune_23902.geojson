@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Oppidum d'Ensérune",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23902,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.310367584228516,
+        "longitude": 3.1119439601898193,
+        "local_name": "Oppidum d'Ensérune",
+        "country": "FRA",
+        "street": null,
+        "postcode": "34440",
+        "city": "Nissan-lez-Ensérune"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grotte de Lombrives",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13751,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.82493209838867,
+        "longitude": 1.6184109449386597,
+        "local_name": "Grotte de Lombrives",
+        "country": "FRA",
+        "street": "N 20",
+        "postcode": "9400",
+        "city": "Tarascon-sur-Ariège"
+      },
+      "geometry": null
+    }
+  ]
+}

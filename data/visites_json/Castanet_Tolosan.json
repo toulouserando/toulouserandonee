@@ -1,0 +1,15 @@
+[
+  {"id": 1, "nom": "Hôpital Saint-Jacques", "adresse": "20 Rue de la République, 31320 Castanet-Tolosan", "details": "Ancien hospice restauré, abrite aujourd'hui la MJC et le Club du 3e âge.", "lat": 43.5162, "lng": 1.5185},
+  {"id": 2, "nom": "Tour pentagonale", "adresse": "Place des Cordeliers, 31320 Castanet-Tolosan", "details": "Unique vestige du couvent des Cordeliers.", "lat": 43.5168, "lng": 1.5175},
+  {"id": 3, "nom": "Château de Rabaudy", "adresse": "Chemin de Rabaudy, 31320 Castanet-Tolosan", "details": "Demeure seigneuriale du XIIIe siècle avec fenêtres de style Renaissance.", "lat": 43.5225, "lng": 1.5285},
+  {"id": 4, "nom": "Maison Besset", "adresse": "62 Avenue du Lauragais, 31320 Castanet-Tolosan", "details": "La plus ancienne maison de la commune, récemment réhabilitée.", "lat": 43.5155, "lng": 1.5212},
+  {"id": 5, "nom": "Écluse de Castanet (Canal du Midi)", "adresse": "Chemin de l'Écluse, 31320 Castanet-Tolosan", "details": "Écluse sur le Canal du Midi, classé au patrimoine mondial de l'UNESCO.", "lat": 43.5252, "lng": 1.5035},
+  {"id": 6, "nom": "Écluse de Vic (Canal du Midi)", "adresse": "Chemin de Vic, 31320 Castanet-Tolosan", "details": "Ouvrage hydraulique situé sur le bief de Castanet.", "lat": 43.5095, "lng": 1.5365},
+  {"id": 7, "nom": "Église Saint-Gervais et Saint-Protais", "adresse": "Place de l'Église, 31320 Castanet-Tolosan", "details": "Édifice abritant un orgue Théodore Puget de 1867 rénové.", "lat": 43.5158, "lng": 1.5178},
+  {"id": 8, "nom": "Mas des Canelles", "adresse": "Chemin des Canelles, 31320 Castanet-Tolosan", "details": "Bâtisse de briques rouges datant du début du XIXe siècle au bord du canal.", "lat": 43.5275, "lng": 1.5015},
+  {"id": 9, "nom": "Musée du Vieux Castanet", "adresse": "Rue de la République, 31320 Castanet-Tolosan", "details": "Petit musée local présentant l'histoire et les traditions de la ville.", "lat": 43.5165, "lng": 1.5182},
+  {"id": 10, "nom": "Chapelle du cimetière", "adresse": "Avenue du Cimetière, 31320 Castanet-Tolosan", "details": "Ancien édifice religieux situé au cœur du cimetière communal.", "lat": 43.5142, "lng": 1.5135},
+  {"id": 11, "nom": "Halle de Castanet", "adresse": "Place de la Halle, 31320 Castanet-Tolosan", "details": "Halle couverte traditionnelle, centre de la vie commerçante.", "lat": 43.5172, "lng": 1.5168},
+  {"id": 12, "nom": "Grange des Floralies", "adresse": "Place des Floralies, 31320 Castanet-Tolosan", "details": "Bâtiment patrimonial utilisé pour des expositions et événements culturels.", "lat": 43.5165, "lng": 1.5205},
+  {"id": 13, "nom": "Domaine de Fages", "adresse": "Chemin de Fages, 31320 Castanet-Tolosan", "details": "Ancienne propriété agricole et foncière typique du Lauragais.", "lat": 43.5042, "lng": 1.5255}
+]

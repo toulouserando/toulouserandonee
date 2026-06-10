@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Abbatiale Sainte-Foy",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 51,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.59926223754883,
+        "longitude": 2.3978140354156494,
+        "local_name": "Abbatiale Sainte-Foy",
+        "country": "FRA",
+        "street": "Le Bourg",
+        "postcode": "12320",
+        "city": "Conques-en-Rouergue"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Foix",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5928,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.96574401855469,
+        "longitude": 1.6052041053771973,
+        "local_name": "Château de Foix",
+        "country": "FRA",
+        "street": "Place du Palais-de-Justice",
+        "postcode": "9000",
+        "city": "Foix"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

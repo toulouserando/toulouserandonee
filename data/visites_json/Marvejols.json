@@ -1,0 +1,16 @@
+[
+  {"id": 1, "nom": "Porte de Soubeyran", "adresse": "Boulevard de Soubeyran, 48100 Marvejols", "details": "Porte fortifiée du XIVe siècle à l'allure médiévale, abritant le musée archéologique.", "lat": 44.5542, "lng": 3.2905},
+  {"id": 2, "nom": "Porte de Chanelles", "adresse": "Boulevard de Chanelles, 48100 Marvejols", "details": "L'une des trois portes monumentales des anciens remparts de la ville.", "lat": 44.5515, "lng": 3.2902},
+  {"id": 3, "nom": "Porte du Thérond", "adresse": "Boulevard du Thérond, 48100 Marvejols", "details": "Troisième porte fortifiée protégeant l'accès historique à la cité royale.", "lat": 44.5532, "lng": 3.2885},
+  {"id": 4, "nom": "Collégiale Notre-Dame-de-la-Carce", "adresse": "Place de l'Église, 48100 Marvejols", "details": "Édifice majeur de la ville, classé MH, témoin du rayonnement religieux de Marvejols.", "lat": 44.5528, "lng": 3.2908},
+  {"id": 5, "nom": "Musée archéologique de Marvejols", "adresse": "Porte de Soubeyran, 48100 Marvejols", "details": "Installé dans la tour de la porte fortifiée, il présente les collections locales.", "lat": 44.5542, "lng": 3.2905},
+  {"id": 6, "nom": "Statue de Henri IV (Emmanuel Auricoste)", "adresse": "Entrée de ville, 48100 Marvejols", "details": "Bronze de 1954 rendant hommage au roi qui fit reconstruire la ville.", "lat": 44.5548, "lng": 3.2912},
+  {"id": 7, "nom": "Statue de la Bête du Gévaudan (Emmanuel Auricoste)", "adresse": "Avenue Théophile Roussel, 48100 Marvejols", "details": "Sculpture de bronze de 1958 représentant la créature légendaire.", "lat": 44.5555, "lng": 3.2895},
+  {"id": 8, "nom": "Parc à loups du Gévaudan", "adresse": "Sainte-Lucie, 48100 Marvejols", "details": "Parc naturel créé par Gérard Ménatory accueillant plus de cent loups en semi-liberté.", "lat": 44.6062, "lng": 3.2575},
+  {"id": 9, "nom": "Hôtel de Rouvière", "adresse": "Rue de la République, 48100 Marvejols", "details": "Ancien hôtel particulier remarquable de l'architecture urbaine marvejolaise.", "lat": 44.5531, "lng": 3.2912},
+  {"id": 10, "nom": "Dolmen de Valadou", "adresse": "Lieu-dit Valadou, 48100 Marvejols", "details": "Monument funéraire mégalithique situé en périphérie de la ville.", "lat": 44.5455, "lng": 3.2752},
+  {"id": 11, "nom": "Site mégalithique du plateau de Poujoulet", "adresse": "Plateau de Poujoulet, 48100 Marvejols", "details": "Ensemble de vestiges préhistoriques sur les hauteurs de la commune.", "lat": 44.5685, "lng": 3.3215},
+  {"id": 12, "nom": "Viaduc de Sénouard", "adresse": "Ligne de Béziers à Neussargues, 48100 Marvejols", "details": "Ouvrage ferroviaire en maçonnerie construit entre 1880 et 1881.", "lat": 44.5605, "lng": 3.2835},
+  {"id": 13, "nom": "Vallée de l'Enfer", "adresse": "Route de Saint-Léger-de-Peyre, 48100 Marvejols", "details": "Site naturel encaissé situé au nord de la ville.", "lat": 44.5752, "lng": 3.2882},
+  {"id": 14, "nom": "Cascade du Régourdel", "adresse": "Plateau de Lachamp, 48100 Marvejols", "details": "Chute d'eau naturelle située à l'ouest du plateau calcaire.", "lat": 44.5422, "lng": 3.3105}
+]

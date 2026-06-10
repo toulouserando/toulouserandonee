@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Barbacane et tour Saint-Jean",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1880,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.45491409301758,
+        "longitude": 1.4386719465255737,
+        "local_name": "Barbacane et tour Saint-Jean",
+        "country": "FRA",
+        "street": "Rue  de la Barre",
+        "postcode": "46000",
+        "city": "Cahors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

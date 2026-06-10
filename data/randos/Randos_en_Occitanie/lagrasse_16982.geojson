@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lagrasse",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16982,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.0909309387207,
+        "longitude": 2.6162140369415283,
+        "local_name": "Lagrasse",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

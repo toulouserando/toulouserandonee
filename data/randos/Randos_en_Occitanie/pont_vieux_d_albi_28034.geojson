@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pont Vieux d'Albi",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28034,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.93113708496094,
+        "longitude": 2.144709825515747,
+        "local_name": "Pont Vieux d'Albi",
+        "country": "FRA",
+        "street": null,
+        "postcode": "81000",
+        "city": "Albi"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Roquefort-sur-Soulzon",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30371,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.97534942626953,
+        "longitude": 2.991434097290039,
+        "local_name": "Roquefort-sur-Soulzon",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

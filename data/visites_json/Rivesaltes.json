@@ -1,0 +1,12 @@
+[
+  {"id": 1, "nom": "Église Saint-André", "adresse": "Place de l'Église, 66600 Rivesaltes", "details": "Église paroissiale des XVIIe et XVIIIe siècles possédant un remarquable retable baroque.", "lat": 42.7708, "lng": 2.8742},
+  {"id": 2, "nom": "Chapelle Saint-André (Vielle église)", "adresse": "Rue de l'Hôpital, 66600 Rivesaltes", "details": "Ancienne église romane située au cœur du vieux bourg.", "lat": 42.7697, "lng": 2.8735},
+  {"id": 3, "nom": "Église Sainte-Marie de la Garriga", "adresse": "Route de Vingrau, 66600 Rivesaltes", "details": "Édifice de style roman situé dans la plaine du Roussillon.", "lat": 42.7932, "lng": 2.8585},
+  {"id": 4, "nom": "Église Saint-Martin-de-Tura", "adresse": "Chemin de Tura, 66600 Rivesaltes", "details": "Ancienne église romane, vestige d'un ancien village aujourd'hui disparu.", "lat": 42.7561, "lng": 2.8954},
+  {"id": 5, "nom": "Maison natale du Maréchal Joffre", "adresse": "11 Rue du Maréchal Joffre, 66600 Rivesaltes", "details": "Maison inscrite MH, labellisée 'Maison des Illustres', aujourd'hui musée dédié au Maréchal.", "lat": 42.7705, "lng": 2.8752},
+  {"id": 6, "nom": "Monument au Maréchal Joffre", "adresse": "Place du Maréchal Joffre, 66600 Rivesaltes", "details": "Statue équestre inaugurée en 1931, œuvre du sculpteur Auguste Maillard.", "lat": 42.7712, "lng": 2.8758},
+  {"id": 7, "nom": "Cadran solaire monumental Solart2", "adresse": "Avenue de l'Agly, 66600 Rivesaltes", "details": "Plus grand cadran solaire d'Europe avec une flèche de 30 mètres de long, œuvre de MA2F.", "lat": 42.7685, "lng": 2.8805},
+  {"id": 8, "nom": "Mémorial du Camp de Rivesaltes", "adresse": "Avenue du Mémorial, 66600 Salses-le-Château", "details": "Musée d'histoire et lieu de mémoire construit sur l'ancien camp d'internement.", "lat": 42.8028, "lng": 2.8682},
+  {"id": 9, "nom": "Ancien Camp de Rivesaltes (Camp Joffre)", "adresse": "D12, 66600 Rivesaltes", "details": "Vaste camp militaire historique ayant servi de lieu d'internement au XXe siècle.", "lat": 42.8035, "lng": 2.8730},
+  {"id": 10, "nom": "Site naturel du Camp Joffre", "adresse": "Avenue du Maréchal Joffre, 66600 Rivesaltes", "details": "Espace naturel préservé environnant les anciennes structures militaires.", "lat": 42.7885, "lng": 2.8710}
+]

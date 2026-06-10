@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Table d'orientation du mont Caroux",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46638,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.59037399291992,
+        "longitude": 2.9791581630706787,
+        "local_name": "Table d'orientation du mont Caroux",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

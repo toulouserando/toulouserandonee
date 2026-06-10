@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Magrin - Musée du Pastel",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6213,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.61606216430664,
+        "longitude": 1.9261999130249023,
+        "local_name": "Château de Magrin - Musée du Pastel",
+        "country": "FRA",
+        "street": "D 12",
+        "postcode": "81220",
+        "city": "St-Paul-Cap-de-Joux"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

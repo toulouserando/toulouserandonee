@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée des monnaies et médailles Joseph-Puig",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22281,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.69967269897461,
+        "longitude": 2.8831989765167236,
+        "local_name": "Musée des monnaies et médailles Joseph-Puig",
+        "country": "FRA",
+        "street": "42 avenue de la Grande-Bretagne",
+        "postcode": "66000",
+        "city": "Perpignan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

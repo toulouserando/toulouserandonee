@@ -1,0 +1,11 @@
+[
+  {"id": 1, "nom": "Tours et remparts d'Aigues-Mortes", "adresse": "Boulevard Gambetta, 30220 Aigues-Mortes", "details": "Enceinte médiévale complète du XIIIe siècle", "lat": 43.5684, "lng": 4.1915},
+  {"id": 2, "nom": "Le Plan des Théâtres", "adresse": "Avenue du 8 Mai 1945, 30220 Aigues-Mortes", "details": "Arènes pour courses camarguaises construites à la fin du XIXe siècle", "lat": 43.5642, "lng": 4.1868},
+  {"id": 3, "nom": "La tour Carbonnière", "adresse": "Route de Saint-Laurent, 30220 Aigues-Mortes", "details": "Ancien poste de garde situé au milieu des marais", "lat": 43.5951, "lng": 4.2105},
+  {"id": 4, "nom": "La place Saint-Louis", "adresse": "Place Saint-Louis, 30220 Aigues-Mortes", "details": "Cœur de la cité avec la statue de Saint Louis", "lat": 43.5668, "lng": 4.1912},
+  {"id": 5, "nom": "Ancienne chapelle des Capucins", "adresse": "Cœur de ville, 30220 Aigues-Mortes", "details": "Vestige de l'ancien couvent", "lat": 43.5675, "lng": 4.1925},
+  {"id": 6, "nom": "Temple protestant d'Aigues-Mortes", "adresse": "Boulevard Diderot, 30220 Aigues-Mortes", "details": "Lieu de culte de l'Église protestante unie", "lat": 43.5682, "lng": 4.1895},
+  {"id": 7, "nom": "L’église Notre-Dame-des-Sablons", "adresse": "Place Saint-Louis, 30220 Aigues-Mortes", "details": "Édifice gothique du XIIIe siècle", "lat": 43.5665, "lng": 4.1915},
+  {"id": 8, "nom": "La chapelle des Pénitents-Gris", "adresse": "Place de la Viguerie, 30220 Aigues-Mortes", "details": "Célèbre pour son retable en bois sculpté du XVIIe siècle", "lat": 43.5661, "lng": 4.1928},
+  {"id": 9, "nom": "La chapelle des Pénitents blancs", "adresse": "Rue de la République, 30220 Aigues-Mortes", "details": "Décorée d'une fresque monumentale du XVIIe siècle", "lat": 43.5678, "lng": 4.1932}
+]

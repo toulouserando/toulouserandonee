@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Puilaurens",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6400,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.803871154785156,
+        "longitude": 2.2956840991973877,
+        "local_name": "Château de Puilaurens",
+        "country": "FRA",
+        "street": "Chemin du Château",
+        "postcode": "11140",
+        "city": "Puilaurens"
+      },
+      "geometry": null
+    }
+  ]
+}

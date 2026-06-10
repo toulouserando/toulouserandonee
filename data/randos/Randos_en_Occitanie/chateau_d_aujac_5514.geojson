@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château d'Aujac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5514,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.34757614135742,
+        "longitude": 4.027362823486328,
+        "local_name": "Château d'Aujac",
+        "country": "FRA",
+        "street": null,
+        "postcode": "30450",
+        "city": "Aujac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Tour Fenestrelle",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34352,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.012115478515625,
+        "longitude": 4.422011852264404,
+        "local_name": "Tour Fenestrelle",
+        "country": "FRA",
+        "street": null,
+        "postcode": "30700",
+        "city": "Uzès"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

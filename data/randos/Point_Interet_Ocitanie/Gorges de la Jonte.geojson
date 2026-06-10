@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gorges de la Jonte",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13089,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.20457458496094,
+        "longitude": 3.3364500999450684,
+        "local_name": "Gorges de la Jonte",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48150",
+        "city": "Meyrueis"
+      },
+      "geometry": null
+    }
+  ]
+}

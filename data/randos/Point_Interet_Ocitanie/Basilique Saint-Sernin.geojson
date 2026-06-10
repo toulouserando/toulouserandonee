@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Basilique Saint-Sernin",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2252,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60796356201172,
+        "longitude": 1.4419280290603638,
+        "local_name": "Basilique Saint-Sernin",
+        "country": "FRA",
+        "street": "Place St-Sernin",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": null
+    }
+  ]
+}

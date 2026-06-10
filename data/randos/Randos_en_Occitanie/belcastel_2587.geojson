@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Belcastel",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2587,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.388153076171875,
+        "longitude": 2.3359336853027344,
+        "local_name": "Belcastel",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

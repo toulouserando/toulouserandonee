@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Saint‑Martin-de-Londres",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32508,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.79159164428711,
+        "longitude": 3.7317593097686768,
+        "local_name": "Saint‑Martin-de-Londres",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

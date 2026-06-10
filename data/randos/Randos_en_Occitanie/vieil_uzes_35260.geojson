@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vieil Uzès",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35260,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.012168884277344,
+        "longitude": 4.418570041656494,
+        "local_name": "Vieil Uzès",
+        "country": "FRA",
+        "street": "place aux Herbes",
+        "postcode": "30700",
+        "city": "Uzès"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

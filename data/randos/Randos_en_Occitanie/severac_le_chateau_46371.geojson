@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Séverac-le-Château",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46371,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.32194519042969,
+        "longitude": 3.0713889598846436,
+        "local_name": "Séverac-le-Château",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

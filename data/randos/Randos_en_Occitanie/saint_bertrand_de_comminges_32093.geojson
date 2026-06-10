@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Saint-Bertrand-de-Comminges",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32093,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.02706527709961,
+        "longitude": 0.5718410015106201,
+        "local_name": "Saint-Bertrand-de-Comminges",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

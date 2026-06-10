@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grotte du Mas-d'Azil",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13789,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.07105255126953,
+        "longitude": 1.3551150560379028,
+        "local_name": "Grotte du Mas-d'Azil",
+        "country": "FRA",
+        "street": "Avenue de la Grotte",
+        "postcode": "9290",
+        "city": "Le Mas-d'Azil"
+      },
+      "geometry": null
+    }
+  ]
+}

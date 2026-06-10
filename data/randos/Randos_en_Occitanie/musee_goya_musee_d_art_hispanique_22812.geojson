@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée Goya - Musée d'Art hispanique",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22812,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60398483276367,
+        "longitude": 2.2420148849487305,
+        "local_name": "Musée Goya - Musée d'Art hispanique",
+        "country": "FRA",
+        "street": "Au 1er étage de l’Hôtel-de-Ville, dans l’ancien palais épiscopal",
+        "postcode": "81100",
+        "city": "Castres"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

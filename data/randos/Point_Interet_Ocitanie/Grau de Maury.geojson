@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grau de Maury",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13600,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.83645248413086,
+        "longitude": 2.608595371246338,
+        "local_name": "Grau de Maury",
+        "country": "FRA",
+        "street": "D 123",
+        "postcode": "11350",
+        "city": "Cucugnan"
+      },
+      "geometry": null
+    }
+  ]
+}

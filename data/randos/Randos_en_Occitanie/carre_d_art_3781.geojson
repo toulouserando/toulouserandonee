@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Carré d'art",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3781,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.83808517456055,
+        "longitude": 4.355463027954102,
+        "local_name": "Carré d'art",
+        "country": "FRA",
+        "street": "16 place de la Maison-Carrée",
+        "postcode": "30000",
+        "city": "Nîmes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée de la Romanité",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21285,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.833831787109375,
+        "longitude": 4.3596014976501465,
+        "local_name": "Musée de la Romanité",
+        "country": "FRA",
+        "street": "18 bd des Arènes",
+        "postcode": "30000",
+        "city": "Nîmes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

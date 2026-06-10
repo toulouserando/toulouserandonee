@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Place Notre-Dame",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46934,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.352325439453125,
+        "longitude": 2.0374412536621094,
+        "local_name": "Place Notre-Dame",
+        "country": "FRA",
+        "street": null,
+        "postcode": "12200",
+        "city": "Villefranche-de-Rouergue"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Espalion",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11671,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.52152633666992,
+        "longitude": 2.761932134628296,
+        "local_name": "Espalion",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

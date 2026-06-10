@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lac des Bouillouses",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16878,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.57136917114258,
+        "longitude": 1.999406337738037,
+        "local_name": "Lac des Bouillouses",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Villa Loupian",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35597,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.44248962402344,
+        "longitude": 3.6100683212280273,
+        "local_name": "Villa Loupian",
+        "country": "FRA",
+        "street": "D 158",
+        "postcode": "34140",
+        "city": "Loupian"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vallée de Gavarnie",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34814,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.735069274902344,
+        "longitude": -0.0101500004529953,
+        "local_name": "Vallée de Gavarnie",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65120",
+        "city": "Gavarnie"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

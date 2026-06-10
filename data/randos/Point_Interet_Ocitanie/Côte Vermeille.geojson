@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Côte Vermeille",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8705,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.52088928222656,
+        "longitude": 3.144073009490967,
+        "local_name": "Côte Vermeille",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66700",
+        "city": "Argelès-sur-Mer"
+      },
+      "geometry": null
+    }
+  ]
+}

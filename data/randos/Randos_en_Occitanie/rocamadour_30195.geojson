@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Rocamadour",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30195,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.799495697021484,
+        "longitude": 1.6183466911315918,
+        "local_name": "Rocamadour",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

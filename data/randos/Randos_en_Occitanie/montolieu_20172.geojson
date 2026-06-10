@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Montolieu",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20172,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.3106803894043,
+        "longitude": 2.2143828868865967,
+        "local_name": "Montolieu",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grotte de Niaux",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13758,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.81620407104492,
+        "longitude": 1.5961699485778809,
+        "local_name": "Grotte de Niaux",
+        "country": "FRA",
+        "street": null,
+        "postcode": "9400",
+        "city": "Niaux"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Prieuré Saint-Michel-de-Grandmont",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28987,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.734291076660156,
+        "longitude": 3.3696959018707275,
+        "local_name": "Prieuré Saint-Michel-de-Grandmont",
+        "country": "FRA",
+        "street": "Domaine de Grandmont - D 153",
+        "postcode": "34700",
+        "city": "Soumont"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

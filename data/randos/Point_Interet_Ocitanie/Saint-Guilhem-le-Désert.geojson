@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Saint-Guilhem-le-Désert",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32390,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.73371887207031,
+        "longitude": 3.5483298301696777,
+        "local_name": "Saint-Guilhem-le-Désert",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

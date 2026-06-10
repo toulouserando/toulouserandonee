@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Tillac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46662,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.47559356689453,
+        "longitude": 0.27614080905914307,
+        "local_name": "Tillac",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

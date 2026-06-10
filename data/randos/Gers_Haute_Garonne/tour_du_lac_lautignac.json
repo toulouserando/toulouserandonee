@@ -1,0 +1,397 @@
+[
+    {
+        "nom_itineraire": "Tour du Lac_Lautignac",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Lautignac",
+        "intercommunalite": "CC Cœur de Garonne",
+        "id": "7229",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "13",
+        "insee_commune": "31283",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.088307718817376,
+                            43.380497508444115
+                        ],
+                        [
+                            1.0882511420174,
+                            43.38048312624172
+                        ],
+                        [
+                            1.088173555574234,
+                            43.38043874741656
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.088238851361834,
+            "lat": 43.38047254446455
+        }
+    },
+    {
+        "nom_itineraire": "Tour du Lac_Lautignac",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Lautignac",
+        "intercommunalite": "CC Cœur de Garonne",
+        "id": "7224",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "64",
+        "insee_commune": "31283",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.089530995545854,
+                            43.38015500145489
+                        ],
+                        [
+                            1.089509700000048,
+                            43.380165899999874
+                        ],
+                        [
+                            1.089438900000014,
+                            43.380253599999904
+                        ],
+                        [
+                            1.089232500000025,
+                            43.380416299999865
+                        ],
+                        [
+                            1.089176599999957,
+                            43.38047469999988
+                        ],
+                        [
+                            1.089099200000017,
+                            43.380573699999864
+                        ],
+                        [
+                            1.089086356179541,
+                            43.38062370089871
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.0892931796811618,
+            "lat": 43.38037760504415
+        }
+    },
+    {
+        "nom_itineraire": "Tour du Lac_Lautignac",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Lautignac",
+        "intercommunalite": "CC Cœur de Garonne",
+        "id": "7225",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "10",
+        "insee_commune": "31283",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.089086356179541,
+                            43.38062370089871
+                        ],
+                        [
+                            1.0890721,
+                            43.38067919999985
+                        ],
+                        [
+                            1.089035200000028,
+                            43.38067129999988
+                        ],
+                        [
+                            1.089033213768602,
+                            43.38067068063905
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.0890683249293678,
+            "lat": 43.380661116648696
+        }
+    },
+    {
+        "nom_itineraire": "Tour du Lac_Lautignac",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Lautignac",
+        "intercommunalite": "CC Cœur de Garonne",
+        "id": "7226",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "38",
+        "insee_commune": "31283",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.089033213768602,
+                            43.38067068063905
+                        ],
+                        [
+                            1.088905,
+                            43.38063069999988
+                        ],
+                        [
+                            1.088593,
+                            43.38057079999986
+                        ],
+                        [
+                            1.088590122886125,
+                            43.38056975916493
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.088812901983524,
+            "lat": 43.38061528410401
+        }
+    },
+    {
+        "nom_itineraire": "Tour du Lac_Lautignac",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Lautignac",
+        "intercommunalite": "CC Cœur de Garonne",
+        "id": "7228",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "25",
+        "insee_commune": "31283",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.088590122886125,
+                            43.38056975916493
+                        ],
+                        [
+                            1.088590102017893,
+                            43.380569751615596
+                        ],
+                        [
+                            1.088423,
+                            43.38050929999992
+                        ],
+                        [
+                            1.088313,
+                            43.3804995999999
+                        ],
+                        [
+                            1.088307718817376,
+                            43.380497508444115
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.0884506944686192,
+            "lat": 43.38052555387842
+        }
+    },
+    {
+        "nom_itineraire": "Tour du Lac_Lautignac",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Lautignac",
+        "intercommunalite": "CC Cœur de Garonne",
+        "id": "7230",
+        "nat_juridique": "Propriété privée - personne privée",
+        "longueur": "376",
+        "insee_commune": "31283",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.088173555574234,
+                            43.38043874741656
+                        ],
+                        [
+                            1.088149742022717,
+                            43.380425126230904
+                        ],
+                        [
+                            1.0881184,
+                            43.38039939999994
+                        ],
+                        [
+                            1.087969100000042,
+                            43.38035119999992
+                        ],
+                        [
+                            1.087792,
+                            43.38025189999993
+                        ],
+                        [
+                            1.087728599999973,
+                            43.38019809999987
+                        ],
+                        [
+                            1.087546,
+                            43.38010699999986
+                        ],
+                        [
+                            1.087563188656712,
+                            43.38007686200752
+                        ],
+                        [
+                            1.0875551,
+                            43.38006069999988
+                        ],
+                        [
+                            1.087541886472178,
+                            43.38003168595475
+                        ],
+                        [
+                            1.087445,
+                            43.379894199999875
+                        ],
+                        [
+                            1.0873459,
+                            43.3797342999999
+                        ],
+                        [
+                            1.087321100000038,
+                            43.37960829999986
+                        ],
+                        [
+                            1.0873168,
+                            43.37956289999991
+                        ],
+                        [
+                            1.087291800000027,
+                            43.37941009999991
+                        ],
+                        [
+                            1.08729020000004,
+                            43.379346399999875
+                        ],
+                        [
+                            1.087269399999951,
+                            43.379232499999944
+                        ],
+                        [
+                            1.087224899999985,
+                            43.37918519999991
+                        ],
+                        [
+                            1.087078074374575,
+                            43.3790127521846
+                        ],
+                        [
+                            1.086928800000021,
+                            43.3789469999999
+                        ],
+                        [
+                            1.0869024,
+                            43.37892439999985
+                        ],
+                        [
+                            1.086891108687001,
+                            43.37891732914382
+                        ],
+                        [
+                            1.086698,
+                            43.37879379999984
+                        ],
+                        [
+                            1.086043799999952,
+                            43.37835269999994
+                        ],
+                        [
+                            1.085762899999949,
+                            43.37817339999988
+                        ],
+                        [
+                            1.085410399999947,
+                            43.3779528999999
+                        ],
+                        [
+                            1.085420610112132,
+                            43.377937979195686
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.0868721548569198,
+            "lat": 43.379144363539524
+        }
+    },
+    {
+        "nom_itineraire": "Tour du Lac_Lautignac",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Lautignac",
+        "intercommunalite": "CC Cœur de Garonne",
+        "id": "7231",
+        "nat_juridique": "Propriété privée - personne publique",
+        "longueur": "82",
+        "insee_commune": "31283",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.085420610112132,
+                            43.377937979195686
+                        ],
+                        [
+                            1.08555669999995,
+                            43.377739099999914
+                        ],
+                        [
+                            1.085745399999987,
+                            43.37745069999989
+                        ],
+                        [
+                            1.085884299999962,
+                            43.37728649999989
+                        ],
+                        [
+                            1.085885111097286,
+                            43.37728580612269
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.0856464890292226,
+            "lat": 43.377607015127005
+        }
+    }
+]

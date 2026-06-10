@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Tour_de_Peyrebrune.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.762592,
+            44.125452,
+            946.18
+          ],
+          [
+            2.762592,
+            44.125452,
+            946.18
+          ],
+          [
+            2.76288,
+            44.125731,
+            943.8
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Tour_de_Peyrebrune.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.762592,
+            44.125452
+          ],
+          [
+            2.762592,
+            44.125452
+          ],
+          [
+            2.76288,
+            44.125731
+          ]
+        ]
+      }
+    }
+  ]
+}

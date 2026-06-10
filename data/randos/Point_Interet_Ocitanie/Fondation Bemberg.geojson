@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Fondation Bemberg",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12027,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60026168823242,
+        "longitude": 1.442052960395813,
+        "local_name": "Fondation Bemberg",
+        "country": "FRA",
+        "street": "Place d’Assézat",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": null
+    }
+  ]
+}

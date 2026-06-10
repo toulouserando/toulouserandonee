@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Auch",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1560,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.64766311645508,
+        "longitude": 0.5851594805717468,
+        "local_name": "Auch",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

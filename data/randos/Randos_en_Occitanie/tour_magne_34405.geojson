@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Tour Magne",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34405,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.84299087524414,
+        "longitude": 4.349451065063477,
+        "local_name": "Tour Magne",
+        "country": "FRA",
+        "street": "Jardins de la Fontaine",
+        "postcode": "30000",
+        "city": "Nîmes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

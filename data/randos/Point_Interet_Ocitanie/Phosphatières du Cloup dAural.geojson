@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Phosphatières du Cloup d'Aural",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25657,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.352500915527344,
+        "longitude": 1.6901880502700806,
+        "local_name": "Phosphatières du Cloup d'Aural",
+        "country": "FRA",
+        "street": "Cloup-d'Aural",
+        "postcode": "46230",
+        "city": "Bach"
+      },
+      "geometry": null
+    }
+  ]
+}

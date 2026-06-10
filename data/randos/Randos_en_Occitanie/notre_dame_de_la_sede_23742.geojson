@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Notre-Dame-de-la-Sède",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23742,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.00354766845703,
+        "longitude": 1.1381776332855225,
+        "local_name": "Notre-Dame-de-la-Sède",
+        "country": "FRA",
+        "street": "Palais des Évêques",
+        "postcode": "9190",
+        "city": "St-Lizier"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

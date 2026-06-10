@@ -1,0 +1,10 @@
+[
+  {"id": 1, "nom": "Église paroissiale Saint-Martin", "adresse": "Place de l'Église, 31560 Nailloux", "details": "Église de style gothique languedocien typique de la région.", "lat": 43.3556, "lng": 1.6238},
+  {"id": 2, "nom": "Foyer Saint-Martin", "adresse": "Rue de la République, 31560 Nailloux", "details": "Maison de maître du XVIIIe siècle avec deux tours carrées, inscrite aux Monuments Historiques depuis 1926.", "lat": 43.3552, "lng": 1.6245},
+  {"id": 3, "nom": "Le moulin à 6 ailes", "adresse": "Lieu-dit Le Moulin, 31560 Nailloux", "details": "Moulin à vent exceptionnel doté de six ailes, symbole du patrimoine meunier local.", "lat": 43.3615, "lng": 1.6272},
+  {"id": 4, "nom": "Fontaine de Saint-Méen et son lavoir", "adresse": "Chemin de Saint-Méen, 31560 Nailloux", "details": "Source et lavoir historique réputés autrefois pour soigner les maladies de peau.", "lat": 43.3528, "lng": 1.6195},
+  {"id": 5, "nom": "Statue de la Liberté", "adresse": "Place de la Liberté, 31560 Nailloux", "details": "Réplique de la statue de Bartholdi érigée en 1904 suite à une souscription cantonale.", "lat": 43.3562, "lng": 1.6225},
+  {"id": 6, "nom": "Moulin de Nougarasse", "adresse": "Hameau de Nougarasse, 31560 Nailloux", "details": "Authentique moulin pastelier (pour le pastel), reconverti plus tard pour la production de blé.", "lat": 43.3385, "lng": 1.6412},
+  {"id": 7, "nom": "Lac de la Thésauque", "adresse": "Lac de la Thésauque, 31560 Nailloux", "details": "Lac de retenue de 33 hectares offrant des activités de loisirs et de randonnée.", "lat": 43.3450, "lng": 1.6580},
+  {"id": 8, "nom": "Village de marques (Nailloux Outlet Village)", "adresse": "Lieu-dit Le Gril, 31560 Nailloux", "details": "Grand centre commercial à ciel ouvert spécialisé dans le déstockage de grandes marques.", "lat": 43.3645, "lng": 1.6320}
+]

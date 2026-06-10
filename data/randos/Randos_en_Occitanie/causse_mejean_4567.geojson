@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Causse Méjean",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4567,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.26445770263672,
+        "longitude": 3.4605178833007812,
+        "local_name": "Causse Méjean",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48210",
+        "city": "Ste-Énimie"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

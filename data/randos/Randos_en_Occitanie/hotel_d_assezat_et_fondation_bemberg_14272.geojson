@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hôtel d’Assézat et Fondation Bemberg",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14272,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60004425048828,
+        "longitude": 1.4421709775924683,
+        "local_name": "Hôtel d’Assézat et Fondation Bemberg",
+        "country": "FRA",
+        "street": "Place d’Assézat",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

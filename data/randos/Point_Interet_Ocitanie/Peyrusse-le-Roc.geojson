@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Peyrusse-le-Roc",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25582,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.49536895751953,
+        "longitude": 2.1412394046783447,
+        "local_name": "Peyrusse-le-Roc",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

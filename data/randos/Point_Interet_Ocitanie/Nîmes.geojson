@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nîmes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23678,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.834564208984375,
+        "longitude": 4.360881805419922,
+        "local_name": "Nîmes",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

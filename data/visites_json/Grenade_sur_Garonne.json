@@ -1,0 +1,13 @@
+[
+  {"id": 1, "nom": "Monument aux morts de Grenade", "adresse": "Rue du Cimetière, 31330 Grenade", "details": "Situé à l'entrée du cimetière communal, rendant hommage aux victimes des conflits.", "lat": 43.7692, "lng": 1.2905},
+  {"id": 2, "nom": "Église Saint-Caprais de Grenade", "adresse": "Hameau de Saint-Caprais, 31330 Grenade", "details": "Église paroissiale située dans le hameau de Saint-Caprais.", "lat": 43.762066, "lng": 1.330147},
+  {"id": 3, "nom": "Chapelle Saint-Bernard", "adresse": "Cimetière de Grenade, 31330 Grenade", "details": "Chapelle funéraire datant du XIXe siècle située au cœur du cimetière.", "lat": 43.769025, "lng": 1.290373},
+  {"id": 4, "nom": "Chapelle Saint-Jacques", "adresse": "Rue de l'Hospice, 31330 Grenade", "details": "Ancienne chapelle attenante à l'hospice et à l'ancienne maison de retraite.", "lat": 43.770762, "lng": 1.289121},
+  {"id": 5, "nom": "Église Notre-Dame de l'Assomption", "adresse": "19 Rue Gambetta, 31330 Grenade", "details": "Église gothique monumentale, classée MH, connue pour son clocher octogonal.", "lat": 43.771172, "lng": 1.294054},
+  {"id": 6, "nom": "Halle de Grenade", "adresse": "40 Rue Victor Hugo, 31330 Grenade", "details": "L'une des plus grandes halles médiévales de France, datant du XIIIe siècle.", "lat": 43.772394, "lng": 1.293329},
+  {"id": 7, "nom": "Ancien Couvent des Ursulines", "adresse": "56 Rue Roquemaurel, 31330 Grenade", "details": "Bâtiment historique du XVIIe siècle, témoin du passé religieux de la bastide.", "lat": 43.774171, "lng": 1.29343},
+  {"id": 8, "nom": "Hôtel du Fermier Général", "adresse": "22 Rue René Teisseire, 31330 Grenade", "details": "Hôtel particulier remarquable (actuellement Chambres d'hôtes CALM).", "lat": 43.770946, "lng": 1.292318},
+  {"id": 9, "nom": "Villa Léopoldine", "adresse": "29 Rue Gambetta, 31330 Grenade", "details": "Manoir du XIIIe siècle transformé en hôtel de charme et restaurant.", "lat": 43.771498, "lng": 1.293411},
+  {"id": 10, "nom": "Pont de Save", "adresse": "D29, 31330 Grenade", "details": "Pont historique franchissant la rivière Save à l'entrée de la ville.", "lat": 43.770793, "lng": 1.288486},
+  {"id": 11, "nom": "Hippodrome de Marianne", "adresse": "Route de Montaigut, 31330 Grenade", "details": "Espace dédié aux courses hippiques (trot) et aux événements locaux.", "lat": 43.752228, "lng": 1.28054}
+]

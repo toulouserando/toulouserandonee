@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mont-Louis",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48462,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.50852966308594,
+        "longitude": 2.1216800212860107,
+        "local_name": "Mont-Louis",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

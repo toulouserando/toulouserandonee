@@ -1,9 +1,24 @@
+"use client"
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Info } from "lucide-react";
+import Link from "next/link"; // Import pour la navigation
+import { Button } from "@/components/ui/button"; // Import manquant ajouté ici
+import { Info, ArrowLeft } from "lucide-react";
 
 export default function AboutPage() {
   return (
     <div className="space-y-6 max-w-4xl mx-auto">
+
+      {/* Bouton Retour vers l'Accueil */}
+      <div className="flex justify-start">
+        <Button variant="ghost" asChild className="gap-2">
+          <Link href="/">
+            <ArrowLeft className="h-4 w-4" />
+            Retour à l'accueil
+          </Link>
+        </Button>
+      </div>
+
       <div className="flex items-center gap-4">
         <Info className="h-10 w-10 text-accent"/>
         <div>

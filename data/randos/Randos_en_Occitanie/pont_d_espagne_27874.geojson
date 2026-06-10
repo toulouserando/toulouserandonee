@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pont d'Espagne",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27874,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.852420806884766,
+        "longitude": -0.1454250067472458,
+        "local_name": "Pont d'Espagne",
+        "country": "FRA",
+        "street": "Place Foch",
+        "postcode": "65110",
+        "city": "Cauterets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

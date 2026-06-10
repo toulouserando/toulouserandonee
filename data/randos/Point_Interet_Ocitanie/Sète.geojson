@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sète",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33188,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.401702880859375,
+        "longitude": 3.6966052055358887,
+        "local_name": "Sète",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

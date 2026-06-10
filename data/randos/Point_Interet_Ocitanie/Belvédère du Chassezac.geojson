@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Belvédère du Chassezac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2687,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.48350524902344,
+        "longitude": 3.938251495361328,
+        "local_name": "Belvédère du Chassezac",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48800",
+        "city": "La Garde-Guérin"
+      },
+      "geometry": null
+    }
+  ]
+}

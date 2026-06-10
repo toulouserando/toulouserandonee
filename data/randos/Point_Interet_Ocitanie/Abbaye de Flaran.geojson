@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Abbaye de Flaran",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 135,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.889556884765625,
+        "longitude": 0.3741990029811859,
+        "local_name": "Abbaye de Flaran",
+        "country": "FRA",
+        "street": "Centre patrimonial départemental",
+        "postcode": "32310",
+        "city": "Valence-sur-Baïse"
+      },
+      "geometry": null
+    }
+  ]
+}

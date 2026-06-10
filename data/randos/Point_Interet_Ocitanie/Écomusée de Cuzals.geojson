@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Écomusée de Cuzals",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46612,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.53351974487305,
+        "longitude": 1.6973899602890015,
+        "local_name": "Écomusée de Cuzals",
+        "country": "FRA",
+        "street": "Domaine de Czals",
+        "postcode": "46330",
+        "city": "Sauliac-sur-Célé"
+      },
+      "geometry": null
+    }
+  ]
+}

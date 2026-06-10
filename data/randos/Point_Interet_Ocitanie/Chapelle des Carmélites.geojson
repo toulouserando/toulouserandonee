@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Chapelle des Carmélites",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5066,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60734939575195,
+        "longitude": 1.4433499574661255,
+        "local_name": "Chapelle des Carmélites",
+        "country": "FRA",
+        "street": "1 rue du Périgord",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Saint-Pierre-de-Rhèdes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32638,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.596099853515625,
+        "longitude": 3.0806944370269775,
+        "local_name": "Saint-Pierre-de-Rhèdes",
+        "country": "FRA",
+        "street": "Avenue de la Gare",
+        "postcode": "34240",
+        "city": "Lamalou-les-Bains"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

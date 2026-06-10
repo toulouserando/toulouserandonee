@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Forges de Pyrène",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12479,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.9393424987793,
+        "longitude": 1.6307660341262817,
+        "local_name": "Forges de Pyrène",
+        "country": "FRA",
+        "street": "61 avenue de Paris",
+        "postcode": "9330",
+        "city": "Montgaillard"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

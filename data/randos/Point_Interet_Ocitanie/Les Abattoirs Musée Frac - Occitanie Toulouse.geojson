@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Les Abattoirs (Musée Frac - Occitanie Toulouse)",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17736,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60081100463867,
+        "longitude": 1.4287559986114502,
+        "local_name": "Les Abattoirs (Musée Frac - Occitanie Toulouse)",
+        "country": "FRA",
+        "street": "76 allée Charles-de-Fitte",
+        "postcode": "31300",
+        "city": "Toulouse"
+      },
+      "geometry": null
+    }
+  ]
+}

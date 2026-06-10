@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Abbatiale de Saint‑Gilles",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.67683410644531,
+        "longitude": 4.431706428527832,
+        "local_name": "Abbatiale de Saint‑Gilles",
+        "country": "FRA",
+        "street": "Place de la République",
+        "postcode": "30800",
+        "city": "St-Gilles-du-Gard"
+      },
+      "geometry": null
+    }
+  ]
+}

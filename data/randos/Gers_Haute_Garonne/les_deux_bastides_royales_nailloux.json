@@ -1,0 +1,256 @@
+[
+    {
+        "nom_itineraire": "Les deux bastides royales-Nailloux",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Nailloux",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "11892",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "439",
+        "insee_commune": "31396",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.620865259980173,
+                            43.352781062791756
+                        ],
+                        [
+                            1.620872619709242,
+                            43.352842698457955
+                        ],
+                        [
+                            1.62097685906946,
+                            43.35325052264783
+                        ],
+                        [
+                            1.621055186579532,
+                            43.35355024797858
+                        ],
+                        [
+                            1.621268056440676,
+                            43.35374959120679
+                        ],
+                        [
+                            1.621427167097413,
+                            43.35392177959494
+                        ],
+                        [
+                            1.621543285590959,
+                            43.35404993444738
+                        ],
+                        [
+                            1.621757528380415,
+                            43.354300342552186
+                        ],
+                        [
+                            1.621972225113209,
+                            43.354531849250904
+                        ],
+                        [
+                            1.622238262123511,
+                            43.35467514738699
+                        ],
+                        [
+                            1.622652635543566,
+                            43.3548997417491
+                        ],
+                        [
+                            1.623037194219246,
+                            43.355071016089184
+                        ],
+                        [
+                            1.623582276230851,
+                            43.355355881251285
+                        ],
+                        [
+                            1.623580404590508,
+                            43.35535847996974
+                        ],
+                        [
+                            1.623389320247198,
+                            43.35562379367079
+                        ],
+                        [
+                            1.623158677502747,
+                            43.35579398147803
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.6221723936010761,
+            "lat": 43.35445614136598
+        }
+    },
+    {
+        "nom_itineraire": "Les deux bastides royales-Nailloux",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Nailloux",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "11893",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "8",
+        "insee_commune": "31396",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.622947897022805,
+                            43.356096437215534
+                        ],
+                        [
+                            1.622950443997953,
+                            43.35610452108076
+                        ],
+                        [
+                            1.622979948297101,
+                            43.35613922215988
+                        ],
+                        [
+                            1.623013646661359,
+                            43.35614180257349
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.6229758109437324,
+            "lat": 43.35612698072366
+        }
+    },
+    {
+        "nom_itineraire": "Les deux bastides royales-Nailloux",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Nailloux",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "11894",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "31",
+        "insee_commune": "31396",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.623013646661359,
+                            43.35614180257349
+                        ],
+                        [
+                            1.623022999341807,
+                            43.35616680760216
+                        ]
+                    ],
+                    [
+                        [
+                            1.623013646661359,
+                            43.35614180257349
+                        ],
+                        [
+                            1.62308431733944,
+                            43.35609841696392
+                        ],
+                        [
+                            1.623308109005584,
+                            43.356050064957735
+                        ],
+                        [
+                            1.623316749196891,
+                            43.356036034786456
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.6231538438932562,
+            "lat": 43.356089526526
+        }
+    },
+    {
+        "nom_itineraire": "Les deux bastides royales-Nailloux",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Nailloux",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "10425",
+        "nat_juridique": "Chemin rural (CR)",
+        "longueur": "219",
+        "insee_commune": "31396",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.621469181452002,
+                            43.35090196312695
+                        ],
+                        [
+                            1.621429333855023,
+                            43.35101583822813
+                        ],
+                        [
+                            1.621339113441318,
+                            43.35121320940316
+                        ],
+                        [
+                            1.621193584459534,
+                            43.35133992075518
+                        ],
+                        [
+                            1.621095061401333,
+                            43.35166764255056
+                        ],
+                        [
+                            1.621030841769429,
+                            43.351969332105625
+                        ],
+                        [
+                            1.621022008935479,
+                            43.35223013276382
+                        ],
+                        [
+                            1.620867948513591,
+                            43.35249664511717
+                        ],
+                        [
+                            1.620848878830909,
+                            43.35264387479813
+                        ],
+                        [
+                            1.620859479071822,
+                            43.352732649215966
+                        ],
+                        [
+                            1.620856728157506,
+                            43.35273368760309
+                        ],
+                        [
+                            1.620865259980173,
+                            43.352781062791756
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.6211013123548275,
+            "lat": 43.35182321761741
+        }
+    }
+]

@@ -1,0 +1,17 @@
+[
+  {"id": 1, "nom": "Église Saint-Victor", "adresse": "Place de la Halle, 31310 Montesquieu-Volvestre", "details": "Église gothique imposante du XIIIe siècle, célèbre pour son trésor et son clocher octogonal.", "lat": 43.2081, "lng": 1.2348},
+  {"id": 2, "nom": "Halle de Montesquieu-Volvestre", "adresse": "Place de la Halle, 31310 Montesquieu-Volvestre", "details": "Grande halle couverte au cœur de la bastide, témoin de l'activité marchande historique.", "lat": 43.2085, "lng": 1.2345},
+  {"id": 3, "nom": "Moulin de Barrau", "adresse": "Chemin du Moulin, 31310 Montesquieu-Volvestre", "details": "Ancien moulin situé sur l'Arize, emblématique du patrimoine hydraulique local.", "lat": 43.2098, "lng": 1.2372},
+  {"id": 4, "nom": "Hospice Saint-Jacques", "adresse": "Rue de l'Hospice, 31310 Montesquieu-Volvestre", "details": "Ancien lieu d'accueil pour les pèlerins sur la route de Saint-Jacques-de-Compostelle.", "lat": 43.2072, "lng": 1.2355},
+  {"id": 5, "nom": "Le Castéra", "adresse": "Route du Castéra, 31310 Montesquieu-Volvestre", "details": "Ancien site fortifié offrant un point de vue panoramique sur la vallée du Volvestre.", "lat": 43.2125, "lng": 1.2310},
+  {"id": 6, "nom": "Château de Palays", "adresse": "Lieu-dit Palays, 31310 Montesquieu-Volvestre", "details": "Demeure historique privée située dans la campagne environnante de la bastide.", "lat": 43.2352, "lng": 1.2541},
+  {"id": 7, "nom": "Église de la Nativité-de-la-Vierge d'Argain", "adresse": "Hameau d'Argain, 31310 Montesquieu-Volvestre", "details": "Petite église rurale située dans le hameau d'Argain.", "lat": 43.1895, "lng": 1.2124},
+  {"id": 8, "nom": "Cathédrale de la Nativité-de-Marie", "adresse": "Place de la Cathédrale, 31310 Rieux-Volvestre", "details": "Ancienne cathédrale gothique du XIVe siècle, chef-d'œuvre de briques avec un clocher de 43m.", "lat": 43.2582, "lng": 1.2025},
+  {"id": 9, "nom": "La Tourasse", "adresse": "Rue de la Tourasse, 31310 Rieux-Volvestre", "details": "Ancien donjon ou tour de défense médiévale, vestige des fortifications de la cité épiscopale.", "lat": 43.2578, "lng": 1.2032},
+  {"id": 10, "nom": "Musée du Papogay", "adresse": "Place du Casal, 31310 Rieux-Volvestre", "details": "Musée dédié à la fête traditionnelle du tir à l'arc sur l'oiseau de bois (Papogay).", "lat": 43.2585, "lng": 1.2018},
+  {"id": 11, "nom": "Musée Lapidaire", "adresse": "Ancien Évêché, 31310 Rieux-Volvestre", "details": "Collection d'éléments architecturaux et sculptés provenant de l'ancienne cité et de la cathédrale.", "lat": 43.2580, "lng": 1.2022},
+  {"id": 12, "nom": "Maison Laguens", "adresse": "Rue Laguens, 31310 Rieux-Volvestre", "details": "Maison à colombages remarquable, exemple typique de l'architecture civile du XVe siècle.", "lat": 43.2583, "lng": 1.2015},
+  {"id": 13, "nom": "Village Gaulois (Archéosite)", "adresse": "Route de Saint-Julien, 31310 Rieux-Volvestre", "details": "Reconstitution historique d'un village gaulois (Saint-Julien) présentant la vie quotidienne celte.", "lat": 43.2855, "lng": 1.2185},
+  {"id": 14, "nom": "Chapelle de Notre-Dame de la Morère", "adresse": "Chemin de la Morère, 31310 Rieux-Volvestre", "details": "Petite chapelle isolée offrant un lieu de dévotion calme en périphérie du village.", "lat": 43.2458, "lng": 1.1925},
+  {"id": 15, "nom": "Musée d'Histoire Locale", "adresse": "Mairie de Rieux, 31310 Rieux-Volvestre", "details": "Expositions retraçant le passé de Rieux, autrefois siège d'un important diocèse.", "lat": 43.2581, "lng": 1.2028}
+]

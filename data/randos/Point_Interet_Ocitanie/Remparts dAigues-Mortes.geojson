@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Remparts d'Aigues-Mortes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29928,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.5671501159668,
+        "longitude": 4.193610191345215,
+        "local_name": "Remparts d'Aigues-Mortes",
+        "country": "FRA",
+        "street": "Logis du Gouverneur - pl. Anatole-France",
+        "postcode": "30220",
+        "city": "Aigues-Mortes"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sommières",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33333,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.78354263305664,
+        "longitude": 4.089468955993652,
+        "local_name": "Sommières",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

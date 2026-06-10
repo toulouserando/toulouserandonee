@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Chemin de Stevenson",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7129,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.36330032348633,
+        "longitude": 3.743619918823242,
+        "local_name": "Chemin de Stevenson",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48220",
+        "city": "Le Pont-de-Montvert"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Place des Consuls",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26239,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.93669891357422,
+        "longitude": 1.6083099842071533,
+        "local_name": "Place des Consuls",
+        "country": "FRA",
+        "street": "Place des Consuls",
+        "postcode": "46600",
+        "city": "Martel"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

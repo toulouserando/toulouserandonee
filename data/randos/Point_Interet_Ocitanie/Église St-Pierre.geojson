@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Église St-Pierre",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46620,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.67557907104492,
+        "longitude": 1.8761999607086182,
+        "local_name": "Église St-Pierre",
+        "country": "FRA",
+        "street": "D 653",
+        "postcode": "46320",
+        "city": "Assier"
+      },
+      "geometry": null
+    }
+  ]
+}

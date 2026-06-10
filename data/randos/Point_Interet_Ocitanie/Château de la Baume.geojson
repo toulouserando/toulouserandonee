@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de la Baume",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6047,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.64940643310547,
+        "longitude": 3.193652868270874,
+        "local_name": "Château de la Baume",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48100",
+        "city": "Prinsuéjols"
+      },
+      "geometry": null
+    }
+  ]
+}

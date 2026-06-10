@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Loubressac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18155,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.872230529785156,
+        "longitude": 1.8055301904678345,
+        "local_name": "Loubressac",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

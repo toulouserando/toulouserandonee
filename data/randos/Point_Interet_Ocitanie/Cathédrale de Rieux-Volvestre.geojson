@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale de Rieux-Volvestre",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4048,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.25819778442383,
+        "longitude": 1.2031199932098389,
+        "local_name": "Cathédrale de Rieux-Volvestre",
+        "country": "FRA",
+        "street": "Place Mgr-de-Lastic",
+        "postcode": "31310",
+        "city": "Rieux-Volvestre"
+      },
+      "geometry": null
+    }
+  ]
+}

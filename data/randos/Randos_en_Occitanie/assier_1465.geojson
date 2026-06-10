@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Assier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1465,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.67552947998047,
+        "longitude": 1.876819372177124,
+        "local_name": "Assier",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

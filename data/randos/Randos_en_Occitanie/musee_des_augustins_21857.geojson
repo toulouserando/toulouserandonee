@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée des Augustins",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21857,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60054397583008,
+        "longitude": 1.4466400146484375,
+        "local_name": "Musée des Augustins",
+        "country": "FRA",
+        "street": "21 rue de Metz",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

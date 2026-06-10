@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grotte de la Cocalière",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13736,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.31016540527344,
+        "longitude": 4.1682538986206055,
+        "local_name": "Grotte de la Cocalière",
+        "country": "FRA",
+        "street": null,
+        "postcode": "30500",
+        "city": "Courry"
+      },
+      "geometry": null
+    }
+  ]
+}

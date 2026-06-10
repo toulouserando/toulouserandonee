@@ -1,0 +1,12 @@
+[
+  {"id": 1, "nom": "Château de Billières", "adresse": "Rue du Château, 48200 Saint-Chély-d'Apcher", "details": "Ancienne demeure seigneuriale historique de la ville.", "lat": 44.8015, "lng": 3.2748},
+  {"id": 2, "nom": "Ancien Hôpital", "adresse": "Rue de l'Ancien Hôpital, 48200 Saint-Chély-d'Apcher", "details": "Bâtiment historique témoignant de l'organisation sanitaire ancienne de la cité.", "lat": 44.8028, "lng": 3.2755},
+  {"id": 3, "nom": "Donjon et Clocher de la ville", "adresse": "Place du Donjon, 48200 Saint-Chély-d'Apcher", "details": "Vestige des anciennes fortifications, cette tour sert de clocher à la paroisse.", "lat": 44.8019, "lng": 3.2758},
+  {"id": 4, "nom": "Monument aux morts (Maxime Real del Sarte)", "adresse": "Place du Monument, 48200 Saint-Chély-d'Apcher", "details": "Œuvre sculpturale du célèbre artiste Real del Sarte rendant hommage aux soldats.", "lat": 44.8012, "lng": 3.2762},
+  {"id": 5, "nom": "Fontaine des Asniers", "adresse": "Bas de la ville, 48200 Saint-Chély-d'Apcher", "details": "Fontaine historique érigée entre les XIIIe et XIVe siècles.", "lat": 44.8005, "lng": 3.2735},
+  {"id": 6, "nom": "Église Notre-Dame", "adresse": "Place de l'Église, 48200 Saint-Chély-d'Apcher", "details": "Église paroissiale principale située au cœur de la ville.", "lat": 44.8018, "lng": 3.2759},
+  {"id": 7, "nom": "Église Saint-Hilaire", "adresse": "Quartier Saint-Hilaire, 48200 Saint-Chély-d'Apcher", "details": "Édifice religieux historique dédié à Saint Hilaire.", "lat": 44.7985, "lng": 3.2810},
+  {"id": 8, "nom": "Chapelle Notre-Dame-de-Lourdes", "adresse": "Chemin de la Chapelle, 48200 Saint-Chély-d'Apcher", "details": "Lieu de culte et de dévotion locale.", "lat": 44.8052, "lng": 3.2721},
+  {"id": 9, "nom": "Musée de la Métallurgie", "adresse": "Avenue de la République, 48200 Saint-Chély-d'Apcher", "details": "Espace témoignant du passé industriel, présentant outils et histoire ouvrière de l'usine.", "lat": 44.8041, "lng": 3.2775},
+  {"id": 10, "nom": "Musée des Épouvantails", "adresse": "Vieux quartier, 48200 Saint-Chély-d'Apcher", "details": "Curiosité locale et art brut présentant un monde onirique d'épouvantails créatifs.", "lat": 44.8011, "lng": 3.2742}
+]

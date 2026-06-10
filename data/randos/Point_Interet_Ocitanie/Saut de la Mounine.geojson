@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Saut de la Mounine",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32998,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.484737396240234,
+        "longitude": 1.911978006362915,
+        "local_name": "Saut de la Mounine",
+        "country": "FRA",
+        "street": null,
+        "postcode": "12260",
+        "city": "Saujac"
+      },
+      "geometry": null
+    }
+  ]
+}

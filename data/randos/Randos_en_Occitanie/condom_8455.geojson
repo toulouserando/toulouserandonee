@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Condom",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8455,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.957740783691406,
+        "longitude": 0.3724816143512726,
+        "local_name": "Condom",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

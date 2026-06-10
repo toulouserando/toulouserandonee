@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Place de la Comédie",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26057,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.60850143432617,
+        "longitude": 3.8798298835754395,
+        "local_name": "Place de la Comédie",
+        "country": "FRA",
+        "street": "place de la Comédie",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": null
+    }
+  ]
+}

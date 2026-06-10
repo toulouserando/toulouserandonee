@@ -1,0 +1,9 @@
+[
+  {"id": 1, "nom": "Église Saint-Saturnin", "adresse": "Place de l'Église, 65400 Argelès-Gazost", "details": "Construite dans la deuxième moitié du XIXe siècle", "lat": 43.0033, "lng": -0.0988},
+  {"id": 2, "nom": "Château d'Ourout", "adresse": "Avenue du Château d'Ourout, 65400 Argelès-Gazost", "details": "Édifié aux XVe-XVIe siècles, inscrit MH avec son parc et sa chapelle", "lat": 43.0028, "lng": -0.1035},
+  {"id": 3, "nom": "Tour du château de Vieuzac", "adresse": "Quartier Vieuzac, 65400 Argelès-Gazost", "details": "Vestige d'une fortification du XIVe siècle", "lat": 43.0075, "lng": -0.0975},
+  {"id": 4, "nom": "Tour Mendaigne", "adresse": "Secteur historique, 65400 Argelès-Gazost", "details": "Tour datant du XVIIIe siècle", "lat": 43.0035, "lng": -0.0995},
+  {"id": 5, "nom": "Lavoirs", "adresse": "Divers lieux, 65400 Argelès-Gazost", "details": "Anciens lavoirs communaux préservés", "lat": 43.0042, "lng": -0.0982},
+  {"id": 6, "nom": "Monument aux morts municipal", "adresse": "Place de la République, 65400 Argelès-Gazost", "details": "Œuvre du sculpteur Martial Caumont", "lat": 43.0031, "lng": -0.0985},
+  {"id": 7, "nom": "Lycée climatique René Billères", "adresse": "Avenue René Billères, 65400 Argelès-Gazost", "details": "Inscrit MH, architecture de 1955 avec œuvres de Singier, Manessier et Hajdu", "lat": 43.0085, "lng": -0.1025}
+]

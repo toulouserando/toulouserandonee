@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée de Cire de Lourdes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20996,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.095699310302734,
+        "longitude": -0.051082998514175415,
+        "local_name": "Musée de Cire de Lourdes",
+        "country": "FRA",
+        "street": "87 rue de la Grotte",
+        "postcode": "65100",
+        "city": "Lourdes"
+      },
+      "geometry": null
+    }
+  ]
+}

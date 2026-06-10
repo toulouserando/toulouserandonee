@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Montagne Noire",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20004,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.453208923339844,
+        "longitude": 2.0657999515533447,
+        "local_name": "Montagne Noire",
+        "country": "FRA",
+        "street": null,
+        "postcode": "81540",
+        "city": "Sorèze"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cirque de Gavarnie",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7305,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.698429107666016,
+        "longitude": -0.010134999640285969,
+        "local_name": "Cirque de Gavarnie",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65120",
+        "city": "Gavarnie"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

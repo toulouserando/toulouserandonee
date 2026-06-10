@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Sentier_patrimoine.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.939431,
+            43.185722,
+            355.56
+          ],
+          [
+            0.939736,
+            43.185557,
+            354.53
+          ],
+          [
+            0.939889,
+            43.185436,
+            354.07
+          ],
+          [
+            0.939889,
+            43.185436,
+            354.07
+          ],
+          [
+            0.939736,
+            43.185557,
+            354.53
+          ],
+          [
+            0.939431,
+            43.185722,
+            355.56
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Sentier_patrimoine.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.939431,
+            43.185722
+          ],
+          [
+            0.939889,
+            43.185436
+          ],
+          [
+            0.939889,
+            43.185436
+          ],
+          [
+            0.939736,
+            43.185557
+          ],
+          [
+            0.939431,
+            43.185722
+          ]
+        ]
+      }
+    }
+  ]
+}

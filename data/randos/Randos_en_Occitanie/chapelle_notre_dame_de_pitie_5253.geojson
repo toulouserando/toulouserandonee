@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Chapelle Notre-Dame-de-Pitié",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5253,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.60793685913086,
+        "longitude": 2.0344529151916504,
+        "local_name": "Chapelle Notre-Dame-de-Pitié",
+        "country": "FRA",
+        "street": "Place de la Raison",
+        "postcode": "46100",
+        "city": "Figeac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

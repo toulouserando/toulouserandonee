@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Falga_Le_Village.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.830779,
+            43.485692,
+            250.77
+          ],
+          [
+            1.830779,
+            43.485692,
+            250.77
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Falga_Le_Village.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.830779,
+            43.485692
+          ],
+          [
+            1.830779,
+            43.485692
+          ]
+        ]
+      }
+    }
+  ]
+}

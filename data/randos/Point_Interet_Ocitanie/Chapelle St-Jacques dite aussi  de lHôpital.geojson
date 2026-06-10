@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Chapelle St-Jacques (dite aussi « de l'Hôpital »)",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5427,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.07197189331055,
+        "longitude": 2.097795009613037,
+        "local_name": "Chapelle St-Jacques (dite aussi « de l'Hôpital »)",
+        "country": "FRA",
+        "street": "Rue du Barry",
+        "postcode": "81640",
+        "city": "Monestiés"
+      },
+      "geometry": null
+    }
+  ]
+}

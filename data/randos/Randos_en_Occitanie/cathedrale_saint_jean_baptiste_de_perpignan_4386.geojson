@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale Saint-Jean-Baptiste de Perpignan",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4386,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.70045471191406,
+        "longitude": 2.8964900970458984,
+        "local_name": "Cathédrale Saint-Jean-Baptiste de Perpignan",
+        "country": "FRA",
+        "street": "Place Gambetta",
+        "postcode": "66000",
+        "city": "Perpignan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

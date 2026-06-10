@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react";
+import Link from "next/link"; // Import pour la navigation
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -12,10 +13,13 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Send, CheckCircle, AlertCircle } from "lucide-react";
+import { Mail, Send, CheckCircle, AlertCircle, ArrowLeft } from "lucide-react"; // Ajout de ArrowLeft
 import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
 
 export default function ContactPage() {
+  // Récupération de l'email depuis les variables d'environnement
+  const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -23,7 +27,6 @@ export default function ContactPage() {
   const [status, setStatus] = useState<"success" | "error" | "idle">("idle");
   const [error, setError] = useState("");
   
-  // Solution pour l'erreur d'hydratation
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -40,7 +43,7 @@ export default function ContactPage() {
     }
     
     console.log({
-      to: "tolosa@free.fr",
+      to: contactEmail, // Utilisation de la variable d'env
       from: email,
       name,
       subject,
@@ -54,11 +57,20 @@ export default function ContactPage() {
     setMessage("");
   };
 
-  // On ne rend rien ou un loader tant que le client n'a pas pris le relais
   if (!mounted) return null;
 
   return (
     <div className="max-w-4xl mx-auto space-y-6">
+      {/* Bouton Retour vers l'Accueil */}
+      <div className="flex justify-start">
+        <Button variant="ghost" asChild className="gap-2">
+          <Link href="/">
+            <ArrowLeft className="h-4 w-4" />
+            Retour à l'accueil
+          </Link>
+        </Button>
+      </div>
+
       <div className="flex items-center gap-4">
         <Mail className="h-10 w-10 text-accent"/>
         <div>
@@ -71,7 +83,8 @@ export default function ContactPage() {
         <CardHeader>
           <CardTitle>Formulaire de contact</CardTitle>
           <CardDescription>
-            Votre message sera envoyé à l'adresse <a href="mailto:tolosa@free.fr" className="text-primary underline">tolosa@free.fr</a>.
+            {/* L'email n'est plus en clair, on utilise un texte générique */}
+            Votre message sera envoyé directement à notre équipe technique.
           </CardDescription>
         </CardHeader>
         <CardContent>

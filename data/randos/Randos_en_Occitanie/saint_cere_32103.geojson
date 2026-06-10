@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Saint-Céré",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32103,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.85991287231445,
+        "longitude": 1.891001582145691,
+        "local_name": "Saint-Céré",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale Notre-Dame de Rodez",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4159,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.35103988647461,
+        "longitude": 2.5734689235687256,
+        "local_name": "Cathédrale Notre-Dame de Rodez",
+        "country": "FRA",
+        "street": "Place d’Armes",
+        "postcode": "12000",
+        "city": "Rodez"
+      },
+      "geometry": null
+    }
+  ]
+}

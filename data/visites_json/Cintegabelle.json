@@ -1,0 +1,11 @@
+[
+  {"id": 1, "nom": "Abbaye de Boulbonne", "adresse": "Domaine de Boulbonne, 31550 Cintegabelle", "details": "Ancienne abbaye cistercienne (XVIIe) reconstruite après les guerres de Religion, classée MH.", "lat": 43.3285, "lng": 1.5452},
+  {"id": 2, "nom": "Église Notre-Dame", "adresse": "Place de l'Église, 31550 Cintegabelle", "details": "Église gothique dotée d'un orgue célèbre du XVIIIe siècle et d'un remarquable clocher-mur.", "lat": 43.3135, "lng": 1.5315},
+  {"id": 3, "nom": "Église Notre-Dame-de-la-Salvetat des Baccarets", "adresse": "Hameau des Baccarets, 31550 Cintegabelle", "details": "Église rurale historique située dans le hameau des Baccarets.", "lat": 43.3325, "lng": 1.5685},
+  {"id": 4, "nom": "Église Notre-Dame-de-Tramesaygues de Picarrou", "adresse": "Picarrou, 31550 Cintegabelle", "details": "Édifice religieux situé au confluent de l'Ariège et de l'Hers.", "lat": 43.2845, "lng": 1.5492},
+  {"id": 5, "nom": "Pont sur l'Ariège", "adresse": "Route de Gaillac, 31550 Cintegabelle", "details": "Ouvrage d'art permettant le franchissement de la rivière Ariège au pied du village.", "lat": 43.3142, "lng": 1.5285},
+  {"id": 6, "nom": "Château du Secourieu", "adresse": "Domaine du Secourieu, 31550 Cintegabelle", "details": "Château du XIIIe siècle remanié, inscrit au titre des monuments historiques.", "lat": 43.3425, "lng": 1.5215},
+  {"id": 7, "nom": "Pigeonnier de Bouissou", "adresse": "Bouissou, 31550 Cintegabelle", "details": "Élément remarquable du patrimoine agricole local, typique du Lauragais.", "lat": 43.3085, "lng": 1.5482},
+  {"id": 8, "nom": "Château d'Ampouillac", "adresse": "Ampouillac, 31550 Cintegabelle", "details": "Ancienne demeure seigneuriale située sur les coteaux de la commune.", "lat": 43.3225, "lng": 1.5042},
+  {"id": 9, "nom": "Manoir de Lagarde", "adresse": "Lagarde, 31550 Cintegabelle", "details": "Bâtisse historique représentative de l'architecture rurale noble de la région.", "lat": 43.3312, "lng": 1.5125}
+]

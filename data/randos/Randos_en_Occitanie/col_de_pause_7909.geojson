@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Col de Pause",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7909,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.7909049987793,
+        "longitude": 1.1418689489364624,
+        "local_name": "Col de Pause",
+        "country": "FRA",
+        "street": "D703",
+        "postcode": "9140",
+        "city": "Couflens"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

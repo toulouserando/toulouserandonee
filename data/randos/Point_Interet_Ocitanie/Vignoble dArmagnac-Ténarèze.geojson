@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vignoble d'Armagnac-Ténarèze",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35533,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.88970184326172,
+        "longitude": 0.3735370934009552,
+        "local_name": "Vignoble d'Armagnac-Ténarèze",
+        "country": "FRA",
+        "street": null,
+        "postcode": "32310",
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

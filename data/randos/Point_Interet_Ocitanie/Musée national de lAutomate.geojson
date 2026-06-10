@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée national de l'Automate",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23103,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.89397430419922,
+        "longitude": 1.4768370389938354,
+        "local_name": "Musée national de l'Automate",
+        "country": "FRA",
+        "street": "Esplanade A. Chastagnol",
+        "postcode": "46200",
+        "city": "Souillac"
+      },
+      "geometry": null
+    }
+  ]
+}

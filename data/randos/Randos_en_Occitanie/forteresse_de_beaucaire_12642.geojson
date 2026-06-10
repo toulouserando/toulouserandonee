@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Forteresse de Beaucaire",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12642,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.809234619140625,
+        "longitude": 4.64442777633667,
+        "local_name": "Forteresse de Beaucaire",
+        "country": "FRA",
+        "street": "Place Raymond-VII",
+        "postcode": "30300",
+        "city": "Beaucaire"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

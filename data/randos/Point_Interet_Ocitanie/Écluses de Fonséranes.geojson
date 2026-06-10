@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Écluses de Fonséranes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9413,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.330718994140625,
+        "longitude": 3.199939012527466,
+        "local_name": "Écluses de Fonséranes",
+        "country": "FRA",
+        "street": "N 9",
+        "postcode": "34500",
+        "city": "Béziers"
+      },
+      "geometry": null
+    }
+  ]
+}

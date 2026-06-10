@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Abbaye Saint-Martin-du-Canigou",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 376,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.52817153930664,
+        "longitude": 2.40093994140625,
+        "local_name": "Abbaye Saint-Martin-du-Canigou",
+        "country": "FRA",
+        "street": null,
+        "postcode": "66820",
+        "city": "Casteil"
+      },
+      "geometry": null
+    }
+  ]
+}

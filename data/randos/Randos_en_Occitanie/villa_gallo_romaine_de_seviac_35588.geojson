@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Villa gallo-romaine de Séviac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35588,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.944252014160156,
+        "longitude": 0.18168626725673676,
+        "local_name": "Villa gallo-romaine de Séviac",
+        "country": "FRA",
+        "street": "Séviac",
+        "postcode": "32250",
+        "city": "Montréal-du-Gers"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

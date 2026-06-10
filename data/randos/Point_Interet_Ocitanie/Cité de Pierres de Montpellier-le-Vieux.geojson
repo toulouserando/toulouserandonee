@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cité de Pierres de Montpellier-le-Vieux",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7522,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.14165115356445,
+        "longitude": 3.203218936920166,
+        "local_name": "Cité de Pierres de Montpellier-le-Vieux",
+        "country": "FRA",
+        "street": null,
+        "postcode": "12100",
+        "city": "La Roque-Ste-Marguerite"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lac Bleu",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46698,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.93708419799805,
+        "longitude": 0.08004886656999588,
+        "local_name": "Lac Bleu",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

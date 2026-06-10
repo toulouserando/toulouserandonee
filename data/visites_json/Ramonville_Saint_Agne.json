@@ -1,0 +1,13 @@
+[
+  {"id": 1, "nom": "Canal du Midi", "adresse": "Port Sud, 31520 Ramonville-Saint-Agne", "details": "Œuvre de Pierre-Paul Riquet classée au patrimoine mondial de l'UNESCO traversant la commune.", "lat": 43.5488, "lng": 1.4789},
+  {"id": 2, "nom": "Château de Soule", "adresse": "Avenue de Suisse, 31520 Ramonville-Saint-Agne", "details": "Ancienne demeure seigneuriale aujourd'hui centre de loisirs et parc public.", "lat": 43.5445, "lng": 1.4642},
+  {"id": 3, "nom": "Pigeonnier de la Comtesse", "adresse": "Rue des Pigeons, 31520 Ramonville-Saint-Agne", "details": "Ancien pigeonnier seigneurial restauré, témoin de l'architecture rurale locale.", "lat": 43.5431, "lng": 1.4725},
+  {"id": 4, "nom": "Ferme de Cinquante", "adresse": "Chemin de la Ferme, 31520 Ramonville-Saint-Agne", "details": "Ancienne métairie transformée en centre culturel et ferme pédagogique.", "lat": 43.5358, "lng": 1.4878},
+  {"id": 5, "nom": "Château d'Aubuisson", "adresse": "8 Rue d'Aubuisson, 31520 Ramonville-Saint-Agne", "details": "Édifice historique abritant aujourd'hui des services municipaux et des associations.", "lat": 43.5512, "lng": 1.4678},
+  {"id": 6, "nom": "Aqueduc à siphon de Saint-Agne", "adresse": "Avenue des Crêtes, 31520 Ramonville-Saint-Agne", "details": "Ouvrage technique permettant le passage d'un ruisseau sous le lit du Canal du Midi.", "lat": 43.5541, "lng": 1.4722},
+  {"id": 7, "nom": "Église Saint-Agne", "adresse": "Avenue de l'Église, 31520 Ramonville-Saint-Agne", "details": "Église de style néogothique possédant un clocher-mur typique de la région toulousaine.", "lat": 43.5422, "lng": 1.4614},
+  {"id": 8, "nom": "Église Saint-Jean", "adresse": "Place Marnac, 31520 Ramonville-Saint-Agne", "details": "Église moderne située dans le centre-ville, à proximité des commerces de Marnac.", "lat": 43.5468, "lng": 1.4735},
+  {"id": 9, "nom": "Chapelle Sainte-Anne", "adresse": "Chemin de Mange-Pommes, 31520 Ramonville-Saint-Agne", "details": "Petite chapelle historique située dans les coteaux de la ville.", "lat": 43.5385, "lng": 1.4589},
+  {"id": 10, "nom": "Église du XVIIIe siècle", "adresse": "Cœur de ville, 31520 Ramonville-Saint-Agne", "details": "Possède un lustre du XVIIIe et une croix processionnelle en bois sculpté et doré.", "lat": 43.5425, "lng": 1.4618},
+  {"id": 11, "nom": "Crucifix de Roubinis", "adresse": "Chemin de Roubinis, 31520 Ramonville-Saint-Agne", "details": "Croix de chemin historique marquant l'ancien domaine de Roubinis.", "lat": 43.5362, "lng": 1.4741}
+]

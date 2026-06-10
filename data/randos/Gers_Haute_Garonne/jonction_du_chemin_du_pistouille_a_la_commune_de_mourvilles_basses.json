@@ -1,0 +1,144 @@
+[
+    {
+        "nom_itineraire": "Jonction du Chemin du Pistouillé à la Commune de Mourvilles-Basses",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caragoudes",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "865",
+        "nat_juridique": "Chemin rural (CR)",
+        "longueur": "238",
+        "insee_commune": "31105",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.715908164409745,
+                            43.48554431544535
+                        ],
+                        [
+                            1.715818106403271,
+                            43.485425598948375
+                        ],
+                        [
+                            1.715692846909303,
+                            43.48542217376615
+                        ],
+                        [
+                            1.715445968401933,
+                            43.485491092568324
+                        ],
+                        [
+                            1.714768644309907,
+                            43.485609277636534
+                        ],
+                        [
+                            1.713143371073739,
+                            43.48590261686092
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7145535540675647,
+            "lat": 43.48565134402236
+        }
+    },
+    {
+        "nom_itineraire": "Jonction du Chemin du Pistouillé à la Commune de Mourvilles-Basses",
+        "type_itineraire": "PR (sentier de Promenade et Randonnée)",
+        "commune": "Caragoudes",
+        "intercommunalite": "CC des Terres du Lauragais",
+        "id": "866",
+        "nat_juridique": "Voie communale (VC)",
+        "longueur": "638",
+        "insee_commune": "31105",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            1.72347738837739,
+                            43.48451509958837
+                        ],
+                        [
+                            1.72337736745105,
+                            43.484505172729605
+                        ],
+                        [
+                            1.722518922098534,
+                            43.48449506275351
+                        ],
+                        [
+                            1.722085739072648,
+                            43.48454820955932
+                        ],
+                        [
+                            1.721534172777188,
+                            43.484648501483186
+                        ],
+                        [
+                            1.721052006662696,
+                            43.48474572579287
+                        ],
+                        [
+                            1.720415902571204,
+                            43.48481006434362
+                        ],
+                        [
+                            1.719671471239379,
+                            43.48494884657286
+                        ],
+                        [
+                            1.719076938085981,
+                            43.48506221071395
+                        ],
+                        [
+                            1.718611712272477,
+                            43.4851169069399
+                        ],
+                        [
+                            1.718200108699884,
+                            43.48515864312945
+                        ],
+                        [
+                            1.717959215690775,
+                            43.48519851279631
+                        ],
+                        [
+                            1.717122829359918,
+                            43.48539444159354
+                        ],
+                        [
+                            1.716288453164442,
+                            43.485619513397516
+                        ],
+                        [
+                            1.716044370617371,
+                            43.48568264155879
+                        ],
+                        [
+                            1.71590877216498,
+                            43.485545116600015
+                        ],
+                        [
+                            1.715908164409745,
+                            43.48554431544535
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 1.7196485560120376,
+            "lat": 43.48497771271506
+        }
+    }
+]

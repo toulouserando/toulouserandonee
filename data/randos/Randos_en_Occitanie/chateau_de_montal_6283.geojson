@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Montal",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6283,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.86031723022461,
+        "longitude": 1.8680118322372437,
+        "local_name": "Château de Montal",
+        "country": "FRA",
+        "street": null,
+        "postcode": "46400",
+        "city": "St-Jean-Lespinasse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

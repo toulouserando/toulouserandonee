@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cirque de Mourèze",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7308,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.61941909790039,
+        "longitude": 3.368152379989624,
+        "local_name": "Cirque de Mourèze",
+        "country": "FRA",
+        "street": null,
+        "postcode": "34800",
+        "city": "Mourèze"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

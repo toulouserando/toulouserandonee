@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Moissac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19767,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.10476303100586,
+        "longitude": 1.0847915410995483,
+        "local_name": "Moissac",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

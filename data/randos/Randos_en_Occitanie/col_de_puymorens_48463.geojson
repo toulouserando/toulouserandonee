@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Col de Puymorens",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48463,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.55952072143555,
+        "longitude": 1.810824990272522,
+        "local_name": "Col de Puymorens",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

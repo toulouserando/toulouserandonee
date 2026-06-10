@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Patrimoine_Miélan.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.307458,
+            43.429722,
+            277.92
+          ],
+          [
+            0.307458,
+            43.429722,
+            277.92
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Patrimoine_Miélan.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.307458,
+            43.429722
+          ],
+          [
+            0.307458,
+            43.429722
+          ]
+        ]
+      }
+    }
+  ]
+}

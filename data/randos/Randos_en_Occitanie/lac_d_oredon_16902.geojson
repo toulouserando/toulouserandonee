@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lac d'Orédon",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16902,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.82609176635742,
+        "longitude": 0.16224592924118042,
+        "local_name": "Lac d'Orédon",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65170",
+        "city": "Aragnouet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

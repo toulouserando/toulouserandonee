@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Duché d'Uzès",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9378,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.01322937011719,
+        "longitude": 4.419846057891846,
+        "local_name": "Duché d'Uzès",
+        "country": "FRA",
+        "street": "1 place du Duché",
+        "postcode": "30700",
+        "city": "Uzès"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

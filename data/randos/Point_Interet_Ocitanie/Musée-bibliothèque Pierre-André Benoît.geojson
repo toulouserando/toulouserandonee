@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée-bibliothèque Pierre-André Benoît",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23435,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.13037109375,
+        "longitude": 4.068963050842285,
+        "local_name": "Musée-bibliothèque Pierre-André Benoît",
+        "country": "FRA",
+        "street": "Rue de Brouzen - quartier de Rochebelle",
+        "postcode": "30100",
+        "city": "Alès"
+      },
+      "geometry": null
+    }
+  ]
+}

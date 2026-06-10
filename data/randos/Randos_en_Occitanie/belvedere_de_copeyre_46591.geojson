@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Belvédère de Copeyre",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46591,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.90993881225586,
+        "longitude": 1.6380399465560913,
+        "local_name": "Belvédère de Copeyre",
+        "country": "FRA",
+        "street": null,
+        "postcode": "46600",
+        "city": "Floirac"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

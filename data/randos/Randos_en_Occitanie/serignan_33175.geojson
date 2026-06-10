@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sérignan",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33175,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.28160095214844,
+        "longitude": 3.283043622970581,
+        "local_name": "Sérignan",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

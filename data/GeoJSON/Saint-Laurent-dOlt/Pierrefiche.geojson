@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Pierrefiche.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.948528,
+            44.443502,
+            639.31
+          ],
+          [
+            2.948528,
+            44.443502,
+            639.31
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Pierrefiche.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.948528,
+            44.443502
+          ],
+          [
+            2.948528,
+            44.443502
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Col (ou hourquette) d'Aubert",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7855,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.85446548461914,
+        "longitude": 0.12343700230121613,
+        "local_name": "Col (ou hourquette) d'Aubert",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65170",
+        "city": "Fabian"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

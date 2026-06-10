@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Ornézan_Patrimoine.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.601471,
+            43.511442,
+            176.68
+          ],
+          [
+            0.601869,
+            43.511338,
+            173.97
+          ],
+          [
+            0.602673,
+            43.512436,
+            172.94
+          ],
+          [
+            0.602673,
+            43.512436,
+            172.94
+          ],
+          [
+            0.601869,
+            43.511338,
+            173.97
+          ],
+          [
+            0.601471,
+            43.511442,
+            176.68
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Ornézan_Patrimoine.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.601471,
+            43.511442
+          ],
+          [
+            0.601869,
+            43.511338
+          ],
+          [
+            0.602673,
+            43.512436
+          ],
+          [
+            0.602673,
+            43.512436
+          ],
+          [
+            0.601869,
+            43.511338
+          ],
+          [
+            0.601471,
+            43.511442
+          ]
+        ]
+      }
+    }
+  ]
+}

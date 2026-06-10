@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Entraygues-sur-Truyère",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11527,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.644775390625,
+        "longitude": 2.564288377761841,
+        "local_name": "Entraygues-sur-Truyère",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

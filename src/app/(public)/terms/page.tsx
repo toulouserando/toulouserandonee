@@ -1,9 +1,23 @@
+"use client"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { FileText } from "lucide-react";
+import Link from "next/link"; // Import du lien Next.js
+import { FileText, ArrowLeft } from "lucide-react";
 
 export default function TermsOfUsePage() {
   return (
     <div className="space-y-6 max-w-4xl mx-auto">
+
+      {/* Bouton Retour à l'Accueil */}
+      <div className="flex justify-start">
+        <Button variant="ghost" asChild className="gap-2">
+          <Link href="/">
+            <ArrowLeft className="h-4 w-4" />
+            Retour à l'accueil
+          </Link>
+        </Button>
+      </div>
+
       <div className="flex items-center gap-4">
         <FileText className="h-10 w-10 text-accent"/>
         <div>

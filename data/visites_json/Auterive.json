@@ -1,0 +1,12 @@
+[
+  {"id": 1, "nom": "Église Saint-Paul", "adresse": "Place Saint-Paul, 31190 Auterive", "details": "Gothique languedocien, célèbre pour son clocher-mur monumental", "lat": 43.3524, "lng": 1.4746},
+  {"id": 2, "nom": "Église de la Madeleine", "adresse": "Quartier de la Madeleine, 31190 Auterive", "details": "Église paroissiale située sur la rive gauche de l'Ariège", "lat": 43.3498, "lng": 1.4705},
+  {"id": 3, "nom": "Chapelle Notre-Dame-du-Château", "adresse": "Esplanade Notre-Dame, 31190 Auterive", "details": "Située sur les hauteurs, vestige de l'ancien site fortifié", "lat": 43.3516, "lng": 1.4764},
+  {"id": 4, "nom": "Musée des Métiers et Traditions", "adresse": "Place du Maréchal Leclerc, 31190 Auterive", "details": "Musée retraçant la vie rurale et artisanale locale", "lat": 43.3521, "lng": 1.4735},
+  {"id": 5, "nom": "Vestiges du vieux pont roman", "adresse": "Rives de l'Ariège, 31190 Auterive", "details": "Anciennes piles d'un pont médiéval emporté par les crues", "lat": 43.3510, "lng": 1.4731},
+  {"id": 6, "nom": "Maison Ysalguier", "adresse": "Rue du Docteur Capelle, 31190 Auterive", "details": "Demeure historique d'une puissante famille du XIVe siècle", "lat": 43.3519, "lng": 3.4752},
+  {"id": 7, "nom": "Hôtel-Dieu Saint-Jacques", "adresse": "Proximité de l'Ariège, 31190 Auterive", "details": "Ancien lieu d'accueil pour les pèlerins de Compostelle", "lat": 43.3515, "lng": 1.4728},
+  {"id": 8, "nom": "Maison du Comte (Maison Delpy)", "adresse": "Rue de la République, 31190 Auterive", "details": "Maison à pans de bois et briques typique de la région", "lat": 43.3512, "lng": 1.4755},
+  {"id": 9, "nom": "Ancienne Manufacture Royale", "adresse": "Quartier de la Madeleine, 31190 Auterive", "details": "Ancienne usine de draps active sous l'Ancien Régime", "lat": 43.3492, "lng": 1.4695},
+  {"id": 10, "nom": "Anciens remparts et Tour Cambolas", "adresse": "Rue des Remparts, 31190 Auterive", "details": "Vestiges des fortifications médiévales de la cité", "lat": 43.3526, "lng": 1.4758}
+]

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Abbaye de Fontfroide",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 167,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.12758255004883,
+        "longitude": 2.897844076156616,
+        "local_name": "Abbaye de Fontfroide",
+        "country": "FRA",
+        "street": "D 613",
+        "postcode": "11100",
+        "city": "Narbonne"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

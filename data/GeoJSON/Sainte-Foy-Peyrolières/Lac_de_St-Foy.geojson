@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Lac_de_St-Foy.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.136653,
+            43.498233,
+            233.31
+          ],
+          [
+            1.136653,
+            43.498233,
+            233.31
+          ],
+          [
+            1.137454,
+            43.498343,
+            233.94
+          ],
+          [
+            1.137748,
+            43.497419,
+            230.0
+          ],
+          [
+            1.137884,
+            43.497416,
+            229.33
+          ],
+          [
+            1.137949,
+            43.497392,
+            229.17
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Lac_de_St-Foy.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.136653,
+            43.498233
+          ],
+          [
+            1.136653,
+            43.498233
+          ],
+          [
+            1.137454,
+            43.498343
+          ],
+          [
+            1.137748,
+            43.497419
+          ],
+          [
+            1.137949,
+            43.497392
+          ]
+        ]
+      }
+    }
+  ]
+}

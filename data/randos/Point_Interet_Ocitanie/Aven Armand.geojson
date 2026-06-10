@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Aven Armand",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1625,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.221065521240234,
+        "longitude": 3.3571650981903076,
+        "local_name": "Aven Armand",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48150",
+        "city": "Hures-la-Parade"
+      },
+      "geometry": null
+    }
+  ]
+}

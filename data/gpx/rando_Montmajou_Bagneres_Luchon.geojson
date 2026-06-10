@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "Boucle Plan de Montmajou"},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [0.6025, 42.8222], 
+          [0.6185, 42.8125], 
+          [0.6305, 42.8145], 
+          [0.6455, 42.8235], 
+          [0.6405, 42.8315], 
+          [0.6155, 42.8295], 
+          [0.6025, 42.8222]
+        ]
+      }
+    }
+  ]
+}

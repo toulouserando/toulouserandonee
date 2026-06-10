@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Bruniquel",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3257,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.055145263671875,
+        "longitude": 1.664381742477417,
+        "local_name": "Bruniquel",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

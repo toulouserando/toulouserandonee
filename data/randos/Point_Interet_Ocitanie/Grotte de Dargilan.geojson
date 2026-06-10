@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grotte de Dargilan",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13709,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.19608688354492,
+        "longitude": 3.3775010108947754,
+        "local_name": "Grotte de Dargilan",
+        "country": "FRA",
+        "street": null,
+        "postcode": "48150",
+        "city": "Meyrueis"
+      },
+      "geometry": null
+    }
+  ]
+}

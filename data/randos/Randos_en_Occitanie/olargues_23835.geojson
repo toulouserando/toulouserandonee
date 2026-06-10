@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Olargues",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23835,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.55604553222656,
+        "longitude": 2.9137470722198486,
+        "local_name": "Olargues",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

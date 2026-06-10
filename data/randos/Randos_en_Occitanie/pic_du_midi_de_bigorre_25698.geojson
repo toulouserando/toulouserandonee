@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pic du Midi de Bigorre",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25698,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.93734359741211,
+        "longitude": 0.1412915140390396,
+        "local_name": "Pic du Midi de Bigorre",
+        "country": "FRA",
+        "street": "Rue Lamy-de-la-Chapelle",
+        "postcode": "65200",
+        "city": "La Mongie"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

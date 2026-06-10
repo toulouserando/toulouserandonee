@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Aeroscopia",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 429,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.65926742553711,
+        "longitude": 1.3609825372695923,
+        "local_name": "Aeroscopia",
+        "country": "FRA",
+        "street": "6 rue Roger-Béteille",
+        "postcode": "31700",
+        "city": "Blagnac"
+      },
+      "geometry": null
+    }
+  ]
+}

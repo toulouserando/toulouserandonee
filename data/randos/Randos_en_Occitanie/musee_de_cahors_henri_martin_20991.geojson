@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Musée de Cahors Henri-Martin",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20991,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.44850158691406,
+        "longitude": 1.4387739896774292,
+        "local_name": "Musée de Cahors Henri-Martin",
+        "country": "FRA",
+        "street": "792 rue Émile-Zola",
+        "postcode": "46000",
+        "city": "Cahors"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

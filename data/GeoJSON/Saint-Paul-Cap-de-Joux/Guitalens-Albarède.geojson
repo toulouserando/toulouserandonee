@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GraphHopper Track",
+        "source": "Guitalens-Albarède.gpx",
+        "type": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.979823,
+            43.645673,
+            161.0
+          ],
+          [
+            1.979823,
+            43.645673,
+            161.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Guitalens-Albarède.gpx",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.979823,
+            43.645673
+          ],
+          [
+            1.979823,
+            43.645673
+          ]
+        ]
+      }
+    }
+  ]
+}

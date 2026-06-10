@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Le Grau-du-Roi",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17461,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.53737258911133,
+        "longitude": 4.137670993804932,
+        "local_name": "Le Grau-du-Roi",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

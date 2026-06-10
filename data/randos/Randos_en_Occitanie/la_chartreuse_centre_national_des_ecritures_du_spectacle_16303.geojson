@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "La Chartreuse - Centre national des écritures du spectacle",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16303,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.966007232666016,
+        "longitude": 4.796203136444092,
+        "local_name": "La Chartreuse - Centre national des écritures du spectacle",
+        "country": "FRA",
+        "street": "58 rue de la République",
+        "postcode": "30400",
+        "city": "Villeneuve-lez-Avignon"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

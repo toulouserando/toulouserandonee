@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Marcilhac-sur-Célé",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46277,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.55292892456055,
+        "longitude": 1.7710646390914917,
+        "local_name": "Marcilhac-sur-Célé",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

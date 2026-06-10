@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Château de Montségur",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6328,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.87575912475586,
+        "longitude": 1.8331379890441895,
+        "local_name": "Château de Montségur",
+        "country": "FRA",
+        "street": null,
+        "postcode": "9300",
+        "city": "Montségur"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

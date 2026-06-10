@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Canal du Midi",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3541,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.613162994384766,
+        "longitude": 1.4299919605255127,
+        "local_name": "Canal du Midi",
+        "country": "FRA",
+        "street": null,
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

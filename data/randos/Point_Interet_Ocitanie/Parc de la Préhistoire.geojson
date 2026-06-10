@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Parc de la Préhistoire",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24651,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.855438232421875,
+        "longitude": 1.5759199857711792,
+        "local_name": "Parc de la Préhistoire",
+        "country": "FRA",
+        "street": "Route de Banat",
+        "postcode": "9400",
+        "city": "Tarascon-sur-Ariège"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale Saint-Lizier",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4405,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.00300979614258,
+        "longitude": 1.1384409666061401,
+        "local_name": "Cathédrale Saint-Lizier",
+        "country": "FRA",
+        "street": "Place de l’Église",
+        "postcode": "9190",
+        "city": "St-Lizier"
+      },
+      "geometry": null
+    }
+  ]
+}

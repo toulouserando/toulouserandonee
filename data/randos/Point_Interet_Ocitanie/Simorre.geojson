@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Simorre",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33222,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.45056915283203,
+        "longitude": 0.7360205054283142,
+        "local_name": "Simorre",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

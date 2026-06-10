@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Bagnères-de-Luchon",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1753,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.791202545166016,
+        "longitude": 0.5911886096000671,
+        "local_name": "Bagnères-de-Luchon",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

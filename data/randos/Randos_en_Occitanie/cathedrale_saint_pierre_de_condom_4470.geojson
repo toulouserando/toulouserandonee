@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cathédrale Saint-Pierre de Condom",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4470,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.95798873901367,
+        "longitude": 0.37293699383735657,
+        "local_name": "Cathédrale Saint-Pierre de Condom",
+        "country": "FRA",
+        "street": "Place St-Pierre",
+        "postcode": "32100",
+        "city": "Condom"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

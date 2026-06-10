@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Jardins et abbaye Saint-André",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16061,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.96602249145508,
+        "longitude": 4.800662994384766,
+        "local_name": "Jardins et abbaye Saint-André",
+        "country": "FRA",
+        "street": "Rue de la Montée-du-Fort",
+        "postcode": "30400",
+        "city": "Villeneuve-lez-Avignon"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

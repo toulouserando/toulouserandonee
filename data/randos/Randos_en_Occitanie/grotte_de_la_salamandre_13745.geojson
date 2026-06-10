@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Grotte de la Salamandre",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13745,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.25801467895508,
+        "longitude": 4.339995384216309,
+        "local_name": "Grotte de la Salamandre",
+        "country": "FRA",
+        "street": null,
+        "postcode": "30430",
+        "city": "Méjannes-le-Clap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

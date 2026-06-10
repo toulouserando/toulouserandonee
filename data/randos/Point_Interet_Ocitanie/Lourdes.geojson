@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lourdes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18158,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.09809112548828,
+        "longitude": -0.04555800184607506,
+        "local_name": "Lourdes",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

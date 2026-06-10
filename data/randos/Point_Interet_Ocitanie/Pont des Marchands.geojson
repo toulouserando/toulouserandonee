@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pont des Marchands",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27873,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.182891845703125,
+        "longitude": 3.0032689571380615,
+        "local_name": "Pont des Marchands",
+        "country": "FRA",
+        "street": null,
+        "postcode": "11100",
+        "city": "Narbonne"
+      },
+      "geometry": null
+    }
+  ]
+}

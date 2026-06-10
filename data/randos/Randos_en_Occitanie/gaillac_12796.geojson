@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gaillac",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12796,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.900360107421875,
+        "longitude": 1.89701247215271,
+        "local_name": "Gaillac",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

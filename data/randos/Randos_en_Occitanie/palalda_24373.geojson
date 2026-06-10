@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Palalda",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24373,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.484535217285156,
+        "longitude": 2.6743216514587402,
+        "local_name": "Palalda",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

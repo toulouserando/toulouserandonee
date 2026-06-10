@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cirque du Lys",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7344,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.879241943359375,
+        "longitude": -0.17900300025939941,
+        "local_name": "Cirque du Lys",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65110",
+        "city": "Cauterets"
+      },
+      "geometry": null
+    }
+  ]
+}

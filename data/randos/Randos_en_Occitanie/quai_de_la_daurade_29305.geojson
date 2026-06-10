@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Quai de la Daurade",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29305,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.6016960144043,
+        "longitude": 1.4393819570541382,
+        "local_name": "Quai de la Daurade",
+        "country": "FRA",
+        "street": "Place de la Daurade",
+        "postcode": "31000",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

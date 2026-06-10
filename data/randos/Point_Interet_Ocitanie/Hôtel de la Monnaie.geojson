@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hôtel de la Monnaie",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14369,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.60779571533203,
+        "longitude": 2.032443046569824,
+        "local_name": "Hôtel de la Monnaie",
+        "country": "FRA",
+        "street": "Place Vival",
+        "postcode": "46100",
+        "city": "Figeac"
+      },
+      "geometry": null
+    }
+  ]
+}

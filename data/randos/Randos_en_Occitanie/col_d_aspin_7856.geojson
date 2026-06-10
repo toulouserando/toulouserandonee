@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Col d'Aspin",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7856,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.942466735839844,
+        "longitude": 0.3280737102031708,
+        "local_name": "Col d'Aspin",
+        "country": "FRA",
+        "street": "D918",
+        "postcode": "65240",
+        "city": "Aspin-Aure"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

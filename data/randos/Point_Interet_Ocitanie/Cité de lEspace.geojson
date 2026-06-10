@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Cité de l'Espace",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7485,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.58668899536133,
+        "longitude": 1.4924689531326294,
+        "local_name": "Cité de l'Espace",
+        "country": "FRA",
+        "street": "Avenue Jean-Gonord",
+        "postcode": "31500",
+        "city": "Toulouse"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vallée de Cauterets",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34797,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.92376708984375,
+        "longitude": -0.09488599747419357,
+        "local_name": "Vallée de Cauterets",
+        "country": "FRA",
+        "street": null,
+        "postcode": "65110",
+        "city": "Cauterets"
+      },
+      "geometry": null
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {"id": 1, "nom": "Église Sainte-Marie-Madeleine", "adresse": "Place de l'Église, 31820 Pibrac", "details": "Église paroissiale d'origine médiévale, remaniée au XIXe siècle, liée à l'histoire de Sainte Germaine.", "lat": 43.6181, "lng": 1.2847},
+  {"id": 2, "nom": "Basilique Sainte-Germaine", "adresse": "Avenue de la Basilique, 31820 Pibrac", "details": "Édifice de style romano-byzantin construit par l'architecte Pierre Esquié, consacré à la bergère de Pibrac.", "lat": 43.6174, "lng": 1.2862},
+  {"id": 3, "nom": "Prieuré Saint-Dominique", "adresse": "2 Rue des Frères, 31820 Pibrac", "details": "Établissement religieux géré par les Frères de Saint-Jean, lieu d'accueil et de spiritualité.", "lat": 43.6183, "lng": 1.2828},
+  {"id": 4, "nom": "Château de Pibrac", "adresse": "Esplanade du Château, 31820 Pibrac", "details": "Château de plaisance de la Renaissance (XVIe siècle) en briques rouges, classé Monument Historique.", "lat": 43.6186, "lng": 1.2861},
+  {"id": 5, "nom": "Porte Henri IV", "adresse": "Esplanade du Château, 31820 Pibrac", "details": "Porte monumentale en forme d'arc de triomphe marquant l'entrée du domaine du château.", "lat": 43.6191, "lng": 1.2865}
+]

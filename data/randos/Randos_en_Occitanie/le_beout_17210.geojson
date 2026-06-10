@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Le Béout",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17210,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.081214904785156,
+        "longitude": -0.06570500135421753,
+        "local_name": "Le Béout",
+        "country": "FRA",
+        "street": "cours ecours-St-Pierre",
+        "postcode": "65100",
+        "city": "Lourdes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hôtel de Cabrières-Sabatier d'Espeyran",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14307,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.6112060546875,
+        "longitude": 3.8803350925445557,
+        "local_name": "Hôtel de Cabrières-Sabatier d'Espeyran",
+        "country": "FRA",
+        "street": "6 bis rue Montpelliéret",
+        "postcode": "34000",
+        "city": "Montpellier"
+      },
+      "geometry": null
+    }
+  ]
+}

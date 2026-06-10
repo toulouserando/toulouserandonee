@@ -1,9 +1,23 @@
+"use client"
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ShieldCheck } from "lucide-react";
+import { Button } from "@/components/ui/button"; // Import du bouton
+import Link from "next/link"; // Import pour la navigation
+import { ShieldCheck, ArrowLeft } from "lucide-react";
 
 export default function PrivacyPolicyPage() {
   return (
     <div className="space-y-6 max-w-4xl mx-auto">
+      {/* Bouton Retour à l'Accueil */}
+      <div className="flex justify-start">
+        <Button variant="ghost" asChild className="gap-2">
+          <Link href="/">
+            <ArrowLeft className="h-4 w-4" />
+            Retour à l'accueil
+          </Link>
+        </Button>
+      </div>
+
       <div className="flex items-center gap-4">
         <ShieldCheck className="h-10 w-10 text-accent"/>
         <div>

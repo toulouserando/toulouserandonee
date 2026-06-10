@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Auvillar",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1610,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 44.069488525390625,
+        "longitude": 0.8996920585632324,
+        "local_name": "Auvillar",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

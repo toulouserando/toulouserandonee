@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "Route de la Crouzette",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46700,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 42.932254791259766,
+        "longitude": 1.327585220336914,
+        "local_name": "Route de la Crouzette",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    }
+  ]
+}

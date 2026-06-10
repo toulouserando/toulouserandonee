@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sorèze",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33336,
+        "type": "CITY",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.453208923339844,
+        "longitude": 2.0657949447631836,
+        "local_name": "Sorèze",
+        "country": "FRA",
+        "street": null,
+        "postcode": null,
+        "city": null
+      },
+      "geometry": null
+    }
+  ]
+}

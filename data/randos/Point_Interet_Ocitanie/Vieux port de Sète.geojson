@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vieux port de Sète",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35445,
+        "type": "SITE",
+        "millesime": 2024,
+        "language": "fra",
+        "latitude": 43.39754104614258,
+        "longitude": 3.696532964706421,
+        "local_name": "Vieux port de Sète",
+        "country": "FRA",
+        "street": "quai de la Consigne",
+        "postcode": "34200",
+        "city": "Sète"
+      },
+      "geometry": null
+    }
+  ]
+}
