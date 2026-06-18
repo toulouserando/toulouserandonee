@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { createClient } from "@/utils/supabase/client"; // Adapte le chemin selon ton projet
+import { supabase } from "@/lib/supabase"; // 🚀 Le bon chemin fonctionnel et sécurisé
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -10,8 +10,7 @@ import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useToast } from "@/hooks/use-toast";
 
-export default function ConnectPage() {
-  const supabase = createClient();
+export default function SignUpPage() {
   const router = useRouter();
   const { toast } = useToast();
 

@@ -365,123 +365,199 @@ const handleCreateEvent = async (isPublished = true) => {
           </label>
       </Card>
 
-{/* DÉTAILS TEXTE */}
-<Card>
-  <CardHeader className="border-b bg-slate-50/30">
-    <CardTitle className="flex items-center gap-2 text-lg font-bold">
-      <ClipboardList className="text-primary w-5 h-5"/> Détails de la rando
-    </CardTitle>
-  </CardHeader>
-  <CardContent className="space-y-6 pt-6">
-    <div className="grid gap-2">
-      <Label htmlFor="event-title">Titre de l'évènement</Label>
-      <Input id="event-title" value={title} onChange={e => setTitle(e.target.value)} placeholder="Ex: Sortie au Pic du Midi" className="h-11" />
-    </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div className="space-y-2">
-        <Label htmlFor="event-desc">Description</Label>
-        <Textarea id="event-desc" value={description} onChange={e => setDescription(e.target.value)} rows={4} placeholder="Parlez-nous de la sortie..." />
-      </div>
-      <div className="space-y-2">
-        <Label htmlFor="event-reco" className="text-slate-500">Recommandations</Label>
-        <Textarea id="event-reco" value={recommendations} onChange={e => setRecommendations(e.target.value)} rows={4} placeholder="Équipement requis..." />
-      </div>
-    </div>
-  </CardContent>
-</Card>
+      {/* DÉTAILS TEXTE */}
+      <Card>
+        <CardHeader className="border-b bg-slate-50/30">
+          <CardTitle className="flex items-center gap-2 text-lg font-bold"><ClipboardList className="text-primary w-5 h-5"/> Détails de la rando</CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-6 pt-6">
+          <div className="grid gap-2">
+            <Label htmlFor="event-title">Titre de l'évènement</Label>
+            <Input id="event-title" value={title} onChange={e => setTitle(e.target.value)} placeholder="Ex: Sortie au Pic du Midi" className="h-11" />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="space-y-2">
+              <Label htmlFor="event-desc">Description</Label>
+              <Textarea id="event-desc" value={description} onChange={e => setDescription(e.target.value)} rows={4} placeholder="Parlez-nous de la sortie..." />
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="event-reco" className="text-slate-500">Recommandations</Label>
+              <Textarea id="event-reco" value={recommendations} onChange={e => setRecommendations(e.target.value)} rows={4} placeholder="Équipement requis..." />
+            </div>
+          </div>
+        </CardContent>
+      </Card>
 
-<Card className="overflow-hidden border-green-100 shadow-xl">
-  <CardHeader className="bg-green-700 text-white flex flex-row items-center justify-between py-4 px-6">
+      <Card className="overflow-hidden border-green-100 shadow-xl">
+        <CardHeader className="bg-green-700 text-white flex flex-row items-center justify-between py-4 px-6">
     <CardTitle className="flex items-center gap-2 text-md font-bold">
       <Route size={20}/> 1. Parcours (Suivi des sentiers)
     </CardTitle>
-    {selectedSource === 'custom' && (
-      <Button variant="outline" size="sm" onClick={() => setCustomPoints([])} className="bg-white/10 border-white/20 text-white">
-        <Trash2 size={14} className="mr-2"/> Effacer
-      </Button>
-    )}
-  </CardHeader>
+          {selectedSource === 'custom' && (
+            <Button variant="outline" size="sm" onClick={() => setCustomPoints([])} className="bg-white/10 border-white/20 text-white">
+              <Trash2 size={14} className="mr-2"/> Effacer
+            </Button>
+          )}
+        </CardHeader>
 
-  {/* L'ancien bloc avec la liste déroulante a été entièrement supprimé ici */}
+    <div className="bg-green-50 p-4 border-b border-green-100 flex flex-col md:flex-row items-center gap-4">
+      <Label className="text-green-800 font-semibold min-w-[150px] flex items-center gap-2">
+        <Search size={18} /> Utiliser un circuit :
+      </Label>
 
-  <div className="h-[500px] w-full relative z-0">
-    {mounted && (
-      <MapContainer 
-        center={[43.60, 1.44]} 
-        zoom={12} 
-        className="h-full w-full"
-        whenReady={() => {
-          console.log("Map 1 is ready");
-          setMap1Ready(true);
-        }}
-      >
-        <TileLayer 
-          url="https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png" 
-          attribution='&copy; OSM' 
-        />
-        
-        {map1Ready && (
-          <>
-            <ChangeView data={data} />
-            <RoutingControl 
-              active={selectedSource === 'custom'} 
-              points={customPoints} 
-              setPoints={setCustomPoints} 
-            />
+          <Popover open={openMenu} onOpenChange={setOpenMenu}>
+            <PopoverTrigger asChild>
+              <Button variant="outline" className="w-full justify-between bg-white border-green-200 h-11 text-sm">
+                <span className="truncate">{currentTitle}</span>
+                <ChevronsUpDown className="ml-2 h-4 w-4 opacity-50" />
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent className="w-[450px] p-0 z-[1100]" align="start">
+              <Command>
+                <CommandInput placeholder="Rechercher une trace..." />
+                <CommandList className="max-h-[400px]">
+                  <CommandEmpty>Aucun résultat.</CommandEmpty>
+                  <CommandGroup>
+                    <CommandItem onSelect={() => { setSelectedSource("custom"); setOpenMenu(false); }} className="text-orange-600 font-bold py-3">
+                      <Check className={`mr-2 h-4 w-4 ${selectedSource === "custom" ? "opacity-100" : "opacity-0"}`} />
+                      ✍️ Nouveau tracé personnalisé
+                    </CommandItem>
+                  </CommandGroup>
 
-            {selectedSource !== 'custom' && data && data.length > 0 && data.map((item, idx) => {
-              const geo = item.geometry || item.route_geometry; 
-              if (!item || !geo) return null;
-              const isPoint = geo.type === "Point";
+                  <CommandGroup>
+                    <Collapsible open={openLocaux} onOpenChange={setOpenLocaux}>
+                      <CollapsibleTrigger className="flex w-full items-center justify-between p-3 text-xs font-bold text-blue-600 bg-blue-50/50 border-t uppercase">
+                        <div className="flex items-center gap-2"><Library size={14} /> Fichiers Officiels</div>
+                        <ChevronRight className={`transition-transform ${openLocaux ? 'rotate-90' : ''}`} size={14} />
+                      </CollapsibleTrigger>
+                      <CollapsibleContent>
+                        {Object.entries(sources.locaux).map(([dept, files]) => (
+                          <div key={dept} className="mt-1">
+                            <div className="px-4 py-1 text-[10px] font-black text-slate-400 uppercase">{dept}</div>
+                            {files.map((f) => (
+                              <CommandItem key={f.id} onSelect={() => { setSelectedSource(f.id); setOpenMenu(false); }} className="pl-6">
+                                <Check className={`mr-2 h-3 w-3 ${selectedSource === f.id ? "opacity-100" : "opacity-0"}`} />
+                                <span className="truncate">{f.title}</span>
+                              </CommandItem>
+                            ))}
+                          </div>
+                        ))}
+                      </CollapsibleContent>
+                    </Collapsible>
+                  </CommandGroup>
 
-              return (
-                <React.Fragment key={`layer-${selectedSource}-${idx}`}>
-                  <GeoJSON 
-                    key={`geojson-${selectedSource}-${idx}-${data.length}`}
-                    data={geo} 
-                    pointToLayer={() => (null as any)} 
-                    style={{ 
-                      color: String(selectedSource).toLowerCase().includes('gers') ? '#e11d48' : '#2563eb', 
-                      weight: 5, 
-                      opacity: 0.8 
-                    }} 
-                  />
-
-                  {isPoint && item.center && (
-                    <CircleMarker 
-                      center={item.center} 
-                      radius={6} 
-                      pathOptions={{ 
-                        fillColor: '#16a34a', 
-                        color: '#ffffff',     
-                        weight: 2, 
-                        fillOpacity: 1 
-                      }}
-                    >
-                      <Popup>
-                        <div className="font-bold text-green-800">{item.title}</div>
-                        {item.properties?.adresse && (
-                          <p className="text-xs text-slate-600">{item.properties.adresse}</p>
+                  <CommandGroup>
+                    <Collapsible open={openSupabase} onOpenChange={setOpenSupabase}>
+                      <CollapsibleTrigger className="flex w-full items-center justify-between p-3 text-xs font-bold text-slate-500 bg-slate-50 border-t uppercase">
+                        <div className="flex items-center gap-2"><Users size={14} /> Tracés Communauté</div>
+                        <ChevronRight className={`transition-transform ${openSupabase ? 'rotate-90' : ''}`} size={14} />
+                      </CollapsibleTrigger>
+                      <CollapsibleContent>
+                        {sources.supabase?.length > 0 ? (
+                          sources.supabase.map((s) => (
+                            <CommandItem key={s.id} onSelect={() => { setSelectedSource(s.id); setOpenMenu(false); }} className="pl-6">
+                              <Check className={`mr-2 h-4 w-4 ${selectedSource === s.id ? "opacity-100" : "opacity-0"}`} />
+                              <div className="flex flex-col">
+                                <span className="font-medium">{s.title}</span>
+                                <span className="text-[10px] text-slate-400">{s.location} • {s.distance}</span>
+                              </div>
+                            </CommandItem>
+                          ))
+                        ) : (
+                          <div className="p-4 text-center text-xs text-slate-400">Aucun tracé communautaire</div>
                         )}
-                      </Popup>
-                    </CircleMarker>
-                  )}
-                </React.Fragment>
-              );
-            })}
-          </>
-        )}
-      </MapContainer>
-    )}
+                      </CollapsibleContent>
+                    </Collapsible>
+                  </CommandGroup>
+                </CommandList>
+              </Command>
+            </PopoverContent>
+          </Popover>
+        </div>
 
-    {selectedSource === 'custom' && (
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-[1000] bg-white/90 shadow-2xl border border-green-200 px-6 py-2 rounded-full flex items-center gap-3 animate-bounce">
-        <MousePointer2 className="text-green-600" size={18} />
-        <span className="text-sm font-bold text-green-800 uppercase tracking-tight">Tracez votre chemin</span>
-      </div>
-    )}
-  </div>
-</Card>
+<div className="h-[500px] w-full relative z-0">
+  {mounted && (
+    <MapContainer 
+      center={[43.60, 1.44]} 
+      zoom={12} 
+      className="h-full w-full"
+      // CRITIQUE : On attend que la map soit prête avant d'autoriser les enfants
+      whenReady={() => {
+        console.log("Map 1 is ready");
+        setMap1Ready(true);
+      }}
+    >
+      <TileLayer 
+        url="https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png" 
+        attribution='&copy; OSM' 
+      />
+      
+      {/* On enveloppe TOUT ce qui dépend de Leaflet dans map1Ready.
+         Si map1Ready est faux, TileLayer et les autres ne seront pas rendus,
+         évitant ainsi l'erreur appendChild.
+      */}
+      {map1Ready && (
+        <>
+          <ChangeView data={data} />
+          <RoutingControl 
+            active={selectedSource === 'custom'} 
+            points={customPoints} 
+            setPoints={setCustomPoints} 
+          />
+
+          {selectedSource !== 'custom' && data && data.length > 0 && data.map((item, idx) => {
+            const geo = item.geometry || item.route_geometry; 
+            if (!item || !geo) return null;
+            const isPoint = geo.type === "Point";
+
+            return (
+              <React.Fragment key={`layer-${selectedSource}-${idx}`}>
+                <GeoJSON 
+                  key={`geojson-${selectedSource}-${idx}-${data.length}`}
+                  data={geo} 
+                  pointToLayer={() => (null as any)} 
+                  style={{ 
+                    color: String(selectedSource).toLowerCase().includes('gers') ? '#e11d48' : '#2563eb', 
+                    weight: 5, 
+                    opacity: 0.8 
+                  }} 
+                />
+
+                {isPoint && item.center && (
+                  <CircleMarker 
+                    center={item.center} 
+                    radius={6} 
+                    pathOptions={{ 
+                      fillColor: '#16a34a', 
+                      color: '#ffffff',     
+                      weight: 2, 
+                      fillOpacity: 1 
+                    }}
+                  >
+                    <Popup>
+                      <div className="font-bold text-green-800">{item.title}</div>
+                      {item.properties?.adresse && (
+                        <p className="text-xs text-slate-600">{item.properties.adresse}</p>
+                      )}
+                    </Popup>
+                  </CircleMarker>
+                )}
+              </React.Fragment>
+            );
+          })}
+        </>
+      )}
+    </MapContainer>
+  )}
+
+  {selectedSource === 'custom' && (
+    <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-[1000] bg-white/90 shadow-2xl border border-green-200 px-6 py-2 rounded-full flex items-center gap-3 animate-bounce">
+      <MousePointer2 className="text-green-600" size={18} />
+      <span className="text-sm font-bold text-green-800 uppercase tracking-tight">Tracez votre chemin</span>
+    </div>
+  )}
+</div>
+      </Card>
 
 {/* --- CARTE INFOS RANDONNÉE --- */}
 <Card className="mt-6">

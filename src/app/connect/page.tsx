@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { createClient } from "@/utils/supabase/client"; // Adapte le chemin selon ton projet
+import { supabase } from "@/lib/supabase"; // 🚀 Utilisation de ton client fonctionnel global
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -11,7 +11,6 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { useToast } from "@/hooks/use-toast";
 
 export default function ConnectPage() {
-  const supabase = createClient();
   const router = useRouter();
   const { toast } = useToast();
 

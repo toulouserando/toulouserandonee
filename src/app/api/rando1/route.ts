@@ -4,7 +4,18 @@ import path from 'path';
 
 export async function GET() {
   try {
-    const dirPath = path.join(process.cwd(), 'data', 'randos', 'balades_Toulouse');
+    // 💡 CRUCIAL POUR VERCEL : path.resolve force le compilateur à lier et embarquer
+    // le dossier 'data' dans le bundle de la fonction Serverless de production.
+    const dirPath = path.resolve(process.cwd(), 'data', 'randos', 'balades_Toulouse');
+    
+    // Vérification de sécurité pour le log en production si le dossier est introuvable
+    try {
+      await fs.access(dirPath);
+    } catch {
+      console.error(`Le dossier n'existe pas ou est inaccessible sur le serveur : ${dirPath}`);
+      return NextResponse.json({ error: "Dossier de données introuvable en production" }, { status: 404 });
+    }
+
     const files = await fs.readdir(dirPath);
     
     // Tri alphabétique strict pour éviter les inversions d'index selon l'OS
@@ -18,7 +29,7 @@ export async function GET() {
         const content = await fs.readFile(filePath, 'utf8');
         const fileData = JSON.parse(content);
 
-        // Extraction standardisée de la géométrie gérait par Toulouse
+        // Extraction standardisée de la géométrie gérée par Toulouse
         const rawGeometry = fileData.geo_shape?.geometry || fileData.geo_shape || fileData;
 
         // On enveloppe systématiquement dans une Feature propre pour Leaflet
@@ -34,7 +45,7 @@ export async function GET() {
           .replace(/^circuit\s\d+[a-z]?\s/i, ''); 
 
         return {
-          id: file, // Ton ID unique et stable
+          id: file, // Ton ID unique et stable (ex: "circuit_1_st_cyprien.json")
           title: joliNom,
           category: "Balades Toulouse",
           geometry: validGeoJSONFeature,
@@ -44,8 +55,11 @@ export async function GET() {
     );
 
     return NextResponse.json(allCircuits);
-  } catch (error) {
-    console.error("Erreur API Rando:", error);
-    return NextResponse.json({ error: "Erreur de lecture des circuits" }, { status: 500 });
+  } catch (error: any) {
+    console.error("Erreur API Rando complète :", error);
+    return NextResponse.json(
+      { error: "Erreur de lecture des circuits", details: error.message }, 
+      { status: 500 }
+    );
   }
 }
