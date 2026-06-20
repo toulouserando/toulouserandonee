@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
 
-// On crée un petit cache en dehors de la fonction GET
+// Cache mémoire hors de la fonction GET
 const cache: Record<string, any> = {};
 
 export async function GET(request: Request) {
@@ -17,17 +17,18 @@ export async function GET(request: Request) {
     ? 'poi_occitanie_clean.json.geojson' 
     : 'rando_occitanie_geo.geojson';
 
-  // Si on a déjà lu le fichier, on le renvoie directement
+  // Si le fichier est déjà en cache, on le sert immédiatement
   if (cache[fileName]) {
     return NextResponse.json(cache[fileName]);
   }
 
   try {
-    const filePath = path.join(process.cwd(), 'data', 'rando', fileName);
+    // 🎯 CORRECTION : Ajout de 'occitanie' dans le chemin pour coller à ton arborescence
+    const filePath = path.join(process.cwd(), 'data', 'rando', 'occitanie', fileName);
     const fileContent = await fs.readFile(filePath, 'utf8');
     const jsonData = JSON.parse(fileContent);
 
-    // On stocke dans le cache pour la prochaine fois
+    // Stockage en cache
     cache[fileName] = jsonData;
 
     return NextResponse.json(jsonData);
