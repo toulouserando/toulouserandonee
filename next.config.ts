@@ -2,8 +2,9 @@ import type { NextConfig } from 'next';
 
 const withPWA = require('@ducanh2912/next-pwa').default({
   dest: 'public',
-  cacheOnFrontEndNav: true,
-  aggressiveFrontEndNavCaching: true,
+  // Désactivé pour éviter que la PWA ne sature en mettant en cache vos gros GeoJSON
+  cacheOnFrontEndNav: false,
+  aggressiveFrontEndNavCaching: false,
   reloadOnOnline: true,
   swcMinify: true,
   register: true,
@@ -16,9 +17,8 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  // L'option eslint a été supprimée ici car obsolète sur Next.js 16+
+  
   // Webpack est conservé pour la compatibilité PWA
   webpack: (config) => {
     return config;
