@@ -17,8 +17,21 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // L'option eslint a été supprimée ici car obsolète sur Next.js 16+
   
+  // Exclure les gros fichiers de données des fonctions Serverless de Vercel
+  experimental: {
+    outputFileTracingExcludes: {
+      '**/*': [
+        'public/balade/Plandeau_*.geojson',
+        'public/balade/espaces-verts-Toulouse.json',
+        'public/balade/equipements-sportifs-Toulouse.json',
+        'public/visites/Montpellier',
+        'public/visites/Narbonne',
+        'public/visites/Montauban',
+      ],
+    },
+  },
+
   // Webpack est conservé pour la compatibilité PWA
   webpack: (config) => {
     return config;
