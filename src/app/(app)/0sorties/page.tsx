@@ -40,7 +40,7 @@ export default function BaladePage() {
 
     initMap();
 
-    fetch('/api/sorties')
+    fetch('/api/0sorties')
       .then(res => res.json())
       .then(data => setHikes(data))
       .catch(console.error);

@@ -1,26 +1,22 @@
 'use client';
 
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { PlusCircle } from 'lucide-react';
 import 'leaflet/dist/leaflet.css';
 
-// Import dynamique des composants Leaflet pour Next.js
+// Import dynamique des composants Leaflet pour Next.js (sécurisé sans SSR)
 const MapContainer = dynamic(() => import('react-leaflet').then(m => m.MapContainer), { ssr: false });
 const TileLayer = dynamic(() => import('react-leaflet').then(m => m.TileLayer), { ssr: false });
 const GeoJSON = dynamic(() => import('react-leaflet').then(m => m.GeoJSON), { ssr: false });
 
-// Petit composant interne pour recentrer la carte
-function ChangeView({ center }: { center: [number, number] }) {
-  const map = (window as any).L ? require('react-leaflet').useMap() : null;
-  if (map && center) map.setView(center, 12);
-  return null;
-}
-
 export default function PageRandos() {
   const [data, setData] = useState<any>(null);
   const [selectedRando, setSelectedRando] = useState<any>(null);
+  
+  // 🎯 On crée une référence pour manipuler la carte Leaflet directement
+  const mapRef = useRef<any>(null);
 
   useEffect(() => {
     fetch('/api/randogeojson')
@@ -29,11 +25,18 @@ export default function PageRandos() {
       .catch(err => console.error("Erreur API:", err));
   }, []);
 
+  // Effect pour recentrer la carte dès que la randonnée sélectionnée change
+  useEffect(() => {
+    if (selectedRando && !isNaN(selectedRando.LAT_DEPART) && mapRef.current) {
+      // mapRef.current nous donne un accès direct à l'instance Leaflet native, sans hook instable
+      mapRef.current.setView([selectedRando.LAT_DEPART, selectedRando.LON_DEPART], 12);
+    }
+  }, [selectedRando]);
+
   // Transformation des coordonnées plates en GeoJSON LineString
   const geoJsonData = useMemo(() => {
     if (!selectedRando || !selectedRando.LAT_DEPART) return null;
 
-    // On filtre les coordonnées pour éviter les erreurs si un point est manquant (NaN)
     const points = [];
     if (!isNaN(selectedRando.LAT_DEPART)) points.push([selectedRando.LON_DEPART, selectedRando.LAT_DEPART]);
     if (!isNaN(selectedRando.LAT_PIVOT)) points.push([selectedRando.LON_PIVOT, selectedRando.LAT_PIVOT]);
@@ -55,12 +58,13 @@ export default function PageRandos() {
     <div className="flex flex-col h-screen w-full bg-slate-100 overflow-hidden">
       {/* CARTE */}
       <div className="h-[45%] w-full z-10 border-b-2 border-blue-600 relative">
-        <MapContainer center={[43.9, 2.4]} zoom={8} className="h-full w-full">
+        <MapContainer 
+          center={[43.9, 2.4]} 
+          zoom={8} 
+          className="h-full w-full"
+          ref={mapRef} // 🎯 On attache la référence ici
+        >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-          
-          {selectedRando && !isNaN(selectedRando.LAT_DEPART) && (
-            <ChangeView center={[selectedRando.LAT_DEPART, selectedRando.LON_DEPART]} />
-          )}
 
           {geoJsonData && (
             <GeoJSON 
@@ -71,7 +75,7 @@ export default function PageRandos() {
           )}
         </MapContainer>
         
-        {/* ➕ BOUTON FLOTTANT ACTION : CRÉER LA SORTIE À PARTIR DU TRACÉ */}
+        {/* ➕ BOUTON FLOTTANT ACTION */}
         {selectedRando && (
           <div className="absolute top-4 right-4 z-[1000] flex flex-col gap-2 items-end">
             <Link
@@ -91,7 +95,7 @@ export default function PageRandos() {
         )}
       </div>
 
-      {/* ARBORESCENCE */}
+      {/* ARBORESCENCE EXPLORATEUR */}
       <div className="flex-1 overflow-y-auto p-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-black mb-4 flex items-center gap-2">
