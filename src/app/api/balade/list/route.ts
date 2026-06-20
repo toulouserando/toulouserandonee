@@ -8,7 +8,7 @@ export const dynamic = 'force-dynamic';
 
 export async function GET() {
   try {
-    const dirPath = path.join(process.cwd(), 'data', 'balade');
+    const dirPath = path.join(process.cwd(), 'public', 'balade');
     
     // Vérification si le dossier existe pour éviter un crash
     try {

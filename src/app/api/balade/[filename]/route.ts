@@ -11,7 +11,7 @@ export async function GET(
     const { filename } = await params; 
 
     // 3. Construction du chemin sécurisé
-    const filePath = path.join(process.cwd(), 'data', 'balade', filename);
+    const filePath = path.join(process.cwd(), 'public', 'balade', filename);
     
     // 4. Lecture et parsing du fichier
     const fileContent = await fs.readFile(filePath, 'utf8');

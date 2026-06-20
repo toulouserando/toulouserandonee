@@ -4,7 +4,7 @@ import path from 'path';
 
 export async function GET() {
   try {
-    const filePath = path.join(process.cwd(), 'data', 'balade', 'stations-thermales-2017.json');
+    const filePath = path.join(process.cwd(), 'public', 'balade', 'stations-thermales-2017.json');
     const fileContent = await fs.readFile(filePath, 'utf8');
     const stations = JSON.parse(fileContent);
 

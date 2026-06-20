@@ -4,7 +4,7 @@ import path from 'path';
 
 export async function GET() {
   try {
-    const baseDir = path.join(process.cwd(), 'data', 'visites');
+    const baseDir = path.join(process.cwd(), 'public', 'visites');
     const jsonDir = path.join(process.cwd(), 'data', 'visites_json');
     
     const villes = await fs.readdir(baseDir);

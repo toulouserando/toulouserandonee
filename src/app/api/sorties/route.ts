@@ -32,7 +32,7 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const id = searchParams.get('id'); 
 
-    const dataDir = path.join(process.cwd(), 'data');
+    const dataDir = path.join(process.cwd(), 'public');
     const baladeDir = path.join(dataDir, 'balade');
     const indexPath = path.join(dataDir, 'liste_circuits_balade.json');
 

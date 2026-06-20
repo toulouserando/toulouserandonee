@@ -11,7 +11,7 @@ const COORDONNEES_COMMUNES: Record<string, { lat: number; lng: number }> = {
 
 export async function GET() {
   try {
-    const filePath = path.join(process.cwd(), 'data', 'balade', 'stations-classees-et-communes-touristiques-france_65.json');
+    const filePath = path.join(process.cwd(), 'public', 'balade', 'stations-classees-et-communes-touristiques-france_65.json');
     const fileContent = await fs.readFile(filePath, 'utf8');
     const stations = JSON.parse(fileContent);
 

@@ -16,7 +16,7 @@ export async function GET(request: NextRequest) {
     const safeVille = path.basename(ville);
     const safeFile = path.basename(file);
     
-    const imagePath = path.join(process.cwd(), 'data', 'visites', safeVille, safeFile);
+    const imagePath = path.join(process.cwd(), 'public', 'visites', safeVille, safeFile);
     const imageBuffer = await fs.readFile(imagePath);
 
     // Détermination automatique du Content-Type
