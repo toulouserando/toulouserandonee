@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import dynamic from 'next/dynamic';
 import { supabase } from "@/lib/supabase";
@@ -19,7 +19,8 @@ const MapComponent = dynamic(() => import('../MapComponent'), {
   loading: () => <div className="h-full flex items-center justify-center bg-slate-100">Chargement de la carte...</div>
 });
 
-export default function CreateEventPage() {
+// 📦 1. Composant interne contenant la logique du formulaire isolée
+function CreateEventFormRando3() {
   const router = useRouter();
   const searchParams = useSearchParams();
   
@@ -172,7 +173,6 @@ export default function CreateEventPage() {
               <Loader2 className="animate-spin text-indigo-900 h-8 w-8" />
             </div>
           ) : (
-            /* CORRECTION ICI : Rando3 attend la prop activeRoute */
             <MapComponent activeRoute={activeRouteData} />
           )}
         </div>
@@ -278,5 +278,19 @@ export default function CreateEventPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+// 👑 2. Export principal enveloppé du Suspense Boundary exigé pour Next.js 15+ / 16+
+export default function CreateEventPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 gap-3">
+        <Loader2 className="animate-spin h-10 w-10 text-indigo-700" />
+        <p className="text-sm font-medium text-slate-500">Chargement des données du parcours Cruetou...</p>
+      </div>
+    }>
+      <CreateEventFormRando3 />
+    </Suspense>
   );
 }
