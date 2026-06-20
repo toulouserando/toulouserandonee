@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import dynamic from 'next/dynamic';
 import { supabase } from "@/lib/supabase";
@@ -19,7 +19,8 @@ const MapComponent = dynamic(() => import('../MapComponent'), {
   loading: () => <div className="h-full flex items-center justify-center bg-slate-100 font-mono italic text-slate-400">Chargement de la carte du Gers...</div>
 });
 
-export default function CreateEventPageRando9() {
+// 📦 Composant interne contenant la logique du formulaire
+function CreateEventFormRando9() {
   const router = useRouter();
   const searchParams = useSearchParams();
   
@@ -80,50 +81,47 @@ export default function CreateEventPageRando9() {
   }, [id]);
 
   // ENREGISTREMENT SUR SUPABASE
-const handleSave = async (isPublished: boolean) => {
-  setSaving(true);
-  const { data: { user } } = await supabase.auth.getUser();
-  
-  if (!user) {
-    alert("Vous devez être connecté pour publier.");
+  const handleSave = async (isPublished: boolean) => {
+    setSaving(true);
+    const { data: { user } } = await supabase.auth.getUser();
+    
+    if (!user) {
+      alert("Vous devez être connecté pour publier.");
+      setSaving(false);
+      return;
+    }
+
+    const hikeData = {
+      title,
+      description,
+      recommendations, 
+      location: meetingPoint,
+      arrival_point: arrivalPoint, 
+      distance: distance,
+      duration: `${startTime} à ${endTime}`,
+      difficulty,
+      type: hikeType,
+      elevation: parseInt(elevation) || 0,
+      vehicles, 
+      passengers, 
+      transport_notes: transportNotes, 
+      organizer_id: user.id,
+      is_published: isPublished,
+      route_id: id,
+      source: sourceParam 
+    };
+
+    const { error } = await supabase.from('Hikes').insert([hikeData]);
+
+    if (error) {
+      console.error("Erreur Supabase:", error);
+      alert("Erreur lors de la publication.");
+    } else {
+      alert(isPublished ? "Sortie publiée avec succès !" : "Brouillon enregistré !");
+      router.push('/events'); 
+    }
     setSaving(false);
-    return;
-  }
-
-  const hikeData = {
-    title,
-    description,
-    recommendations, 
-    location: meetingPoint,
-    arrival_point: arrivalPoint, 
-    distance: distance,
-    duration: `${startTime} à ${endTime}`,
-    difficulty,
-    type: hikeType,
-    elevation: parseInt(elevation) || 0,
-    vehicles, 
-    passengers, 
-    transport_notes: transportNotes, 
-    organizer_id: user.id,
-    is_published: isPublished,
-    // À NE PAS OUBLIER : Lien avec le parcours
-    route_id: id,
-    // Assurez-vous que la variable 'sourceParam' existe bien dans votre code, 
-    // sinon vous pouvez mettre 'source: "votre_valeur"' ou la retirer si elle n'est plus utile
-    source: typeof sourceParam !== 'undefined' ? sourceParam : null 
   };
-
-  const { error } = await supabase.from('Hikes').insert([hikeData]);
-
-  if (error) {
-    console.error("Erreur Supabase:", error);
-    alert("Erreur lors de la publication.");
-  } else {
-    alert(isPublished ? "Sortie publiée avec succès !" : "Brouillon enregistré !");
-    router.push('/events'); 
-  }
-  setSaving(false);
-};
 
   if (!mounted) return null;
 
@@ -282,15 +280,29 @@ const handleSave = async (isPublished: boolean) => {
             Annuler
           </Button>
           
-          <Button variant="outline" className="border-slate-700 text-slate-100 bg-transparent hover:bg-slate-800" onClick={() => handleCreateEvent(false)} disabled={saving}>
+          <Button variant="outline" className="border-slate-700 text-slate-100 bg-transparent hover:bg-slate-800" onClick={() => handleSave(false)} disabled={saving}>
             Brouillon
           </Button>
 
-          <Button className="bg-blue-600 hover:bg-blue-700 text-white px-10 font-bold h-12 shadow-lg" onClick={() => handleCreateEvent(true)} disabled={saving}>
+          <Button className="bg-blue-600 hover:bg-blue-700 text-white px-10 font-bold h-12 shadow-lg" onClick={() => handleSave(true)} disabled={saving}>
             {saving ? <Loader2 className="animate-spin h-5 w-5" /> : <div className="flex items-center"><Send className="mr-2 h-5 w-5" /> Mettre en ligne</div>}
           </Button>
         </div>
       </div>
     </div>
+  );
+}
+
+// 👑 Export par défaut enveloppé sous un Suspense global pour satisfaire Next.js
+export default function CreateEventPageRando9() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 gap-3">
+        <Loader2 className="animate-spin h-10 w-10 text-blue-600" />
+        <p className="text-sm font-medium text-slate-600 font-mono">Chargement de la page de création rando9...</p>
+      </div>
+    }>
+      <CreateEventFormRando9 />
+    </Suspense>
   );
 }
