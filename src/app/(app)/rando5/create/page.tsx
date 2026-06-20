@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import dynamic from 'next/dynamic';
 import { supabase } from "@/lib/supabase";
@@ -19,7 +19,8 @@ const MapComponent = dynamic(() => import('../MapComponent'), {
   loading: () => <div className="h-full flex items-center justify-center bg-slate-100">Chargement de la carte...</div>
 });
 
-export default function CreateEventPage() {
+// 📦 1. Composant interne contenant le formulaire isolé
+function CreateEventFormRando5() {
   const router = useRouter();
   const searchParams = useSearchParams();
   
@@ -63,7 +64,6 @@ export default function CreateEventPage() {
       return; 
     }
     
-    // Appel vers l'API spécifique avec le paramètre ?rando=
     fetch(`/api/rando5?rando=${encodeURIComponent(id)}`)
       .then(res => res.json())
       .then(data => {
@@ -91,45 +91,47 @@ export default function CreateEventPage() {
   }, [id]);
 
   // FONCTION POUR ENREGISTRER SUR SUPABASE
-const handleSave = async (isPublished: boolean) => {
-  setSaving(true);
-  const { data: { user } } = await supabase.auth.getUser();
-  
-  if (!user) {
-    alert("Vous devez être connecté pour publier.");
+  const handleSave = async (isPublished: boolean) => {
+    setSaving(true);
+    const { data: { user } } = await supabase.auth.getUser();
+    
+    if (!user) {
+      alert("Vous devez être connecté pour publier.");
+      setSaving(false);
+      return;
+    }
+
+    const hikeData = {
+      title,
+      description,
+      recommendations,
+      location: meetingPoint,
+      arrival_point: arrivalPoint,
+      distance: distance,
+      duration: `${startTime} à ${endTime}`,
+      difficulty,
+      type: hikeType,
+      elevation: parseInt(elevation) || 0,
+      vehicles,
+      passengers,
+      transport_notes: transportNotes,
+      organizer_id: user.id,
+      is_published: isPublished,
+      route_id: id,         // Correction : Lie l'id de l'itinéraire en BDD
+      source: sourceParam   // Correction : Conserve la source rando5 en BDD
+    };
+
+    const { error } = await supabase.from('Hikes').insert([hikeData]);
+
+    if (error) {
+      console.error("Erreur Supabase:", error);
+      alert("Erreur lors de la publication.");
+    } else {
+      alert(isPublished ? "Sortie publiée avec succès !" : "Brouillon enregistré !");
+      router.push('/events');
+    }
     setSaving(false);
-    return;
-  }
-
-  const hikeData = {
-    title,
-    description,
-    recommendations, // Ajouté car présent dans votre formulaire
-    location: meetingPoint,
-    arrival_point: arrivalPoint, // Ajouté car présent dans votre formulaire
-    distance: distance,
-    duration: `${startTime} à ${endTime}`,
-    difficulty,
-    type: hikeType,
-    elevation: parseInt(elevation) || 0,
-    vehicles, // Ajouté car présent dans votre formulaire
-    passengers, // Ajouté car présent dans votre formulaire
-    transport_notes: transportNotes, // Ajouté car présent dans votre formulaire
-    organizer_id: user.id,
-    is_published: isPublished // Pris en compte pour le brouillon/publication
   };
-
-  const { error } = await supabase.from('Hikes').insert([hikeData]);
-
-  if (error) {
-    console.error("Erreur Supabase:", error);
-    alert("Erreur lors de la publication.");
-  } else {
-    alert(isPublished ? "Sortie publiée avec succès !" : "Brouillon enregistré !");
-    router.push('/events'); // C'est ici que l'utilisateur atterrit !
-  }
-  setSaving(false);
-};
 
   if (!mounted) return null;
 
@@ -181,7 +183,6 @@ const handleSave = async (isPublished: boolean) => {
               <Loader2 className="animate-spin text-slate-900 h-8 w-8" />
             </div>
           ) : (
-            /* CORRECTION : Rando5Map utilise les variables geojsonData et center */
             <MapComponent geojsonData={geojsonData} center={mapCenter} />
           )}
         </div>
@@ -265,7 +266,7 @@ const handleSave = async (isPublished: boolean) => {
         </CardContent>
       </Card>
       
-      {/* 🚀 PIED DE PAGE : ACTIONS */}
+      {/* 🚀 PIED DE PAGE : ACTIONS (Correction handleCreateEvent -> handleSave) */}
       <div className="flex flex-col md:flex-row justify-between items-center gap-6 bg-slate-900 p-8 rounded-2xl shadow-2xl mt-10">
         <div className="space-y-1">
           <h4 className="text-xl font-black uppercase text-emerald-400">Prêt à publier ?</h4>
@@ -277,15 +278,29 @@ const handleSave = async (isPublished: boolean) => {
             Abandonner
           </Button>
           
-          <Button variant="outline" className="border-slate-500 text-slate-100 bg-transparent hover:bg-slate-800" onClick={() => handleCreateEvent(false)} disabled={saving}>
+          <Button variant="outline" className="border-slate-500 text-slate-100 bg-transparent hover:bg-slate-800" onClick={() => handleSave(false)} disabled={saving}>
             Brouillon
           </Button>
 
-          <Button className="bg-emerald-500 hover:bg-emerald-400 text-white px-10 font-extrabold h-12 shadow-lg shadow-emerald-500/20" onClick={() => handleCreateEvent(true)} disabled={saving}>
+          <Button className="bg-emerald-500 hover:bg-emerald-400 text-white px-10 font-extrabold h-12 shadow-lg shadow-emerald-500/20" onClick={() => handleSave(true)} disabled={saving}>
             {saving ? <Loader2 className="animate-spin h-5 w-5" /> : <div className="flex items-center"><Send className="mr-2 h-5 w-5" /> Publier la sortie</div>}
           </Button>
         </div>
       </div>
     </div>
+  );
+}
+
+// 👑 2. Export principal enveloppé du Suspense Boundary requis pour Next.js 15+
+export default function CreateEventPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 gap-3">
+        <Loader2 className="animate-spin h-10 w-10 text-emerald-600" />
+        <p className="text-sm font-medium text-slate-500">Chargement de la carte et du circuit Lot...</p>
+      </div>
+    }>
+      <CreateEventFormRando5 />
+    </Suspense>
   );
 }
