@@ -19,13 +19,24 @@ export async function GET() {
           const content = await fs.readFile(filePath, 'utf8');
           const pois = JSON.parse(content);
 
+          let pointsFinaux: any[] = [];
+
+          if (Array.isArray(pois)) {
+            // ⭐ Détection du format Montpellier (Tableau d'objets avec "points_interet")
+            if (pois.length > 0 && 'points_interet' in pois[0]) {
+              // On "aplatit" tous les points_interet de tous les quartiers en un seul tableau
+              pointsFinaux = pois.flatMap((quartier: any) => quartier.points_interet || []);
+            } else {
+              // Format standard (Tableau direct de points, comme Lisle-sur-Tarn)
+              pointsFinaux = pois;
+            }
+          }
+
           return {
             ville: nomVille,
-            points: Array.isArray(pois) ? pois : []
+            points: pointsFinaux
           };
         } catch (jsonError) {
-          // CORRECTION : Si UN fichier JSON est malformé, on affiche l'erreur en console
-          // mais on n'interrompt pas le chargement des autres fichiers valides !
           console.error(`⚠️ Erreur de syntaxe JSON détectée dans le fichier [${file}] :`, jsonError);
           return null; // On renvoie null pour ce fichier cassé
         }

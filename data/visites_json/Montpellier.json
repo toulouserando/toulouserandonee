@@ -271,7 +271,7 @@
       {"id": 254, "nom": "Centre de conférences", "adresse": "6 Rue des Augustins, 34000 Montpellier", "latitude": 43.6109, "longitude": 3.8806},
       {"id": 217, "nom": "Fontaine Hôtel d'Assas", "adresse": "Rue de la vieille-Aiguillerie, 34000 Montpellier", "latitude": 43.6115, "longitude": 3.8795}
     ]
-  }
+  },
   {
     "quartier": "Montpellier Centre (Quartier 10 - Les Augustins / La Comédie)",
     "points_interet": [

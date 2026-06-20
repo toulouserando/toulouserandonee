@@ -4,7 +4,7 @@ import path from 'path';
 
 export async function GET() {
   try {
-    const filePath = path.join(process.cwd(), 'data', 'MesRandosWeb.geojson');
+    const filePath = path.join(process.cwd(), 'public', 'MesRandosWeb.geojson');
     const fileContents = await fs.readFile(filePath, 'utf8');
     const data = JSON.parse(fileContents);
 
