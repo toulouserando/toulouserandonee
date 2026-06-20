@@ -17,7 +17,7 @@ export default function VoieVertePage() {
   const HIKE_TITLE = "Voie Verte de l'Armagnac";
 
   useEffect(() => {
-    fetch("/api/voievertearmagnac")
+    fetch("/api/0voievertearmagnac")
       .then((res) => res.json())
       .then((json) => setData(json))
       .catch(console.error);

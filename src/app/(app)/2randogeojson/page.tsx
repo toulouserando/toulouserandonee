@@ -19,7 +19,7 @@ export default function PageRandos() {
   const mapRef = useRef<any>(null);
 
   useEffect(() => {
-    fetch('/api/randogeojson')
+    fetch('/api/2randogeojson')
       .then(res => res.json())
       .then(setData)
       .catch(err => console.error("Erreur API:", err));

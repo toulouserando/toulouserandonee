@@ -16,7 +16,7 @@ export default function MapComponent() {
   const [pois, setPois] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch('/rando/poi_occitanie_clean.json.geojson')
+    fetch('/poi_occitanie_clean.json.geojson')
       .then(res => res.json())
       .then(data => setPois(data.features))
       .catch(err => console.error("Erreur chargement JSON:", err));
