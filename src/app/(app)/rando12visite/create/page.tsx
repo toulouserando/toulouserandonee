@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { supabase } from "@/lib/supabase";
 import { Loader2, ClipboardList, Mountain, Route, Car, Send, ImageIcon, Map } from 'lucide-react';
@@ -11,7 +11,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
-export default function CreateEventPageRando12() {
+// 📦 1. Composant interne contenant la logique du formulaire
+function CreateEventFormRando12() {
   const router = useRouter();
   const searchParams = useSearchParams();
   
@@ -74,54 +75,51 @@ export default function CreateEventPageRando12() {
   }, [id]);
 
   // ENREGISTREMENT SUR SUPABASE
-const handleSave = async (isPublished: boolean) => {
-  setSaving(true);
-  const { data: { user } } = await supabase.auth.getUser();
-  
-  if (!user) {
-    alert("Vous devez être connecté pour publier.");
+  const handleSave = async (isPublished: boolean) => {
+    setSaving(true);
+    const { data: { user } } = await supabase.auth.getUser();
+    
+    if (!user) {
+      alert("Vous devez être connecté pour publier.");
+      setSaving(false);
+      return;
+    }
+
+    const hikeData = {
+      title,
+      description,
+      recommendations, 
+      location: meetingPoint,
+      arrival_point: arrivalPoint, 
+      distance: distance,
+      duration: `${startTime} à ${endTime}`,
+      difficulty,
+      type: hikeType,
+      elevation: parseInt(elevation) || 0,
+      vehicles, 
+      passengers, 
+      transport_notes: transportNotes, 
+      organizer_id: user.id,
+      is_published: isPublished,
+      route_id: id,
+      source: typeof sourceParam !== 'undefined' ? sourceParam : null 
+    };
+
+    const { error } = await supabase.from('Hikes').insert([hikeData]);
+
+    if (error) {
+      console.error("Erreur Supabase:", error);
+      alert("Erreur lors de la publication.");
+    } else {
+      alert(isPublished ? "Sortie publiée avec succès !" : "Brouillon enregistré !");
+      router.push('/events'); 
+    }
     setSaving(false);
-    return;
-  }
-
-  const hikeData = {
-    title,
-    description,
-    recommendations, 
-    location: meetingPoint,
-    arrival_point: arrivalPoint, 
-    distance: distance,
-    duration: `${startTime} à ${endTime}`,
-    difficulty,
-    type: hikeType,
-    elevation: parseInt(elevation) || 0,
-    vehicles, 
-    passengers, 
-    transport_notes: transportNotes, 
-    organizer_id: user.id,
-    is_published: isPublished,
-    // À NE PAS OUBLIER : Lien avec le parcours
-    route_id: id,
-    // Assurez-vous que la variable 'sourceParam' existe bien dans votre code, 
-    // sinon vous pouvez mettre 'source: "votre_valeur"' ou la retirer si elle n'est plus utile
-    source: typeof sourceParam !== 'undefined' ? sourceParam : null 
   };
-
-  const { error } = await supabase.from('Hikes').insert([hikeData]);
-
-  if (error) {
-    console.error("Erreur Supabase:", error);
-    alert("Erreur lors de la publication.");
-  } else {
-    alert(isPublished ? "Sortie publiée avec succès !" : "Brouillon enregistré !");
-    router.push('/events'); 
-  }
-  setSaving(false);
-};
 
   if (!mounted) return null;
 
-  // Construction de l'URL du plan JPEG (on prend le premier plan disponible par défaut)
+  // Construction de l'URL du plan JPEG
   const imageUrl = selectedVille && selectedVille.cartes && selectedVille.cartes.length > 0
     ? `/api/visites/image?ville=${encodeURIComponent(selectedVille.ville)}&file=${encodeURIComponent(selectedVille.cartes[0])}`
     : null;
@@ -172,7 +170,7 @@ const handleSave = async (isPublished: boolean) => {
         </CardContent>
       </Card>
 
-      {/* 🖼️ ZONE REMPLACÉE : APERÇU DU PLAN HISTORIQUE AU LIEU DE LEAFLET */}
+      {/* 🖼️ PLAN HISTORIQUE */}
       <Card className="border-slate-200 shadow-sm overflow-hidden">
         <CardHeader className="bg-slate-900 text-slate-50">
           <CardTitle className="flex items-center gap-2 text-md">
@@ -283,15 +281,29 @@ const handleSave = async (isPublished: boolean) => {
             Annuler
           </Button>
           
-          <Button variant="outline" className="border-slate-700 text-slate-100 bg-transparent hover:bg-slate-800" onClick={() => handleCreateEvent(false)} disabled={saving}>
+          <Button variant="outline" className="border-slate-700 text-slate-100 bg-transparent hover:bg-slate-800" onClick={() => handleSave(false)} disabled={saving}>
             Brouillon
           </Button>
 
-          <Button className="bg-amber-500 hover:bg-amber-600 text-slate-950 px-10 font-bold h-12 shadow-lg border-0" onClick={() => handleCreateEvent(true)} disabled={saving}>
+          <Button className="bg-amber-500 hover:bg-amber-600 text-slate-950 px-10 font-bold h-12 shadow-lg border-0" onClick={() => handleSave(true)} disabled={saving}>
             {saving ? <Loader2 className="animate-spin h-5 w-5" /> : <div className="flex items-center"><Send className="mr-2 h-5 w-5" /> Publier la visite</div>}
           </Button>
         </div>
       </div>
     </div>
+  );
+}
+
+// 👑 2. Export principal enveloppé du Suspense Boundary requis pour Next.js 15+ / 16+
+export default function CreateEventPageRando12() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 gap-3">
+        <Loader2 className="animate-spin h-10 w-10 text-amber-500" />
+        <p className="text-sm font-medium text-slate-500">Chargement de l'éditeur de visite...</p>
+      </div>
+    }>
+      <CreateEventFormRando12 />
+    </Suspense>
   );
 }
