@@ -79,7 +79,7 @@ export default function PageRandos() {
         {selectedRando && (
           <div className="absolute top-4 right-4 z-[1000] flex flex-col gap-2 items-end">
             <Link
-              href={`/randogeojson/create?id=${encodeURIComponent(selectedRando["Nom Rando"])}&source=randogeojson`}
+              href={`/rando_par_canton/create?id=${encodeURIComponent(selectedRando["Nom Rando"])}&source=rando_par_canton`}
               className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-xl shadow-lg transition-all transform hover:scale-105 text-sm"
             >
               <PlusCircle size={18} />
