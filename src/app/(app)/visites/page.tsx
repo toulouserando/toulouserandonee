@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
-import { MapPin, Navigation, Info } from 'lucide-react';
+import Link from 'next/link';
+import { MapPin, Navigation, Info, PlusCircle } from 'lucide-react';
 
 const MapComponent = dynamic(() => import('./MapComponent'), {
   ssr: false,
@@ -88,16 +89,27 @@ export default function VisitesPage() {
 
       <div className="max-w-5xl mx-auto p-4 sm:p-6 space-y-6">
         
-        {selectedVille ? (
-          <>
-            <div>
-              <h1 className="text-3xl font-black uppercase tracking-tight text-slate-900 capitalize">
-                Découverte de : {selectedVille.ville}
-              </h1>
-              <p className="text-sm text-slate-500 mt-1">
-                {selectedVille.points?.length || 0} points d'intérêt répertoriés sur ce parcours.
-              </p>
-            </div>
+{selectedVille ? (
+  <>
+    <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+      <div>
+        <h1 className="text-3xl font-black uppercase tracking-tight text-slate-900 capitalize">
+          Découverte de : {selectedVille.ville}
+        </h1>
+        <p className="text-sm text-slate-500 mt-1">
+          {selectedVille.points?.length || 0} points d'intérêt répertoriés.
+        </p>
+      </div>
+
+      {/* 🎯 AJOUT DU BOUTON D'ACTION */}
+      <Link 
+        href={`/visites/create?title=Visite de ${selectedVille.ville}&location=${selectedVille.ville}`}
+        className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition-all flex items-center gap-2 hover:scale-105"
+      >
+        <PlusCircle size={18} />
+        Sélectionner pour une sortie
+      </Link>
+    </div>
 
             {/* ZONE CARTE AVEC POINTS */}
             <section className="bg-white border border-slate-200 rounded-2xl shadow-sm p-2 relative z-0 overflow-hidden h-[450px]">

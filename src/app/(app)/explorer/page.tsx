@@ -21,7 +21,8 @@ export default function ExplorerPage() {
     { name: "Randos dans le Lot", path: "/rando_Lot", icon: <Mountain /> },
     { name: "Randos dans le Lot en Vélo", path: "/rando_Lot_en_Velo", icon: <Bike /> },
     { name: "Randos par Canton en Occitanie", path: "/rando_par_canton", icon: <MapPin /> },
-    { name: "Visites de l'Occitanie", path: "/rando_visite_Occitanie", icon: <Building2 /> },
+    { name: "Visites de l'Occitanie avec plans", path: "/rando_visite_Occitanie", icon: <Building2 /> },
+    { name: "Visites de l'Occitanie avec points", path: "/visites", icon: <Building2 /> },
     { name: "Randos en Occitanie", path: "/Randos_en_Occitanie", icon: <Mountain /> },
     { name: "Randos de la Communauté", path: "/hikes", icon: <Route /> },
   ];
