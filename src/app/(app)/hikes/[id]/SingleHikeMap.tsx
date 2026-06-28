@@ -2,24 +2,12 @@
 
 import React, { useEffect } from 'react';
 import dynamic from 'next/dynamic';
+import { MapContainer, TileLayer, GeoJSON, CircleMarker, Popup, useMap } from 'react-leaflet'; // 🎯 Imports standards sécurisés par le wrapper dynamique parent
 import 'leaflet/dist/leaflet.css';
-
-// --- DYNAMIC LEAFLET COMPONENTS ---
-const MapContainer = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), { ssr: false });
-const TileLayer = dynamic(() => import('react-leaflet').then(mod => mod.TileLayer), { ssr: false });
-const GeoJSON = dynamic(() => import('react-leaflet').then(mod => mod.GeoJSON), { ssr: false });
-const CircleMarker = dynamic(() => import('react-leaflet').then(mod => mod.CircleMarker), { ssr: false });
-const Popup = dynamic(() => import('react-leaflet').then(mod => mod.Popup), { ssr: false });
-
-// Helper pour récupérer l'instance Leaflet
-const useMapInstance = () => {
-  const { useMap } = require('react-leaflet');
-  try { return useMap(); } catch (e) { return null; }
-};
 
 // --- COMPOSANT DE CADRAGE DYNAMIQUE AUTOMATIQUE ---
 function ChangeView({ geoData }: { geoData: any }) {
-  const map = useMapInstance();
+  const map = useMap(); // 🎯 Plus besoin de ruse, utilisable directement ici.
   
   useEffect(() => {
     if (map && geoData) {
@@ -47,20 +35,25 @@ interface SingleHikeMapProps {
 }
 
 export default function SingleHikeMap({ hike }: SingleHikeMapProps) {
-  // 🎯 EXTRACTION : Récupération du tracé GeoJSON (geometry, route_geometry ou geojson_data)
+  // 🎯 VÉRIFICATION SÉCURISÉE : Extraction du tracé GeoJSON
   const geo = hike.geometry || hike.route_geometry || hike.geojson_data;
 
-  // Conversion en objet si c'est du texte brut JSON provenant de la BDD
-  const parsedGeo = typeof geo === "string" ? JSON.parse(geo) : geo;
+  // Conversion propre selon le format stocké en BDD
+  let parsedGeo = null;
+  try {
+    parsedGeo = typeof geo === "string" ? JSON.parse(geo) : geo;
+  } catch (error) {
+    console.error("Le format GeoJSON stocké dans la table 'hikes' est invalide", error);
+  }
 
   const isPoint = parsedGeo?.type === "Point";
   
   // Coordonnées pour placer le CircleMarker si c'est un point unique
   const finalCenter: [number, number] | null = isPoint && parsedGeo?.coordinates 
-    ? [parsedGeo.coordinates[1], parsedGeo.coordinates[0]] // Leaflet inversé [Lat, Lon] vs GeoJSON [Lon, Lat]
-    : hike.center || null;
+    ? [parsedGeo.coordinates[1], parsedGeo.coordinates[0]] // Conversion [Lon, Lat] -> [Lat, Lon]
+    : null;
 
-  // Centre par défaut de la carte (Toulouse) au cas où rien ne charge au tout début
+  // Centre par défaut (Toulouse)
   const defaultCenter: [number, number] = [43.6045, 1.4442];
 
   return (
@@ -70,7 +63,7 @@ export default function SingleHikeMap({ hike }: SingleHikeMapProps) {
         attribution='&copy; OpenStreetMap France' 
       />
       
-      {/* Recadrage automatique de la carte sur la trace reçue */}
+      {/* Recadrage automatique sur la trace */}
       {parsedGeo && <ChangeView geoData={parsedGeo} />}
 
       {parsedGeo && (
@@ -78,15 +71,15 @@ export default function SingleHikeMap({ hike }: SingleHikeMapProps) {
           <GeoJSON 
             key={`hike-geojson-${hike.id}`}
             data={parsedGeo} 
-            pointToLayer={() => (null as any)} // Ignore les points par défaut, géré par CircleMarker
+            pointToLayer={() => (null as any)} // Ignore les points ici pour laisser CircleMarker s'en occuper
             style={{ 
-              color: '#2563eb', // 🎯 Tracé en Bleu Royal (Bleu au lieu de Vert)
+              color: '#2563eb', // Tracé Bleu Royal
               weight: 5, 
               opacity: 0.85 
             }} 
           />
 
-          {/* 🎯 CORRECTION : Rendu conditionnel propre du point d'intérêt isolé */}
+          {/* Rendu du point d'intérêt s'il s'agit d'un point isolé */}
           {isPoint && finalCenter && (
             <CircleMarker 
               center={finalCenter} 

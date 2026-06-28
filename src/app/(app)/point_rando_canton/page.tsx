@@ -1,135 +1,204 @@
 'use client';
-import { useEffect, useState } from 'react';
+
+import { useEffect, useMemo, useRef, useState } from 'react';
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
+import { ChevronDown, PlusCircle } from 'lucide-react';
 import 'leaflet/dist/leaflet.css';
 
-// --- CONFIGURATION DU MARQUEUR ---
-const L = typeof window !== 'undefined' ? require('leaflet') : null;
-const customIcon = L ? new L.Icon({
-  iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
-  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-}) : null;
+// --- CONFIGURATION LEAFLET SANS SSR ---
+const MapContainer = dynamic(
+  () => import('react-leaflet').then((m) => m.MapContainer),
+  { ssr: false }
+);
 
-const MapContainer = dynamic(() => import('react-leaflet').then(m => m.MapContainer), { ssr: false });
-const TileLayer = dynamic(() => import('react-leaflet').then(m => m.TileLayer), { ssr: false });
-const Marker = dynamic(() => import('react-leaflet').then(m => m.Marker), { ssr: false });
-const Popup = dynamic(() => import('react-leaflet').then(m => m.Popup), { ssr: false });
+const TileLayer = dynamic(
+  () => import('react-leaflet').then((m) => m.TileLayer),
+  { ssr: false }
+);
 
-const MapController = ({ coords }: { coords: [number, number] }) => {
-  const { useMap } = require('react-leaflet');
-  const map = useMap();
-  useEffect(() => {
-    if (coords && map) map.setView(coords, 13, { animate: true });
-  }, [coords, map]);
-  return null;
-};
+const Marker = dynamic(
+  () => import('react-leaflet').then((m) => m.Marker),
+  { ssr: false }
+);
+
+const Popup = dynamic(
+  () => import('react-leaflet').then((m) => m.Popup),
+  { ssr: false }
+);
+
+interface Rando {
+  commune?: string;
+  Durée?: string;
+  LAT_DEPART?: number | string;
+  LON_DEPART?: number | string;
+  "Nom Rando": string;
+  [key: string]: any;
+}
 
 export default function PageRandos() {
   const [data, setData] = useState<any>(null);
-  const [selectedRando, setSelectedRando] = useState<any>(null);
+  const [selectedRando, setSelectedRando] = useState<Rando | null>(null);
 
+  // 🎯 On crée la référence directe pour manipuler l'instance de la carte
+  const mapRef = useRef<any>(null);
+
+  // 1. Chargement des données cantonales depuis l'API
   useEffect(() => {
-    fetch('/api/point_rando_canton') 
-      .then(res => res.json())
-      .then(setData)
-      .catch(err => console.error("Erreur chargement data:", err));
+    fetch('/api/point_rando_canton')
+      .then((res) => res.json())
+      .then((json) => {
+        console.log("API chargée", json);
+        setData(json);
+      })
+      .catch((err) => console.error("Erreur API :", err));
   }, []);
 
-  if (!data) return (
-    <div className="flex h-screen items-center justify-center bg-slate-50">
-      <div className="text-center">
-        <div className="animate-spin text-4xl mb-4">🔄</div>
-        <p className="font-bold text-slate-600">Chargement des sentiers...</p>
+  // 2. Recentrage automatique et stable sur le point de départ choisi
+  useEffect(() => {
+    if (!selectedRando) return;
+
+    const lat = Number(selectedRando.LAT_DEPART);
+    const lon = Number(selectedRando.LON_DEPART);
+
+    if (!Number.isNaN(lat) && !Number.isNaN(lon) && mapRef.current) {
+      mapRef.current.setView([lat, lon], 12);
+    }
+  }, [selectedRando]);
+
+  // 3. Configuration du marqueur Leaflet
+  const customIcon = useMemo(() => {
+    if (typeof window === 'undefined') return null;
+    const L = require('leaflet');
+    return new L.Icon({
+      iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
+      shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+    });
+  }, []);
+
+  if (!data) {
+    return (
+      <div className="flex items-center justify-center h-screen text-lg font-medium text-slate-600 bg-slate-50">
+        🔄 Chargement des randonnées d'Occitanie...
       </div>
-    </div>
-  );
+    );
+  }
+
+  // Position du marqueur
+  const markerPosition = selectedRando
+    ? [Number(selectedRando.LAT_DEPART), Number(selectedRando.LON_DEPART)]
+    : null;
+
+  const hasValidCoords = markerPosition && !Number.isNaN(markerPosition[0]) && !Number.isNaN(markerPosition[1]);
 
   return (
-    <div className="flex flex-col h-screen w-full font-sans bg-slate-100 overflow-hidden">
+    <div className="flex flex-col h-screen w-full bg-slate-100 overflow-hidden">
       
-      {/* 1. CARTE */}
-      <div className="h-[40%] w-full shadow-md z-10 border-b-2 border-blue-600 relative">
-        <MapContainer center={[43.9, 2.4]} zoom={8} className="h-full w-full">
+      {/* 1. CARTE (Hauteur de 45% exactement comme le modèle fonctionnel) */}
+      <div className="h-[45%] w-full z-10 border-b-2 border-blue-600 relative">
+        <MapContainer
+          center={[43.9, 2.4]}
+          zoom={8}
+          className="h-full w-full"
+          ref={mapRef}
+        >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-          {selectedRando && (
-            <>
-              <MapController coords={[selectedRando.LAT_DEPART, selectedRando.LON_DEPART]} />
-              <Marker position={[selectedRando.LAT_DEPART, selectedRando.LON_DEPART]} icon={customIcon}>
-                <Popup>
-                  <div className="text-sm font-bold">{selectedRando["Nom Rando"]}</div>
-                  <p className="text-xs">{selectedRando.commune}</p>
-                </Popup>
-              </Marker>
-            </>
+          
+          {hasValidCoords && customIcon && (
+            <Marker position={[markerPosition[0], markerPosition[1]]} icon={customIcon}>
+              <Popup>
+                <div className="text-xs font-bold text-slate-900">{selectedRando?.["Nom Rando"]}</div>
+                <div className="text-[10px] text-slate-500">{selectedRando?.commune}</div>
+              </Popup>
+            </Marker>
           )}
         </MapContainer>
+
+        {/* 🎯 BOUTON ACTION FLOTTANT : Garanti visible avec z-[1000] absolue au-dessus de la carte */}
+        {selectedRando && (
+          <div className="absolute top-4 right-4 z-[1000] flex flex-col gap-2 items-end">
+            <Link
+              href={`/point_rando_canton/create?id=${encodeURIComponent(selectedRando["Nom Rando"])}&source=point_rando_canton`}
+              className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-xl shadow-lg transition-all transform hover:scale-105 text-sm whitespace-nowrap"
+            >
+              <PlusCircle size={18} />
+              Créer la sortie avec ce tracé
+            </Link>
+          </div>
+        )}
+
+        {/* Repère de commune active */}
+        {selectedRando && (
+          <div className="absolute bottom-2 right-2 z-[1000] bg-white p-2 rounded shadow text-xs font-bold border border-slate-200">
+            📍 {selectedRando.commune || "Commune inconnue"}
+          </div>
+        )}
       </div>
 
-      {/* 2. ARBORESCENCE COMPACTE */}
+      {/* 2. ARBORESCENCE EXPLORATEUR (Fils de l'écran flex-1) */}
       <div className="flex-1 overflow-y-auto p-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-lg font-bold text-slate-700 mb-4 flex items-center gap-2">
-            <span className="text-blue-600">📍</span> PARCOURIR LES RANDONNÉES
+          <h2 className="text-xl font-black mb-4 flex items-center gap-2">
+            🧭 EXPLORATEUR OCCITANIE
           </h2>
 
           <div className="space-y-2">
-            {/* NIVEAU 1 : DÉPARTEMENT */}
             {Object.entries(data).map(([dept, cantons]: any) => (
-              <details key={dept} className="group border border-slate-200 rounded-lg">
-                <summary className="list-none cursor-pointer p-3 font-bold bg-slate-50 flex justify-between items-center hover:bg-slate-100">
+              <details key={dept} className="mb-2 border rounded-lg overflow-hidden border-slate-200">
+                <summary className="p-3 font-bold bg-slate-800 text-white cursor-pointer hover:bg-slate-700 flex justify-between items-center list-none">
                   <span>📂 {dept}</span>
-                  <span className="text-xs group-open:rotate-180">▼</span>
+                  <ChevronDown size={16} />
                 </summary>
                 
-                <div className="p-2 space-y-1 ml-4 border-l-2 border-slate-100">
-                  {/* NIVEAU 2 : CANTON */}
+                <div className="pl-4 p-2 bg-slate-50 space-y-1">
                   {Object.entries(cantons).map(([canton, epcis]: any) => (
-                    <details key={canton} className="group/canton">
-                      <summary className="list-none cursor-pointer py-2 px-3 font-semibold text-slate-700 flex justify-between items-center hover:text-blue-600">
+                    <details key={canton} className="mb-1 border-l-2 border-slate-300 ml-2">
+                      <summary className="p-2 text-sm font-semibold cursor-pointer text-slate-700 hover:text-blue-600 flex justify-between items-center list-none">
                         <span>🧩 Canton : {canton}</span>
-                        <span className="text-[10px] group-open/canton:rotate-180">▼</span>
                       </summary>
 
-                      <div className="ml-4 space-y-1">
-                        {/* NIVEAU 3 : EPCI */}
+                      <div className="pl-4 space-y-1">
                         {Object.entries(epcis).map(([epci, communes]: any) => (
-                          <details key={epci} className="group/epci">
-                            <summary className="list-none cursor-pointer py-1.5 px-3 text-sm text-slate-500 font-medium flex justify-between items-center hover:text-blue-500">
-                              <span>🏛️ {epci}</span>
-                              <span className="text-[10px] group-open/epci:rotate-180">▼</span>
+                          <details key={epci} className="mb-1">
+                            <summary className="p-1 text-xs text-slate-500 cursor-pointer italic">
+                              🏛️ {epci}
                             </summary>
 
-                            <div className="ml-4 space-y-1 pb-2">
-                              {/* NIVEAU 4 : COMMUNE (NOUVEL ACCORDÉON) */}
+                            <div className="pl-4 grid grid-cols-1 gap-1">
                               {Object.entries(communes).map(([commune, randos]: any) => (
-                                <details key={commune} className="group/commune border-b border-slate-50">
-                                  <summary className="list-none cursor-pointer py-1 px-3 text-xs font-bold text-blue-700 uppercase flex justify-between items-center bg-blue-50/30 rounded">
-                                    <span>🏘️ {commune} <span className="ml-2 text-[10px] font-normal text-slate-400">({Array.isArray(randos) ? randos.length : 0})</span></span>
-                                    <span className="text-[8px] group-open/commune:rotate-180">▼</span>
+                                <details key={commune} className="border-l-2 border-blue-200 ml-2">
+                                  <summary className="p-1 text-[11px] font-bold text-blue-600 uppercase cursor-pointer">
+                                    🏘️ {commune}
                                   </summary>
 
-                                  <div className="grid grid-cols-1 gap-1 p-2">
-                                    {Array.isArray(randos) && randos.map((r: any, i: number) => (
-                                      <button
-                                        key={i}
-                                        onClick={() => {
-                                          setSelectedRando(r);
-                                          window.scrollTo({ top: 0, behavior: 'smooth' });
-                                        }}
-                                        className={`text-left text-xs p-2 rounded transition-all flex justify-between items-center ${
-                                          selectedRando === r 
-                                          ? 'bg-blue-600 text-white shadow-md' 
-                                          : 'bg-white border border-slate-200 hover:bg-slate-50'
-                                        }`}
-                                      >
-                                        <span className="font-medium">🥾 {r["Nom Rando"]}</span>
-                                        <span className={`text-[10px] ${selectedRando === r ? 'text-blue-100' : 'text-slate-400'}`}>
-                                          {r.Durée || 'N/C'}
-                                        </span>
-                                      </button>
-                                    ))}
+                                  <div className="p-2 grid grid-cols-1 gap-2">
+                                    {Array.isArray(randos) && randos.map((r: Rando, i: number) => {
+                                      const isSelected = selectedRando && selectedRando["Nom Rando"] === r["Nom Rando"];
+                                      return (
+                                        <button
+                                          key={i}
+                                          type="button"
+                                          onClick={() => setSelectedRando(r)}
+                                          className={`text-left text-xs p-3 rounded transition-colors border flex justify-between items-center cursor-pointer ${
+                                            isSelected 
+                                              ? 'bg-blue-600 text-white shadow-md border-blue-700 font-bold' 
+                                              : 'bg-white border-slate-200 hover:bg-blue-50'
+                                          }`}
+                                        >
+                                          <div className="flex flex-col">
+                                            <span className="text-sm mb-0.5">🥾 {r["Nom Rando"]}</span>
+                                            <span className={`text-[10px] ${isSelected ? 'text-blue-100' : 'text-slate-400'}`}>
+                                              Durée estimée : {r.Durée || 'N/C'}
+                                            </span>
+                                          </div>
+                                          <span className={`text-xs font-mono px-2 py-0.5 rounded ${isSelected ? 'bg-white/20' : 'bg-slate-100 text-slate-600'}`}>
+                                            {isSelected ? 'Sélectionné ✅' : 'Voir'}
+                                          </span>
+                                        </button>
+                                      );
+                                    })}
                                   </div>
                                 </details>
                               ))}
@@ -145,6 +214,7 @@ export default function PageRandos() {
           </div>
         </div>
       </div>
+
     </div>
   );
 }

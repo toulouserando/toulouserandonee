@@ -6,8 +6,10 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, MapPin, PlusCircle, ArrowUpRight, Mountain, Route, History, Sparkles, Loader2 } from "lucide-react";
+import { Calendar, MapPin, PlusCircle, ArrowUpRight, Mountain, Route, History, Sparkles, Loader2, Compass, Map as MapIcon } from "lucide-react";
 import Link from "next/link";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import { useRouter } from 'next/navigation';
 
 function EventCard({ event }: { event: any }) {
   // Adaptation aux alias de la requête
@@ -94,6 +96,7 @@ export default function EventsPage() {
   const [pastEvents, setPastEvents] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const router = useRouter();
 
   useEffect(() => {
 async function fetchEvents() {
@@ -159,11 +162,22 @@ const { data: allEvents, error } = await supabase
           <h1 className="text-6xl font-black tracking-tighter text-slate-900 italic">EXPLOREZ.</h1>
           <p className="text-xl text-slate-500 font-medium">Rejoignez une aventure ou créez la vôtre.</p>
         </div>
-        <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-7 rounded-2xl shadow-xl hover:scale-105 transition-all">
-          <Link href="/events/create" className="text-lg font-bold">
-            <PlusCircle className="mr-2 h-6 w-6" /> Créer une sortie
-          </Link>
-        </Button>
+<DropdownMenu>
+  <DropdownMenuTrigger asChild>
+    <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-7 rounded-2xl shadow-xl hover:scale-105 transition-all cursor-pointer">
+      <PlusCircle className="mr-2 h-6 w-6" /> Créer une sortie
+    </Button>
+  </DropdownMenuTrigger>
+  <DropdownMenuContent align="end" className="w-64 p-2 rounded-2xl">
+    <DropdownMenuItem onClick={() => router.push('/events/create')} className="cursor-pointer py-2">
+      <PlusCircle className="mr-2 h-4 w-4" /> Créer un circuit libre
+    </DropdownMenuItem>
+    <DropdownMenuItem onClick={() => router.push('/explorer')} className="cursor-pointer py-2">
+      {/* Utilisation de Compass au lieu de Map pour éviter l'erreur TypeError */}
+      <Compass className="mr-2 h-4 w-4" /> Proposer un circuit connu
+    </DropdownMenuItem>
+  </DropdownMenuContent>
+</DropdownMenu>
       </div>
 
       {errorMsg && (

@@ -90,18 +90,19 @@ export default function HikeDetailPage() {
         </div>
 
         <Button asChild variant="default" className="shadow-md">
-          <Link href={`/events/create?hikeId=${hike.id}`}>
+          {/* 🎯 CORRECTION ICI : Redirection vers /hikes/create au lieu de /events/create */}
+          <Link href={`/hikes/create?hikeId=${hike.id}`}>
             <CalendarPlus className="mr-2 h-4 w-4" /> Organiser cette sortie
           </Link>
         </Button>
       </div>
 
-      {/* 🎯 DISPOSITION MODIFIÉE : La carte Leaflet passe EN HAUT sur toute la largeur */}
+      {/* DISPOSITION : La carte Leaflet passe EN HAUT sur toute la largeur */}
       <div className="h-[450px] w-full rounded-2xl overflow-hidden border shadow-inner relative z-0">
         <SingleHikeMap hike={hike} />
       </div>
 
-      {/* 🎯 DISPOSITION MODIFIÉE : Le tableau récapitulatif passe EN DESSOUS */}
+      {/* DISPOSITION : Le tableau récapitulatif passe EN DESSOUS */}
       <div className="w-full">
         <Card className="bg-slate-50/50 border-slate-200">
           <CardContent className="p-6 space-y-6">
