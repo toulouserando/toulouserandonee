@@ -37,7 +37,7 @@ export default function ExplorerPage() {
       <div className="mb-10 text-center">
         <h1 className="text-4xl font-black text-slate-900 mb-4">Explorer les sentiers et proposer une sortie</h1>
         <p className="text-slate-500 mb-8">Choisissez une zone ou une thématique pour commencer.</p>
-        <p className="text-slate-500 mb-8">Sélectionnez une randonnée parmi les 6500 en Occitanie ou de la Communauté pour la proposer aux membres de Toulouse Randonnées.</p>
+        <p className="text-slate-500 mb-8">Sélectionnez une randonnée parmi les 6500 en Occitanie à 2 heures de route de Toulouse ou de la Communauté pour la proposer aux membres de Toulouse Randonnées.</p>
         
         <div className="relative max-w-md mx-auto">
           <Search className="absolute left-3 top-3 text-slate-400" />
