@@ -1,11 +1,10 @@
 "use client";
 
-import React, { useEffect, useState, useRef, useMemo } from 'react';
+import React, { useEffect, useState, useRef, Suspense } from 'react';
 import dynamic from 'next/dynamic';
-import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { 
-  ArrowLeft, MousePointer2, Trash2, Check, Users, Route, 
+  ArrowLeft, MousePointer2, Trash2, Users, Route, 
   Image as ImageIcon, Send, Loader2, MapPin, Timer, Mountain, ClipboardList 
 } from 'lucide-react';
 import 'leaflet/dist/leaflet.css';
@@ -120,12 +119,12 @@ function ChangeView({ data }: { data: any }) {
   return null;
 }
 
-export default function CreateHikePage() {
+// --- COMPOSANT LOGIQUE ---
+function CreateHikeForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const hikeId = searchParams.get("hikeId");
 
-  // --- ÉTATS DU FORMULAIRE ---
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [recommendations, setRecommendations] = useState("");
@@ -142,22 +141,15 @@ export default function CreateHikePage() {
   const [hikeType, setHikeType] = useState("boucle");
   const [location, setLocation] = useState("");
 
-  // --- ÉTATS SYSTÈME & CARTES ---
   const [loading, setLoading] = useState(false);
   const [loadingHike, setLoadingHike] = useState(false);
   const [image, setImage] = useState<File | null>(null);
   const [selectedHikeRoute, setSelectedHikeRoute] = useState<any>(null);
   const [customPoints, setCustomPoints] = useState<[number, number][]>([]);
   const [transportPoints, setTransportPoints] = useState<[number, number][]>([]);
-  const [mounted, setMounted] = useState(false);
   const [map1Ready, setMap1Ready] = useState(false);
   const [geoColumnName, setGeoColumnName] = useState("geometry");
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  // 🎯 CHARGEMENT ET PRÉ-REMPLISSAGE DE LA HIKES MODÈLE
   useEffect(() => {
     if (!hikeId) return;
 
@@ -173,7 +165,6 @@ export default function CreateHikePage() {
         if (error) throw error;
 
         if (data) {
-          // Pré-remplissage des états texte
           setTitle(data.title || "");
           setDescription(data.description || "");
           setDistance(data.distance ? String(data.distance).replace(/[^\d.]/g, '') : "");
@@ -182,7 +173,6 @@ export default function CreateHikePage() {
           if (data.difficulty) setDifficulty(data.difficulty.toLowerCase());
           if (data.hike_type) setHikeType(data.hike_type.toLowerCase());
           
-          // Détection dynamique de la colonne géographique
           const geoKey = Object.keys(data).find(
             key => key.toLowerCase().includes("geo") || 
                    key.toLowerCase().includes("geom") || 
@@ -210,23 +200,17 @@ export default function CreateHikePage() {
       let imageUrl = null;
       if (image) {
         const fileName = `${Date.now()}-${image.name}`;
-        const { data: imgData, error: imgErr } = await supabase.storage
+        const { error: imgErr } = await supabase.storage
           .from('hike-images')
           .upload(fileName, image);
         if (imgErr) throw imgErr;
         imageUrl = supabase.storage.from('hike-images').getPublicUrl(fileName).data.publicUrl;
       }
 
-      // Payload à insérer
       const hikeData = {
-        title,
-        description,
-        location,
-        recommendations,
-        meeting_point: meetingPoint,
-        arrival_point: arrivalPoint,
-        start_time: startTime,
-        return_time: returnTime,
+        title, description, location, recommendations,
+        meeting_point: meetingPoint, arrival_point: arrivalPoint,
+        start_time: startTime, return_time: returnTime,
         vehicle_count: parseInt(vehicleCount) || 0,
         total_seats: parseInt(totalSeats) || 0,
         transport_notes: transportNotes,
@@ -237,7 +221,6 @@ export default function CreateHikePage() {
         image_url: imageUrl,
         status: isPublished ? 'Publié' : 'Brouillon',
         transport_steps: transportPoints,
-        // Sauvegarde de la géométrie trouvée ou des points tracés manuellement
         [geoColumnName]: selectedHikeRoute ? selectedHikeRoute : (customPoints.length > 0 ? { type: "LineString", coordinates: customPoints.map(p => [p[1], p[0]]) } : null)
       };
 
@@ -252,8 +235,6 @@ export default function CreateHikePage() {
       setLoading(false);
     }
   };
-
-  if (!mounted) return null;
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 space-y-6">
@@ -473,33 +454,6 @@ export default function CreateHikePage() {
               <p className="text-[11px] text-slate-400 italic">Renseignez ces horaires pour donner un ordre de grandeur de trajet aux futurs marcheurs.</p>
             </div>
           </div>
-
-          <div className="pt-6 border-t border-slate-100">
-            <h4 className="text-sm font-black uppercase text-slate-400 mb-4 flex items-center gap-2">
-              <Users size={16}/> Capacité conseillée (Covoiturage)
-            </h4>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="flex items-center gap-6 bg-blue-50/50 p-4 rounded-xl border border-blue-100">
-                <div className="space-y-1 flex-1">
-                  <Label className="font-bold text-blue-900">Véhicules nécessaires estimé</Label>
-                  <p className="text-[11px] text-blue-600">Pour un groupe standard</p>
-                </div>
-                <Input type="number" min="0" value={vehicleCount} onChange={e => setVehicleCount(e.target.value)} className="w-20 h-12 text-center font-bold text-lg border-blue-200 bg-white" />
-              </div>
-              <div className="flex items-center gap-6 bg-green-50/50 p-4 rounded-xl border border-green-100">
-                <div className="space-y-1 flex-1">
-                  <Label className="font-bold text-green-900">Nombre de passagers max conseillé</Label>
-                  <p className="text-[11px] text-green-600">Limite écologique pour le sentier</p>
-                </div>
-                <Input type="number" min="0" value={totalSeats} onChange={e => setTotalSeats(e.target.value)} className="w-20 h-12 text-center font-bold text-lg border-green-200 bg-white" />
-              </div>
-            </div>
-
-            <div className="mt-6 space-y-2">
-              <Label className="font-bold text-slate-600">Précisions d'accès ou difficultés routières</Label>
-              <Textarea value={transportNotes} onChange={e => setTransportNotes(e.target.value)} placeholder="Ex: Piste forestière terminale un peu chaotique, véhicule bas s'abstenir..." rows={3} className="border-blue-100 focus-visible:ring-blue-500 bg-slate-50/30" />
-            </div>
-          </div>
         </CardContent>
       </Card>
 
@@ -532,5 +486,18 @@ export default function CreateHikePage() {
         </div>
       </div>
     </div>
+  );
+}
+
+// --- EXPORT PRINCIPAL ---
+export default function CreateHikePage() {
+  return (
+    <Suspense fallback={
+      <div className="flex h-screen items-center justify-center">
+        <Loader2 className="animate-spin h-10 w-10 text-green-700" />
+      </div>
+    }>
+      <CreateHikeForm />
+    </Suspense>
   );
 }
